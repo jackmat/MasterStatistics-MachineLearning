@@ -24,11 +24,27 @@ wl = matrix(c("E", "T"), ncol = 2, byrow = TRUE,
 plot(hc(asia, whitelist = wl), main ="HC with initial constraint")
 plot(hc(asia, whitelist = NULL),main ="HC without constraint")
 
-mygraph<-cpdag(hc(asia, whitelist = NULL))
+mygraph<-cpdag(hc(asia, whitelist = NULL, restart = 10))
 cmygraph<-cpdag(hc(asia, whitelist = wl))
 mygraph
 cmygraph
 all.equal(mygraph, cmygraph)
+
+#################Alternative
+set.seed(12345)
+countinue <- TRUE
+while(countinue){
+  hc1 <- hc(alarm, restart = 10)
+  hc2 <- hc(alarm, restart = 10)
+  continue <- ifelse(all.equal(vstructs(hc1), vstructs(hc2)) == TRUE, TRUE, FALSE)
+  if (continue !=TRUE){
+    par(mfrow = c(1,2))
+    graphviz.compare(hc1, hc2)
+    par(mfrow = c(1,1))
+    break
+  }
+}
+
 ###2
 data("alarm")
 n<-4
@@ -94,12 +110,43 @@ for(i in 1:4){
   rsample2<-cpdist(fit, nodes = c("A", "E"), evidence= (B=="b")&(F=="b"), method = "ls")
   condprob2<-lapply(rsample2, FUN = function(x){table(x)/length(x)})
   
-  res2[[i]]<-cbind(A_LS= as.data.frame(finalstate2)[1], A_Greedy= condprob2$A,
-              E_LS= as.data.frame(finalstate2)[2], E_Greedy= condprob2$E)
+  res2[[i]]<-cbind(A_LS= as.data.frame(finalstate2)[1], A_Approx= condprob2$A,
+              E_LS= as.data.frame(finalstate2)[2], E_Approx= condprob2$E)
   res2[[i]]<-res2[[i]][,c(1,3,4,6)]
   
 }
 res2
+
+
+###wITHOUT EVIDENCE
+## I want the conditional distribution of A, E 
+
+##Exact one
+finalstate3<-querygrain(MM, nodes = c("A","E"))
+
+
+###################comparison of results for two changes
+## I want the conditional distribution of A, E given B = b and F = b, D=d
+ChangeEvidence4<-setEvidence(MM, c("B","F","D", "A"), c("b", "b","b", "b"))
+finalstate4<-querygrain(ChangeEvidence4, nodes = c("A","E"))
+
+i<-1
+res5<- list()
+for(i in 1:4){
+  ##Exact one
+  ChangeEvidence5<-setEvidence(MM, c("B","F","D", "C"), c("b", "b","b", "b"))
+  finalstate5<-querygrain(ChangeEvidence5, nodes = c("A","E"))
+  ##Greedy algorithm
+  rsample5<-cpdist(fit, nodes = c("A", "E"), evidence= (B=="b")&(F=="b")&(D=="b")&(C=="b"), method = "ls")
+  condprob5<-lapply(rsample5, FUN = function(x){table(x)/length(x)})
+  
+  res5[[i]]<-cbind(A_LS= data.frame(finalstate5)[1], A_Approx= data.frame(condprob5$A),
+                   E_LS= data.frame(finalstate5)[2], E_Approx= data.frame(condprob5$E))
+  res5[[i]]<-res5[[i]][,c(1,3,4,6)]
+  
+}
+res5
+
 
 
 ###4
