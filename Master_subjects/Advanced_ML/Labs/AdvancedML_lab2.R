@@ -5,7 +5,7 @@ set.seed(12345)
 #install.packages("HMM")
 library(HMM)
 
-##QUestion1
+##Question1
 # Initialise HMM
 states          <- as.character(1:10)
 symbols         <- as.character(1:10) 
@@ -122,11 +122,13 @@ Simulations$PercentageSIm
 
 Entropy<-Simulations$Entropy
 
-plot(Entropy[[1]], col = "red")
+plot(Entropy[[1]], col = "red", type = "l")
 lines(Entropy[[2]], col = "blue")
 lines(Entropy[[3]], col = "green")
 lines(Entropy[[4]], col = "purple")
 lines(Entropy[[5]], col = "black")
 
 ##7
-
+likelihood<-posterior(myhmm, myobs)
+prior<-transProbs
+result<-prior%*%likelihood[,100]
