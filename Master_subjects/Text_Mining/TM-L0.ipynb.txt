@@ -1,0 +1,647 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# Lab 0: Introduction to Python"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "__Students:__ abcde123, fghijk456"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "This course uses the Python programming language for all labs and this lab is intendet to give a short introduction to Python. It is also intended to give an introduction to Jupyter Notebooks.\n",
+    "\n",
+    "### A word of caution\n",
+    "\n",
+    "There are currently two versions of Python in common use, Python 2 and Python 3, which are not 100% compatible. Python 2 is slowly being phased out but has a large enough install base to still be relevant. This course uses the more modern Python 3 but while searching for help online it is not uncommon to find help for Python 2. Especially older posts on sources such as Stack Exchange might refer to Python 2 as simply \"Python\". This should not cause any serious problems but keep it in mind whenever googling. With regards to this lab, the largest differences are how `print` works and the best practice recommendations for string formatting."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### References to R\n",
+    "\n",
+    "Most students taking the Text Mining course who are not already familiar with Python will probably have some experience of the R programming language. For this reason, there will be intermittent references to R throughout this lab. For those of you with a background in R (or MATLAB/Octave, or Julia) the most important thing to remember is that indexing starts at 0, not at 1."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### 1. Strings and string handling\n",
+    "\n",
+    "As this is a course on Text Mining, comfort with working with text data is essential. The primary datatype for storing raw text in Python is the string. Note that there is no character datatype, only strings of length 1. This can be compared to how there are no atomic numbers in R, only vectors of length 1. A reference to the string datatype can be found __[here](https://docs.python.org/3/library/stdtypes.html#text-sequence-type-str)__."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "a) Define the variable `parrot` containing the sentence _It\n",
+    "is dead, that is what is wrong with it_. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "b) Count the number of characters (letters, blank space, commas, periods\n",
+    "etc) in the sentence."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "c) Write code that counts the number of __letters__ in the sentence."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "d) Separate the sentence into a list of words. Call the list `ParrotWords`."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "e) Merge (concatenate) `ParrotWords` into a string again."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### 2. Iteration, sequences and string formatting\n",
+    "\n",
+    "Loops are not as painfully slow in Python as they are in R and thus, not as critical to avoid. However, for many use cases, _comprehensions_, like _list comprehensions_ or _dict comprehensions_ are faster. In this assignment we will see both traditional loop constructs and comprehensions. For an introduction to comprehensions, __[this](https://python-3-patterns-idioms-test.readthedocs.io/en/latest/Comprehensions.html)__ might be a good place to start.\n",
+    "\n",
+    "It should also be noted that what Python calls lists are unnamed sequences. As in R, a Python list can contain elements of many types, however, these can only be accessed by indexing or sequence, not by name as in R."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "a) Write a `for`-loop that produces the following output on the screen:<br>\n",
+    "> `The next number in the loop is 5`<br>\n",
+    "> `The next number in the loop is 6`<br>\n",
+    "> ...<br>\n",
+    "> `The next number in the loop is 10`<br>\n",
+    "\n",
+    "[Hint: the `range` function has more than one argument.]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "b) Write a `while`-loop that repeatedly generates a random number from a uniform distribution over the interval [0,1], and prints the sentence 'The random number is smaller than 0.9' on the screen until the generated random number is greater than 0.9.\n",
+    "\n",
+    "[Hint: Python has a `random` module with basic random number generators.]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "c) Write a for-loop that iterates over the list `names` below and writes the following to the screen:\n",
+    "\n",
+    "> `The name Ludwig is nice`<br>\n",
+    "> `The name Rosa is nice`<br>\n",
+    "> ...<br>\n",
+    "> `The name Amadeus is nice`<br>\n",
+    "\n",
+    "Use Python's string formatting capabilities (the `format` function in the string class) to solve the problem.\n",
+    "\n",
+    "[Warning: The best practices for how to do string formatting differs from Python 2 and 3, make sure you use the Python 3 approach.]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "names = ['Ludwig', 'Rosa', 'Mona', 'Amadeus']"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "d) Write a for-loop that iterates over the list `names` and produces the list `nLetters` (`[6,4,4,7]`) that counts the letters in each name. "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "e) Solve assignment d) using a list comprehension."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "f) Use a list comprehension to produce a list `shortLong` that indicates if the name has more than four letters. The answer should be `['long', 'short', 'short', 'long']`."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "g) Write a loop that __simultaneously__ loops over the lists `names` and `shortLong` to write the following to the screen:\n",
+    "\n",
+    "> `The name Ludwig is a long name`<br>\n",
+    "> `The name Rosa is a short name`<br>\n",
+    "> ...<br>\n",
+    "> `The name Amadeus is a long name`<br>\n",
+    "\n",
+    "[Hint: use the `range` function and Python's string formatting.]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### 3. Dictionaries\n",
+    "\n",
+    "Dictionaries are association tables, or maps, connecting a key to a value. For instance a name represented by a string as key with a number representing some attribute as a value. Dictionaries can themselves be values in other dictionaries, creating nested or hierarchical data structures. This is similar to named lists in R but keys in Python dictionaries can be more complex than just strings."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "a) Make a dictionary named `amadeus` containing the information that the student Amadeus is a male, scored 8 on the Algebra exam and 13 on the History exam."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "b) Make three more dictionaries, one for each of the students: Rosa, Mona and Ludwig, from the information in the following table:\n",
+    "\n",
+    "| Name          | Gender        | Algebra       | History | \n",
+    "| :-----------: | :-----------: |:-------------:| :------:|\n",
+    "| Rosa          | Female        | 19            | 22      |\n",
+    "| Mona          | Female        | 6             | 27      |\n",
+    "| Ludwig        | Other         | 12            | 18      |"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "c) Combine the four students in a dictionary named `students` such that a user of your dictionary can type `students['Amadeus']['History']` to retrive Amadeus score on the history test.\n",
+    "\n",
+    "[HINT: The values in a dictionary can be dictionaries.]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "d) Add the new male student Karl to the dictionary `students`. Karl scored 14 on the Algebra exam and 10 on the History exam."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "e) Use a `for`-loop to print out the names and scores of all students on the screen. The output should look like something this (the order of the students doesn't matter):\n",
+    "\n",
+    "> `Student Amadeus scored 8 on the Algebra exam and 13 on the History exam`<br>\n",
+    "> `Student Rosa scored 19 on the Algebra exam and 22 on the History exam`<br>\n",
+    "> ...\n",
+    "\n",
+    "[Hint: Dictionaries are iterables, also, check out the `items` function for dictionaries.]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "f) Use a dict comprehension and the lists `names` and `shortLong` from assignment 2 to create a dictionary of names and wether they are short or long. The result should be a dictionary equivalent to {'Ludwig':'long', 'Rosa':'short', 'Mona':'short', 'Amadeus':'long'}.\n",
+    "\n",
+    "[Note: Remember that dictionaries in Python are unordered and that the order of the pairs in the above dictionary is arbitrary, you might not get the same order, this is fine.]<br>\n",
+    "[Hint: use the `zip` function and Python's string formatting.]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### 4. NumPy and SciPy\n",
+    "\n",
+    "Python is a general purpose programming language and not geared specifically towards scientific computing as R or MATLAB/Octave. However, there are the NumPy and SciPy libraries, the first one now being part of the first, which add a very versatile and competent toolbox for scientific computing. This assignment will give a very short introduction to working with its primary datacontainer, the n-dimensional array. The n-dimensional array is similar to the numeric matrix in R but comes with more bells and whistles built in."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "a) Define two lists: `list1 = [1,3,4]` and `list2 = [5,6,9]`. Try `list1*list2`. Does it work?"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "b) Import everything from scipy (`from scipy import *`). Convert `list1` and `list2` into n-dimensional arrays (name them `array1` and `array2`). Now try `array1*array2`.\n",
+    "\n",
+    "[Note: N-dimensional array is the name of the datatype, actual instances must have a fixed number of dimensions, the number is usually inferred from the input when creating the arrays.]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": [
+    "from scipy import *\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "c) Let `matrix1` be a 2-by-3 n-dimensional array with `array1` and `array2` as its two rows. Let `matrix2` be a 3-by-3 n-dimensional array with elements 1, 2 and 3 on the diagonal. Try `matrix1*matrix2`. Why doesn't this work?\n",
+    "\n",
+    "[Note: If you mistakenly use the matrix datatype here rather than n-dimensional arrays, you will get the expected behavior. However, this datatype should generally be avoided for other reasons.]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "d) Compute the usual matrix product of `matrix1` and `matrix2` withouth changing datatypes.\n",
+    "\n",
+    "[Hint: There is a function to do this which can be found __[here](https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.ndarray.html)__."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### 5. Functions\n",
+    "\n",
+    "Functions work similarly in R and Python. However, Python has the `def` statement as \"syntactic sugar\" for creating functions while R use standard assignments when creating functions."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "a) Write a function `circle_area(radius)` that computes the area of a circle with radius `radius`. Call the function to show\n",
+    "that it works.\n",
+    "\n",
+    "[Hint: The value of $\\pi$ is located in the `math` module and needs to be imported.]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "b) Write a function `circle_area_safe(radius)` which checks that the radius is positive and prints `The radius must be positive` to the screen if it is not, and otherwise calls the `circle_area` function. Also, if the radius is not positive the `circle_area_safe` function should return `None`."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "Bonus assignment: Recreate the `circle_area_safe` function (call this version `circle_area_safer`) but instead of printing a message to the screen and returning `None` if the radius is negative, _raise_ a ValueError exception with suitable error message."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### 6. File I/O\n",
+    "\n",
+    "File I/O in Python is a bit more general than what most R programmers are used to. In R, reading and writing files are usually performed using file type specific functions such as `read.csv` while in Python we usually start with reading standard text files. However, there are lots of specialized functions for different file types in Python as well, especially when using the __[pandas](http://pandas.pydata.org/)__ library which is built around a datatype similar to R DataFrames. Pandas will not be covered in this course though."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "The file `students.tsv` contains tab separated values corresponding to the students in previous assigments.\n",
+    "\n",
+    "a) Read the file, line by line, and print each line. The result should be something like this:\n",
+    "\n",
+    "> `Amadeus\tMale\t8\t13`<br>\n",
+    "> `Rosa\tFemale\t19\t22`<br>\n",
+    "> ...\n",
+    "\n",
+    "The file should be closed when reading is complete.\n",
+    "\n",
+    "[Hint: Files are iterable in Python.]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "b) Working with many files can be problematic, especially when you forget to close files or errors interrupt programs before files are closed. Python thus has a special `with` statement which automatically closes files for you, even if an error occurs. Redo assignment 6a using the `with` statement."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "c) Recreate the dictionary assignment 3 by reading the data from the file.\n",
+    "\n",
+    "[Hint: Check out the `split` function and look up how to express tab characters.]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "d) Using the dictionary from 3c, write the sentences from 3e to a new file, called `students.txt`."
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "metadata": {
+    "collapsed": true
+   },
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.6.0"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 2
+}
