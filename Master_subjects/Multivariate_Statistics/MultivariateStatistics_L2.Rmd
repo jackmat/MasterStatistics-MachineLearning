@@ -1,0 +1,334 @@
+---
+title: "Lab 2 Multivariate Statistical Mathods"
+author: "Carles Sans Fuentes, Joshua Hudson, Karo Ziomek"
+date: "5 de diciembre de 2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, fig.width = 5, fig.asp = 0.66, fig.show = "asis", fig.align = "center", fig.pos = "htbp",tidy.opts=list(width.cutoff=60),tidy=TRUE)
+```
+
+
+## R Markdown
+##Question 1: Test of Outliers
+**Consider again the data set from the T1-9.dat file, National track records for women. In the first assignment we studied different distance measures between an observation and the sample average vector. The most common multivariate residual is the Mahalanobis distance and we computed this distance for all observations.** 
+
+Here I write the code from the previous lab 
+```{r , echo=TRUE}
+require(ggplot2)
+link <- "C:/Users/Carles/Desktop/MasterStatistics-MachineLearning/Master_subjects/Multivariate_Statistics/T1-9.dat"
+data<-t(read.table(link))
+colnames(data)<- c(data[1,])
+data<- data[2:nrow(data),]
+##Preparing data
+mydata<-apply(data, 2,as.numeric)
+mydata<- t(mydata)
+colnames(mydata)<-c("hundred", "twohundred", "fourhundred", "eighthundred", "1500", "3000", "marathon")
+##preview of mydata
+mydata<- as.data.frame(mydata)
+mydata$hundred<-mydata$hundred/60
+mydata$twohundred<-mydata$twohundred/60
+mydata$fourhundred<-mydata$fourhundred/60
+
+CovMat<-cov(mydata)
+S<-apply(mydata,2,FUN = function(x){x-mean(x)})
+
+dmahal<-S%*%solve(as.matrix(CovMat))%*%t(S)
+
+
+countries<-diag(dmahal)
+
+
+```
+
+
+
+**a) The Mahalanobis distance is approximately chi-square distributed, if the data comes from a multivariate normal distribution and the number of observations is large. Use this chi- square approximation for testing each observation at the 0.1% significance level and conclude which countries can be regarded as outliers. Should you use a multiple-testing correction procedure? Compare the results with and without one. Why is (or maybe is not) 0.1% a sensible significance level for this task?**
+
+
+```{r , echo=TRUE}
+df<-dim(mydata)[2]-1
+
+
+OutlierEvaluation <- function(vector, significance){
+  probCountry <- integer(length(vector))
+  multTestCorr<- integer(length(vector))
+  m<-7
+  for(i in 1:length(vector)){ 
+    probCountry[i]<-pchisq(vector[i], df= df, ncp = 0, lower.tail = FALSE)
+    #bonferroni 
+    multTestCorr[i]<-  pchisq(vector[i], df= df, ncp = 0, lower.tail = FALSE)
+  }
+  return(list(normal =(countries[which(probCountry<significance)]), 
+              bonferroni = countries[which(multTestCorr<significance/m)]))
+  
+}
+significance <- 0.001
+
+OutlierEvaluation(vector = countries, significance = significance)
+
+```
+
+
+
+We should correct for multiple hypothesis because the more variables we are checking at the same time, the more probable  it becomes that countries will appear to differ on at least one attribute due to random sampling error alone.
+
+The significance level should be taken on a bigger alpha (e.g. 95\% ci) because our data is not large such that impying that outliers are only 0.1\% deviation of the dataset might be too restrictive. 
+
+**b) One outlier is North Korea. This country is not an outlier with the Euclidean distance. Try to explain these seemingly contradictory results.**
+
+The euclidean distance is mean to be: 
+$$d_M^2(\vec{x}, \hat{x}) = (\vec{x}-\hat{x})^2/\sigma^2$$
+
+The Mahalanobis distance is: 
+$$d_M^2(\vec{x}, \hat{x}) = (\vec{x}-\hat{x})^TC^{-1}(\vec{x}-\hat{x})$$
+
+
+When using the Euclidean distance, we are supposing that the distance in the covariance matrix is reduced to the diagonal of the data, taking this diagonal variance as the as a general measure. 
+When using the Mahalanobis distance, the covariance matrix ( and therefore also the relation between variables) is also taken into account, assigning to our variance measure some probability given the other points. This changes the area of the variance from a square (in the case of the Euclidean distance) to an ellipse, accounting for more information concerning our data. For this, we can say that the Euclidean distance is an special case of the Mahalanobis distance, when the relations between variables are 0 (in the multivariate case).
+
+
+##Question 2: Test, confidence region and confidence intervals for a mean vector
+
+**Look at the bird data in file T5-12.dat and solve Exercise 5.20 of Johnson, Wichern. Do not use any extra R package or built-in test but code all required matrix calculations. You MAY NOT use loops!** 
+
+```{r , echo=TRUE}
+link2 <- "C:/Users/Carles/Desktop/MasterStatistics-MachineLearning/Master_subjects/Multivariate_Statistics/Labs/Lab2/T5-12.DAT"
+data2<-read.table(link2)
+
+
+```
+
+**(a) Find and sketch the 95% confidence ellipse for the population means ILl and IL2' Suppose it is known that iLl = 190 mm and iL2 = 275 mm for female hook-billed kites. Are these plausible values for the mean tail length and mean wing length for the female birds? Explain.**
+
+
+```{r , echo=TRUE}
+
+
+bird<-data2
+X <- as.matrix(bird)
+mu1 <- 190
+mu2 <- 275
+xbar <- colMeans(X)
+n <- dim(X)[1]
+p <- dim(X)[2]
+S <- cov(X)
+angles <- seq(0, 2*pi, length.out = 200)
+eigVal <- eigen(S)$values
+eigVec <- eigen(S)$vectors
+#eigVec_scaled <- eigVec %*% diag(sqrt(eigVal))
+c2 <- p*(n-1)/(n*(n-p))*qf(p = 0.95, df1 = p, df2 = n-p)
+ellBase <- cbind(sqrt(eigVal[1]*c2)*cos(angles), sqrt(eigVal[2]*c2)*sin(angles))
+ellRot <- eigVec %*% t(ellBase) #puts in eigenvector coordinates
+{plot(ellRot[1, ]+xbar[1], ellRot[2, ]+xbar[2], xlab = "WL", ylab = "WW", type = "l")
+points(mu1, mu2, pch = 4, col = "blue")
+points(xbar[1], xbar[2], pch = 4)}
+
+
+```
+Yes, they are plausible since the hypothesized vector is inside the "95% confidence region.
+
+
+**(b) Construct the simultaneous 95% T2_intervals for ILl and IL2 and the 95% Bonferroni intervals for iLl and iL2' Compare the two sets of intervals. What advantage, if any, do the T2_intervals have over the Bonferroni intervals?**
+
+```{r , echo=TRUE}
+f <- p*(n-1)/(n-p)*qf(0.95, df1 = p, df2 = n-p)
+#simultaneous
+WL_sim_low <- xbar[1] - sqrt(f)*sqrt(S[1,1]/n)
+WL_sim_upp <- xbar[1] + sqrt(f)*sqrt(S[1,1]/n)
+WW_sim_low <- xbar[2] - sqrt(f)*sqrt(S[2,2]/n)
+WW_sim_upp <- xbar[2] + sqrt(f)*sqrt(S[2,2]/n)
+
+#bonferroni (1 by 1)
+t <- qt(p=(1-0.05/(2)), df = (n-1))
+WL_bon_low <- xbar[1] - t*sqrt(S[1,1]/n)
+WL_bon_upp <- xbar[1] + t*sqrt(S[1,1]/n)
+WW_bon_low <- xbar[2] - t*sqrt(S[2,2]/n)
+WW_bon_upp <- xbar[2] + t*sqrt(S[2,2]/n)
+
+```
+Simultaneous:
+$$`r round(WL_sim_low, 2)` \leq \mu_1 \leq `r round(WL_sim_upp, 2)`$$
+
+and $$`r round(WW_sim_low, 2)` \leq \mu_2 \leq `r round(WW_sim_upp, 2)`$$
+Bonferroni:
+$$`r round(WL_bon_low, 2)` \leq \mu_1 \leq `r round(WL_bon_upp, 2)`$$
+and $$`r round(WW_bon_low, 2)` \leq \mu_1 \leq `r round(WW_bon_upp, 2)`$$
+
+Simultaneous confidence intervals are larger than Bonferroni's confidence intervals. Simultaneous confidence intervals will touch the simultaneous confidence region from outside.
+
+**(c) Is the bivariate normal distribution a viable population model? Explain with reference to Q-Q plots and a scatter diagram. 
+
+```{r , echo=TRUE}
+qqnorm(data2[,1])
+qqnorm(data2[,2])
+plot(data2[,1], data2[,2])
+```
+
+It is not viable since the qq plots are not straight (i.e. totally linear lines)
+
+
+
+##Question 3:  Comparison of mean vectors (one-way MANOVA)
+
+**We will look at a data set on Egyptian skull measurements (published in 1905 and now in heplots R package as the object Skulls). Here observations are made from five epochs and on each object the maximum breadth (mb), basibregmatic height (bh), basialiveolar length (bl) and nasal height (nh) were measured.** 
+
+```{r , echo=TRUE}
+library("heplots")
+data(Skulls)
+Skulls
+```
+
+
+
+**a) Explore the data first and present plots that you find informative.**
+
+
+```{r , echo=TRUE}
+
+dim(Skulls)
+library(ggplot2)
+library(reshape2)
+Skullshape<-Skulls
+xymelt <- melt(Skullshape)
+
+
+#Getting the mean
+library(dplyr)
+
+DataMeanbyEpoch<-Skulls %>%
+  group_by(epoch) %>%
+  summarise_all(funs(mean(., na.rm=TRUE)))
+
+Meltmean<-melt(DataMeanbyEpoch)
+## histogram by age and variables
+sp <- ggplot(xymelt,aes(x = value, fill = variable, group = variable)) + 
+  geom_histogram(aes(y = ..density..), col="black")
+
+# Divide by levels of "sex", in the vertical direction
+sp + facet_grid(epoch~., scales="free_x")+
+  geom_vline(data = Meltmean, aes(xintercept = value, col = variable),
+             size=1)
+
+
+dfmelt<-melt(Skulls, measure.vars = 2:5) 
+
+g <- ggplot(dfmelt)+
+  geom_boxplot(aes(x=epoch,
+                     y= value, fill=variable))+
+  
+  labs(title="Box plots", 
+       subtitle="Skulls measures grouped by epoch")
+g
+
+
+```
+In the previous plots, the distribution of each variable by variable and epoch has been performed. The vertical line corresponds to the mean value of that particular distribution in the histogram and the boxplot's horizontal line inside is the median of it.
+
+
+**b) Now we are interested whether there are differences between the epochs. Do the mean vectors differ? Study this question and justify your conclusions.**
+
+Given the boxplots in 3a), the means for each variables seems to differ between the epochs. 
+The particular means are:
+```{r , echo=TRUE}
+# aggregate 
+library(knitr)
+means <- aggregate(Skulls[, 2:5], list(Skulls$epoch), mean)
+kable(means, caption = "Variable means for each epoch", 
+      col.names = c("epoch", "mb", "bh", "bl", "nh"))
+```
+
+However, having a look at the specific means displayed in the table above only points out small differences between the means of each variable for the epochs. 
+The result of a manova is:
+
+```{r , echo=TRUE}
+res <- manova(cbind(mb,bh,bl,nh)~epoch, data = Skulls)
+summary.aov(res) 
+```
+
+
+
+**c) If the means differ between epochs compute and report simultaneous confidence intervals. Inspect the residuals whether they have mean 0 and if they deviate from normality (graphically). Tip: It might be helpful for you to read Exercise 6.24 of Johnson, Wichern. The function manova() can be useful for this question and the residuals can be found in the $res field.**
+
+The confidence intervals are provided below: 
+```{r , echo=TRUE}
+
+## c
+# number of groups
+groups <- ncol(Skulls)
+# number of variables
+p <- ncol(Skulls[,-which("epoch" %in% colnames(Skulls))])
+
+# number of observations per group
+n_k <- Skulls %>%
+    group_by(epoch)%>%
+    summarise(number=n())
+
+# n observations
+n <- nrow(Skulls)
+
+c <- sqrt(1/(30 + 30))
+df_hej <- Skulls %>% group_by(epoch)
+
+#cov(df_hej[df_hej$epoch == "c4000BC",2:5] )
+
+# calculating sum of covariance per epoch
+W <- (30 - 1)*cov(df_hej[df_hej$epoch == "c4000BC",2:5] ) + 
+  (30 - 1)*cov(df_hej[df_hej$epoch == "c3300BC",2:5] ) + 
+  (30 - 1)*cov(df_hej[df_hej$epoch == "c1850BC",2:5] ) + 
+  (30 - 1)*cov(df_hej[df_hej$epoch == "c200BC",2:5] ) + 
+  (30 - 1)*cov(df_hej[df_hej$epoch == "cAD150",2:5] )
+
+# comparision of two mean at the same time
+res_intervals <- function(k,l) {
+  alpha <- 0.05
+  df_ci <- data.frame(low_lim = numeric(0), upper_limit = numeric(0))
+  
+  for(i in 1:p) {
+    up <- means[k,i+1] - means[l,i+1] + qt(1 - (alpha/(p*groups*(groups-1))), n-groups) * c * sqrt(W[i,i]/(n-groups))
+    low <- means[k,i+1] - means[l,i+1] - qt(1- (alpha/(p*groups*(groups-1))), n-groups) * c * sqrt(W[i,i]/(n-groups))
+    df_ci[i,c("low_lim", "upper_limit")] <- c(low,up)
+  }
+  row.names(df_ci) <- c("mb", "bh", "bl", "nh")
+  df_ci$groups <-paste(k,l, sep=",")
+  df_ci <- df_ci[,c(3,1,2)]
+  return(df_ci)
+}
+
+df_epoch12 <- res_intervals(1,2)
+df_epoch13 <- res_intervals(1,3)
+df_epoch14 <- res_intervals(1,4)
+df_epoch15 <- res_intervals(1,5)
+
+df_epoch23 <- res_intervals(2,3)
+df_epoch24 <- res_intervals(2,4)
+df_epoch25 <- res_intervals(2,5)
+
+df_epoch34 <- res_intervals(3,4)
+df_epoch35 <- res_intervals(3,5)
+
+df_epoch45 <- res_intervals(4,5)
+
+table1 <- rbind(df_epoch12, df_epoch13, df_epoch14, df_epoch15,
+      df_epoch23, df_epoch24, df_epoch25, df_epoch34,
+      df_epoch35, df_epoch45)
+
+kable(table1, caption="Upper and lower limits for the confidence intervals in epoch wise comparison")
+
+par(mfrow=c(1,2))
+
+qqnorm(res$residuals[,1], main="Q-Q Plot of mb")
+qqline(res$residuals[,1])
+
+qqnorm(res$residuals[,2], main="Q-Q Plot of bh")
+qqline(res$residuals[,2])
+
+qqnorm(res$residuals[,3], main="Q-Q Plot of bl")
+qqline(res$residuals[,3])
+
+qqnorm(res$residuals[,4], main="Q-Q Plot of nh")
+qqline(res$residuals[,4])
+```
+
+The residuals from bh and bl looks fairly normal whereas residuals from mb and nh do not.

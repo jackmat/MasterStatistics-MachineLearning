@@ -1,0 +1,97 @@
+---
+title: "Multivariate Statistical Methods Lab 4"
+author: "Karo Ziomek, Joshua Hudson, Carles Sans Fuentes"
+date: "14 de diciembre de 2017"
+output: pdf_document
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, fig.width = 7, fig.asp = 0.8, fig.show = "asis", fig.align = "center", fig.pos = "htbp",tidy.opts=list(width.cutoff=60),tidy=TRUE)
+```
+
+##Question 1:  Canonical correlation analysis by utilizing suitable software
+**Look at the data described in Exercise 10.16 of Johnson, Wichern. You may find it in the file P10-16.DAT. The data for 46 patients are summarized in a covariance matrix, which will be analyzed in R. Read through the description of the different R packages and functions so you may chose the must suitable one for the analysis. Supplement with own code where necessary**
+
+
+Here I write the code to process preliminary the data
+```{r , echo=TRUE}
+n<- 46 ##46 patients
+link <- "C:/Users/Carles/Desktop/MasterStatistics-MachineLearning/Master_subjects/Multivariate_Statistics/Labs/Lab4/P10-16.DAT"
+#link="~/LIU/Semester3/P2/MVS/L1/T1-9.dat"
+Cov<-read.table(link)
+R<-cor(Cov)
+##Grouped as in Activity 10.16 in Johnson's Book
+R11<-R[1:3,1:3]
+R12<-R[1:3,4:5]
+R21<-R[4:5,1:3]
+R22<-R[4:5,4:5]
+
+
+cancor(R11, R12)
+p<-nrow(R11)
+q<-nrow(R22)
+
+invR11<-solve(R11)
+invR22<-solve(R22)
+
+```
+
+
+
+
+**(a) Test at the 5% level if there is any association between the groups of variables**
+```{r , echo=TRUE}
+library(yacca)
+library(CCA)
+alpha <- 0.05
+
+Eq10_10matrixR1<-invR11%*%R12%*%invR22%*%R21
+eigEq10_10<-eigen(Eq10_10matrixR1)
+rho<-sqrt(eigEq10_10$values)
+
+TwolnLambda_Eq10_39<- (-1)*n*log(prod(1-rho^2)) ## H0 Sigma==0
+CritValue_Eq10_39<-qchisq(1-alpha,p*q)
+
+if (TwolnLambda_Eq10_39>CritValue_Eq10_39){## H0(1) rho1=/=0, rho2==0
+    print("H0 Sigma==0 rejected")
+    k<-1
+    Eq10_41<-(-1)*(n-1-(p+q+1)/2)*log(prod(1-(rho[(k+1):(length(rho))])^2))
+    CritValue_Eq10_41<-qchisq(1-alpha,(p-k)*(q-k))
+    if (Eq10_41>CritValue_Eq10_41){print("H0(1) rho1=/=0, rho2==0 rejected")}
+    else{print("H0(1) rho1=/=0, rho2==0 not rejected")}
+}else{
+    print("H0 Sigma==0 not rejected")
+}
+
+
+```
+
+**b) How many pairs of canonical variates are significant?**
+```{r , echo=TRUE}
+
+
+```
+
+
+**c) Interpret the "significant" squared canonical correlations. Tip: Read section "Canonical Correlations as Generalizations of Other Correlation Coefficients".**
+```{r , echo=TRUE}
+
+
+```
+
+**d) Interpret the canonical variates by using the coefficients and suitable correlations.**
+```{r , echo=TRUE}
+
+
+```
+**e) Are the "significant" canonical variates good summary measures of the respective data sets? Tip: Read section "Proportions of Explained Sample Variance".**
+```{r , echo=TRUE}
+
+
+```
+**f) Give your opinion on the success of this canonical correlation analysis.**
+
+
+```{r , echo=TRUE}
+
+
+```
