@@ -1,0 +1,646 @@
+Received: from HE1PR06MB3209.eurprd06.prod.outlook.com (10.171.198.141) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.260.4 via Mailbox Transport; Wed, 29 Nov 2017 10:10:04 +0000
+Received: from AM4PR06MB1666.eurprd06.prod.outlook.com (10.165.246.153) by
+ HE1PR06MB3209.eurprd06.prod.outlook.com (10.171.198.141) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.260.4; Wed, 29 Nov 2017 10:10:02 +0000
+Received: from AM4PR06MB1762.eurprd06.prod.outlook.com (10.165.247.137) by
+ AM4PR06MB1666.eurprd06.prod.outlook.com (10.165.246.153) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.260.4; Wed, 29 Nov 2017 10:10:00 +0000
+Received: from AM4PR06MB1762.eurprd06.prod.outlook.com
+ ([fe80::49b5:af4e:e818:d379]) by AM4PR06MB1762.eurprd06.prod.outlook.com
+ ([fe80::49b5:af4e:e818:d379%13]) with mapi id 15.20.0260.007; Wed, 29 Nov
+ 2017 10:10:00 +0000
+From: =?iso-8859-1?Q?Funktionsl=E5da_KK-PT_2014?= <kk-pt2014@knowit.se>
+To: Magnus Tauvon <Magnus.Tauvon@knowit.se>, Nils Kumar
+	<Nils.Kumar@knowit.se>, =?iso-8859-1?Q?Camilla_Land=E9n?=
+	<Camilla.Landen@knowit.se>, =?iso-8859-1?Q?M=E5ns_Hjertstrand?=
+	<Mans.Hjertstrand@knowit.se>, Emma Tarandi <Emma.Tarandi@knowit.se>, "Lars
+ Erickson" <lars.erickson@knowit.se>, Sebastian Vidovic
+	<sebastian.vidovic@knowit.se>, =?iso-8859-1?Q?H=E5kan_Als=E9n?=
+	<Hakan.Alsen@knowit.se>, Hanna Aspklint <Hanna.Aspklint@knowit.se>, "Peder
+ Lundgren" <Peder.Lundgren@knowit.se>, Mats Ohlsson <mats.ohlsson@knowit.se>,
+	Pernilla Snis <pernilla.snis@knowit.se>, Henrik Serlow
+	<henrik.serlow@knowit.se>, Pia Engwall <Pia.Engwall@knowit.se>,
+	=?iso-8859-1?Q?Cia_=D6rvill?= <Cia.orvill@knowit.se>, Daniel Borgentun
+	<daniel.borgentun@knowit.se>, =?iso-8859-1?Q?=C5sa_Holmberg?=
+	<asa.Holmberg@knowit.se>, Tomas Rimming <tomas.rimming@knowit.se>, "Peter
+ Lindstedt" <Peter.Lindstedt@knowit.se>, Kenneth Ericsson
+	<kenneth.ericsson@knowit.se>, =?iso-8859-1?Q?J=F8rn_Aaberg?=
+	<jorn.aaberg@knowit.no>, =?iso-8859-1?Q?P=E4r_Nilsson?=
+	<par.nilsson@knowit.se>, Erik Johansson <erik.johansson@knowit.se>, "Staffan
+ Nilsson" <Staffan.Nilsson@knowit.se>, =?iso-8859-1?Q?Axel_Holt=E5s?=
+	<Axel.Holtas@knowit.se>, Johan Hallgren <johan.hallgren@knowit.se>,
+	=?iso-8859-1?Q?Michael_Fr=F6ling?= <Michael.Froling@knowit.se>, "Thomas
+ Gustavsson" <thomas.gustavsson@knowit.se>, Thomas Wenngren
+	<thomas.wenngren@knowit.se>, Ola Ehrstedt <ola.ehrstedt@knowit.se>, "Hans
+ Reinikainen" <hans.reinikainen@knowit.se>, Kenneth Lyngshede
+	<kenneth.lyngshede@knowit.se>, Fredrik Grahn <Fredrik.Grahn@knowit.se>,
+	=?iso-8859-1?Q?Nils-G=F6ran_Wirehn?= <Nils-Goran.Wirehn@knowit.se>, "Thomas
+ Nord" <Thomas.Nord@knowit.se>, Dan Jacobsson <Dan.Jacobsson@knowit.se>, "Lisa
+ Lind" <lisa.lind@knowit.se>, =?iso-8859-1?Q?Bo-G=F6ran_Perlstr=F6m?=
+	<bo-goran.perlstrom@knowit.se>, Jonas Svensson <Jonas.Svensson@knowit.se>,
+	Helen Lyhde Nial <helen.lyhde.nial@knowit.se>, Bertil Nordlund
+	<bertil.nordlund@knowit.se>, =?iso-8859-1?Q?Maj_S=F6rensen-Ringi?=
+	<Maj.Sorensen-Ringi@knowit.se>, Urban Jonsson <urban.jonsson@knowit.se>,
+	=?iso-8859-1?Q?Pontus_Andr=E9?= <Pontus.Andre@knowit.se>,
+	=?iso-8859-1?Q?Helena_Bj=F6rnberg?= <Helena.Bjornberg@knowit.se>, "Jens
+ Wallentin" <Jens.Wallentin@knowit.se>, Fredrik Eriksson
+	<Fredrik.Eriksson@knowit.se>, Magnus Witting <Magnus.Witting@knowit.se>,
+	Johan Kuru <Johan.Kuru@knowit.se>, Ulf Johansson <Ulf.Johansson@knowit.se>,
+	Rickard Alfredson <Rickard.Alfredson@knowit.se>, Linus Larsson
+	<Linus.Larsson@knowit.se>, Berit Vonstad <Berit.Vonstad@knowit.se>,
+	=?iso-8859-1?Q?=C5sa_Schwarz?= <asa.Schwarz@knowit.se>, "info@candidator.se"
+	<info@candidator.se>, Linus Friborg <linus.friborg@knowit.se>,
+	=?iso-8859-1?Q?Bo-G=F6ran_Perlstr=F6m?= <bo-goran.perlstrom@knowit.se>,
+	=?iso-8859-1?Q?Thomas_Engstr=F6m?= <thomas.engstrom@knowit.se>,
+	=?iso-8859-1?Q?Nils-G=F6ran_Wirehn?= <Nils-Goran.Wirehn@knowit.se>, "Pia
+ Engwall" <Pia.Engwall@knowit.se>, Hans Reinikainen
+	<hans.reinikainen@knowit.se>, Christer Holman <christer.holman@knowit.se>,
+	Thomas Gustavsson <thomas.gustavsson@knowit.se>, Lisa Lind
+	<lisa.lind@knowit.se>, Erik Johansson <erik.johansson@knowit.se>, "Joakim
+ Jormelin" <joakim.jormelin@knowit.se>, Martin Skarp <martin.skarp@knowit.se>,
+	Kenneth Lyngshede <kenneth.lyngshede@knowit.se>,
+	=?iso-8859-1?Q?H=E5kan_Ramberg?= <Hakan.Ramberg@knowit.se>, Jonas Svensson
+	<Jonas.Svensson@knowit.se>, Thomas Wenngren <thomas.wenngren@knowit.se>,
+	Staffan Nilsson <Staffan.Nilsson@knowit.se>, =?iso-8859-1?Q?Axel_Holt=E5s?=
+	<Axel.Holtas@knowit.se>, Magnus Tauvon <Magnus.Tauvon@knowit.se>, Thomas Nord
+	<Thomas.Nord@knowit.se>, Mats Thorstenson <Mats.Thorstenson@knowit.se>,
+	Daniel Borgentun <daniel.borgentun@knowit.se>, Helen Lyhde Nial
+	<helen.lyhde.nial@knowit.se>, Kenneth Ericsson <kenneth.ericsson@knowit.se>,
+	=?iso-8859-1?Q?Michael_Fr=F6ling?= <Michael.Froling@knowit.se>,
+	=?iso-8859-1?Q?P=E4r_Nilsson?= <par.nilsson@knowit.se>, Johan Hallgren
+	<johan.hallgren@knowit.se>, =?iso-8859-1?Q?=C5sa_Schwarz?=
+	<asa.Schwarz@knowit.se>, Peter Lindstedt <Peter.Lindstedt@knowit.se>, "Tomas
+ Rimming" <tomas.rimming@knowit.se>, Henrik Serlow <henrik.serlow@knowit.se>,
+	=?iso-8859-1?Q?Anders_Ther=E9n?= <anders.theren@knowit.se>, Pernilla Snis
+	<pernilla.snis@knowit.se>, Mats Ohlsson <mats.ohlsson@knowit.se>, "Peder
+ Lundgren" <Peder.Lundgren@knowit.se>, Hanna Aspklint
+	<Hanna.Aspklint@knowit.se>, =?iso-8859-1?Q?H=E5kan_Als=E9n?=
+	<Hakan.Alsen@knowit.se>, Lars Erickson <lars.erickson@knowit.se>, "Emma
+ Tarandi" <Emma.Tarandi@knowit.se>, =?iso-8859-1?Q?M=E5ns_Hjertstrand?=
+	<Mans.Hjertstrand@knowit.se>, =?iso-8859-1?Q?Camilla_Land=E9n?=
+	<Camilla.Landen@knowit.se>, Nils Kumar <Nils.Kumar@knowit.se>, Urban Jonsson
+	<urban.jonsson@knowit.se>, =?iso-8859-1?Q?Pontus_Andr=E9?=
+	<Pontus.Andre@knowit.se>, Fredrik Eriksson <Fredrik.Eriksson@knowit.se>,
+	Magnus Witting <Magnus.Witting@knowit.se>, Johan Kuru <Johan.Kuru@knowit.se>,
+	=?iso-8859-1?Q?Nils-G=F6ran_Wirehn?= <Nils-Goran.Wirehn@knowit.se>, "Ulf
+ Johansson" <Ulf.Johansson@knowit.se>, =?iso-8859-1?Q?Maj_S=F6rensen-Ringi?=
+	<Maj.Sorensen-Ringi@knowit.se>, Thomas Wenngren <thomas.wenngren@knowit.se>,
+	Thomas Nord <Thomas.Nord@knowit.se>, Tomas Rimming <tomas.rimming@knowit.se>,
+	Sebastian Vidovic <sebastian.vidovic@knowit.se>, Rickard Alfredson
+	<Rickard.Alfredson@knowit.se>, Linus Larsson <Linus.Larsson@knowit.se>,
+	"Berit Vonstad" <Berit.Vonstad@knowit.se>, Linus Friborg
+	<linus.friborg@knowit.se>
+Subject: =?iso-8859-1?Q?RFI_inf=F6r_upphandling_av_Dokument-_och_=E4rendehantering?=
+ =?iso-8859-1?Q?ssystem_?=
+Thread-Topic: =?iso-8859-1?Q?RFI_inf=F6r_upphandling_av_Dokument-_och_=E4rendehantering?=
+ =?iso-8859-1?Q?ssystem_?=
+Thread-Index: AdNobHSh+jH52AGARVGembFwZ7NK4QAjOG+Q
+Date: Wed, 29 Nov 2017 10:10:00 +0000
+Message-ID: <AM4PR06MB1762DD9B49241D4FE2CDC860EC3B0@AM4PR06MB1762.eurprd06.prod.outlook.com>
+References: <VI1P193MB01277D87D187C3CBBC1E4D1C9B3A0@VI1P193MB0127.EURP193.PROD.OUTLOOK.COM>
+In-Reply-To: <VI1P193MB01277D87D187C3CBBC1E4D1C9B3A0@VI1P193MB0127.EURP193.PROD.OUTLOOK.COM>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: AM4PR06MB1762.eurprd06.prod.outlook.com
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-Network-Message-Id: 5f1f85c2-c098-44a6-d246-08d5371159f4
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [192.71.76.144]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:AM4PR06MB1666;H:AM4PR06MB1762.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;;SKIP:1;
+x-ms-exchange-organization-originalclientipaddress: 192.71.76.144
+x-ms-exchange-organization-originalserveripaddress: 25.170.218.159
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:34GunHy7emFqILBM56UzFmd0tCFkerTWS1kpmDQ9qSA/S8PmR8mixkALtL9dqJXL0L4wmMCjPi8N0t7qC05N0yvq9+xT7LEM1R6iuw298Z8m3h9+yM2t/ryQIOtQoYO0
+Content-Type: multipart/related;
+	boundary="_004_AM4PR06MB1762DD9B49241D4FE2CDC860EC3B0AM4PR06MB1762eurp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_004_AM4PR06MB1762DD9B49241D4FE2CDC860EC3B0AM4PR06MB1762eurp_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:34GunHy7emFqILBM56UzFmd0tCFkerTWS1kpmDQ9qSA/S8PmR8mixkALtL9dqJXL0L4wmMCjPi8N0t7qC05N0yvq9+xT7LEM1R6iuw298Z8m3h9+yM2t/ryQIOtQoYO0
+Content-Type: multipart/alternative;
+	boundary="_000_AM4PR06MB1762DD9B49241D4FE2CDC860EC3B0AM4PR06MB1762eurp_"
+
+--_000_AM4PR06MB1762DD9B49241D4FE2CDC860EC3B0AM4PR06MB1762eurp_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:34GunHy7emFqILBM56UzFmd0tCFkerTWS1kpmDQ9qSA/S8PmR8mixkALtL9dqJXL0L4wmMCjPi8N0t7qC05N0yvq9+xT7LEM1R6iuw298Z8m3h9+yM2t/ryQIOtQoYO0
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hej,
+
+Syftet med denna RFI =E4r att ge Nyn=E4shamns kommun och Upphandling S=F6de=
+rt=F6rn information i f=F6rberedelserna med att skapa ett tydligt, transpar=
+ent och proportionerligt f=F6rfr=E5gningsunderlag f=F6r att tillf=F6rs=E4kr=
+a kommunen b=E4sta m=F6jliga verksamhetsst=F6d, utifr=E5n de m=F6jligheter =
+som finns tillg=E4ngliga p=E5 marknaden. Kommunen =F6nskar ta tillvara p=E5=
+ branschens erfarenheter, kunskaper och framtidsvisioner.
+Vid en RFI f=E5r ni m=F6jlighet att l=E4mna information om efterfr=E5gade t=
+j=E4nster/produkter. Nyn=E4shamn har inte n=E5gon skyldighet att genomf=F6r=
+a en upphandling/avropsf=F6rfr=E5gan i anslutning till eller efter en RFI.
+V=E4nligen observera att detta inte utg=F6r en anbudsf=F6rfr=E5gan och d=E4=
+rf=F6r inget som f=F6rpliktigar kommunen till n=E5got =E5tagande. Svar p=E5=
+ denna f=F6rpliktar inte svarsl=E4mnaren av information i n=E5got avseende.=
+ Kommunen kommer inte att l=E4mna ers=E4ttning f=F6r det arbete som kan bli=
+ resultatet av denna marknadsunders=F6kning.
+
+F=F6r mer information: https://www.e-avrop.com/haninge/visa/RFI.aspx?id=3D6=
+98
+
+Sista inl=E4mningsdag: 2017-12-12
+
+V=E4nliga h=E4lsningar
+
+Mikael Ahlman fr=E5n Knowit
+
+T: +46 70 532 21 13  |  E: Mikael.Ahlman@knowit.se
+Knowit Norrland AB  |  Stuvarv=E4gen 25, 852 29  Sundsvall  |   knowit.se<h=
+ttp://www.knowit.se/>
+
+http://www.knowit.se<http://www.knowit.se/>
+http://knowit.se/facebook
+http://www.knowit.se/Linkedin
+http://www.knowit.se/twitter
+
+
+Fr=E5n: David Pyring [mailto:david.pyring@upphandlingsodertorn.se]
+Skickat: den 28 november 2017 18:15
+Till: David Pyring <david.pyring@upphandlingsodertorn.se>
+=C4mne: RFI inf=F6r upphandling av Dokument- och =E4rendehanteringssystem
+
+Hej,
+Upphandling S=F6dert=F6rn har tillsammans med Nyn=E4shamns kommun annonsera=
+t en RFI inf=F6r upphandling av Dokument- och =E4rendehanteringssystem som =
+tj=E4nst, ni n=E5r den p=E5 f=F6ljande l=E4nk:
+https://www.e-avrop.com/haninge/visa/RFI.aspx?id=3D698
+
+Vi ser framemot att ta del av ert svar p=E5 denna och de fr=E5gest=E4llning=
+ar vi har senast den 12 december.
+
+
+Med v=E4nlig h=E4lsning,
+/David
+
+David Pyring
+Upphandlare med inriktning mot IT
+Upphandling S=F6dert=F6rn
+Telefon: 08-606 85 24
+
+[Beskrivning: Beskrivning: cid:image003.png@01D1A097.A4740DB0]
+
+ -Upphandling och avtal i Haninge & Nyn=E4shamn<http://www.upphandlingsoder=
+torn.se/>
+
+
+
+--_000_AM4PR06MB1762DD9B49241D4FE2CDC860EC3B0AM4PR06MB1762eurp_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:34GunHy7emFqILBM56UzFmd0tCFkerTWS1kpmDQ9qSA/S8PmR8mixkALtL9dqJXL0L4wmMCjPi8N0t7qC05N0yvq9+xT7LEM1R6iuw298Z8m3h9+yM2t/ryQIOtQoYO0
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.E-postmall18
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.E-postmall19
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"SV" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Hej,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Syftet med denna RFI =E4r att ge Nyn=E4shamns kommun=
+ och Upphandling S=F6dert=F6rn information i f=F6rberedelserna med att skap=
+a ett tydligt, transparent och proportionerligt f=F6rfr=E5gningsunderlag f=
+=F6r att tillf=F6rs=E4kra kommunen b=E4sta m=F6jliga verksamhetsst=F6d,
+ utifr=E5n de m=F6jligheter som finns tillg=E4ngliga p=E5 marknaden. Kommun=
+en =F6nskar ta tillvara p=E5 branschens erfarenheter, kunskaper och framtid=
+svisioner.<span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman=
+&quot;,serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal">Vid en RFI f=E5r ni m=F6jlighet att l=E4mna informat=
+ion om efterfr=E5gade tj=E4nster/produkter. Nyn=E4shamn har inte n=E5gon sk=
+yldighet att genomf=F6ra en upphandling/avropsf=F6rfr=E5gan i anslutning ti=
+ll eller efter en RFI.
+<o:p></o:p></p>
+<p class=3D"MsoNormal">V=E4nligen observera att detta inte utg=F6r en anbud=
+sf=F6rfr=E5gan och d=E4rf=F6r inget som f=F6rpliktigar kommunen till n=E5go=
+t =E5tagande. Svar p=E5 denna f=F6rpliktar inte svarsl=E4mnaren av informat=
+ion i n=E5got avseende. Kommunen kommer inte att l=E4mna ers=E4ttning
+ f=F6r det arbete som kan bli resultatet av denna marknadsunders=F6kning.<o=
+:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">F=F6r mer information: <a href=3D"https://www.e-avro=
+p.com/haninge/visa/RFI.aspx?id=3D698">
+https://www.e-avrop.com/haninge/visa/RFI.aspx?id=3D698</a><o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Sista inl=E4mningsdag: 2017-12-12<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<p class=3D"MsoNormal" style=3D"margin-bottom:12.0pt"><span style=3D"font-f=
+amily:&quot;Arial&quot;,sans-serif;color:black;mso-fareast-language:SV">V=
+=E4nliga h=E4lsningar</span><span style=3D"font-size:10.0pt;font-family:&qu=
+ot;Arial&quot;,sans-serif;color:black;mso-fareast-language:SV"><o:p></o:p><=
+/span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-family:&quot;Arial&quot;,sans=
+-serif;color:black;mso-fareast-language:SV"><br>
+</span></b><b><span style=3D"font-family:&quot;Arial&quot;,sans-serif;color=
+:black;mso-fareast-language:SV">Mikael Ahlman</span></b><span style=3D"font=
+-family:&quot;Arial&quot;,sans-serif;color:black;mso-fareast-language:SV"> =
+fr=E5n
+<b>Knowit</b><br>
+<br>
+</span><span style=3D"font-size:8.5pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:#7F7F7F;mso-fareast-language:NO-BOK">T: &#43;46&nbsp;70&nbsp;532 =
+21 13&nbsp; |&nbsp; E: Mikael.Ahlman@knowit.se&nbsp;</span><span lang=3D"NO=
+-BOK" style=3D"color:black;mso-fareast-language:NO-BOK"><o:p></o:p></span><=
+/p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:8.5pt;font-family:&quot;=
+Arial&quot;,sans-serif;color:#7F7F7F;mso-fareast-language:NO-BOK">Knowit No=
+rrland AB &nbsp;</span></b><span style=3D"font-size:8.5pt;font-family:&quot=
+;Arial&quot;,sans-serif;color:#7F7F7F;mso-fareast-language:NO-BOK">|
+ &nbsp;Stuvarv=E4gen 25, 852 29&nbsp; Sundsvall &nbsp;| &nbsp;&nbsp;</span>=
+<span style=3D"mso-fareast-language:SV"><a href=3D"http://www.knowit.se/"><=
+b><span style=3D"font-size:8.5pt;font-family:&quot;Arial&quot;,sans-serif;c=
+olor:#009681;mso-fareast-language:NO-BOK;text-decoration:none">knowit.se</s=
+pan></b></a></span><o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:SV"><o:p>&nbsp;<=
+/o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:SV"><a href=3D"h=
+ttp://www.knowit.se/"><span lang=3D"NO-BOK" style=3D"font-size:8.0pt;font-f=
+amily:&quot;Arial&quot;,sans-serif;color:#7F7F7F;mso-fareast-language:NO-BO=
+K">http://www.knowit.se</span></a></span><span lang=3D"NO-BOK" style=3D"fon=
+t-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#7F7F7F;mso-far=
+east-language:NO-BOK"><br>
+</span><span style=3D"mso-fareast-language:SV"><a href=3D"http://knowit.se/=
+facebook"><span lang=3D"NO-BOK" style=3D"font-size:8.0pt;font-family:&quot;=
+Arial&quot;,sans-serif;color:#7F7F7F;mso-fareast-language:NO-BOK">http://kn=
+owit.se/facebook</span></a></span><span lang=3D"NO-BOK" style=3D"font-size:=
+8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#7F7F7F;mso-fareast-la=
+nguage:NO-BOK"><br>
+</span><span style=3D"mso-fareast-language:SV"><a href=3D"http://www.knowit=
+.se/Linkedin"><span lang=3D"NO-BOK" style=3D"font-size:8.0pt;font-family:&q=
+uot;Arial&quot;,sans-serif;color:#7F7F7F;mso-fareast-language:NO-BOK">http:=
+//www.knowit.se/Linkedin</span></a></span><span lang=3D"NO-BOK" style=3D"fo=
+nt-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#7F7F7F;mso-fa=
+reast-language:NO-BOK"><br>
+</span><span style=3D"mso-fareast-language:SV"><a href=3D"http://www.knowit=
+.se/twitter"><span lang=3D"NO-BOK" style=3D"font-size:8.0pt;font-family:&qu=
+ot;Arial&quot;,sans-serif;color:#7F7F7F;mso-fareast-language:NO-BOK">http:/=
+/www.knowit.se/twitter</span></a></span><span lang=3D"NO-BOK" style=3D"colo=
+r:#7F7F7F;mso-fareast-language:NO-BOK"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:SV"><o:p>&nbsp;<=
+/o:p></span></p>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style=3D"border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0cm =
+0cm 0cm">
+<p class=3D"MsoNormal"><b><span style=3D"mso-fareast-language:SV">Fr=E5n:</=
+span></b><span style=3D"mso-fareast-language:SV"> David Pyring [mailto:davi=
+d.pyring@upphandlingsodertorn.se]
+<br>
+<b>Skickat:</b> den 28 november 2017 18:15<br>
+<b>Till:</b> David Pyring &lt;david.pyring@upphandlingsodertorn.se&gt;<br>
+<b>=C4mne:</b> RFI inf=F6r upphandling av Dokument- och =E4rendehanteringss=
+ystem <o:p></o:p></span></p>
+</div>
+</div>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Hej,<o:p></o:p></p>
+<p class=3D"MsoNormal">Upphandling S=F6dert=F6rn har tillsammans med Nyn=E4=
+shamns kommun annonserat en RFI inf=F6r upphandling av Dokument- och =E4ren=
+dehanteringssystem som tj=E4nst, ni n=E5r den p=E5 f=F6ljande l=E4nk:<o:p><=
+/o:p></p>
+<p class=3D"MsoNormal"><a href=3D"https://www.e-avrop.com/haninge/visa/RFI.=
+aspx?id=3D698">https://www.e-avrop.com/haninge/visa/RFI.aspx?id=3D698</a><o=
+:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Vi ser framemot att ta del av ert svar p=E5 denna oc=
+h de fr=E5gest=E4llningar vi har senast den 12 december.
+<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ver=
+dana&quot;,sans-serif;color:#1F497D;mso-fareast-language:SV">Med v=E4nlig h=
+=E4lsning,<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ver=
+dana&quot;,sans-serif;color:#1F497D;mso-fareast-language:SV">/David<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:9.0pt;font-family:&quot;=
+Verdana&quot;,sans-serif;color:#1F497D;mso-fareast-language:SV"><o:p>&nbsp;=
+</o:p></span></b></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:9.0pt;font-family:&quot;=
+Verdana&quot;,sans-serif;color:#1F497D;mso-fareast-language:SV">David Pyrin=
+g<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ver=
+dana&quot;,sans-serif;color:#464646;mso-fareast-language:SV">Upphandlare me=
+d inriktning mot IT<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ver=
+dana&quot;,sans-serif;color:#464646;mso-fareast-language:SV">Upphandling S=
+=F6dert=F6rn<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ver=
+dana&quot;,sans-serif;color:#464646;mso-fareast-language:SV">Telefon: 08-60=
+6 85 24<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D;mso-fareast-language:SV=
+"><br>
+<img border=3D"0" width=3D"170" height=3D"65" style=3D"width:1.7708in;heigh=
+t:.677in" id=3D"Bild_x0020_1" src=3D"cid:image001.png@01D36872.E3A44370" al=
+t=3D"Beskrivning: Beskrivning: cid:image003.png@01D1A097.A4740DB0"></span><=
+span style=3D"font-size:9.0pt;font-family:&quot;Verdana&quot;,sans-serif;co=
+lor:black;mso-fareast-language:SV">&nbsp;</span><span style=3D"color:black;=
+mso-fareast-language:SV"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"color:black;mso-fareast-language:SV">=
+&nbsp;<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.0pt;font-family:&quot;Ver=
+dana&quot;,sans-serif;color:#7F7F7F;mso-fareast-language:SV">&nbsp;</span><=
+i><span style=3D"font-size:8.0pt;color:#7F7F7F;mso-fareast-language:SV"><a =
+href=3D"http://www.upphandlingsodertorn.se/" target=3D"_blank"><span style=
+=3D"color:#7F7F7F">-Upphandling
+ och avtal i Haninge &amp; Nyn=E4shamn</span></a></span></i><span style=3D"=
+font-size:8.0pt;color:black;mso-fareast-language:SV"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_AM4PR06MB1762DD9B49241D4FE2CDC860EC3B0AM4PR06MB1762eurp_--
+
+--_004_AM4PR06MB1762DD9B49241D4FE2CDC860EC3B0AM4PR06MB1762eurp_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:34GunHy7emFqILBM56UzFmd0tCFkerTWS1kpmDQ9qSA/S8PmR8mixkALtL9dqJXL0L4wmMCjPi8N0t7qC05N0yvq9+xT7LEM1R6iuw298Z8m3h9+yM2t/ryQIOtQoYO0
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=11045;
+	creation-date="Tue, 28 Nov 2017 17:15:15 GMT";
+	modification-date="Tue, 28 Nov 2017 17:15:15 GMT"
+Content-ID: <image001.png@01D36872.E3A44370>
+Content-Transfer-Encoding: base64
+
+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
+
+--_004_AM4PR06MB1762DD9B49241D4FE2CDC860EC3B0AM4PR06MB1762eurp_--

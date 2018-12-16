@@ -1,0 +1,313 @@
+Received: from DB6PR06MB3207.eurprd06.prod.outlook.com (10.170.215.150) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.260.4 via Mailbox Transport; Wed, 29 Nov 2017 09:29:30 +0000
+Received: from AM5PR0601MB2452.eurprd06.prod.outlook.com (10.173.91.149) by
+ DB6PR06MB3207.eurprd06.prod.outlook.com (10.170.215.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.282.5; Wed, 29 Nov 2017 09:29:29 +0000
+Received: from AM5PR0601MB2387.eurprd06.prod.outlook.com (10.173.91.21) by
+ AM5PR0601MB2452.eurprd06.prod.outlook.com (10.173.91.149) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.260.4; Wed, 29 Nov 2017 09:29:28 +0000
+Received: from AM5PR0601MB2387.eurprd06.prod.outlook.com
+ ([fe80::5d85:6827:64b2:c615]) by AM5PR0601MB2387.eurprd06.prod.outlook.com
+ ([fe80::5d85:6827:64b2:c615%17]) with mapi id 15.20.0260.007; Wed, 29 Nov
+ 2017 09:29:28 +0000
+From: =?Windows-1252?Q?Funktionsl=E5da_KK-PT_2014?= <kk-pt2014@knowit.se>
+To: Magnus Tauvon <Magnus.Tauvon@knowit.se>, Nils Kumar
+	<Nils.Kumar@knowit.se>, =?Windows-1252?Q?Camilla_Land=E9n?=
+	<Camilla.Landen@knowit.se>, =?Windows-1252?Q?M=E5ns_Hjertstrand?=
+	<Mans.Hjertstrand@knowit.se>, Emma Tarandi <Emma.Tarandi@knowit.se>, "Lars
+ Erickson" <lars.erickson@knowit.se>, Sebastian Vidovic
+	<sebastian.vidovic@knowit.se>, =?Windows-1252?Q?H=E5kan_Als=E9n?=
+	<Hakan.Alsen@knowit.se>, Hanna Aspklint <Hanna.Aspklint@knowit.se>, "Peder
+ Lundgren" <Peder.Lundgren@knowit.se>, Mats Ohlsson <mats.ohlsson@knowit.se>,
+	Pernilla Snis <pernilla.snis@knowit.se>, Henrik Serlow
+	<henrik.serlow@knowit.se>, Pia Engwall <Pia.Engwall@knowit.se>,
+	=?Windows-1252?Q?Cia_=D6rvill?= <Cia.orvill@knowit.se>, Daniel Borgentun
+	<daniel.borgentun@knowit.se>, =?Windows-1252?Q?=C5sa_Holmberg?=
+	<asa.Holmberg@knowit.se>, Tomas Rimming <tomas.rimming@knowit.se>, "Peter
+ Lindstedt" <Peter.Lindstedt@knowit.se>, Kenneth Ericsson
+	<kenneth.ericsson@knowit.se>, =?Windows-1252?Q?J=F8rn_Aaberg?=
+	<jorn.aaberg@knowit.no>, =?Windows-1252?Q?P=E4r_Nilsson?=
+	<par.nilsson@knowit.se>, Erik Johansson <erik.johansson@knowit.se>, "Staffan
+ Nilsson" <Staffan.Nilsson@knowit.se>, =?Windows-1252?Q?Axel_Holt=E5s?=
+	<Axel.Holtas@knowit.se>, Johan Hallgren <johan.hallgren@knowit.se>,
+	=?Windows-1252?Q?Michael_Fr=F6ling?= <Michael.Froling@knowit.se>, "Thomas
+ Gustavsson" <thomas.gustavsson@knowit.se>, Thomas Wenngren
+	<thomas.wenngren@knowit.se>, Ola Ehrstedt <ola.ehrstedt@knowit.se>, "Hans
+ Reinikainen" <hans.reinikainen@knowit.se>, Kenneth Lyngshede
+	<kenneth.lyngshede@knowit.se>, Fredrik Grahn <Fredrik.Grahn@knowit.se>,
+	=?Windows-1252?Q?Nils-G=F6ran_Wirehn?= <Nils-Goran.Wirehn@knowit.se>, "Thomas
+ Nord" <Thomas.Nord@knowit.se>, Dan Jacobsson <Dan.Jacobsson@knowit.se>, "Lisa
+ Lind" <lisa.lind@knowit.se>, =?Windows-1252?Q?Bo-G=F6ran_Perlstr=F6m?=
+	<bo-goran.perlstrom@knowit.se>, Jonas Svensson <Jonas.Svensson@knowit.se>,
+	Helen Lyhde Nial <helen.lyhde.nial@knowit.se>, Bertil Nordlund
+	<bertil.nordlund@knowit.se>, =?Windows-1252?Q?Maj_S=F6rensen-Ringi?=
+	<Maj.Sorensen-Ringi@knowit.se>, Urban Jonsson <urban.jonsson@knowit.se>,
+	=?Windows-1252?Q?Pontus_Andr=E9?= <Pontus.Andre@knowit.se>,
+	=?Windows-1252?Q?Helena_Bj=F6rnberg?= <Helena.Bjornberg@knowit.se>, "Jens
+ Wallentin" <Jens.Wallentin@knowit.se>, Fredrik Eriksson
+	<Fredrik.Eriksson@knowit.se>, Magnus Witting <Magnus.Witting@knowit.se>,
+	Johan Kuru <Johan.Kuru@knowit.se>, Ulf Johansson <Ulf.Johansson@knowit.se>,
+	Rickard Alfredson <Rickard.Alfredson@knowit.se>, Linus Larsson
+	<Linus.Larsson@knowit.se>, Berit Vonstad <Berit.Vonstad@knowit.se>,
+	=?Windows-1252?Q?=C5sa_Schwarz?= <asa.Schwarz@knowit.se>,
+	"info@candidator.se" <info@candidator.se>, Linus Friborg
+	<linus.friborg@knowit.se>, =?Windows-1252?Q?Bo-G=F6ran_Perlstr=F6m?=
+	<bo-goran.perlstrom@knowit.se>, =?Windows-1252?Q?Thomas_Engstr=F6m?=
+	<thomas.engstrom@knowit.se>, =?Windows-1252?Q?Nils-G=F6ran_Wirehn?=
+	<Nils-Goran.Wirehn@knowit.se>, Pia Engwall <Pia.Engwall@knowit.se>, "Hans
+ Reinikainen" <hans.reinikainen@knowit.se>, Christer Holman
+	<christer.holman@knowit.se>, Thomas Gustavsson <thomas.gustavsson@knowit.se>,
+	Lisa Lind <lisa.lind@knowit.se>, Erik Johansson <erik.johansson@knowit.se>,
+	Joakim Jormelin <joakim.jormelin@knowit.se>, Martin Skarp
+	<martin.skarp@knowit.se>, Kenneth Lyngshede <kenneth.lyngshede@knowit.se>,
+	=?Windows-1252?Q?H=E5kan_Ramberg?= <Hakan.Ramberg@knowit.se>, Jonas Svensson
+	<Jonas.Svensson@knowit.se>, Thomas Wenngren <thomas.wenngren@knowit.se>,
+	Staffan Nilsson <Staffan.Nilsson@knowit.se>, =?Windows-1252?Q?Axel_Holt=E5s?=
+	<Axel.Holtas@knowit.se>, Magnus Tauvon <Magnus.Tauvon@knowit.se>, Thomas Nord
+	<Thomas.Nord@knowit.se>, Mats Thorstenson <Mats.Thorstenson@knowit.se>,
+	Daniel Borgentun <daniel.borgentun@knowit.se>, Helen Lyhde Nial
+	<helen.lyhde.nial@knowit.se>, Kenneth Ericsson <kenneth.ericsson@knowit.se>,
+	=?Windows-1252?Q?Michael_Fr=F6ling?= <Michael.Froling@knowit.se>,
+	=?Windows-1252?Q?P=E4r_Nilsson?= <par.nilsson@knowit.se>, Johan Hallgren
+	<johan.hallgren@knowit.se>, =?Windows-1252?Q?=C5sa_Schwarz?=
+	<asa.Schwarz@knowit.se>, Peter Lindstedt <Peter.Lindstedt@knowit.se>, "Tomas
+ Rimming" <tomas.rimming@knowit.se>, Henrik Serlow <henrik.serlow@knowit.se>,
+	=?Windows-1252?Q?Anders_Ther=E9n?= <anders.theren@knowit.se>, Pernilla Snis
+	<pernilla.snis@knowit.se>, Mats Ohlsson <mats.ohlsson@knowit.se>, "Peder
+ Lundgren" <Peder.Lundgren@knowit.se>, Hanna Aspklint
+	<Hanna.Aspklint@knowit.se>, =?Windows-1252?Q?H=E5kan_Als=E9n?=
+	<Hakan.Alsen@knowit.se>, Lars Erickson <lars.erickson@knowit.se>, "Emma
+ Tarandi" <Emma.Tarandi@knowit.se>, =?Windows-1252?Q?M=E5ns_Hjertstrand?=
+	<Mans.Hjertstrand@knowit.se>, =?Windows-1252?Q?Camilla_Land=E9n?=
+	<Camilla.Landen@knowit.se>, Nils Kumar <Nils.Kumar@knowit.se>, Urban Jonsson
+	<urban.jonsson@knowit.se>, =?Windows-1252?Q?Pontus_Andr=E9?=
+	<Pontus.Andre@knowit.se>, Fredrik Eriksson <Fredrik.Eriksson@knowit.se>,
+	Magnus Witting <Magnus.Witting@knowit.se>, Johan Kuru <Johan.Kuru@knowit.se>,
+	=?Windows-1252?Q?Nils-G=F6ran_Wirehn?= <Nils-Goran.Wirehn@knowit.se>, "Ulf
+ Johansson" <Ulf.Johansson@knowit.se>, =?Windows-1252?Q?Maj_S=F6rensen-Ringi?=
+	<Maj.Sorensen-Ringi@knowit.se>, Thomas Wenngren <thomas.wenngren@knowit.se>,
+	Thomas Nord <Thomas.Nord@knowit.se>, Tomas Rimming <tomas.rimming@knowit.se>,
+	Sebastian Vidovic <sebastian.vidovic@knowit.se>, Rickard Alfredson
+	<Rickard.Alfredson@knowit.se>, Linus Larsson <Linus.Larsson@knowit.se>,
+	"Berit Vonstad" <Berit.Vonstad@knowit.se>, Linus Friborg
+	<linus.friborg@knowit.se>
+CC: Mikael Ahlman <mikael.ahlman@knowit.se>
+Subject: =?Windows-1252?Q?VB:_F=F6rnyad_konkurrensuts=E4ttning_av_digitala_verktyg?=
+ =?Windows-1252?Q?_f=F6r_kommunikation_dnr_627_2017?=
+Thread-Topic: =?Windows-1252?Q?F=F6rnyad_konkurrensuts=E4ttning_av_digitala_verktyg_f?=
+ =?Windows-1252?Q?=F6r_kommunikation_dnr_627_2017?=
+Thread-Index: AQHTaPSNJeFFaf2mdECWp4Fl3FlarQ==
+Date: Wed, 29 Nov 2017 09:29:28 +0000
+Message-ID: <AM5PR0601MB238734A8C5B516B73009F36BEC3B0@AM5PR0601MB2387.eurprd06.prod.outlook.com>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: AM5PR0601MB2387.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id: 0dc32286-ad5a-4fea-2e8d-08d5370bb06a
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [192.71.76.144]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:AM5PR0601MB2452;H:AM5PR0601MB2387.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;;SKIP:1;
+x-ms-exchange-organization-originalclientipaddress: 192.71.76.144
+x-ms-exchange-organization-originalserveripaddress: 2a01:111:e400:52b7::38
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:xPCxhH/Fs3ikYcSUfy9b2oAqvkIiSdEGq9T3ZADi2Q/wUlEr12+qY/VgFhLzZ8Qg06d0IMR8/SCc5pgPnJ5HqdSDbrP/3u3VAywRGpJ8wtFk7L62TGobSeVypk7uvixC
+Content-Type: multipart/alternative;
+	boundary="_000_AM5PR0601MB238734A8C5B516B73009F36BEC3B0AM5PR0601MB2387_"
+MIME-Version: 1.0
+
+--_000_AM5PR0601MB238734A8C5B516B73009F36BEC3B0AM5PR0601MB2387_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:xPCxhH/Fs3ikYcSUfy9b2oAqvkIiSdEGq9T3ZADi2Q/wUlEr12+qY/VgFhLzZ8Qg06d0IMR8/SCc5pgPnJ5HqdSDbrP/3u3VAywRGpJ8wtFk7L62TGobSeVypk7uvixC
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hej,
+
+
+Med h=E4nvisning till det statliga ramavtalet Programvaror och tj=E4nster 2=
+014 =96 Informationsf=F6rs=F6rjning, dnr 96-35-2014, genomf=F6r Konkurrensv=
+erket en f=F6rnyad konkurrensuts=E4ttning enligt nedan angivna f=F6ruts=E4t=
+tningar.
+
+
+Konkurrensverket har behov av verktyg f=F6r enkel digital hantering av inko=
+mmande fr=E5gor och tips till myndigheten. Detta avrop =E4r tv=E5delat och =
+g=E4ller dels ett s=E5 kallat fr=E5geforum, dels ett systemst=F6d f=F6r e-p=
+osthantering. De tv=E5 delbehoven redovisas under avtalsomr=E5de A respekti=
+ve avtalsomr=E5de B nedan, detaljerade kravspecifikationer framg=E5r av avs=
+nitt 2 respektive avsnitt 3. Det =E4r m=F6jligt att l=E4mna avropssvar p=E5=
+ ett eller p=E5 b=E5da avtalsomr=E5dena i avropet. Det ska dock tydligt fra=
+mg=E5 vilket eller vilka av avtalsomr=E5dena avropssvaret avser. Avropssvar=
+ g=E4llande de b=E5da avtalsomr=E5dena kommer att utv=E4rderas separat och =
+det =E4r inte m=F6jligt l=E4mna villkorade avropssvar.
+
+
+F=F6r mer information: https://tendsign.com/doc.aspx?ID=3D127041&B=3DJg0YEP=
+KeVUUA
+
+
+Sista inl=E4mningsdag: 2017-12-11.
+
+
+
+
+Med v=E4nlig h=E4lsning,
+
+
+Aff=E4rskontoret
+
+Knowit AB
+
+
+________________________________
+Fr=E5n: noreply@tendsign.com <noreply@tendsign.com>
+Skickat: den 28 november 2017 13:16
+Till: Funktionsl=E5da KK-PT 2014
+=C4mne: F=F6rnyad konkurrensuts=E4ttning av digitala verktyg f=F6r kommunik=
+ation dnr 627 2017
+
+Hej,
+
+Konkurrensverket genomf=F6r en f=F6rnyad konkurrensuts=E4ttning med h=E4nvi=
+sning till det statliga ramavtalet Programvaror och tj=E4nster 2014 =96 Inf=
+ormationsf=F6rs=F6rjning.
+
+Avropet =E4r uppdelat i tv=E5 avtalsomr=E5den och g=E4ller dels ett s=E5 ka=
+llat fr=E5geforum, dels ett systemst=F6d f=F6r mejlhantering.
+F=F6r att ta del av avropsf=F6rfr=E5gan klicka p=E5 f=F6ljande l=E4nk:
+
+https://tendsign.com/doc.aspx?ID=3D127041&B=3DJg0YEPKeVUUA
+
+V=E4nliga h=E4lsningar
+
+KONKURRENSVERKET
+
+
+Anders Hemmingson
+Upphandling
+Telefon: +4687001509
+E-post: anders.hemmingson@kkv.se<mailto:anders.hemmingson@kkv.se>
+
+
+--_000_AM5PR0601MB238734A8C5B516B73009F36BEC3B0AM5PR0601MB2387_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:xPCxhH/Fs3ikYcSUfy9b2oAqvkIiSdEGq9T3ZADi2Q/wUlEr12+qY/VgFhLzZ8Qg06d0IMR8/SCc5pgPnJ5HqdSDbrP/3u3VAywRGpJ8wtFk7L62TGobSeVypk7uvixC
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size: 12pt; color: rgb(0, 0,=
+ 0); font-family: Calibri, Helvetica, sans-serif, Helvetica, EmojiFont, &qu=
+ot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, NotoColorEmoji, &qu=
+ot;Segoe UI Symbol&quot;, &quot;Android Emoji&quot;, EmojiSymbols;" dir=3D"=
+ltr">
+<p style=3D"margin-top:0;margin-bottom:0">Hej,</p>
+<p style=3D"margin-top:0;margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0;margin-bottom:0"><span>Med h=E4nvisning till det s=
+tatliga ramavtalet Programvaror och tj=E4nster 2014 =96 Informationsf=F6rs=
+=F6rjning, dnr 96-35-2014, genomf=F6r Konkurrensverket en f=F6rnyad konkurr=
+ensuts=E4ttning enligt nedan angivna f=F6ruts=E4ttningar.&nbsp;</span><br>
+</p>
+<p style=3D"margin-top:0;margin-bottom:0"><span><br>
+</span></p>
+<p style=3D"margin-top:0;margin-bottom:0"><span>Konkurrensverket har behov =
+av verktyg f=F6r enkel digital hantering av inkommande fr=E5gor och tips ti=
+ll myndigheten. Detta avrop =E4r tv=E5delat och g=E4ller dels ett s=E5 kall=
+at fr=E5geforum, dels ett systemst=F6d f=F6r e-posthantering.
+ De tv=E5 delbehoven redovisas under avtalsomr=E5de A respektive avtalsomr=
+=E5de B nedan, detaljerade kravspecifikationer framg=E5r av avsnitt 2 respe=
+ktive avsnitt 3. Det =E4r m=F6jligt att l=E4mna avropssvar p=E5 ett eller p=
+=E5 b=E5da avtalsomr=E5dena i avropet. Det ska dock tydligt
+ framg=E5 vilket eller vilka av avtalsomr=E5dena avropssvaret avser. Avrops=
+svar g=E4llande de b=E5da avtalsomr=E5dena kommer att utv=E4rderas separat =
+och det =E4r inte m=F6jligt l=E4mna villkorade avropssvar.&nbsp;</span><br>
+</p>
+<p style=3D"margin-top:0;margin-bottom:0"><span><br>
+</span></p>
+<p style=3D"margin-top:0;margin-bottom:0"><span>F=F6r mer information:&nbsp=
+;<a href=3D"https://tendsign.com/doc.aspx?ID=3D127041&amp;B=3DJg0YEPKeVUUA"=
+ class=3D"OWAAutoLink" id=3D"LPlnk790490" previewremoved=3D"true">https://t=
+endsign.com/doc.aspx?ID=3D127041&amp;B=3DJg0YEPKeVUUA</a></span></p>
+<p style=3D"margin-top:0;margin-bottom:0"><span><br>
+</span></p>
+<p style=3D"margin-top:0;margin-bottom:0"><span>Sista inl=E4mningsdag: 2017=
+-12-11.</span></p>
+<p style=3D"margin-top:0;margin-bottom:0"><span><br>
+</span></p>
+<p style=3D"margin-top:0;margin-bottom:0"><span><br>
+</span></p>
+<p style=3D"margin-top:0;margin-bottom:0"><br>
+</p>
+<div id=3D"Signature">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size: 12pt; color: rgb(0, 0,=
+ 0); background-color: rgb(255, 255, 255); font-family: Calibri, Arial, Hel=
+vetica, sans-serif, Helvetica, EmojiFont, &quot;Apple Color Emoji&quot;, &q=
+uot;Segoe UI Emoji&quot;, NotoColorEmoji, &quot;Segoe UI Symbol&quot;, &quo=
+t;Android Emoji&quot;, EmojiSymbols;">
+<p>Med v=E4nlig h=E4lsning,</p>
+<p><br>
+</p>
+<p>Aff=E4rskontoret</p>
+<p>Knowit AB</p>
+</div>
+</div>
+<br>
+<br>
+<div style=3D"color: rgb(0, 0, 0);">
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>Fr=E5n:</b> noreply@tendsign.co=
+m &lt;noreply@tendsign.com&gt;<br>
+<b>Skickat:</b> den 28 november 2017 13:16<br>
+<b>Till:</b> Funktionsl=E5da KK-PT 2014<br>
+<b>=C4mne:</b> F=F6rnyad konkurrensuts=E4ttning av digitala verktyg f=F6r k=
+ommunikation dnr 627 2017</font>
+<div>&nbsp;</div>
+</div>
+<div>Hej, <br>
+<br>
+Konkurrensverket genomf=F6r en f=F6rnyad konkurrensuts=E4ttning med h=E4nvi=
+sning till det statliga ramavtalet Programvaror och tj=E4nster 2014 =96 Inf=
+ormationsf=F6rs=F6rjning.<br>
+<br>
+Avropet =E4r uppdelat i tv=E5 avtalsomr=E5den och g=E4ller dels ett s=E5 ka=
+llat fr=E5geforum, dels ett systemst=F6d f=F6r mejlhantering.
+<br>
+F=F6r att ta del av avropsf=F6rfr=E5gan klicka p=E5 f=F6ljande l=E4nk: <br>
+<br>
+https://tendsign.com/doc.aspx?ID=3D127041&amp;B=3DJg0YEPKeVUUA<br>
+<br>
+V=E4nliga h=E4lsningar<br>
+<br>
+KONKURRENSVERKET<br>
+<br>
+<br>
+Anders Hemmingson<br>
+Upphandling<br>
+Telefon: &#43;4687001509<br>
+E-post: <a href=3D"mailto:anders.hemmingson@kkv.se">anders.hemmingson@kkv.s=
+e</a> <br>
+<br>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_AM5PR0601MB238734A8C5B516B73009F36BEC3B0AM5PR0601MB2387_--

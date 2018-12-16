@@ -1,0 +1,312 @@
+Received: from HE1PR06MB3211.eurprd06.prod.outlook.com (10.171.198.143) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.239.5 via Mailbox Transport; Thu, 23 Nov 2017 09:38:23 +0000
+Received: from AM5PR0601MB2339.eurprd06.prod.outlook.com (10.173.91.9) by
+ HE1PR06MB3211.eurprd06.prod.outlook.com (10.171.198.143) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.239.5; Thu, 23 Nov 2017 09:38:22 +0000
+Received: from AM5PR0601MB2387.eurprd06.prod.outlook.com (10.173.91.21) by
+ AM5PR0601MB2339.eurprd06.prod.outlook.com (10.173.91.9) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.239.5; Thu, 23 Nov 2017 09:38:22 +0000
+Received: from AM5PR0601MB2387.eurprd06.prod.outlook.com
+ ([fe80::5d85:6827:64b2:c615]) by AM5PR0601MB2387.eurprd06.prod.outlook.com
+ ([fe80::5d85:6827:64b2:c615%17]) with mapi id 15.20.0260.004; Thu, 23 Nov
+ 2017 09:38:22 +0000
+From: =?iso-8859-1?Q?Funktionsl=E5da_KK-PT_2014?= <kk-pt2014@knowit.se>
+To: =?iso-8859-1?Q?Bo-G=F6ran_Perlstr=F6m?= <bo-goran.perlstrom@knowit.se>,
+	=?iso-8859-1?Q?Thomas_Engstr=F6m?= <thomas.engstrom@knowit.se>,
+	=?iso-8859-1?Q?Nils-G=F6ran_Wirehn?= <Nils-Goran.Wirehn@knowit.se>, "Pia
+ Engwall" <Pia.Engwall@knowit.se>, Hans Reinikainen
+	<hans.reinikainen@knowit.se>, Christer Holman <christer.holman@knowit.se>,
+	Thomas Gustavsson <thomas.gustavsson@knowit.se>, Lisa Lind
+	<lisa.lind@knowit.se>, Erik Johansson <erik.johansson@knowit.se>, "Joakim
+ Jormelin" <joakim.jormelin@knowit.se>, Martin Skarp <martin.skarp@knowit.se>,
+	Kenneth Lyngshede <kenneth.lyngshede@knowit.se>,
+	=?iso-8859-1?Q?H=E5kan_Ramberg?= <Hakan.Ramberg@knowit.se>, Jonas Svensson
+	<Jonas.Svensson@knowit.se>, Thomas Wenngren <thomas.wenngren@knowit.se>,
+	Staffan Nilsson <Staffan.Nilsson@knowit.se>, =?iso-8859-1?Q?Axel_Holt=E5s?=
+	<Axel.Holtas@knowit.se>, Magnus Tauvon <Magnus.Tauvon@knowit.se>, Thomas Nord
+	<Thomas.Nord@knowit.se>, Mats Thorstenson <Mats.Thorstenson@knowit.se>,
+	Daniel Borgentun <daniel.borgentun@knowit.se>, Helen Lyhde Nial
+	<helen.lyhde.nial@knowit.se>, Kenneth Ericsson <kenneth.ericsson@knowit.se>,
+	=?iso-8859-1?Q?Michael_Fr=F6ling?= <Michael.Froling@knowit.se>,
+	=?iso-8859-1?Q?P=E4r_Nilsson?= <par.nilsson@knowit.se>, Johan Hallgren
+	<johan.hallgren@knowit.se>, =?iso-8859-1?Q?=C5sa_Schwarz?=
+	<asa.Schwarz@knowit.se>, Peter Lindstedt <Peter.Lindstedt@knowit.se>, "Tomas
+ Rimming" <tomas.rimming@knowit.se>, Henrik Serlow <henrik.serlow@knowit.se>,
+	=?iso-8859-1?Q?Anders_Ther=E9n?= <anders.theren@knowit.se>, Pernilla Snis
+	<pernilla.snis@knowit.se>, Mats Ohlsson <mats.ohlsson@knowit.se>, "Peder
+ Lundgren" <Peder.Lundgren@knowit.se>, Hanna Aspklint
+	<Hanna.Aspklint@knowit.se>, =?iso-8859-1?Q?H=E5kan_Als=E9n?=
+	<Hakan.Alsen@knowit.se>, Lars Erickson <lars.erickson@knowit.se>, "Emma
+ Tarandi" <Emma.Tarandi@knowit.se>, =?iso-8859-1?Q?M=E5ns_Hjertstrand?=
+	<Mans.Hjertstrand@knowit.se>, =?iso-8859-1?Q?Camilla_Land=E9n?=
+	<Camilla.Landen@knowit.se>, Nils Kumar <Nils.Kumar@knowit.se>, Urban Jonsson
+	<urban.jonsson@knowit.se>, =?iso-8859-1?Q?Pontus_Andr=E9?=
+	<Pontus.Andre@knowit.se>, Fredrik Eriksson <Fredrik.Eriksson@knowit.se>,
+	Magnus Witting <Magnus.Witting@knowit.se>, Johan Kuru <Johan.Kuru@knowit.se>,
+	=?iso-8859-1?Q?Nils-G=F6ran_Wirehn?= <Nils-Goran.Wirehn@knowit.se>, "Ulf
+ Johansson" <Ulf.Johansson@knowit.se>, =?iso-8859-1?Q?Maj_S=F6rensen-Ringi?=
+	<Maj.Sorensen-Ringi@knowit.se>, Thomas Wenngren <thomas.wenngren@knowit.se>,
+	Thomas Nord <Thomas.Nord@knowit.se>, Tomas Rimming <tomas.rimming@knowit.se>,
+	Sebastian Vidovic <sebastian.vidovic@knowit.se>, Rickard Alfredson
+	<Rickard.Alfredson@knowit.se>, Linus Larsson <Linus.Larsson@knowit.se>,
+	"Berit Vonstad" <Berit.Vonstad@knowit.se>, Linus Friborg
+	<linus.friborg@knowit.se>
+Subject: =?iso-8859-1?Q?F=F6rs=E4kringskassan:_Avrop_ETE_Support,_Licenser_och_tj?=
+ =?iso-8859-1?Q?=E4nster_049411-2017?=
+Thread-Topic: =?iso-8859-1?Q?F=F6rs=E4kringskassan:_Avrop_ETE_Support,_Licenser_och_tj?=
+ =?iso-8859-1?Q?=E4nster_049411-2017?=
+Thread-Index: AQHTZD7Ndhbv28+6HECgOP9Q25M+qw==
+Date: Thu, 23 Nov 2017 09:38:22 +0000
+Message-ID: <AM5PR0601MB23870480C36481CF0055912CEC210@AM5PR0601MB2387.eurprd06.prod.outlook.com>
+References: <20171122134826.A06251A489@relay.opic.com>,<AM5PR0602MB3331163BF2E5DE959F50EC26E9210@AM5PR0602MB3331.eurprd06.prod.outlook.com>
+In-Reply-To: <AM5PR0602MB3331163BF2E5DE959F50EC26E9210@AM5PR0602MB3331.eurprd06.prod.outlook.com>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: AM5PR0601MB2387.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id: 3bea861f-a66a-40ea-5f5b-08d53255eff7
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [192.71.76.144]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:AM5PR0601MB2339;H:AM5PR0601MB2387.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;;SKIP:1;
+x-ms-exchange-organization-originalclientipaddress: 192.71.76.144
+x-ms-exchange-organization-originalserveripaddress: 2a01:111:e400:52b7::19
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:bppNKwT/gM3cNGImaoTR1uqpRnP8Qu6Q9od2+xSchkRfQInNdxi1Dv02jWHwhvVPkdDkRDlDTYUEOb3nV+UBlJPrzHo1D4KDFV0RHqqA9HTpUEBk7WUUUWIJ6P3UA4av
+Content-Type: multipart/alternative;
+	boundary="_000_AM5PR0601MB23870480C36481CF0055912CEC210AM5PR0601MB2387_"
+MIME-Version: 1.0
+
+--_000_AM5PR0601MB23870480C36481CF0055912CEC210AM5PR0601MB2387_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:bppNKwT/gM3cNGImaoTR1uqpRnP8Qu6Q9od2+xSchkRfQInNdxi1Dv02jWHwhvVPkdDkRDlDTYUEOb3nV+UBlJPrzHo1D4KDFV0RHqqA9HTpUEBk7WUUUWIJ6P3UA4av
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hej
+
+F=F6rs=E4kringskassan inbjuder till en f=F6rnyad konkurrensuts=E4ttning med=
+ anledning av ert ramavtal i gruppen "IT Programvaror och tj=E4nster - Syst=
+emutveckling".
+
+
+Avropsf=F6rfr=E5gan avser avseende befintlig grundinstallation av ETE (Easi=
+t Test Engine) och omfattar f=F6ljande: - Support inkl Uppgraderingar och u=
+ppdateringar - Konsulttj=E4nster/Expertst=F6d - Ut=F6kning av licenser avse=
+ende ny funktionalitet - Optioner
+
+
+
+F=F6r mer information: https://tendsign.com/doc.aspx?ID=3D126874&B=3Dm2ueko=
+7gIc4A
+
+
+Sista inl=E4mningsdag: 2017-12-04.
+
+
+Med v=E4nlig h=E4lsning,
+
+
+Aff=E4rskontoret
+
+Knowit AB
+
+
+________________________________
+Fr=E5n: Funktionsl=E5da off-upphandlingar
+Skickat: den 23 november 2017 10:32
+Till: Funktionsl=E5da KK-PT 2014
+=C4mne: VB: En f=F6rnyad konkurrensuts=E4ttning med anledning av ert ramavt=
+al i gruppen "IT Programvaror och tj=E4nster - Systemutveckling"
+
+
+https://tendsign.com/doc.aspx?ID=3D126874&B=3Dm2ueko7gIc4A
+
+
+Med v=E4nliga h=E4lsningar
+
+
+Aff=E4rskontoret, Knowit AB
+
+
+
+________________________________
+Fr=E5n: noreply@tendsign.com <noreply@tendsign.com>
+Skickat: den 22 november 2017 14:48
+Till: Funktionsl=E5da off-upphandlingar
+=C4mne: En f=F6rnyad konkurrensuts=E4ttning med anledning av ert ramavtal i=
+ gruppen "IT Programvaror och tj=E4nster - Systemutveckling"
+
+Vi vill uppm=E4rksamma er om att vi har en f=F6rnyad konkurrensuts=E4ttning=
+ som kan intressera ert f=F6retag. F=F6r att l=E4sa mer om den klicka p=E5 =
+f=F6ljande l=E4nk:
+
+OBSERVERA att det enda s=E4ttet att n=E5 annonsen =E4r via l=E4nken nedan.
+
+https://tendsign.com/doc.aspx?ID=3D126874&B=3Dm2ueko7gIc4A
+
+V=E4nliga h=E4lsningar
+
+F=F6rs=E4kringskassan
+
+
+Bengt Sj=F6din
+Ink=F6p F=F6rs=E4kringskassan
+Telefon: +46 10-11 870 59
+E-post: bengt.sjodin@forsakringskassan.se<mailto:bengt.sjodin@forsakringska=
+ssan.se>
+
+
+--_000_AM5PR0601MB23870480C36481CF0055912CEC210AM5PR0601MB2387_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:bppNKwT/gM3cNGImaoTR1uqpRnP8Qu6Q9od2+xSchkRfQInNdxi1Dv02jWHwhvVPkdDkRDlDTYUEOb3nV+UBlJPrzHo1D4KDFV0RHqqA9HTpUEBk7WUUUWIJ6P3UA4av
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;font=
+-family:Calibri,Helvetica,sans-serif;" dir=3D"ltr">
+<p style=3D"margin-top:0;margin-bottom:0">Hej</p>
+<p style=3D"margin-top:0;margin-bottom:0"><span>F=F6rs=E4kringskassan inbju=
+der till en f=F6rnyad konkurrensuts=E4ttning med anledning av ert ramavtal =
+i gruppen &quot;IT Programvaror och tj=E4nster - Systemutveckling&quot;.</s=
+pan><br>
+</p>
+<p style=3D"margin-top:0;margin-bottom:0"><span><br>
+</span></p>
+<p style=3D"margin-top:0;margin-bottom:0"><span><span>Avropsf=F6rfr=E5gan a=
+vser avseende befintlig grundinstallation av ETE (Easit Test Engine) och om=
+fattar f=F6ljande: - Support inkl Uppgraderingar och uppdateringar - Konsul=
+ttj=E4nster/Expertst=F6d - Ut=F6kning av licenser
+ avseende ny funktionalitet - Optioner&nbsp;</span><br>
+</span></p>
+<p style=3D"margin-top:0;margin-bottom:0"><span><br>
+</span></p>
+<p style=3D"margin-top:0;margin-bottom:0"><span><br>
+</span></p>
+<p style=3D"margin-top:0;margin-bottom:0"><span>F=F6r mer information:&nbsp=
+;<a href=3D"https://tendsign.com/doc.aspx?ID=3D126874&amp;B=3Dm2ueko7gIc4A"=
+ class=3D"OWAAutoLink" id=3D"LPlnk844497" previewremoved=3D"true">https://t=
+endsign.com/doc.aspx?ID=3D126874&amp;B=3Dm2ueko7gIc4A</a></span></p>
+<p style=3D"margin-top:0;margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0;margin-bottom:0">Sista inl=E4mningsdag: 2017-12-04=
+.</p>
+<p style=3D"margin-top:0;margin-bottom:0"><br>
+</p>
+<div id=3D"Signature">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size: 12pt; color: rgb(0, 0,=
+ 0); background-color: rgb(255, 255, 255); font-family: Calibri, Arial, Hel=
+vetica, sans-serif, Helvetica, EmojiFont, &quot;Apple Color Emoji&quot;, &q=
+uot;Segoe UI Emoji&quot;, NotoColorEmoji, &quot;Segoe UI Symbol&quot;, &quo=
+t;Android Emoji&quot;, EmojiSymbols;">
+<p>Med v=E4nlig h=E4lsning,</p>
+<p><br>
+</p>
+<p>Aff=E4rskontoret</p>
+<p>Knowit AB</p>
+</div>
+</div>
+<br>
+<br>
+<div style=3D"color: rgb(0, 0, 0);">
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>Fr=E5n:</b> Funktionsl=E5da off=
+-upphandlingar<br>
+<b>Skickat:</b> den 23 november 2017 10:32<br>
+<b>Till:</b> Funktionsl=E5da KK-PT 2014<br>
+<b>=C4mne:</b> VB: En f=F6rnyad konkurrensuts=E4ttning med anledning av ert=
+ ramavtal i gruppen &quot;IT Programvaror och tj=E4nster - Systemutveckling=
+&quot;</font>
+<div>&nbsp;</div>
+</div>
+<div dir=3D"ltr">
+<div id=3D"x_divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size:12pt; col=
+or:#000000; font-family:Calibri,Helvetica,sans-serif">
+<p style=3D"margin-top:0; margin-bottom:0"><a href=3D"https://tendsign.com/=
+doc.aspx?ID=3D126874&amp;B=3Dm2ueko7gIc4A" class=3D"OWAAutoLink" id=3D"LPln=
+k207023" previewremoved=3D"true">https://tendsign.com/doc.aspx?ID=3D126874&=
+amp;B=3Dm2ueko7gIc4A</a><br>
+</p>
+<p style=3D"margin-top:0; margin-bottom:0"><br>
+</p>
+<div id=3D"x_Signature">
+<div id=3D"x_divtagdefaultwrapper" dir=3D"ltr" style=3D"font-size:12pt; col=
+or:rgb(0,0,0); background-color:rgb(255,255,255); font-family:Calibri,Arial=
+,Helvetica,sans-serif,Helvetica,EmojiFont,&quot;Apple Color Emoji&quot;,&qu=
+ot;Segoe UI Emoji&quot;,NotoColorEmoji,&quot;Segoe UI Symbol&quot;,&quot;An=
+droid Emoji&quot;,EmojiSymbols">
+<p><span id=3D"x_ms-rterangepaste-start"></span></p>
+<p style=3D"font-family:Calibri,Arial,Helvetica,sans-serif; font-size:16px"=
+>Med v=E4nliga h=E4lsningar</p>
+<p style=3D"font-family:Calibri,Arial,Helvetica,sans-serif; font-size:16px"=
+><br>
+</p>
+<p style=3D"font-family:Calibri,Arial,Helvetica,sans-serif; font-size:16px"=
+>Aff=E4rskontoret, Knowit AB</p>
+<br style=3D"font-family:Calibri,Arial,Helvetica,sans-serif; font-size:16px=
+">
+<p></p>
+<p><span id=3D"x_ms-rterangepaste-end"></span></p>
+</div>
+</div>
+<br>
+<br>
+<div style=3D"color:rgb(0,0,0)">
+<hr tabindex=3D"-1" style=3D"display:inline-block; width:98%">
+<div id=3D"x_divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" =
+color=3D"#000000" style=3D"font-size:11pt"><b>Fr=E5n:</b> noreply@tendsign.=
+com &lt;noreply@tendsign.com&gt;<br>
+<b>Skickat:</b> den 22 november 2017 14:48<br>
+<b>Till:</b> Funktionsl=E5da off-upphandlingar<br>
+<b>=C4mne:</b> En f=F6rnyad konkurrensuts=E4ttning med anledning av ert ram=
+avtal i gruppen &quot;IT Programvaror och tj=E4nster - Systemutveckling&quo=
+t;</font>
+<div>&nbsp;</div>
+</div>
+<div>Vi vill uppm=E4rksamma er om att vi har en f=F6rnyad konkurrensuts=E4t=
+tning som kan intressera ert f=F6retag. F=F6r att l=E4sa mer om den klicka =
+p=E5 f=F6ljande l=E4nk:<br>
+<br>
+OBSERVERA att det enda s=E4ttet att n=E5 annonsen =E4r via l=E4nken nedan.<=
+br>
+<br>
+https://tendsign.com/doc.aspx?ID=3D126874&amp;B=3Dm2ueko7gIc4A<br>
+<br>
+V=E4nliga h=E4lsningar<br>
+<br>
+F=F6rs=E4kringskassan<br>
+<br>
+<br>
+Bengt Sj=F6din<br>
+Ink=F6p F=F6rs=E4kringskassan<br>
+Telefon: &#43;46 10-11 870 59<br>
+E-post: <a href=3D"mailto:bengt.sjodin@forsakringskassan.se">bengt.sjodin@f=
+orsakringskassan.se</a>
+<br>
+<br>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_AM5PR0601MB23870480C36481CF0055912CEC210AM5PR0601MB2387_--

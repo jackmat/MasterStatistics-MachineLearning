@@ -1,0 +1,477 @@
+Received: from AM5PR0602MB2962.eurprd06.prod.outlook.com (10.175.43.140) by
+ HE1PR0602MB2971.eurprd06.prod.outlook.com (10.175.33.137) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.386.5 via Mailbox Transport; Tue, 9 Jan 2018 12:55:00 +0000
+Received: from AM0PR0602MB3442.eurprd06.prod.outlook.com (52.133.48.160) by
+ AM5PR0602MB2962.eurprd06.prod.outlook.com (10.175.43.140) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.386.5; Tue, 9 Jan 2018 12:55:00 +0000
+Received: from AM0PR0602MB3441.eurprd06.prod.outlook.com (52.133.48.159) by
+ AM0PR0602MB3442.eurprd06.prod.outlook.com (52.133.48.160) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.386.5; Tue, 9 Jan 2018 12:54:59 +0000
+Received: from AM0PR0602MB3441.eurprd06.prod.outlook.com
+ ([fe80::fd02:2c78:2164:f216]) by AM0PR0602MB3441.eurprd06.prod.outlook.com
+ ([fe80::fd02:2c78:2164:f216%13]) with mapi id 15.20.0386.009; Tue, 9 Jan 2018
+ 12:54:59 +0000
+From: Jens Wintzer <Jens.Wintzer@knowit.se>
+To: funk-kam-lf <lf-konsult@knowit.se>
+Subject: =?iso-8859-1?Q?VB:_18002_Webbredakt=F6r?=
+Thread-Topic: =?iso-8859-1?Q?18002_Webbredakt=F6r?=
+Thread-Index: AdOJSCiTsIwZCVacSfis8BxWVL2YBgAAMjgg
+Date: Tue, 9 Jan 2018 12:54:59 +0000
+Message-ID: <AM0PR0602MB344177416826435C03227BCD97100@AM0PR0602MB3441.eurprd06.prod.outlook.com>
+References: <61f36370096f4e1190ee8aeb8fd4bcf3@E75L0004.lfad.lfnet.se>
+In-Reply-To: <61f36370096f4e1190ee8aeb8fd4bcf3@E75L0004.lfad.lfnet.se>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: AM0PR0602MB3441.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-Network-Message-Id: e9264c4d-9a67-4cd1-f6de-08d557603157
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [192.71.76.144]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:AM0PR0602MB3442;H:AM0PR0602MB3441.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;;SKIP:1;
+x-ms-exchange-organization-originalclientipaddress: 192.71.76.144
+x-ms-exchange-organization-originalserveripaddress: 25.169.145.146
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0602MB2971;27:Hd5zDqPfispwi5V3IehreOmIga5X42u2YZRnk/CVvuiXl1b+EVwjgZDJcm6d4/9ibq6XOTx2UABQiWUUiCdyrqJuAWlEDDkAW29Wn5EJhE7wt9ohfrfwH66+xdMx/8ML
+X-Microsoft-Antispam-Message-Info: a0gtPpPhQvmBtWhHn2c4pO4iwxkgmSHzE0lae68SaqKS15kgQ4uADBeccDqi7QqaQZZmwcjRoZmdXgPqm7KcZj6bU26v2FJLsUNDIHiSZhc=
+Content-Type: multipart/alternative;
+	boundary="_000_AM0PR0602MB344177416826435C03227BCD97100AM0PR0602MB3441_"
+MIME-Version: 1.0
+
+--_000_AM0PR0602MB344177416826435C03227BCD97100AM0PR0602MB3441_
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0602MB2971;27:Hd5zDqPfispwi5V3IehreOmIga5X42u2YZRnk/CVvuiXl1b+EVwjgZDJcm6d4/9ibq6XOTx2UABQiWUUiCdyrqJuAWlEDDkAW29Wn5EJhE7wt9ohfrfwH66+xdMx/8ML
+X-Microsoft-Antispam-Message-Info: a0gtPpPhQvmBtWhHn2c4pO4iwxkgmSHzE0lae68SaqKS15kgQ4uADBeccDqi7QqaQZZmwcjRoZmdXgPqm7KcZj6bU26v2FJLsUNDIHiSZhc=
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Hej,
+
+
+
+LF s=F6ker en konsult enligt nedan:
+
+
+
+Roll/niv=E5
+
+Webbredakt=F6r
+
+Kort beskrivning av projektet och arbetsuppgifter
+
+L=E4nsf=F6rs=E4kringar har precis lanserat ett nytt modernt intran=E4t. Vi =
+beh=F6ver nu dig som i rollen som webbredakt=F6r ska se till att v=E5rt int=
+ran=E4t ger ett v=E4rde till v=E5ra medarbetare genom att alltid vara uppda=
+terat och relevant. Du arbetar med att skapa nytt inneh=E5ll, g=F6ra till=
+=E4gg, uppdatera sidor och byta ut dokument p=E5 intran=E4tet. Du st=F6djer=
+ =E4ven organisationen med fr=E5gor kring Episerver och funktionalitet samt=
+ s=F6koptimering. Du arbetar b=E5de proaktivt och p=E5 uppdrag fr=E5n organ=
+isationen samt tillsammans med =F6vriga medarbetare p=E5 Kommunikationsavde=
+lningen f=F6r att skapa Sveriges b=E4sta intran=E4t.
+
+Kompetenskrav
+
+*       Utbildning inom media och kommunikation
+*       Flera =E5rs erfarenhet av att arbeta med kommunikation i digitala k=
+analer.
+*       Erfarenhet av att arbeta med CMS-systemet Episerver
+*       Goda kunskaper av att arbeta med intran=E4t och s=F6koptimering.
+*       En f=F6rdel =E4r om du har erfarenhet fr=E5n bank- och f=F6rs=E4kri=
+ngsbranschen.
+*       Som person - strukturerad, l=F6sningsorienterad och f=F6rtroendeing=
+ivande samt l=E4tt att samarbeta och hitta l=F6sningar tillsammans med andr=
+a.
+
+=D6nskat startdatum
+
+Omg=E5ende
+
+=D6nskat slutdatum
+
+6 m=E5nader med m=F6jlighet till f=F6rl=E4ngning
+
+Omfattning (% av heltid)
+
+100%
+
+
+
+Svar =F6nskas s=E5 snart som m=F6jligt. Pris & motivering..
+
+
+
+Mvh
+
+
+
+Jens Wintzer
+
+
+
+
+--_000_AM0PR0602MB344177416826435C03227BCD97100AM0PR0602MB3441_
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0602MB2971;27:Hd5zDqPfispwi5V3IehreOmIga5X42u2YZRnk/CVvuiXl1b+EVwjgZDJcm6d4/9ibq6XOTx2UABQiWUUiCdyrqJuAWlEDDkAW29Wn5EJhE7wt9ohfrfwH66+xdMx/8ML
+X-Microsoft-Antispam-Message-Info: a0gtPpPhQvmBtWhHn2c4pO4iwxkgmSHzE0lae68SaqKS15kgQ4uADBeccDqi7QqaQZZmwcjRoZmdXgPqm7KcZj6bU26v2FJLsUNDIHiSZhc=
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParag=
+raphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListPar=
+agraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagra=
+phCxSpLast
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.E-postmall19
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.E-postmall20
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:510728219;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-381010948 69009409 69009411 69009413 69009409 69009=
+411 69009413 69009409 69009411 69009413;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"SV" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Hej,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">LF s=F6ker en konsult enligt nedan:<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"margin-left:5.4pt;border-collapse:collapse">
+<tbody>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot=
+;,sans-serif">Roll/niv=E5<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">W=
+ebbredakt=F6r<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot=
+;,sans-serif">Kort beskrivning av projektet och arbetsuppgifter<o:p></o:p><=
+/span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">L=
+=E4nsf=F6rs=E4kringar har precis lanserat ett nytt modernt intran=E4t. Vi b=
+eh=F6ver nu dig som i rollen som webbredakt=F6r ska se till att v=E5rt intr=
+an=E4t ger ett v=E4rde till v=E5ra medarbetare genom att alltid
+ vara uppdaterat och relevant. Du arbetar med att skapa nytt inneh=E5ll, g=
+=F6ra till=E4gg, uppdatera sidor och byta ut dokument p=E5 intran=E4tet. Du=
+ st=F6djer =E4ven organisationen med fr=E5gor kring Episerver och funktiona=
+litet samt s=F6koptimering. Du arbetar b=E5de proaktivt
+ och p=E5 uppdrag fr=E5n organisationen samt tillsammans med =F6vriga medar=
+betare p=E5 Kommunikationsavdelningen f=F6r att skapa Sveriges b=E4sta intr=
+an=E4t.<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot=
+;,sans-serif">Kompetenskrav<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpFirst" style=3D"margin-top:6.0pt;margin-bo=
+ttom:6.0pt;margin-left:0cm;mso-add-space:auto;mso-list:l0 level1 lfo2;text-=
+autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">U=
+tbildning inom media och kommunikation<o:p></o:p></span></li><li class=3D"M=
+soListParagraphCxSpMiddle" style=3D"margin-top:6.0pt;margin-bottom:6.0pt;ma=
+rgin-left:0cm;mso-add-space:auto;mso-list:l0 level1 lfo2;text-autospace:non=
+e">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">F=
+lera =E5rs erfarenhet av att arbeta med kommunikation i digitala kanaler.<o=
+:p></o:p></span></li><li class=3D"MsoListParagraphCxSpMiddle" style=3D"marg=
+in-top:6.0pt;margin-bottom:6.0pt;margin-left:0cm;mso-add-space:auto;mso-lis=
+t:l0 level1 lfo2;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">E=
+rfarenhet av att arbeta med CMS-systemet Episerver<o:p></o:p></span></li><l=
+i class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-top:6.0pt;margin-bot=
+tom:6.0pt;margin-left:0cm;mso-add-space:auto;mso-list:l0 level1 lfo2;text-a=
+utospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">G=
+oda kunskaper av att arbeta med intran=E4t och s=F6koptimering.<o:p></o:p><=
+/span></li><li class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-top:6.0=
+pt;margin-bottom:6.0pt;margin-left:0cm;mso-add-space:auto;mso-list:l0 level=
+1 lfo2;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">E=
+n f=F6rdel =E4r om du har erfarenhet fr=E5n bank- och f=F6rs=E4kringsbransc=
+hen.<o:p></o:p></span></li><li class=3D"MsoListParagraphCxSpLast" style=3D"=
+margin-top:6.0pt;margin-bottom:6.0pt;margin-left:0cm;mso-add-space:auto;mso=
+-list:l0 level1 lfo2;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">S=
+om person - strukturerad, l=F6sningsorienterad och f=F6rtroendeingivande sa=
+mt l=E4tt att samarbeta och hitta l=F6sningar tillsammans med andra.<o:p></=
+o:p></span></li></ul>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot=
+;,sans-serif">=D6nskat startdatum<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">O=
+mg=E5ende <o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot=
+;,sans-serif">=D6nskat slutdatum<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">6=
+ m=E5nader med m=F6jlighet till f=F6rl=E4ngning<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot=
+;,sans-serif">Omfattning (% av heltid)<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">1=
+00%<o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Svar =F6nskas s=E5 snart som m=F6jligt. Pris &amp; m=
+otivering..<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Mvh<o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:SV"><o:p>&nbsp;<=
+/o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:SV">Jens Wintzer=
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_AM0PR0602MB344177416826435C03227BCD97100AM0PR0602MB3441_--

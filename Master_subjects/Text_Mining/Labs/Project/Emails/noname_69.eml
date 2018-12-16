@@ -1,0 +1,94 @@
+Received: from HE1PR0602MB2970.eurprd06.prod.outlook.com (10.175.33.136) by
+ HE1PR0602MB2971.eurprd06.prod.outlook.com (10.175.33.137) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.366.8 via Mailbox Transport; Wed, 3 Jan 2018 13:50:31 +0000
+Received: from HE1PR0602MB2809.eurprd06.prod.outlook.com (10.175.31.21) by
+ HE1PR0602MB2970.eurprd06.prod.outlook.com (10.175.33.136) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.366.8; Wed, 3 Jan 2018 13:50:31 +0000
+Received: from HE1PR0602MB2809.eurprd06.prod.outlook.com (10.175.31.21) by
+ HE1PR0602MB2809.eurprd06.prod.outlook.com (10.175.31.21) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.366.8; Wed, 3 Jan 2018 13:50:28 +0000
+Received: from HE1PR0602MB2809.eurprd06.prod.outlook.com
+ ([fe80::5869:f63e:b499:6063]) by HE1PR0602MB2809.eurprd06.prod.outlook.com
+ ([fe80::5869:f63e:b499:6063%18]) with mapi id 15.20.0366.009; Wed, 3 Jan 2018
+ 13:50:28 +0000
+From: Thomas Wenngren <thomas.wenngren@knowit.se>
+To: funk-affarsansvariga <funk-affarsansvariga@knowit.se>
+Subject: =?utf-8?B?Rlc6IEFJWCBvIFNvbGFyaXMgLSBrb25zdWx0c3TDtmQ=?=
+Thread-Topic: =?utf-8?B?QUlYIG8gU29sYXJpcyAtIGtvbnN1bHRzdMO2ZA==?=
+Thread-Index: AQHTgIBSGHAvUufi+0aWXPE7hZuyDqNiQ2GA
+Date: Wed, 3 Jan 2018 13:50:28 +0000
+Message-ID: <652F0482-94E9-4199-B091-B37A1A524819@knowit.se>
+References: <8f43f56b34c742e595c4bb3f0a80560c@mail.pliktverket.se>
+In-Reply-To: <8f43f56b34c742e595c4bb3f0a80560c@mail.pliktverket.se>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: HE1PR0602MB2809.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-Network-Message-Id: e019abc7-1c45-49ef-f29a-08d552b0f2ff
+X-Message-Flag: Follow up
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+user-agent: Microsoft-MacOutlook/f.29.0.171205
+x-originating-ip: [94.255.190.18]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:HE1PR0602MB2809;H:HE1PR0602MB2809.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;;SKIP:1;
+x-ms-exchange-organization-originalclientipaddress: 94.255.190.18
+x-ms-exchange-organization-originalserveripaddress: ::1
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0602MB2971;27:Fe+W56xSTVmMyKfolkQhpvrIHJiLt2fwUAzAQC/6cqunqbmL4AsE1q96r/VlK1e6GTXdz6ckgIqIY50jht/dUyTHrPTUIuiLE4OATzsApP19lP33I/yjn8FoWV61FtC8
+X-Microsoft-Antispam-Message-Info: K/+i+9Qy4bkuAV93voh/nvtHzmY9X+deZTnmJiJSZOApiV7BxiIs9V95sxAIL71rHE3jrId/wEKYIgia5BeUnr7LgURcs6QFgyUmaum/rFY=
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <B2E81ADA2BD757469C1B491B4BED793C@eurprd06.prod.outlook.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+SGVqIG9jaCBnb2QgZm9ydHPDpHR0bmluZyENCg0KUmVrcnl0ZXJpbmdzbXluZGlnaGV0ZW4gaGFy
+IGJlaG92IGVubGlndCBuZWRhbi4gRGUgaGFyIGluZ2VuIGtsYXIgdXBwZmF0dG5pbmcgb20gdXBw
+ZHJhZ2V0cyBsw6RuZ2QuDQrDhXRlcmtvbSB0aWxsIG1pZyBtZWQgQ1Ygb20gZHUgaGFyIGt2YWxp
+ZmljZXJhZCBrYW5kaWRhdC4gVGltcHJpcyA5NTA6LSBww6UgcGxhdHMgaSBLYXJsc3RhZC4NCg0K
+SMOkbHNuaW5nYXINCg0KVGhvbWFzIFdlbm5ncmVuIHDDpSBLbm93aXQNClZELCBLbm93aXQgS2Fy
+bHN0YWQgQUINCg0K4oCiIOKAoiDigKIg4oCiIOKAoiDigKIg4oCiIOKAoiDigKIg4oCiIOKAoiDi
+gKIg4oCiIOKAoiDigKIg4oCiIOKAoiDigKIg4oCiIOKAoiDigKIg4oCiIOKAoiDigKIg4oCiIOKA
+oiDigKIg4oCiIOKAoiDigKIg4oCiIOKAoiDigKINCktub3dpdCBLYXJsc3RhZCBBQg0KVHVsbGh1
+c2dhdGFuIDFCLCBTRS02NTIgMjYgIEthcmxzdGFkLCBTd2VkZW4NCis0NjcwIDUzMSA2NiAzMSAg
+fCAgKzQ2OCA3MDAgNjYgMDANCmh0dHA6Ly93d3cua25vd2l0LnNlIDxodHRwOi8vd3d3Lmtub3dp
+dC5zZS8+IHwgaHR0cDovL3d3dy5rbm93aXQuc2UvZmFjZWJvb2sgfCBodHRwOi8vd3d3Lmtub3dp
+dC5zZS9MaW5rZWRpbg0KDQoNCg0KRGVuIDIwMTctMTItMjkgMDk6Mzcgc2tyZXYgIlPDtmRlcmJs
+b20gQ2hyaXN0aWFuIiA8Q2hyaXN0aWFuLlNvZGVyYmxvbUByZWtyeXRlcmluZ3NteW5kaWdoZXRl
+bi5zZT4gZsO2bGphbmRlOg0KDQogICAgSGVqIFRob21hcyEgVmkgYmVow7Z2ZXIga29uc3VsdGhq
+w6RscCBvbSBkdSBoYXIgcmVzdXJzZXIgbWVkIHLDpHR0IGtvbXBldGVucy4NCiAgICBBdnJvcCBt
+ZWQgc3RhcnQgc25hcmFzdCBvY2ggbMO2cGFuZGUgdGltbWUuDQogICAgSmFnIGJlaMO2dmVyIHN2
+YXIgc25hYmJ0IGbDtnIgYXR0IGt1bm5hIGxldGEgdmlkYXJlIG9tIG5pIGludGUga2FuLg0KICAg
+IFVwcGRyYWdldCDDpHIgZW5saWd0IGJlc2tyaXZuaW5nIG5lZGFuLg0KICAgIEdvdHQgTnl0dCDD
+hXIhDQoNCiAgICBGw7ZyIFNvbGFyaXM6DQoNCiAgICBTeWZ0ZXQgw6RyIGF0dCBmw6UgUGxpcyBh
+dHQgZnVuZ2VyYSBpIGVuIG1vZGVybiBXaW5kb3dzbWlsasO2LiBBbmxlZG5pbmdlbiB0aWxsIFNv
+bGFyaXMgw6RyIGF0dCBkZXQgdmlkIGRlbiB0aWRwdW5rdGVuIHZhciBkZXQgZW5kYSBPUyBzb20g
+a3VuZGUgaGFudGVyYSA2NC1iaXQgSmF2YSB2aWxrZXQga3LDpHZkZXMgZsO2ciBhdHQga3VubmEg
+a8O2cmEgUGxpcyBpIGFwcGxpa2F0aW9uc3NlcnZlcm4gR2xhc3NGaXNoIDIuMS4NCg0KICAgIERh
+Z2VucyBtaWxqw7Ygw6RyDQoNCiAgICDigKIgICAgICAgICBPcGVyYXRpdnN5c3RlbSBTb2xhcmlz
+DQoNCiAgICDigKIgICAgICAgICBKYXZhIDEuNg0KDQogICAg4oCiICAgICAgICAgR2xhc3NGaXNo
+IDIuMS4xDQoNCiAgICBNw6VsbWlsasO2IMOkcg0KDQogICAg4oCiICAgICAgICAgV2luZG93cyBT
+ZXJ2ZXIgMjAxNiAoRsO2cnN0YSBzdGVnZXQgV2luZG93cyA3LzEwKQ0KDQogICAg4oCiICAgICAg
+ICAgSmF2YSA4DQoNCiAgICDigKIgICAgICAgICBQYXlhcmEgNC4xDQoNCiAgICBJIGbDtnJzdGEg
+aGFuZCB1bmRlcnPDtmthIG9tIGRldCBnw6VyIGF0dCBkaXJla3Qga8O2cmEgUGxpcyAuZWFyLWZp
+bGVyIGkgUGF5YXJhLg0KICAgIEkgYW5kcmEgaGFuZCB1bmRlcnPDtmthIG3DtmpsaWdoZXRlcm5h
+IGF0dCBieXRhIHRpbGwgSmF2YSA4IGbDtnIgdXR2ZWNrbGluZy4NCiAgICBJIHRyZWRqZSBoYW5k
+IHVuZGVyc8O2a2EgZW4gZmx5dHQgYXYgdXR2ZWNrbGluZ3NtaWxqw7ZuIHRpbGwgc2FtbWEgbsOk
+dCBzb20gZsO2ciBBdGxhcy4NCg0KDQogICAgRsO2ciBBSVg6DQoNCiAgICBTeWZ0ZXQgw6RyIGF0
+dCBhbnbDpG5kYSBJbmZvcm1peCBpIGVuIFdpbmRvd3MtbWlsasO2IGlzdMOkbGxldCBmw7ZyIGVu
+IEFJWC1taWxqw7YuIFPDpGtlcnN0w6RsbGEgYXR0IHZvbHltZXJuYSBrYW4gaGFudGVyYXMgaSBX
+aW5kb3dzLg0KDQogICAgT20gc3RlZyAyIG9jaCAzIGbDtnIgU29sYXJpcyBnw6VyIGJyYSBrYW4g
+ZW4gdXRyZWRuaW5nIGfDtnJhcyBvbSBhdHQgYXZ2ZWNrbGEgQUlYIHNvbSB1dHZlY2tsaW5nc21p
+bGrDti4NCg0KICAgIFbDpG5saWdhIGjDpGxzbmluZ2FyLA0KICAgIENocmlzdGlhbiBTw7ZkZXJi
+bG9tDQogICAgX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fX19fXw0KICAg
+IElULWNoZWYNCiAgICBUZm4gMDEwLTgyMSAxMSA0Mzx0ZWw6MDEwLTgyMSUyMDExJTIwNDM+DQoN
+CiAgICBUb3RhbGbDtnJzdmFyZXRzIHJla3J5dGVyaW5nc215bmRpZ2hldA0KICAgIEthcm9saW5l
+bg0KICAgIDY1MSA4MCBLYXJsc3RhZA0KICAgIFRlbGVmb246IDA3NzEtMjQgNDAgMDA8dGVsOjA3
+NzEtMjQlMjA0MCUyMDAwPiAodsOkeGVsKQ0KDQoNCiAgICBUw6RuayBww6UgbWlsasO2biAtIHNr
+cml2IGludGUgdXQgZS1wb3N0IGkgb27DtmRhbi4NCg0KDQo=

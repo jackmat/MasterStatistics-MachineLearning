@@ -1,0 +1,87 @@
+Received: from HE1PR06MB3211.eurprd06.prod.outlook.com (10.171.198.143) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.218.12 via Mailbox Transport; Wed, 15 Nov 2017 12:42:48 +0000
+Received: from VI1PR0602CA0004.eurprd06.prod.outlook.com
+ (2603:10a6:800:bc::14) by HE1PR06MB3211.eurprd06.prod.outlook.com
+ (2603:10a6:7:25::15) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.218.12; Wed, 15
+ Nov 2017 12:42:45 +0000
+Received: from VE1EUR03FT042.eop-EUR03.prod.protection.outlook.com
+ (2a01:111:f400:7e09::200) by VI1PR0602CA0004.outlook.office365.com
+ (2603:10a6:800:bc::14) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.239.5 via Frontend
+ Transport; Wed, 15 Nov 2017 12:42:45 +0000
+Received: from smtp-relay.telecomputing.se (84.17.192.147) by
+ VE1EUR03FT042.mail.protection.outlook.com (10.152.19.62) with Microsoft SMTP
+ Server (version=TLS1_0, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384) id
+ 15.20.218.12 via Frontend Transport; Wed, 15 Nov 2017 12:42:44 +0000
+Received: from z07ar1swb086.z07.tconet.net (HELO backoffice.eworkgroup.com) ([172.25.7.52])
+  by smtp-relay.telecomputing.se with ESMTP; 15 Nov 2017 13:42:44 +0100
+From: "karin.hedblom@eworkgroup.com" <karin.hedblom@eworkgroup.com>
+To: Urban Jonsson <urban.jonsson@knowit.se>
+Subject: Ework - Systemutvecklare .NET/ C# (17-11-2685)
+Thread-Topic: Ework - Systemutvecklare .NET/ C# (17-11-2685)
+Thread-Index: AQHTXg8+mhTcdo3iskOoIm3g2toZ1Q==
+Date: Wed, 15 Nov 2017 12:42:43 +0000
+Message-ID: <477577294.99186.1510749763982@smtp-relay.telecomputing.se>
+Content-Language: en-GB
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: VE1EUR03FT042.eop-EUR03.prod.protection.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id: d9177ab6-e3c4-4d02-f259-08d52c265ec5
+X-MS-Exchange-Organization-SCL: 1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-attachmentfilenames:
+received-spf: Pass (protection.outlook.com: domain of eworkgroup.com
+ designates 84.17.192.147 as permitted sender)
+ receiver=protection.outlook.com; client-ip=84.17.192.147;
+ helo=smtp-relay.telecomputing.se;
+authentication-results: spf=pass (sender IP is 84.17.192.147)
+ smtp.mailfrom=eworkgroup.com; knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=bestguesspass action=none
+ header.from=eworkgroup.com;
+x-forefront-antispam-report: CIP:84.17.192.147;IPV:NLI;CTRY:SE;EFV:NLI;SFV:NSPM;SFS:(6009001)(8156002)(2980300002)(438002)(189002)(377424004)(5423002)(199003)(5660300001)(88526003)(77096006)(2351001)(7636002)(106002)(5820100001)(106466001)(50466002)(8746002)(7596002)(63266004)(86362001)(305945005)(1096003)(1340700001)(104016004)(50986999)(4001150100001)(230783001)(8676002)(8656006)(356003)(189998001)(47776003)(246002)(45080400002)(2876002)(6916009)(6306002)(15003)(23676003)(86152003)(966005)(50226002)(9686003)(1720100001)(142923001);DIR:INB;SFP:;SCL:1;SRVR:HE1PR06MB3211;H:smtp-relay.telecomputing.se;FPR:;SPF:Pass;PTR:smtp-relay.telecomputing.se;MX:1;A:1;LANG:sv;
+x-ms-exchange-organization-originalclientipaddress: 84.17.192.147
+x-ms-exchange-organization-originalserveripaddress: 25.152.19.62
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:3jHI9pK/Yuz24ONFZ71PKGd3NngomO/fYf+leXZYn3wTCQSStRz5oyrtky+Cd+jEOksmYWbq9Tp79bYUcsuooEqxhkuUw9xreX22wgZp8+clB+cQIdSFAqkzK7GrA6Kk
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <85411239A9A5454B927EAD7FC673ACB8@eurprd06.prod.outlook.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+
+SGVqLA0KVmkgaGFyIGbDpXR0IGluIGV0dCB1cHBkcmFnIHNvbSBrYW4gcGFzc2EgZGlnIGVsbGVy
+IG7DpWdvbiBhdiBkaW5hIGtvbGxlZ29yLg0Kw4RyIGR1IGludHJlc3NlcmFkIGF2IGRldHRhIHVw
+cGRyYWc/IFbDpG5saWdlbiBza2lja2EgaW4gZGluIGFuc8O2a2FuIHRpbGwgb3NzOg0KaHR0cHM6
+Ly93d3cuZXdvcmtncm91cC5jb20vYXNzaWdubWVudC9ld29ya2lkLzEwMDI4MjY4NQ0KDQpTeXN0
+ZW11dHZlY2tsYXJlIC5ORVQvIEMjICgxNy0xMS0yNjg1KQ0KVGlsbCB2w6VyIGt1bmQgc8O2a2Vy
+IHZpIGVuIC5ORVQvQyMgdXR2ZWNrbGFyZSBmw7ZyIENvbW1vbiBTZXJ2aWNlIFRvb2wgKFdpbmRv
+d3MtYXBwbGlrYXRpb24gZsO2ciBzZXJ2aWNldGVrbmlrZXIgZsO2ciBmZWxzw7ZrbmluZy9maXJt
+d2FyZS1sYWRkbmluZyBhdiBwcm9kdWt0ZXIpLiANCg0KS29tcGV0ZW5za3JhdjoNCi0gU3lzdGVt
+dXR2ZWNrbGFyZSBpbm9tIC5ORVQgbWVkIG1pbnN0IHR2w6Ugw6VycyBlcmZhcmVuaGV0IGF2IGxp
+a25hbmRlIHVwcGRyYWcNCg0KU3RhcnRkYXR1bTogQVNBUA0KTMOkbmdkOiB0Lm8ubSAyMDE4LTAz
+LTMxIG1lZCBtw7ZqbGlnaGV0IHRpbGwgZsO2cmzDpG5nbmluZw0KUGxhdHM6IEh1c2t2YXJuYQ0K
+QXJiZXRzdGlkOiA4MC0xMDAgJQ0KU3Byw6VrOiBzdmVuc2thLCBlbmdlbHNrYQ0KDQpWw6RubGln
+ZW4gYW5zw7ZrIGRpcmVrdCB2aWEgdsOlcnQgc3lzdGVtIG1lZDoNCg0KICAgIC0gZGl0dCB1cHBk
+YXRlcmFkZSBDVg0KICAgIC0gdGltcHJpcyAoaW5rbC4gb21rb3N0bmFkZXIpDQogICAgLSBuYW1u
+IG9jaCB0ZWxlZm9ubnVtbWVyIHRpbGwgdHbDpSByZWZlcmVudGVyICh2aSBrb250YWt0YXIgZGlu
+YSByZWZlcmVuc2VyIGbDtnJzdCBlZnRlciBrb250YWt0IG1lZCBkaWcpDQogICAgLSBpbmZvcm1h
+dGlvbiBvbSBuw6RyIGR1IMOkciB0aWxsZ8OkbmdsaWcgZsO2ciBhdHQgcMOlYsO2cmphIHVwcGRy
+YWdldA0KICAgIC0gaSBtb3RpdmVyaW5nZW4gYmVza3JpdiB2YXJmw7ZyIGp1c3QgZHUgw6RyIGzD
+pG1wbGlnIGbDtnIgZGV0dGEgdXBwZHJhZyAtIGjDpG52aXNhIHRpbGwgdGlkaWdhcmUga29uc3Vs
+dHVwcGRyYWcsIGFuc3TDpGxsbmluZ2FyLCB1dGJpbGRuaW5nYXIgb2NoIHBlcnNvbmxpZ2EgZWdl
+bnNrYXBlci4NCg0KVmkgb2ZmZXJlcmFyIG9mdGEgbMO2cGFuZGUuIERldCBpbm5lYsOkciBhdHQg
+dmkgaWJsYW5kIHRhciBib3J0IHVwcGRyYWdldCBmcsOlbiB2w6VyIHdlYmJzaWRhIHRpZGlnYXJl
+IMOkbiBzaXN0YSBhbnPDtmtuaW5nc2RhZy4gw4RyIGR1IGludHJlc3NlcmFkIGF2IGV0dCB1cHBk
+cmFnIHJla29tbWVuZGVyYXIgdmkgZGlnIGF0dCBhbnPDtmthIG9tZ8OlZW5kZS4NCg0KUGxhdHM6
+IEh1c2t2YXJuYQ0KVXRhbm5vbnNlcmF0OiAyMDE3LTExLTE1DQpTZW5hc3RlIGFuc8O2a25pbmdz
+ZGF0dW06IEFTQVANCg0Kw4RyIGR1IGludHJlc3NlcmFkIGF2IGRldHRhIHByb2pla3Q/DQpWw6Ru
+bGlnZW4gc2tpY2thIGluIGRpbiBhbnPDtmthbiBww6Ugd2ViYmVuIHZpYSBkZW5uYSBsw6RuazoN
+Cmh0dHBzOi8vd3d3LmV3b3JrZ3JvdXAuY29tL2Fzc2lnbm1lbnQvZXdvcmtpZC8xMDAyODI2ODUN
+Cg0KRHUga2FuIGJvcnRzZSBpZnLDpW4gZGV0dGEgbWFpbCBvbSB1cHBkcmFnZXQgaW50ZSBwYXNz
+YXIgZGlnIGVsbGVyIG7DpWdvbiBhdiBkaW5hIGtvbGxlZ29yLg0KDQpNZWQgdsOkbmxpZyBow6Rs
+c25pbmcsDQpLYXJpbiBIZWRibG9tDQpFd29yayBHcm91cCBBQg0KDQprYXJpbi5oZWRibG9tQGV3
+b3JrZ3JvdXAuY29tDQpodHRwczovL3d3dy5ld29ya2dyb3VwLmNvbQ0KDQoNCkbDtmxqIG9zcyBw
+w6UgTGlua2VkSW46aHR0cDovL3NlLmxpbmtlZGluLmNvbS9jb21wYW55L2V3b3JrIA0K

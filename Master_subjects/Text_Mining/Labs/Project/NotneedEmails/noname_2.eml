@@ -1,0 +1,257 @@
+Received: from AM5PR06MB3202.eurprd06.prod.outlook.com (10.175.231.17) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.260.4 via Mailbox Transport; Thu, 30 Nov 2017 09:18:10 +0000
+Received: from DB5PR0601MB1926.eurprd06.prod.outlook.com (10.166.12.11) by
+ AM5PR06MB3202.eurprd06.prod.outlook.com (10.175.231.17) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.282.5; Thu, 30 Nov 2017 09:18:09 +0000
+Received: from DB5PR0601MB1927.eurprd06.prod.outlook.com (10.166.12.12) by
+ DB5PR0601MB1926.eurprd06.prod.outlook.com (10.166.12.11) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.260.4; Thu, 30 Nov 2017 09:18:07 +0000
+Received: from DB5PR0601MB1927.eurprd06.prod.outlook.com
+ ([fe80::e8a6:e0a6:966a:244e]) by DB5PR0601MB1927.eurprd06.prod.outlook.com
+ ([fe80::e8a6:e0a6:966a:244e%14]) with mapi id 15.20.0260.007; Thu, 30 Nov
+ 2017 09:18:07 +0000
+From: =?utf-8?B?RnVua3Rpb25zbMOlZGEgS0stUFQgMjAxNA==?= <kk-pt2014@knowit.se>
+To: Magnus Tauvon <Magnus.Tauvon@knowit.se>, Nils Kumar
+	<Nils.Kumar@knowit.se>, =?utf-8?B?Q2FtaWxsYSBMYW5kw6lu?=
+	<Camilla.Landen@knowit.se>, =?utf-8?B?TcOlbnMgSGplcnRzdHJhbmQ=?=
+	<Mans.Hjertstrand@knowit.se>, Emma Tarandi <Emma.Tarandi@knowit.se>, "Lars
+ Erickson" <lars.erickson@knowit.se>, Sebastian Vidovic
+	<sebastian.vidovic@knowit.se>, =?utf-8?B?SMOla2FuIEFsc8Opbg==?=
+	<Hakan.Alsen@knowit.se>, Hanna Aspklint <Hanna.Aspklint@knowit.se>, "Peder
+ Lundgren" <Peder.Lundgren@knowit.se>, Mats Ohlsson <mats.ohlsson@knowit.se>,
+	Pernilla Snis <pernilla.snis@knowit.se>, Henrik Serlow
+	<henrik.serlow@knowit.se>, Pia Engwall <Pia.Engwall@knowit.se>,
+	=?utf-8?B?Q2lhIMOWcnZpbGw=?= <Cia.orvill@knowit.se>, Daniel Borgentun
+	<daniel.borgentun@knowit.se>, =?utf-8?B?w4VzYSBIb2xtYmVyZw==?=
+	<asa.Holmberg@knowit.se>, Tomas Rimming <tomas.rimming@knowit.se>, "Peter
+ Lindstedt" <Peter.Lindstedt@knowit.se>, Kenneth Ericsson
+	<kenneth.ericsson@knowit.se>, =?utf-8?B?SsO4cm4gQWFiZXJn?=
+	<jorn.aaberg@knowit.no>, =?utf-8?B?UMOkciBOaWxzc29u?=
+	<par.nilsson@knowit.se>, Erik Johansson <erik.johansson@knowit.se>, "Staffan
+ Nilsson" <Staffan.Nilsson@knowit.se>, =?utf-8?B?QXhlbCBIb2x0w6Vz?=
+	<Axel.Holtas@knowit.se>, Johan Hallgren <johan.hallgren@knowit.se>,
+	=?utf-8?B?TWljaGFlbCBGcsO2bGluZw==?= <Michael.Froling@knowit.se>, "Thomas
+ Gustavsson" <thomas.gustavsson@knowit.se>, Thomas Wenngren
+	<thomas.wenngren@knowit.se>, Ola Ehrstedt <ola.ehrstedt@knowit.se>, "Hans
+ Reinikainen" <hans.reinikainen@knowit.se>, Kenneth Lyngshede
+	<kenneth.lyngshede@knowit.se>, Fredrik Grahn <Fredrik.Grahn@knowit.se>,
+	=?utf-8?B?Tmlscy1Hw7ZyYW4gV2lyZWhu?= <Nils-Goran.Wirehn@knowit.se>, "Thomas
+ Nord" <Thomas.Nord@knowit.se>, Dan Jacobsson <Dan.Jacobsson@knowit.se>, "Lisa
+ Lind" <lisa.lind@knowit.se>, =?utf-8?B?Qm8tR8O2cmFuIFBlcmxzdHLDtm0=?=
+	<bo-goran.perlstrom@knowit.se>, Jonas Svensson <Jonas.Svensson@knowit.se>,
+	Helen Lyhde Nial <helen.lyhde.nial@knowit.se>, Bertil Nordlund
+	<bertil.nordlund@knowit.se>, =?utf-8?B?TWFqIFPDtnJlbnNlbi1SaW5naQ==?=
+	<Maj.Sorensen-Ringi@knowit.se>, Urban Jonsson <urban.jonsson@knowit.se>,
+	=?utf-8?B?UG9udHVzIEFuZHLDqQ==?= <Pontus.Andre@knowit.se>,
+	=?utf-8?B?SGVsZW5hIEJqw7ZybmJlcmc=?= <Helena.Bjornberg@knowit.se>, "Jens
+ Wallentin" <Jens.Wallentin@knowit.se>, Fredrik Eriksson
+	<Fredrik.Eriksson@knowit.se>, Magnus Witting <Magnus.Witting@knowit.se>,
+	Johan Kuru <Johan.Kuru@knowit.se>, Ulf Johansson <Ulf.Johansson@knowit.se>,
+	Rickard Alfredson <Rickard.Alfredson@knowit.se>, Linus Larsson
+	<Linus.Larsson@knowit.se>, Berit Vonstad <Berit.Vonstad@knowit.se>,
+	=?utf-8?B?w4VzYSBTY2h3YXJ6?= <asa.Schwarz@knowit.se>, "info@candidator.se"
+	<info@candidator.se>, Linus Friborg <linus.friborg@knowit.se>,
+	=?utf-8?B?Qm8tR8O2cmFuIFBlcmxzdHLDtm0=?= <bo-goran.perlstrom@knowit.se>,
+	=?utf-8?B?VGhvbWFzIEVuZ3N0csO2bQ==?= <thomas.engstrom@knowit.se>,
+	=?utf-8?B?Tmlscy1Hw7ZyYW4gV2lyZWhu?= <Nils-Goran.Wirehn@knowit.se>, "Pia
+ Engwall" <Pia.Engwall@knowit.se>, Hans Reinikainen
+	<hans.reinikainen@knowit.se>, Christer Holman <christer.holman@knowit.se>,
+	Thomas Gustavsson <thomas.gustavsson@knowit.se>, Lisa Lind
+	<lisa.lind@knowit.se>, Erik Johansson <erik.johansson@knowit.se>, "Joakim
+ Jormelin" <joakim.jormelin@knowit.se>, Martin Skarp <martin.skarp@knowit.se>,
+	Kenneth Lyngshede <kenneth.lyngshede@knowit.se>,
+	=?utf-8?B?SMOla2FuIFJhbWJlcmc=?= <Hakan.Ramberg@knowit.se>, Jonas Svensson
+	<Jonas.Svensson@knowit.se>, Thomas Wenngren <thomas.wenngren@knowit.se>,
+	Staffan Nilsson <Staffan.Nilsson@knowit.se>, =?utf-8?B?QXhlbCBIb2x0w6Vz?=
+	<Axel.Holtas@knowit.se>, Magnus Tauvon <Magnus.Tauvon@knowit.se>, Thomas Nord
+	<Thomas.Nord@knowit.se>, Mats Thorstenson <Mats.Thorstenson@knowit.se>,
+	Daniel Borgentun <daniel.borgentun@knowit.se>, Helen Lyhde Nial
+	<helen.lyhde.nial@knowit.se>, Kenneth Ericsson <kenneth.ericsson@knowit.se>,
+	=?utf-8?B?TWljaGFlbCBGcsO2bGluZw==?= <Michael.Froling@knowit.se>,
+	=?utf-8?B?UMOkciBOaWxzc29u?= <par.nilsson@knowit.se>, Johan Hallgren
+	<johan.hallgren@knowit.se>, =?utf-8?B?w4VzYSBTY2h3YXJ6?=
+	<asa.Schwarz@knowit.se>, Peter Lindstedt <Peter.Lindstedt@knowit.se>, "Tomas
+ Rimming" <tomas.rimming@knowit.se>, Henrik Serlow <henrik.serlow@knowit.se>,
+	=?utf-8?B?QW5kZXJzIFRoZXLDqW4=?= <anders.theren@knowit.se>, Pernilla Snis
+	<pernilla.snis@knowit.se>, Mats Ohlsson <mats.ohlsson@knowit.se>, "Peder
+ Lundgren" <Peder.Lundgren@knowit.se>, Hanna Aspklint
+	<Hanna.Aspklint@knowit.se>, =?utf-8?B?SMOla2FuIEFsc8Opbg==?=
+	<Hakan.Alsen@knowit.se>, Lars Erickson <lars.erickson@knowit.se>, "Emma
+ Tarandi" <Emma.Tarandi@knowit.se>, =?utf-8?B?TcOlbnMgSGplcnRzdHJhbmQ=?=
+	<Mans.Hjertstrand@knowit.se>, =?utf-8?B?Q2FtaWxsYSBMYW5kw6lu?=
+	<Camilla.Landen@knowit.se>, Nils Kumar <Nils.Kumar@knowit.se>, Urban Jonsson
+	<urban.jonsson@knowit.se>, =?utf-8?B?UG9udHVzIEFuZHLDqQ==?=
+	<Pontus.Andre@knowit.se>, Fredrik Eriksson <Fredrik.Eriksson@knowit.se>,
+	Magnus Witting <Magnus.Witting@knowit.se>, Johan Kuru <Johan.Kuru@knowit.se>,
+	=?utf-8?B?Tmlscy1Hw7ZyYW4gV2lyZWhu?= <Nils-Goran.Wirehn@knowit.se>, "Ulf
+ Johansson" <Ulf.Johansson@knowit.se>,
+	=?utf-8?B?TWFqIFPDtnJlbnNlbi1SaW5naQ==?= <Maj.Sorensen-Ringi@knowit.se>,
+	Thomas Wenngren <thomas.wenngren@knowit.se>, Thomas Nord
+	<Thomas.Nord@knowit.se>, Tomas Rimming <tomas.rimming@knowit.se>, Sebastian
+ Vidovic <sebastian.vidovic@knowit.se>, Rickard Alfredson
+	<Rickard.Alfredson@knowit.se>, Linus Larsson <Linus.Larsson@knowit.se>,
+	"Berit Vonstad" <Berit.Vonstad@knowit.se>, Linus Friborg
+	<linus.friborg@knowit.se>
+Subject: =?utf-8?B?RsO2cm55YWQga29ua3VycmVuc3V0c8OkdHRuaW5nIC0gIkRuciBMaVUtMjAx?=
+ =?utf-8?B?Ny0wMjkyODogVW5kZXJow6VsbHNhdnRhbCBmw7ZyIHN1cHBvcnQsIGtvbmZp?=
+ =?utf-8?B?Z3VyYXRpb24tIG9jaCBhbnBhc3NhZGUgdGrDpG5zdGVyIGbDtnIgUHVibGlj?=
+ =?utf-8?B?IDM2MCAtIGRva3VtZW50LSBvY2ggw6RyZW5kZWhhbnRlcmluZ3NzeXN0ZW0i?=
+Thread-Topic: =?utf-8?B?RsO2cm55YWQga29ua3VycmVuc3V0c8OkdHRuaW5nIC0gIkRuciBMaVUtMjAx?=
+ =?utf-8?B?Ny0wMjkyODogVW5kZXJow6VsbHNhdnRhbCBmw7ZyIHN1cHBvcnQsIGtvbmZp?=
+ =?utf-8?B?Z3VyYXRpb24tIG9jaCBhbnBhc3NhZGUgdGrDpG5zdGVyIGbDtnIgUHVibGlj?=
+ =?utf-8?B?IDM2MCAtIGRva3VtZW50LSBvY2ggw6RyZW5kZWhhbnRlcmluZ3NzeXN0ZW0i?=
+Thread-Index: AQHTaQGV/AlbYl4AuEuY5URHXX3R/KMso/Jw
+Date: Thu, 30 Nov 2017 09:18:07 +0000
+Message-ID: <DB5PR0601MB19270AFAA2F21C845B9CCBAB85380@DB5PR0601MB1927.eurprd06.prod.outlook.com>
+References: <20171129110242.8103F1A466@relay.opic.com>
+In-Reply-To: <20171129110242.8103F1A466@relay.opic.com>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DB5PR0601MB1927.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id: b7d4140e-8a6d-41fe-1003-08d537d344ca
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [192.71.76.144]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:DB5PR0601MB1926;H:DB5PR0601MB1927.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;;SKIP:1;
+x-ms-exchange-organization-originalclientipaddress: 192.71.76.144
+x-ms-exchange-organization-originalserveripaddress: 25.165.102.50
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:vu9Jr1fnplOSa/FOiqtLoC8RM6pAH6Ti/16avll0Pd8U5r1tCXeOl5F2Hvi1+k0l+SefC3K9oblpQfpCa8x9R2Cp4H1Eh8vKLdnLH0Vt6iDS8qs9u/bj8RCeQBERmOwU
+Content-Type: multipart/alternative;
+	boundary="_000_DB5PR0601MB19270AFAA2F21C845B9CCBAB85380DB5PR0601MB1927_"
+MIME-Version: 1.0
+
+--_000_DB5PR0601MB19270AFAA2F21C845B9CCBAB85380DB5PR0601MB1927_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:vu9Jr1fnplOSa/FOiqtLoC8RM6pAH6Ti/16avll0Pd8U5r1tCXeOl5F2Hvi1+k0l+SefC3K9oblpQfpCa8x9R2Cp4H1Eh8vKLdnLH0Vt6iDS8qs9u/bj8RCeQBERmOwU
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+SGVqLA0KDQpBdnJvcCBmcsOlbiBMaW5rw7ZwaW5ncyB1bml2ZXJzaXRldDoNClN5ZnRldCBtZWQg
+YXZyb3BldCDDpHIgYXR0IHRlY2tuYSBldHQgYXZ0YWwgYXZzZWVuZGUgdW5kZXJow6VsbCwgc3Vw
+cG9ydCBzYW10IGtvbmZpZ3VyYXRpb24tIG9jaCBhbnBhc3NhZGUgdGrDpG5zdGVyIGbDtnIgZG9r
+dW1lbnQtIG9jaCDDpHJlbmRlaGFudGVyaW5nc3N5c3RlbWV0LCBQdWJsaWMgMzYwwrAuIETDpSBk
+ZXQgbnV2YXJhbmRlIHVuZGVyaMOlbGxzYXZ0YWxldCBsw7ZwZXIgdXQgMjAxOC0wMy0zMSBiZWjD
+tnZlciBkZXQgZsO2cm55YXMuDQoNClNlIG1lciBpbmZvcm1hdGlvbg0KaHR0cHM6Ly90ZW5kc2ln
+bi5jb20vZG9jLmFzcHg/SUQ9MTI3MDc1JkI9alcvTDN1YWI1dkFBDQoNClNpc3RhIGlubMOkbW5p
+bmdzZGFnZW46IDIwMTctMTItMTgNCg0KTWVkIHbDpG5saWcgaMOkbHNuaW5nLA0KQWZmw6Ryc2tv
+bnRvcmV0IEtub3dpdCBBQg0KDQoNCg0KDQpGcsOlbjogbm9yZXBseUB0ZW5kc2lnbi5jb20gW21h
+aWx0bzpub3JlcGx5QHRlbmRzaWduLmNvbV0NClNraWNrYXQ6IGRlbiAyOSBub3ZlbWJlciAyMDE3
+IDEyOjAzDQpUaWxsOiBGdW5rdGlvbnNsw6VkYSBLSy1QVCAyMDE0IDxray1wdDIwMTRAa25vd2l0
+LnNlPg0Kw4RtbmU6IEbDtnJueWFkIGtvbmt1cnJlbnN1dHPDpHR0bmluZyAtICJEbnIgTGlVLTIw
+MTctMDI5Mjg6IFVuZGVyaMOlbGxzYXZ0YWwgZsO2ciBzdXBwb3J0LCBrb25maWd1cmF0aW9uLSBv
+Y2ggYW5wYXNzYWRlIHRqw6Ruc3RlciBmw7ZyIFB1YmxpYyAzNjAgLSBkb2t1bWVudC0gb2NoIMOk
+cmVuZGVoYW50ZXJpbmdzc3lzdGVtIg0KDQpMaW5rw7ZwaW5ncyB1bml2ZXJzaXRldCB1dGbDtnIg
+ZW4gZsO2cm55YWQga29ua3VycmVuc3V0c8OkdHRuaW5nIGZyw6VuIGRldCBzdGF0bGlnYSByYW1h
+dnRhbGV0IFByb2dyYW12YXJvciBvY2ggdGrDpG5zdGVyLCBJbmZvcm1hdGlvbnNmw7Zyc8O2cmpu
+aW5nLg0KU3ZhciBww6UgZGV0dGEgYXZyb3Agc2thIHZhcmEgTGlua8O2cGluZ3MgdW5pdmVyc2l0
+ZXQgdGlsbGhhbmRhIHNlbmFzdCAyMDE3LTEyLTE4IGtsIDIzLjU5Lg0KDQpGw7ZyIGF0dCBsw6Rz
+YSBtZXIgb20gdXBwaGFuZGxpbmdlbiBrbGlja2EgcMOlIGbDtmxqYW5kZSBsw6RuazoNCg0KT0JT
+RVJWRVJBIGF0dCBkZXQgZW5kYSBzw6R0dGV0IGF0dCBuw6UgYW5ub25zZW4gw6RyIHZpYSBsw6Ru
+a2VuIG5lZGFuLg0KDQpodHRwczovL3RlbmRzaWduLmNvbS9kb2MuYXNweD9JRD0xMjcwNzUmQj1q
+Vy9MM3VhYjV2QUENCg0KVsOkbmxpZ2EgaMOkbHNuaW5nYXINCg0KTGlua8O2cGluZ3MgdW5pdmVy
+c2l0ZXQNCg0KDQpFdmEgUm9zZWxsDQpVcHBoYW5kbGluZ3NlbmhldGVuDQpUZWxlZm9uOiArNDYg
+KDApMTMgMjggMjggNzENCkUtcG9zdDogZXZhLnJvc2VsbEBsaXUuc2U8bWFpbHRvOmV2YS5yb3Nl
+bGxAbGl1LnNlPg0K
+
+--_000_DB5PR0601MB19270AFAA2F21C845B9CCBAB85380DB5PR0601MB1927_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:vu9Jr1fnplOSa/FOiqtLoC8RM6pAH6Ti/16avll0Pd8U5r1tCXeOl5F2Hvi1+k0l+SefC3K9oblpQfpCa8x9R2Cp4H1Eh8vKLdnLH0Vt6iDS8qs9u/bj8RCeQBERmOwU
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+PGh0bWwgeG1sbnM6dj0idXJuOnNjaGVtYXMtbWljcm9zb2Z0LWNvbTp2bWwiIHhtbG5zOm89InVy
+bjpzY2hlbWFzLW1pY3Jvc29mdC1jb206b2ZmaWNlOm9mZmljZSIgeG1sbnM6dz0idXJuOnNjaGVt
+YXMtbWljcm9zb2Z0LWNvbTpvZmZpY2U6d29yZCIgeG1sbnM6bT0iaHR0cDovL3NjaGVtYXMubWlj
+cm9zb2Z0LmNvbS9vZmZpY2UvMjAwNC8xMi9vbW1sIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv
+VFIvUkVDLWh0bWw0MCI+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIg
+Y29udGVudD0idGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjxtZXRhIG5hbWU9IkdlbmVyYXRv
+ciIgY29udGVudD0iTWljcm9zb2Z0IFdvcmQgMTUgKGZpbHRlcmVkIG1lZGl1bSkiPg0KPHN0eWxl
+PjwhLS0NCi8qIEZvbnQgRGVmaW5pdGlvbnMgKi8NCkBmb250LWZhY2UNCgl7Zm9udC1mYW1pbHk6
+IkNhbWJyaWEgTWF0aCI7DQoJcGFub3NlLTE6MiA0IDUgMyA1IDQgNiAzIDIgNDt9DQpAZm9udC1m
+YWNlDQoJe2ZvbnQtZmFtaWx5OkNhbGlicmk7DQoJcGFub3NlLTE6MiAxNSA1IDIgMiAyIDQgMyAy
+IDQ7fQ0KLyogU3R5bGUgRGVmaW5pdGlvbnMgKi8NCnAuTXNvTm9ybWFsLCBsaS5Nc29Ob3JtYWws
+IGRpdi5Nc29Ob3JtYWwNCgl7bWFyZ2luOjBjbTsNCgltYXJnaW4tYm90dG9tOi4wMDAxcHQ7DQoJ
+Zm9udC1zaXplOjExLjBwdDsNCglmb250LWZhbWlseToiQ2FsaWJyaSIsc2Fucy1zZXJpZjt9DQph
+OmxpbmssIHNwYW4uTXNvSHlwZXJsaW5rDQoJe21zby1zdHlsZS1wcmlvcml0eTo5OTsNCgljb2xv
+cjpibHVlOw0KCXRleHQtZGVjb3JhdGlvbjp1bmRlcmxpbmU7fQ0KYTp2aXNpdGVkLCBzcGFuLk1z
+b0h5cGVybGlua0ZvbGxvd2VkDQoJe21zby1zdHlsZS1wcmlvcml0eTo5OTsNCgljb2xvcjpwdXJw
+bGU7DQoJdGV4dC1kZWNvcmF0aW9uOnVuZGVybGluZTt9DQpwLm1zb25vcm1hbDAsIGxpLm1zb25v
+cm1hbDAsIGRpdi5tc29ub3JtYWwwDQoJe21zby1zdHlsZS1uYW1lOm1zb25vcm1hbDsNCgltc28t
+bWFyZ2luLXRvcC1hbHQ6YXV0bzsNCgltYXJnaW4tcmlnaHQ6MGNtOw0KCW1zby1tYXJnaW4tYm90
+dG9tLWFsdDphdXRvOw0KCW1hcmdpbi1sZWZ0OjBjbTsNCglmb250LXNpemU6MTEuMHB0Ow0KCWZv
+bnQtZmFtaWx5OiJDYWxpYnJpIixzYW5zLXNlcmlmO30NCnNwYW4uRS1wb3N0bWFsbDE5DQoJe21z
+by1zdHlsZS10eXBlOnBlcnNvbmFsLXJlcGx5Ow0KCWZvbnQtZmFtaWx5OiJDYWxpYnJpIixzYW5z
+LXNlcmlmOw0KCWNvbG9yOndpbmRvd3RleHQ7fQ0KLk1zb0NocERlZmF1bHQNCgl7bXNvLXN0eWxl
+LXR5cGU6ZXhwb3J0LW9ubHk7DQoJZm9udC1mYW1pbHk6IkNhbGlicmkiLHNhbnMtc2VyaWY7DQoJ
+bXNvLWZhcmVhc3QtbGFuZ3VhZ2U6RU4tVVM7fQ0KQHBhZ2UgV29yZFNlY3Rpb24xDQoJe3NpemU6
+NjEyLjBwdCA3OTIuMHB0Ow0KCW1hcmdpbjo3MC44NXB0IDcwLjg1cHQgNzAuODVwdCA3MC44NXB0
+O30NCmRpdi5Xb3JkU2VjdGlvbjENCgl7cGFnZTpXb3JkU2VjdGlvbjE7fQ0KLS0+PC9zdHlsZT48
+IS0tW2lmIGd0ZSBtc28gOV0+PHhtbD4NCjxvOnNoYXBlZGVmYXVsdHMgdjpleHQ9ImVkaXQiIHNw
+aWRtYXg9IjEwMjYiIC8+DQo8L3htbD48IVtlbmRpZl0tLT48IS0tW2lmIGd0ZSBtc28gOV0+PHht
+bD4NCjxvOnNoYXBlbGF5b3V0IHY6ZXh0PSJlZGl0Ij4NCjxvOmlkbWFwIHY6ZXh0PSJlZGl0IiBk
+YXRhPSIxIiAvPg0KPC9vOnNoYXBlbGF5b3V0PjwveG1sPjwhW2VuZGlmXS0tPg0KPC9oZWFkPg0K
+PGJvZHkgbGFuZz0iU1YiIGxpbms9ImJsdWUiIHZsaW5rPSJwdXJwbGUiPg0KPGRpdiBjbGFzcz0i
+V29yZFNlY3Rpb24xIj4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxzcGFuIHN0eWxlPSJtc28tZmFy
+ZWFzdC1sYW5ndWFnZTpFTi1VUyI+SGVqLCA8bzpwPjwvbzpwPjwvc3Bhbj48L3A+DQo8cCBjbGFz
+cz0iTXNvTm9ybWFsIj48c3BhbiBzdHlsZT0ibXNvLWZhcmVhc3QtbGFuZ3VhZ2U6RU4tVVMiPjxv
+OnA+Jm5ic3A7PC9vOnA+PC9zcGFuPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxzcGFuIHN0
+eWxlPSJtc28tZmFyZWFzdC1sYW5ndWFnZTpFTi1VUyI+QXZyb3AgZnLDpW4gTGlua8O2cGluZ3Mg
+dW5pdmVyc2l0ZXQ6PG86cD48L286cD48L3NwYW4+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCI+
+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMC41cHQiPlN5ZnRldCBtZWQgYXZyb3BldCDDpHIgYXR0
+IHRlY2tuYSBldHQgYXZ0YWwgYXZzZWVuZGUgdW5kZXJow6VsbCwgc3VwcG9ydCBzYW10IGtvbmZp
+Z3VyYXRpb24tIG9jaCBhbnBhc3NhZGUgdGrDpG5zdGVyIGbDtnIgZG9rdW1lbnQtIG9jaCDDpHJl
+bmRlaGFudGVyaW5nc3N5c3RlbWV0LCBQdWJsaWMgMzYwwrAuIETDpSBkZXQgbnV2YXJhbmRlIHVu
+ZGVyaMOlbGxzYXZ0YWxldA0KIGzDtnBlciB1dCAyMDE4LTAzLTMxIGJlaMO2dmVyIGRldCBmw7Zy
+bnlhcy48bzpwPjwvbzpwPjwvc3Bhbj48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj48c3BhbiBz
+dHlsZT0iZm9udC1zaXplOjEwLjVwdCI+PG86cD4mbmJzcDs8L286cD48L3NwYW4+PC9wPg0KPHAg
+Y2xhc3M9Ik1zb05vcm1hbCI+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMC41cHQiPlNlIG1lciBp
+bmZvcm1hdGlvbjxvOnA+PC9vOnA+PC9zcGFuPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxh
+IGhyZWY9Imh0dHBzOi8vdGVuZHNpZ24uY29tL2RvYy5hc3B4P0lEPTEyNzA3NSZhbXA7Qj1qVy9M
+M3VhYjV2QUEiPmh0dHBzOi8vdGVuZHNpZ24uY29tL2RvYy5hc3B4P0lEPTEyNzA3NSZhbXA7Qj1q
+Vy9MM3VhYjV2QUE8L2E+PG86cD48L286cD48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj48bzpw
+PiZuYnNwOzwvbzpwPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPlNpc3RhIGlubMOkbW5pbmdz
+ZGFnZW46IDIwMTctMTItMTg8bzpwPjwvbzpwPjwvcD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxv
+OnA+Jm5ic3A7PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCI+PHNwYW4gc3R5bGU9ImZv
+bnQtc2l6ZToxMi4wcHQiPk1lZCB2w6RubGlnIGjDpGxzbmluZyw8bzpwPjwvbzpwPjwvc3Bhbj48
+L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj48c3BhbiBzdHlsZT0iZm9udC1zaXplOjEyLjBwdCI+
+QWZmw6Ryc2tvbnRvcmV0IEtub3dpdCBBQjxvOnA+PC9vOnA+PC9zcGFuPjwvcD4NCjxwIGNsYXNz
+PSJNc29Ob3JtYWwiPjxvOnA+Jm5ic3A7PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1hbCI+
+PHNwYW4gc3R5bGU9ImZvbnQtc2l6ZToxMC41cHQiPjxvOnA+Jm5ic3A7PC9vOnA+PC9zcGFuPjwv
+cD4NCjxwIGNsYXNzPSJNc29Ob3JtYWwiPjxzcGFuIHN0eWxlPSJtc28tZmFyZWFzdC1sYW5ndWFn
+ZTpFTi1VUyI+PG86cD4mbmJzcDs8L286cD48L3NwYW4+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1h
+bCI+PHNwYW4gc3R5bGU9Im1zby1mYXJlYXN0LWxhbmd1YWdlOkVOLVVTIj48bzpwPiZuYnNwOzwv
+bzpwPjwvc3Bhbj48L3A+DQo8cCBjbGFzcz0iTXNvTm9ybWFsIj48Yj5GcsOlbjo8L2I+IG5vcmVw
+bHlAdGVuZHNpZ24uY29tIFttYWlsdG86bm9yZXBseUB0ZW5kc2lnbi5jb21dDQo8YnI+DQo8Yj5T
+a2lja2F0OjwvYj4gZGVuIDI5IG5vdmVtYmVyIDIwMTcgMTI6MDM8YnI+DQo8Yj5UaWxsOjwvYj4g
+RnVua3Rpb25zbMOlZGEgS0stUFQgMjAxNCAmbHQ7a2stcHQyMDE0QGtub3dpdC5zZSZndDs8YnI+
+DQo8Yj7DhG1uZTo8L2I+IEbDtnJueWFkIGtvbmt1cnJlbnN1dHPDpHR0bmluZyAtICZxdW90O0Ru
+ciBMaVUtMjAxNy0wMjkyODogVW5kZXJow6VsbHNhdnRhbCBmw7ZyIHN1cHBvcnQsIGtvbmZpZ3Vy
+YXRpb24tIG9jaCBhbnBhc3NhZGUgdGrDpG5zdGVyIGbDtnIgUHVibGljIDM2MCAtIGRva3VtZW50
+LSBvY2ggw6RyZW5kZWhhbnRlcmluZ3NzeXN0ZW0mcXVvdDs8bzpwPjwvbzpwPjwvcD4NCjxwIGNs
+YXNzPSJNc29Ob3JtYWwiPjxvOnA+Jm5ic3A7PC9vOnA+PC9wPg0KPHAgY2xhc3M9Ik1zb05vcm1h
+bCIgc3R5bGU9Im1hcmdpbi1ib3R0b206MTIuMHB0Ij5MaW5rw7ZwaW5ncyB1bml2ZXJzaXRldCB1
+dGbDtnIgZW4gZsO2cm55YWQga29ua3VycmVuc3V0c8OkdHRuaW5nIGZyw6VuIGRldCBzdGF0bGln
+YSByYW1hdnRhbGV0IFByb2dyYW12YXJvciBvY2ggdGrDpG5zdGVyLCBJbmZvcm1hdGlvbnNmw7Zy
+c8O2cmpuaW5nLjxicj4NClN2YXIgcMOlIGRldHRhIGF2cm9wIHNrYSB2YXJhIExpbmvDtnBpbmdz
+IHVuaXZlcnNpdGV0IHRpbGxoYW5kYSBzZW5hc3QgMjAxNy0xMi0xOCBrbCAyMy41OS48YnI+DQo8
+YnI+DQpGw7ZyIGF0dCBsw6RzYSBtZXIgb20gdXBwaGFuZGxpbmdlbiBrbGlja2EgcMOlIGbDtmxq
+YW5kZSBsw6Ruazo8YnI+DQo8YnI+DQpPQlNFUlZFUkEgYXR0IGRldCBlbmRhIHPDpHR0ZXQgYXR0
+IG7DpSBhbm5vbnNlbiDDpHIgdmlhIGzDpG5rZW4gbmVkYW4uPGJyPg0KPGJyPg0KPGEgaHJlZj0i
+aHR0cHM6Ly90ZW5kc2lnbi5jb20vZG9jLmFzcHg/SUQ9MTI3MDc1JmFtcDtCPWpXL0wzdWFiNXZB
+QSI+aHR0cHM6Ly90ZW5kc2lnbi5jb20vZG9jLmFzcHg/SUQ9MTI3MDc1JmFtcDtCPWpXL0wzdWFi
+NXZBQTwvYT48YnI+DQo8YnI+DQpWw6RubGlnYSBow6Rsc25pbmdhcjxicj4NCjxicj4NCkxpbmvD
+tnBpbmdzIHVuaXZlcnNpdGV0PGJyPg0KPGJyPg0KPGJyPg0KRXZhIFJvc2VsbDxicj4NClVwcGhh
+bmRsaW5nc2VuaGV0ZW48YnI+DQpUZWxlZm9uOiAmIzQzOzQ2ICgwKTEzIDI4IDI4IDcxPGJyPg0K
+RS1wb3N0OiA8YSBocmVmPSJtYWlsdG86ZXZhLnJvc2VsbEBsaXUuc2UiPmV2YS5yb3NlbGxAbGl1
+LnNlPC9hPiA8bzpwPjwvbzpwPjwvcD4NCjwvZGl2Pg0KPC9ib2R5Pg0KPC9odG1sPg0K
+
+--_000_DB5PR0601MB19270AFAA2F21C845B9CCBAB85380DB5PR0601MB1927_--

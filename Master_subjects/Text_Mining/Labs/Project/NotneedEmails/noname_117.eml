@@ -1,0 +1,460 @@
+Received: from VI1PR06MB3214.eurprd06.prod.outlook.com (10.170.230.149) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.218.12 via Mailbox Transport; Wed, 15 Nov 2017 15:18:29 +0000
+Received: from AM4PR0601MB2130.eurprd06.prod.outlook.com (10.167.123.143) by
+ VI1PR06MB3214.eurprd06.prod.outlook.com (10.170.230.149) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.218.12; Wed, 15 Nov 2017 15:18:28 +0000
+Received: from AM4PR0601MB2131.eurprd06.prod.outlook.com (10.167.123.144) by
+ AM4PR0601MB2130.eurprd06.prod.outlook.com (10.167.123.143) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.218.12; Wed, 15
+ Nov 2017 15:18:26 +0000
+Received: from AM4PR0601MB2131.eurprd06.prod.outlook.com
+ ([fe80::cc75:da85:469:22cf]) by AM4PR0601MB2131.eurprd06.prod.outlook.com
+ ([fe80::cc75:da85:469:22cf%14]) with mapi id 15.20.0218.015; Wed, 15 Nov 2017
+ 15:18:26 +0000
+From: Jonas Jareborg <Jonas.Jareborg@knowit.se>
+To: funk-affarsansvariga <funk-affarsansvariga@knowit.se>
+Subject: =?iso-8859-1?Q?Stockholm:_Uppdragsf=F6rfr=E5gan_fr=E5n_Skatteverket?=
+Thread-Topic: =?iso-8859-1?Q?Stockholm:_Uppdragsf=F6rfr=E5gan_fr=E5n_Skatteverket?=
+Thread-Index: AdNeJN+YJcCfqUNKRB29VpQLgiVLGA==
+Date: Wed, 15 Nov 2017 15:18:26 +0000
+Message-ID: <AM4PR0601MB213156DB41CC123C8DF7D1AA91290@AM4PR0601MB2131.eurprd06.prod.outlook.com>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: AM4PR0601MB2131.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-Network-Message-Id: febeb0c4-ac3b-4218-588e-08d52c3c1e93
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [81.234.58.25]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:AM4PR0601MB2130;H:AM4PR0601MB2131.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;;SKIP:1;
+x-ms-exchange-organization-originalclientipaddress: 81.234.58.25
+x-ms-exchange-organization-originalserveripaddress: 25.165.188.40
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:6/umeh3ZnX+3JpTM0e3jRfkLTP7uScUHhtbnIkdUqMDs4l/g2OlMdFQ0xrWFCqom9nGwofnPUaYMNN1YBFc1P0g8tzV0sPSfa61zzVMC5TdoC5WREIr/g35P8oOHr38l
+Content-Type: multipart/alternative;
+	boundary="_000_AM4PR0601MB213156DB41CC123C8DF7D1AA91290AM4PR0601MB2131_"
+MIME-Version: 1.0
+
+--_000_AM4PR0601MB213156DB41CC123C8DF7D1AA91290AM4PR0601MB2131_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:6/umeh3ZnX+3JpTM0e3jRfkLTP7uScUHhtbnIkdUqMDs4l/g2OlMdFQ0xrWFCqom9nGwofnPUaYMNN1YBFc1P0g8tzV0sPSfa61zzVMC5TdoC5WREIr/g35P8oOHr38l
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hej
+
+Vi har f=E5tt enn f=F6rfr=E5gan p=E5 en Applikations- Produktionstekniker, =
+Niv=E5 4 till Skatteverket.
+=C5terkoppla till mig snarast om du har n=E5gonsom passar.
+
+
+H=E4lsningar
+Jonas
+
+Avropsf=F6rfr=E5gan: 270049254
+Antal konsulter: 1
+Kompetensomr=E5de: Drift och Infrastruktur
+Roll: Applikations- Produktionstekniker
+Kompetensniv=E5: 4
+Omfattning: 100%
+Placeringsort: Solna
+Startdatum: 2018-01-01
+Slutdatum: 2018-12-31
+F=F6rl=E4ngningsoption: 12m=E5n + 12 m=E5n
+SUA: Ja
+Sista anbudsdag: 2017-11-22 23:59
+
+Allm=E4n beskrivning:
+Skatteverkets IT-avdelning =F6vervakning s=F6ker en specialist inom monitor=
+ering och Micro Focus
+OpsBridge produkter.
+=D6vervakningsf=F6rvaltningen expanderar och s=F6ker en teknisk erfaren l=
+=F6sningsarkitekt som kan hj=E4lpa till
+med stratergi planering och implementationer inom detta omr=E5de.
+P=E5verkan p=E5 befintlig =F6vervakningsf=F6rvaltning i roller och ansvar, =
+best practise.
+
+Arbetsbeskrivning:
+Arbetsuppgifter:
+
+  *   Tekniskt kvalitetss=E4kra installationerna av OMi inklusive plattform
+  *   Samverka med leverant=F6r, driva support =E4renden och f=F6rb=E4ttrin=
+gsf=F6rslag
+  *   Involverad inom produkter/metoder/modeller
+  *   P=E5verkan p=E5 befintlig =F6vervakningsf=F6rvaltning
+  *   ITIL
+  *   OMi
+  *   HP Operations Manager
+  *   SCOM
+  *   Cloud Optimizer
+  *   UCMDB
+  *   SiteScope
+  *   APM
+
+Skakrav:
+
+a. Konsulten ska ha och vid f=F6rfr=E5gan kunna uppvisa dokumenterad
+kompetens av:
+Micro Focus OpsBridge produkter
+
+b. Konsulten ska ha och vid f=F6rfr=E5gan kunna uppvisa dokumenterad
+kompetens av: Strategiskt arbete
+
+c. Konsulten ska ha och vid f=F6rfr=E5gan kunna uppvisa dokumenterad
+kompetens av: Arkitektur arbete, kunskap om IT4IT
+
+d. Konsulten ska ha och p=E5 f=F6rfr=E5gan kunna styrka dokumenterad
+erfarenhet av:
+Att ha designat och installerat OMi fr=E5n grunden, samt konfigurerat
+Densamma
+
+e. Konsulten ska ha och p=E5 f=F6rfr=E5gan kunna styrka dokumenterad
+erfarenhet av:
+Erfarenhet ifr=E5n =F6vervakning av heterogena milj=F6er och utveckling av
+Densamma
+
+Meriterande krav:
+
+a. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka dokumenterad kompetens
+inom:
+ITIL
+
+b. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka dokumenterad kompetens
+inom:
+SCOM
+
+c. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka dokumenterad kompetens
+inom: SiteScope
+
+d. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka dokumenterad kompetens
+inom: UCMDB
+
+e. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka dokumenterad kompetens
+inom: APM
+
+f. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka dokumenterad kompetens
+inom: OpsBridge reporting
+
+g. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka dokumenterad kompetens
+inom: Arkitektur
+
+h. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka dokumenterad erfarenhet
+inom: HP Operations Manager i, minst 3 =E5r
+
+i. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka dokumenterad erfarenhet
+inom: HP Operations Manager Unix, minst 3 =E5r
+
+
+
+
+--_000_AM4PR0601MB213156DB41CC123C8DF7D1AA91290AM4PR0601MB2131_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:6/umeh3ZnX+3JpTM0e3jRfkLTP7uScUHhtbnIkdUqMDs4l/g2OlMdFQ0xrWFCqom9nGwofnPUaYMNN1YBFc1P0g8tzV0sPSfa61zzVMC5TdoC5WREIr/g35P8oOHr38l
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.E-postmall19
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.E-postmall20
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:115606970;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1076963320 69009409 69009411 69009413 69009409 6900=
+9411 69009413 69009409 69009411 69009413;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"SV" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Hej<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Vi har f=E5tt enn f=F6rfr=E5gan p=E5 en Applikations=
+- Produktionstekniker, Niv=E5 4 till Skatteverket.<o:p></o:p></p>
+<p class=3D"MsoNormal">=C5terkoppla till mig snarast om du har n=E5gonsom p=
+assar.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">H=E4lsningar<o:p></o:p></p>
+<p class=3D"MsoNormal">Jonas<o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal"><b>Avropsf=F6rfr=E5gan:</b> 270049254<o:p></o:p></p>
+<p class=3D"MsoNormal"><b>Antal konsulter:</b> 1<o:p></o:p></p>
+<p class=3D"MsoNormal"><b>Kompetensomr=E5de:</b> Drift och Infrastruktur<o:=
+p></o:p></p>
+<p class=3D"MsoNormal"><b>Roll:</b> Applikations- Produktionstekniker<o:p><=
+/o:p></p>
+<p class=3D"MsoNormal"><b>Kompetensniv=E5:</b> 4<o:p></o:p></p>
+<p class=3D"MsoNormal"><b>Omfattning:</b> 100% <o:p></o:p></p>
+<p class=3D"MsoNormal"><b>Placeringsort:</b> Solna<b><o:p></o:p></b></p>
+<p class=3D"MsoNormal"><b>Startdatum:</b> 2018-01-01 <o:p></o:p></p>
+<p class=3D"MsoNormal"><b>Slutdatum:</b> 2018-12-31<o:p></o:p></p>
+<p class=3D"MsoNormal"><b>F=F6rl=E4ngningsoption:</b> 12m=E5n &#43; 12 m=E5=
+n<o:p></o:p></p>
+<p class=3D"MsoNormal"><b>SUA:</b> Ja<o:p></o:p></p>
+<p class=3D"MsoNormal"><b>Sista anbudsdag</b>: 2017-11-22 23:59 <o:p></o:p>=
+</p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b>Allm=E4n beskrivning</b>:<o:p></o:p></p>
+<p class=3D"MsoNormal">Skatteverkets IT-avdelning =F6vervakning s=F6ker en =
+specialist inom monitorering och Micro Focus<o:p></o:p></p>
+<p class=3D"MsoNormal">OpsBridge produkter.<o:p></o:p></p>
+<p class=3D"MsoNormal">=D6vervakningsf=F6rvaltningen expanderar och s=F6ker=
+ en teknisk erfaren l=F6sningsarkitekt som kan hj=E4lpa till<o:p></o:p></p>
+<p class=3D"MsoNormal">med stratergi planering och implementationer inom de=
+tta omr=E5de.<o:p></o:p></p>
+<p class=3D"MsoNormal">P=E5verkan p=E5 befintlig =F6vervakningsf=F6rvaltnin=
+g i roller och ansvar, best practise.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b>Arbetsbeskrivning:<o:p></o:p></b></p>
+<p class=3D"MsoNormal">Arbetsuppgifter:<o:p></o:p></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraph" style=3D"margin-left:0cm;mso-list:l0 level1 =
+lfo2">Tekniskt kvalitetss=E4kra installationerna av OMi inklusive plattform=
+<o:p></o:p></li><li class=3D"MsoListParagraph" style=3D"margin-left:0cm;mso=
+-list:l0 level1 lfo2">Samverka med leverant=F6r, driva support =E4renden oc=
+h f=F6rb=E4ttringsf=F6rslag<o:p></o:p></li><li class=3D"MsoListParagraph" s=
+tyle=3D"margin-left:0cm;mso-list:l0 level1 lfo2">Involverad inom produkter/=
+metoder/modeller<o:p></o:p></li><li class=3D"MsoListParagraph" style=3D"mar=
+gin-left:0cm;mso-list:l0 level1 lfo2">P=E5verkan p=E5 befintlig =F6vervakni=
+ngsf=F6rvaltning<o:p></o:p></li><li class=3D"MsoListParagraph" style=3D"mar=
+gin-left:0cm;mso-list:l0 level1 lfo2"><span lang=3D"EN-US">ITIL<o:p></o:p><=
+/span></li><li class=3D"MsoListParagraph" style=3D"margin-left:0cm;mso-list=
+:l0 level1 lfo2"><span lang=3D"EN-US">OMi<o:p></o:p></span></li><li class=
+=3D"MsoListParagraph" style=3D"margin-left:0cm;mso-list:l0 level1 lfo2"><sp=
+an lang=3D"EN-US">HP Operations Manager<o:p></o:p></span></li><li class=3D"=
+MsoListParagraph" style=3D"margin-left:0cm;mso-list:l0 level1 lfo2"><span l=
+ang=3D"EN-US">SCOM<o:p></o:p></span></li><li class=3D"MsoListParagraph" sty=
+le=3D"margin-left:0cm;mso-list:l0 level1 lfo2"><span lang=3D"EN-US">Cloud O=
+ptimizer<o:p></o:p></span></li><li class=3D"MsoListParagraph" style=3D"marg=
+in-left:0cm;mso-list:l0 level1 lfo2">UCMDB<o:p></o:p></li><li class=3D"MsoL=
+istParagraph" style=3D"margin-left:0cm;mso-list:l0 level1 lfo2">SiteScope<o=
+:p></o:p></li><li class=3D"MsoListParagraph" style=3D"margin-left:0cm;mso-l=
+ist:l0 level1 lfo2">APM<span lang=3D"EN-US"><o:p></o:p></span></li></ul>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-US">Skakrav:<o:p></o:p></span></=
+b></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">a. Konsulten ska ha och vid f=F6rfr=E5gan kunna uppv=
+isa dokumenterad<o:p></o:p></p>
+<p class=3D"MsoNormal">kompetens av:<o:p></o:p></p>
+<p class=3D"MsoNormal">Micro Focus OpsBridge produkter<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">b. Konsulten ska ha och vid f=F6rfr=E5gan kunna uppv=
+isa dokumenterad<o:p></o:p></p>
+<p class=3D"MsoNormal">kompetens av: Strategiskt arbete<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">c. Konsulten ska ha och vid f=F6rfr=E5gan kunna uppv=
+isa dokumenterad<o:p></o:p></p>
+<p class=3D"MsoNormal">kompetens av: Arkitektur arbete, kunskap om IT4IT<o:=
+p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">d. Konsulten ska ha och p=E5 f=F6rfr=E5gan kunna sty=
+rka dokumenterad<o:p></o:p></p>
+<p class=3D"MsoNormal">erfarenhet av:<o:p></o:p></p>
+<p class=3D"MsoNormal">Att ha designat och installerat OMi fr=E5n grunden, =
+samt konfigurerat<o:p></o:p></p>
+<p class=3D"MsoNormal">Densamma<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">e. Konsulten ska ha och p=E5 f=F6rfr=E5gan kunna sty=
+rka dokumenterad<o:p></o:p></p>
+<p class=3D"MsoNormal">erfarenhet av:<o:p></o:p></p>
+<p class=3D"MsoNormal">Erfarenhet ifr=E5n =F6vervakning av heterogena milj=
+=F6er och utveckling av<o:p></o:p></p>
+<p class=3D"MsoNormal">Densamma<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b>Meriterande krav:<o:p></o:p></b></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">a. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka d=
+okumenterad kompetens<o:p></o:p></p>
+<p class=3D"MsoNormal">inom:<o:p></o:p></p>
+<p class=3D"MsoNormal">ITIL<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">b. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka d=
+okumenterad kompetens<o:p></o:p></p>
+<p class=3D"MsoNormal">inom:<o:p></o:p></p>
+<p class=3D"MsoNormal">SCOM<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">c. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka d=
+okumenterad kompetens<o:p></o:p></p>
+<p class=3D"MsoNormal">inom: SiteScope<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">d. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka d=
+okumenterad kompetens<o:p></o:p></p>
+<p class=3D"MsoNormal">inom: UCMDB<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">e. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka d=
+okumenterad kompetens<o:p></o:p></p>
+<p class=3D"MsoNormal">inom: APM<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">f. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka d=
+okumenterad kompetens<o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">inom: OpsBridge reporting<o:p><=
+/o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal">g. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka d=
+okumenterad kompetens<o:p></o:p></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US">inom: Arkitektur<o:p></o:p></sp=
+an></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal">h. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka d=
+okumenterad erfarenhet<o:p></o:p></p>
+<p class=3D"MsoNormal">inom: HP Operations Manager i, minst 3 =E5r<o:p></o:=
+p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">i. Konsulten b=F6r ha och vid f=F6rfr=E5gan styrka d=
+okumenterad erfarenhet<o:p></o:p></p>
+<p class=3D"MsoNormal">inom: HP Operations Manager Unix, minst 3 =E5r<o:p><=
+/o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_AM4PR0601MB213156DB41CC123C8DF7D1AA91290AM4PR0601MB2131_--

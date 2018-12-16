@@ -1,0 +1,272 @@
+Received: from VI1PR06MB3214.eurprd06.prod.outlook.com (10.170.230.149) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.218.12 via Mailbox Transport; Wed, 15 Nov 2017 13:59:46 +0000
+Received: from AM5PR0601MB2435.eurprd06.prod.outlook.com (10.173.91.144) by
+ VI1PR06MB3214.eurprd06.prod.outlook.com (10.170.230.149) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.218.12; Wed, 15 Nov 2017 13:59:45 +0000
+Received: from AM5PR0601MB2387.eurprd06.prod.outlook.com (10.173.91.21) by
+ AM5PR0601MB2435.eurprd06.prod.outlook.com (10.173.91.144) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.218.12; Wed, 15 Nov 2017 13:59:44 +0000
+Received: from AM5PR0601MB2387.eurprd06.prod.outlook.com
+ ([fe80::5d85:6827:64b2:c615]) by AM5PR0601MB2387.eurprd06.prod.outlook.com
+ ([fe80::5d85:6827:64b2:c615%17]) with mapi id 15.20.0218.015; Wed, 15 Nov
+ 2017 13:59:44 +0000
+From: =?Windows-1252?Q?Funktionsl=E5da_KK-PT_2014?= <kk-pt2014@knowit.se>
+To: Magnus Tauvon <Magnus.Tauvon@knowit.se>, Nils Kumar
+	<Nils.Kumar@knowit.se>, =?Windows-1252?Q?Camilla_Land=E9n?=
+	<Camilla.Landen@knowit.se>, =?Windows-1252?Q?M=E5ns_Hjertstrand?=
+	<Mans.Hjertstrand@knowit.se>, Emma Tarandi <Emma.Tarandi@knowit.se>, "Lars
+ Erickson" <lars.erickson@knowit.se>, Sebastian Vidovic
+	<sebastian.vidovic@knowit.se>, =?Windows-1252?Q?H=E5kan_Als=E9n?=
+	<Hakan.Alsen@knowit.se>, Hanna Aspklint <Hanna.Aspklint@knowit.se>, "Peder
+ Lundgren" <Peder.Lundgren@knowit.se>, Mats Ohlsson <mats.ohlsson@knowit.se>,
+	Pernilla Snis <pernilla.snis@knowit.se>, Henrik Serlow
+	<henrik.serlow@knowit.se>, Pia Engwall <Pia.Engwall@knowit.se>,
+	=?Windows-1252?Q?Cia_=D6rvill?= <Cia.orvill@knowit.se>, Daniel Borgentun
+	<daniel.borgentun@knowit.se>, =?Windows-1252?Q?=C5sa_Holmberg?=
+	<asa.Holmberg@knowit.se>, Tomas Rimming <tomas.rimming@knowit.se>, "Peter
+ Lindstedt" <Peter.Lindstedt@knowit.se>, Kenneth Ericsson
+	<kenneth.ericsson@knowit.se>, =?Windows-1252?Q?J=F8rn_Aaberg?=
+	<jorn.aaberg@knowit.no>, =?Windows-1252?Q?P=E4r_Nilsson?=
+	<par.nilsson@knowit.se>, Erik Johansson <erik.johansson@knowit.se>, "Staffan
+ Nilsson" <Staffan.Nilsson@knowit.se>, =?Windows-1252?Q?Axel_Holt=E5s?=
+	<Axel.Holtas@knowit.se>, Johan Hallgren <johan.hallgren@knowit.se>,
+	=?Windows-1252?Q?Michael_Fr=F6ling?= <Michael.Froling@knowit.se>, "Thomas
+ Gustavsson" <thomas.gustavsson@knowit.se>, Thomas Wenngren
+	<thomas.wenngren@knowit.se>, Ola Ehrstedt <ola.ehrstedt@knowit.se>, "Hans
+ Reinikainen" <hans.reinikainen@knowit.se>, Kenneth Lyngshede
+	<kenneth.lyngshede@knowit.se>, Fredrik Grahn <Fredrik.Grahn@knowit.se>,
+	=?Windows-1252?Q?Nils-G=F6ran_Wirehn?= <Nils-Goran.Wirehn@knowit.se>, "Thomas
+ Nord" <Thomas.Nord@knowit.se>, Dan Jacobsson <Dan.Jacobsson@knowit.se>, "Lisa
+ Lind" <lisa.lind@knowit.se>, =?Windows-1252?Q?Bo-G=F6ran_Perlstr=F6m?=
+	<bo-goran.perlstrom@knowit.se>, Jonas Svensson <Jonas.Svensson@knowit.se>,
+	Helen Lyhde Nial <helen.lyhde.nial@knowit.se>, Bertil Nordlund
+	<bertil.nordlund@knowit.se>, =?Windows-1252?Q?Maj_S=F6rensen-Ringi?=
+	<Maj.Sorensen-Ringi@knowit.se>, Urban Jonsson <urban.jonsson@knowit.se>,
+	=?Windows-1252?Q?Pontus_Andr=E9?= <Pontus.Andre@knowit.se>,
+	=?Windows-1252?Q?Helena_Bj=F6rnberg?= <Helena.Bjornberg@knowit.se>, "Jens
+ Wallentin" <Jens.Wallentin@knowit.se>, Fredrik Eriksson
+	<Fredrik.Eriksson@knowit.se>, Magnus Witting <Magnus.Witting@knowit.se>,
+	Johan Kuru <Johan.Kuru@knowit.se>, Ulf Johansson <Ulf.Johansson@knowit.se>,
+	Rickard Alfredson <Rickard.Alfredson@knowit.se>, Linus Larsson
+	<Linus.Larsson@knowit.se>, Berit Vonstad <Berit.Vonstad@knowit.se>,
+	=?Windows-1252?Q?=C5sa_Schwarz?= <asa.Schwarz@knowit.se>,
+	"info@candidator.se" <info@candidator.se>, Linus Friborg
+	<linus.friborg@knowit.se>, =?Windows-1252?Q?Bo-G=F6ran_Perlstr=F6m?=
+	<bo-goran.perlstrom@knowit.se>, =?Windows-1252?Q?Thomas_Engstr=F6m?=
+	<thomas.engstrom@knowit.se>, =?Windows-1252?Q?Nils-G=F6ran_Wirehn?=
+	<Nils-Goran.Wirehn@knowit.se>, Pia Engwall <Pia.Engwall@knowit.se>, "Hans
+ Reinikainen" <hans.reinikainen@knowit.se>, Christer Holman
+	<christer.holman@knowit.se>, Thomas Gustavsson <thomas.gustavsson@knowit.se>,
+	Lisa Lind <lisa.lind@knowit.se>, Erik Johansson <erik.johansson@knowit.se>,
+	Joakim Jormelin <joakim.jormelin@knowit.se>, Martin Skarp
+	<martin.skarp@knowit.se>, Kenneth Lyngshede <kenneth.lyngshede@knowit.se>,
+	=?Windows-1252?Q?H=E5kan_Ramberg?= <Hakan.Ramberg@knowit.se>, Jonas Svensson
+	<Jonas.Svensson@knowit.se>, Thomas Wenngren <thomas.wenngren@knowit.se>,
+	Staffan Nilsson <Staffan.Nilsson@knowit.se>, =?Windows-1252?Q?Axel_Holt=E5s?=
+	<Axel.Holtas@knowit.se>, Magnus Tauvon <Magnus.Tauvon@knowit.se>, Thomas Nord
+	<Thomas.Nord@knowit.se>, Mats Thorstenson <Mats.Thorstenson@knowit.se>,
+	Daniel Borgentun <daniel.borgentun@knowit.se>, Helen Lyhde Nial
+	<helen.lyhde.nial@knowit.se>, Kenneth Ericsson <kenneth.ericsson@knowit.se>,
+	=?Windows-1252?Q?Michael_Fr=F6ling?= <Michael.Froling@knowit.se>,
+	=?Windows-1252?Q?P=E4r_Nilsson?= <par.nilsson@knowit.se>, Johan Hallgren
+	<johan.hallgren@knowit.se>, =?Windows-1252?Q?=C5sa_Schwarz?=
+	<asa.Schwarz@knowit.se>, Peter Lindstedt <Peter.Lindstedt@knowit.se>, "Tomas
+ Rimming" <tomas.rimming@knowit.se>, Henrik Serlow <henrik.serlow@knowit.se>,
+	=?Windows-1252?Q?Anders_Ther=E9n?= <anders.theren@knowit.se>, Pernilla Snis
+	<pernilla.snis@knowit.se>, Mats Ohlsson <mats.ohlsson@knowit.se>, "Peder
+ Lundgren" <Peder.Lundgren@knowit.se>, Hanna Aspklint
+	<Hanna.Aspklint@knowit.se>, =?Windows-1252?Q?H=E5kan_Als=E9n?=
+	<Hakan.Alsen@knowit.se>, Lars Erickson <lars.erickson@knowit.se>, "Emma
+ Tarandi" <Emma.Tarandi@knowit.se>, =?Windows-1252?Q?M=E5ns_Hjertstrand?=
+	<Mans.Hjertstrand@knowit.se>, =?Windows-1252?Q?Camilla_Land=E9n?=
+	<Camilla.Landen@knowit.se>, Nils Kumar <Nils.Kumar@knowit.se>, Urban Jonsson
+	<urban.jonsson@knowit.se>, =?Windows-1252?Q?Pontus_Andr=E9?=
+	<Pontus.Andre@knowit.se>, Fredrik Eriksson <Fredrik.Eriksson@knowit.se>,
+	Magnus Witting <Magnus.Witting@knowit.se>, Johan Kuru <Johan.Kuru@knowit.se>,
+	=?Windows-1252?Q?Nils-G=F6ran_Wirehn?= <Nils-Goran.Wirehn@knowit.se>, "Ulf
+ Johansson" <Ulf.Johansson@knowit.se>, =?Windows-1252?Q?Maj_S=F6rensen-Ringi?=
+	<Maj.Sorensen-Ringi@knowit.se>, Thomas Wenngren <thomas.wenngren@knowit.se>,
+	Thomas Nord <Thomas.Nord@knowit.se>, Tomas Rimming <tomas.rimming@knowit.se>,
+	Sebastian Vidovic <sebastian.vidovic@knowit.se>, Rickard Alfredson
+	<Rickard.Alfredson@knowit.se>, Linus Larsson <Linus.Larsson@knowit.se>,
+	"Berit Vonstad" <Berit.Vonstad@knowit.se>, Linus Friborg
+	<linus.friborg@knowit.se>
+Subject: =?Windows-1252?Q?S=F6derhamns_kommun:_Ny_f=F6rnyad_konkurrensuts=E4ttning?=
+ =?Windows-1252?Q?_fr=E5n_S=F6derhamns_kommun_(ben=E4mning_"=C4rendehanter?=
+ =?Windows-1252?Q?ingssystem_S=F6derhamns_kommun",_nr_55)?=
+Thread-Topic: =?Windows-1252?Q?S=F6derhamns_kommun:_Ny_f=F6rnyad_konkurrensuts=E4ttning?=
+ =?Windows-1252?Q?_fr=E5n_S=F6derhamns_kommun_(ben=E4mning_"=C4rendehanter?=
+ =?Windows-1252?Q?ingssystem_S=F6derhamns_kommun",_nr_55)?=
+Thread-Index: AQHTXhQYX4hctTaEyEyDN6AAujFH5aMVh7Pa
+Date: Wed, 15 Nov 2017 13:59:43 +0000
+Message-ID: <AM5PR0601MB23875AEEA5BA257A9950484BEC290@AM5PR0601MB2387.eurprd06.prod.outlook.com>
+References: <601000801.38775.1510751850055.JavaMail.pbu101@proceedo-prod-back-u-101>
+In-Reply-To: <601000801.38775.1510751850055.JavaMail.pbu101@proceedo-prod-back-u-101>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: AM5PR0601MB2387.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id: 2055f079-3e2e-4bdd-df41-08d52c311fe2
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [192.71.76.144]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:AM5PR0601MB2435;H:AM5PR0601MB2387.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;;SKIP:1;
+x-ms-exchange-organization-originalclientipaddress: 192.71.76.144
+x-ms-exchange-organization-originalserveripaddress: 2a01:111:e400:52b7::39
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:nInojGnNvA3NuU5AV6ooQrUihS8dU0lwhhzkUxBr1VzXcy2lcCScrVGdMW/GSisKpk6sdBYHcKDia5GrGH4XEvbrzlsQncRpDBJy+5rr2yF06iW0ozufCZqi4g9/JTOe
+Content-Type: multipart/alternative;
+	boundary="_000_AM5PR0601MB23875AEEA5BA257A9950484BEC290AM5PR0601MB2387_"
+MIME-Version: 1.0
+
+--_000_AM5PR0601MB23875AEEA5BA257A9950484BEC290AM5PR0601MB2387_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:nInojGnNvA3NuU5AV6ooQrUihS8dU0lwhhzkUxBr1VzXcy2lcCScrVGdMW/GSisKpk6sdBYHcKDia5GrGH4XEvbrzlsQncRpDBJy+5rr2yF06iW0ozufCZqi4g9/JTOe
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hej,
+
+
+S=F6derhamns kommun genom f=F6rnyad konkurrensuts=E4ttning fr=E5n ramavtal =
+Programvaror och tj=E4nster 2014 =96 Informationsf=F6rs=F6rjning med diarie=
+nummer 96-35-2014.
+
+
+S=F6derhamns kommun  "=C4rendehanteringssystem S=F6derhamns kommun", nr 55.
+
+
+Avropet syftar till att ers=E4tta hos Kund befintligt =E4rendehanteringssys=
+tem =96 LIS/L=C4R, se beskrivning av Kund, punkt 4.
+
+
+F=F6r mer information: https://www.proceedo.net/competitionApp/ddKXc0iyXdL1=
+VZ5u6l7w_Muq2JezlfnNLZBjFOJ0u61oNDY9RCloVyJmJSky/competition
+
+
+
+Sist inl=E4mningsdag: 2017-11-30.
+
+
+Med v=E4nlig h=E4lsning,
+
+
+Aff=E4rskontoret
+
+Knowit AB
+
+
+________________________________
+Fr=E5n: Proceedo: Visma Proceedo Service desk <noreply.proceedo@visma.com>
+Skickat: den 15 november 2017 14:17
+Till: Funktionsl=E5da KK-PT 2014
+=C4mne: Ny f=F6rnyad konkurrensuts=E4ttning fr=E5n S=F6derhamns kommun (ben=
+=E4mning "=C4rendehanteringssystem S=F6derhamns kommun", nr 55)
+
+En f=F6rnyad konkurrensuts=E4ttning har startats och du =E4r angiven som ko=
+ntaktperson.
+
+Konkurrensuts=E4ttningen ben=E4mns "=C4rendehanteringssystem S=F6derhamns k=
+ommun" (nr 55) och har sista anbudsdag 2017-11-30.
+
+Ni kommer =E5t konkurrensuts=E4ttningen p=E5 https://www.proceedo.net/compe=
+titionApp/ddKXc0iyXdL1VZ5u6l7w_Muq2JezlfnNLZBjFOJ0u61oNDY9RCloVyJmJSky/comp=
+etition
+
+--_000_AM5PR0601MB23875AEEA5BA257A9950484BEC290AM5PR0601MB2387_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:nInojGnNvA3NuU5AV6ooQrUihS8dU0lwhhzkUxBr1VzXcy2lcCScrVGdMW/GSisKpk6sdBYHcKDia5GrGH4XEvbrzlsQncRpDBJy+5rr2yF06iW0ozufCZqi4g9/JTOe
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;font=
+-family:Calibri,Helvetica,sans-serif;" dir=3D"ltr">
+<p>Hej,</p>
+<p><span><br>
+</span></p>
+<p><span style=3D"font-size: 12pt;">S=F6derhamns kommun </span><span style=
+=3D"font-size: 12pt;">genom f=F6rnyad konkurrensuts=E4ttning fr=E5n ramavta=
+l Programvaror och tj=E4nster 2014 =96 Informationsf=F6rs=F6rjning med diar=
+ienummer 96-35-2014.</span></p>
+<p><span style=3D"font-size: 12pt;"><br>
+</span></p>
+<p><span style=3D"font-size: 12pt;">S=F6derhamns kommun &nbsp;&quot;=C4rend=
+ehanteringssystem S=F6derhamns kommun&quot;, nr 55.</span><br>
+</p>
+<p><span style=3D"font-size: 12pt;"><br>
+</span></p>
+<p><span>Avropet syftar till att ers=E4tta hos Kund befintligt =E4rendehant=
+eringssystem =96 LIS/L=C4R, se beskrivning av Kund, punkt 4.</span><br>
+</p>
+<p><br>
+</p>
+<div id=3D"Signature">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size: 12pt; color: rgb(0, 0,=
+ 0); background-color: rgb(255, 255, 255); font-family: Calibri, Arial, Hel=
+vetica, sans-serif, Helvetica, EmojiFont, &quot;Apple Color Emoji&quot;, &q=
+uot;Segoe UI Emoji&quot;, NotoColorEmoji, &quot;Segoe UI Symbol&quot;, &quo=
+t;Android Emoji&quot;, EmojiSymbols;">
+<p>F=F6r mer information:&nbsp;<a href=3D"https://www.proceedo.net/competit=
+ionApp/ddKXc0iyXdL1VZ5u6l7w_Muq2JezlfnNLZBjFOJ0u61oNDY9RCloVyJmJSky/competi=
+tion" class=3D"OWAAutoLink" id=3D"LPlnk638256" previewremoved=3D"true">http=
+s://www.proceedo.net/competitionApp/ddKXc0iyXdL1VZ5u6l7w_Muq2JezlfnNLZBjFOJ=
+0u61oNDY9RCloVyJmJSky/competition</a></p>
+<p><br>
+</p>
+<p><br>
+</p>
+<p>Sist inl=E4mningsdag: 2017-11-30.</p>
+<p><br>
+</p>
+<p>Med v=E4nlig h=E4lsning,</p>
+<p><br>
+</p>
+<p>Aff=E4rskontoret</p>
+<p>Knowit AB</p>
+</div>
+</div>
+<br>
+<br>
+<div style=3D"color: rgb(0, 0, 0);">
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>Fr=E5n:</b> Proceedo: Visma Pro=
+ceedo Service desk &lt;noreply.proceedo@visma.com&gt;<br>
+<b>Skickat:</b> den 15 november 2017 14:17<br>
+<b>Till:</b> Funktionsl=E5da KK-PT 2014<br>
+<b>=C4mne:</b> Ny f=F6rnyad konkurrensuts=E4ttning fr=E5n S=F6derhamns komm=
+un (ben=E4mning &quot;=C4rendehanteringssystem S=F6derhamns kommun&quot;, n=
+r 55)</font>
+<div>&nbsp;</div>
+</div>
+<div>En f=F6rnyad konkurrensuts=E4ttning har startats och du =E4r angiven s=
+om kontaktperson.<br>
+<br>
+Konkurrensuts=E4ttningen ben=E4mns &quot;=C4rendehanteringssystem S=F6derha=
+mns kommun&quot; (nr 55) och har sista anbudsdag 2017-11-30.<br>
+<br>
+Ni kommer =E5t konkurrensuts=E4ttningen p=E5 https://www.proceedo.net/compe=
+titionApp/ddKXc0iyXdL1VZ5u6l7w_Muq2JezlfnNLZBjFOJ0u61oNDY9RCloVyJmJSky/comp=
+etition
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_AM5PR0601MB23875AEEA5BA257A9950484BEC290AM5PR0601MB2387_--

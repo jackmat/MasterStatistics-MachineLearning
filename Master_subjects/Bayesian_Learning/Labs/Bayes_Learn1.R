@@ -51,6 +51,7 @@ pbeta(0.399999,alpha0+s, beta0+n-s)
 
 ##1.3
 
+
 symbol<- log(mydata/(1-mydata))
 density(symbol)
 histogram(symbol, 40)
@@ -66,7 +67,7 @@ betabernoulli<- function(alpha = 2, beta = 2, p =14/20, k ){
 
 
 x<-seq(0,100,1)
-b<-lapply(X=x, betabernoulli(k = X))
+b<-lapply(X=x, betabernoulli,k = x)
 
 
 ####2

@@ -1,0 +1,443 @@
+# Lab Assigment 1 for the course 732A96
+Name: Haochi Kiang (haoki222)
+Date: 2017-09-11
+
+# 0. Libraries and data set
+For this lab assignment, the following libraries are used:
+
+```{r echo = F, result = 'hide'}
+knitr::opts_chunk$set( size = 'tiny' )
+```
+```{r}
+suppressWarnings(suppressMessages(suppressPackageStartupMessages({
+    library('bnlearn')
+    library('gRain')
+
+    library('purrr')
+    library('magrittr')
+    library('dplyr')
+    library('tibble')
+    library('stringr')
+    library('lattice')
+    library('memoise')
+    cachedir = cache_filesystem("./") # Cache slow operations into disk. See ?memoise
+})))
+options(digits = 7)
+```
+
+The data set `insurance` from `bnlearn` package is used as a practice data set.
+The data set contains 27 columns, or 27 nodes, about people's driving histroy,
+car condition, and other personal information. Among all the columns, the columns
+`MedCost` (medical cost), `PropCost` (property cost), and `ILiCost`
+(liability cost) are considered output variable, and 12 columns such as
+`SocioEcon` (socio-economic status) and `DrivingSkill`, are considered unobserved.
+
+```{r}
+data(insurance)
+summary(insurance)
+
+observed_columns = c('Age', 'GoodStudent', 'OtherCar', 'Mileage', 'VehicleYear',
+                     'SeniorTrain', 'MakeModel', 'DrivHist', 'DrivQuality',
+                     'Antilock', 'Airbag', 'HomeBase')
+output_columns = c('MedCost', 'ILiCost', 'PropCost')
+hidden_columns = colnames(insurance)[! colnames(insurance) %in% c(observed_columns, output_columns) ]
+```
+
+
+# 1. Hill climbing algorithm returns different graphs
+
+The hill climbing algorithm is simple algorithm which does greedy
+search in the space of possible graphs to find the graph with the
+best 'score'. In other words, choosing a different scoring formula
+implies altering the criterion by which the greedy search is guided.
+Therefore we should expect the hill climbing algorithm to return
+different equivalence classes of graphs when the score is different.
+
+```{r}
+hillresults = list()
+hillresults$'BIC default' = hc(insurance)
+hillresults$'BDeu ISS=1' = hc(insurance, score = 'bde', iss = 1)
+hillresults$'BDeu ISS=2' = hc(insurance, score = 'bde', iss = 2)
+hillresults$'BDeu ISS=5' = hc(insurance, score = 'bde', iss = 5)
+hillresults$'BDeu ISS=10' = hc(insurance, score = 'bde', iss = 10)
+hillresults$'BDeu ISS=100' = hc(insurance, score = 'bde', iss = 100)
+
+## Test if they are all equal
+equivclasses = hillresults %>% map(cpdag)
+all.equal(equivclasses$'BIC default', equivclasses$'BDeu ISS=1') %>% print
+all.equal(equivclasses$'BDeu ISS=1', equivclasses$'BDeu ISS=2') %>% print
+all.equal(equivclasses$'BDeu ISS=2', equivclasses$'BDeu ISS=5') %>% print
+all.equal(equivclasses$'BDeu ISS=5', equivclasses$'BDeu ISS=100') %>% print
+
+```
+
+The above searches are initialised at a empty graph which contains no
+edges. However, like most of other greedy algorithms, hill climbing
+is not guaranteed to return the global optimum, and the returned
+local optimum is highly dependent on the location of initialisation,
+different runs of hill climbing, even performed on the same scoring
+criterion, can return different graphs, as demonstrated in the following
+code:
+
+```{r}
+prev_hillres = hc(insurance, score = 'bde', iss = 1.1,
+                  start = random.graph(colnames(insurance)))
+found_difference = F
+for (i in 2:10) {
+    rangraph = random.graph(colnames(insurance))
+    cur_hillres = hc(insurance, score = 'bde', iss = 1.1, start = rangraph)
+    is_same = all.equal(cpdag(cur_hillres), cpdag(prev_hillres))
+    if (is_same != T) {
+        cat(str_c('Run #', i, ' returned different equivalence class than previous\n'))
+        found_difference <<- T
+        break
+    }
+    prev_hillres = cur_hillres
+}
+if (! found_difference) cat('All runs returned the same equivalence class\n')
+
+```
+
+# 2. Effect of increasing imaginary sample size
+
+In BDeu score, the imaginary sample size (ISS) is a hyperparameter controlling
+the `strengh' of the dirichlet prior distribution. When increasing the
+imaginary sample size in BDeu score, regularisation decreases. Typically,
+the learned number of edge is correlated to ISS. A plot of the learned graph
+in previous section confirms this:
+
+```{r}
+par(mfrow = c(3,2), mar = c(0.2,0.2,0.2,0.2))
+for (i in seq_along(hillresults)) {
+    plot(hillresults[[i]], main = names(hillresults)[i])
+}
+
+```
+
+Next, we examine the BDeu scores of the results of hill climbing search
+using different ISS. In the following code, for each ISS scores, we
+perform 30 hill climbing searches using different initialisation location
+and record the scores of the results.
+
+```{r results = 'hide'}
+try_iss_scores = function (.dummy) {
+    scores_to_try = c(1, seq(5, 100, by = 5))
+    iss_scores = lapply(scores_to_try, function(iss) {
+        ## Uniform distributed starting point can lead to extremely slow performance
+        ## rangraphs = random.graph(colnames(insurance), num = 30, method = 'ic-dag')
+        rangraphs = random.graph(colnames(insurance), num = 30)
+        res = numeric(30)
+        for (i in seq_along(res)) {
+            g = hc(insurance, score = 'bde', iss = iss, start = rangraphs[[i]])
+            res[i] = score(g, data = insurance, type = 'bde', iss = iss)
+        }
+        cat(iss, '/ 100\n')
+        res
+    })
+}
+try_iss_scores = memoise(try_iss_scores, cache = cachedir)
+
+scores_raw = readRDS('9b8093e13d0691bb')$value
+##scores = try_iss_scores(NULL) %>%
+
+scores = scores_raw %>%
+    set_names(as.character(c(1, seq(5, 100, by = 5)))) %>%
+    map(as.tibble) %>%
+    bind_rows( .id = 'ISS') %>%
+    rename(Score = value)
+
+```
+
+```{r}
+scores$ISS = as.factor(as.numeric(scores$ISS))
+
+bwplot(ISS ~ Score, scores, nint = 15, col = 1, ylab = 'ISS',
+       main = 'Imaginery sample size for BDeu vs score of hill climb result')
+
+```
+
+Since the BDeu score of a model is in fact a probability of the model
+given the data, the above graph somehow indicates that the models with
+'ISS = 10' is 'most likely to be the true model', or 'true prior'.
+However, in a strictly Bayesian sense, this is a good way to select
+the ISS, since prior parameters should be an
+__opinion before seeing the data__, while the BDeu score
+(the model probabiltiy) is dependent of the data. If we determine
+the ISS value from the above graph, we are in fact determining our
+prior parameters from the data. Despite being 'philosophically wrong',
+nevertheless, these kind of 'empirical Bayes' methods often works well
+in practice.
+
+
+# 3. Exact vs approximate estimation
+
+To test the prediction performance, first we will seperate our data into
+a training data set and a testing data set. Here we use one fifth of our
+data as the test set.
+
+```{r}
+## We split the data into training and testing data first
+split_train_test = function (df, proptest = 0.2) {
+    test_idx = sample(nrow(df), 0.2*nrow(df))
+    list(train = df[-test_idx,],
+         test = df[test_idx,],
+         test_idx = test_idx)
+}
+insurance_splitted = split_train_test(insurance)
+```
+
+
+Next, we will need to build a graph structure. Here we will use a pre-defined
+DAG, which can be found on the
+[bnlearn website](http://www.bnlearn.com/bnrepository/discrete-medium.html#insurance).
+Since our goal in this section is only to compare inference methods, the choice
+of graph should not really matter.
+
+
+```{r}
+insur_graph = model2network(
+    paste0(
+        '[Age][Mileage][SocioEcon|Age][GoodStudent|SocioEcon:Age]',
+        '[RiskAversion|Age:SocioEcon][OtherCar|SocioEcon]',
+        '[VehicleYear|SocioEcon:RiskAversion][MakeModel|SocioEcon:RiskAversion]',
+        '[SeniorTrain|Age:RiskAversion][HomeBase|RiskAversion:SocioEcon]',
+        '[AntiTheft|RiskAversion:SocioEcon][RuggedAuto|MakeModel:VehicleYear]',
+        '[Antilock|MakeModel:VehicleYear][DrivingSkill|Age:SeniorTrain]',
+        '[CarValue|MakeModel:VehicleYear:Mileage]',
+        '[Airbag|MakeModel:VehicleYear][DrivQuality|DrivingSkill:RiskAversion]',
+        '[Theft|AntiTheft:HomeBase:CarValue][Cushioning|RuggedAuto:Airbag]',
+        '[DrivHist|DrivingSkill:RiskAversion][Accident|Antilock:Mileage:DrivQuality]',
+        '[ThisCarDam|Accident:RuggedAuto][OtherCarCost|Accident:RuggedAuto]',
+        '[MedCost|Accident:Age:Cushioning][ILiCost|Accident]',
+        '[ThisCarCost|ThisCarDam:CarValue:Theft][PropCost|OtherCarCost:ThisCarCost]'))
+
+graphviz.plot(insur_graph)
+
+```
+
+
+Then we create the `bn.fit` object and `CPTgrain` object using the training data.
+The latter is used for exact inference. We choose to use Bayesian posterior method
+to fit the parameters because it is documented in the `bnlearn` website that
+`gRain` will have problem with `NaN` probabilities in conditional probability table,
+which happens in MLE estimatation when some parameters are not observed. Note
+that `approx_fit` and `exact_fit` in the following code block in fact contains the
+same conditional probability table. The difference between them is only that they
+will be supplied to different libraries: the former to `bnlearn`, the latter to
+`gRain`.
+
+```{r}
+approx_fit = bn.fit(insur_graph, insurance_splitted$train,
+                    method = 'bayes', iss = 2)
+
+
+exact_fit = as.grain(approx_fit) %>% compile(propagate = T)
+
+```
+
+First, we will try exact inference using `gRain`. In our context, this means
+computing the marginal probabilities of the output variables given the
+observed variables. For example, when computing the `MedCost` for a test
+observation, all hidden variables such as `SocioEcon` and `DrivSkill`, as well
+as other output variables such as `ILiCost` are marginalised out.
+
+The exact inference function returns for each test observation posterior predictive
+distribution for each of the three output variables. Then, we plot the distribution
+of predictive probability of the actual test data in a box plot as following. In a
+perfect prediction, the predictive probability of the actual test data should be
+all one.
+
+
+```{r cache = T}
+pred_grain = function (grainfit, dat) {
+    res = list()
+    for (i in seq(nrow(dat))) {
+        g = setEvidence( grainfit, names(dat), as.vector(dat[i,]) %>% sapply(as.character))
+        res[[i]] = querygrain( g, nodes = output_columns )
+    }
+    res
+}
+exact_infer = pred_grain(exact_fit, insurance_splitted$test[,observed_columns])
+
+p_postpred = tibble( MedCost = rep(as.numeric(NA), nrow(insurance_splitted$test)),
+                     ILiCost = rep(as.numeric(NA), nrow(insurance_splitted$test)),
+                     PropCost = rep(as.numeric(NA), nrow(insurance_splitted$test)) )
+for (i in seq(nrow(insurance_splitted$test))) {
+    for (cl in output_columns) {
+        p_postpred[i, cl] = exact_infer[[i]][[cl]][insurance_splitted$test[i, cl]]
+    }
+}
+
+```
+
+```{r}
+boxplot(p_postpred, yaxt='n',
+        main = 'Posterior predictive probabilities of test data (exact inference)')
+axis(2, at = seq(0,1, by=0.1))
+abline(h = 0.5, lty = 2)
+
+```
+
+As seen above, the exact inference algorithm predicts `MedCost` and `ILiCost`
+pretty correctly and confidently, but it is much less confidence about in
+predicting `PropCost`.
+
+Then we can do the same with approximate algorithm using the function
+`cpquery` to see the difference:
+
+```{r result = 'hide', cache = T}
+approx_inf = function (observed_cols = observed_columns, method = 'ls') {
+    sapply(seq(nrow(insurance_splitted$test)), function (i) {
+        probs = rep(NA, length(output_columns)) %>% set_names(output_columns)
+
+        ## For each output column compute the marginal probability using cpquery()
+        for (cl in output_columns) {
+            ## Make query strings
+            ev = paste0('(', cl, ' == "',
+                        insurance_splitted$test[i,cl], '")', collapse = ' & ')
+            if (method == 'ls') {
+                conditioned = paste0('(', observed_cols, ' == "',
+                                     insurance_splitted$test[i,observed_cols] %>%
+                                     lapply(as.character) %>% unlist, '")',
+                                     collapse = ' & ')
+                ## Make cpquery() function call
+                cmd = sprintf('cpquery(approx_fit, %s, %s, method="ls", n = 10000)', ev, conditioned)
+                parsed = parse(text = cmd)
+                probs[cl] = eval(parsed)
+            } else if (method == 'lw') {
+                conditioned = T
+                if (!is.null(observed_cols)) {
+                    conditioned = insurance_splitted$test[i,observed_cols] %>% lapply(as.character)
+                }
+                cmd = sprintf('cpquery(approx_fit, %s, conditioned, method="lw", n = 10000)',
+                              ev)
+                parsed = parse(text = cmd)
+                probs[cl] = eval(parsed)
+            } else {
+                error('Unknown `method` argument.')
+            }
+        }
+        probs
+    }) %>% t
+}
+
+p_postpred_approx = approx_inf(method = 'lw')
+
+boxplot(p_postpred_approx, yaxt='n',
+        main = 'Posterior predictive probabilities of test data (approx. inference)')
+axis(2, at = seq(0,1, by=0.1))
+abline(h = 0.5, lty = 2)
+
+```
+
+As seen, the results from the approximate and the exact are quite similar and
+we cannot really visually distinguish the predictive performance of them in the
+graph. It will be helpful to look at the average of logarithm of the predictive
+probability of the actual test data as a score of prediction performance. By
+this we have expressed the probability in a form of bits of information.
+Furthermore, we offset this value by substract from it the bits of
+information if we use the best possible baseline model without observing
+the non-output columns: which is just using the frequency of the classes in
+the training set.
+
+Therefore, if our prediction is no better than the baseline, the score would
+be zero. The higher the score, the better the prediction is. The following
+code computes the scores for both the exact and approximate inference:
+
+```{r cache = T}
+test_log_predictive = function (pred, test, train) {
+    ## train and test should have the same columns as pred.
+
+    sapply(seq(ncol(pred)), function (cl) {
+        ## Jitter the zero probabilties to slightly positive the avoid log2(0)
+        pred[pred[,cl] == 0, cl] = 1e-9
+
+        ## Test log predictive probability
+        testlogpred = sum(log2(pred[,cl]))
+
+        ## Test log predictive if we used the baseline prediction
+        baseline_testlogpred = sum(sapply(unique(test[,cl]), function (lvl) {
+            sum(test[,cl] == lvl) * log2(sum(train[,cl] == lvl) / nrow(train))
+        }))
+        (testlogpred - baseline_testlogpred) / nrow(pred)
+    })
+}
+
+tlp_exact = test_log_predictive(p_postpred,
+                                insurance_splitted$test[,output_columns],
+                                insurance_splitted$train[,output_columns])
+
+tlp_approx = test_log_predictive(p_postpred_approx,
+                                 insurance_splitted$test[,output_columns],
+                                 insurance_splitted$train[,output_columns])
+
+cat('Test log predictive prob. for exact inference:', tlp_exact, '\n')
+cat('Test log predictive prob. for approx. inference:', tlp_approx, '\n')
+
+```
+
+As we can see, the scores are quite pretty similar, which implies that the
+approximation inference is not so far away from the exact one.
+
+
+Since the approxmation, under the hood, uses Monte Carlo simulation, the
+output value of the function can vary a bit, as shown in the following
+demonstration.
+
+```{r cache = T}
+
+p_postpred_approx_2 = approx_inf(method = 'lw')
+
+tlp_approx2 = test_log_predictive(p_postpred_approx_2,
+                                  insurance_splitted$test[,output_columns],
+                                  insurance_splitted$train[,output_columns])
+all.equal(tlp_approx, tlp_approx2) %>% print
+
+```
+
+Finally, we can see try doing approximate inference without conditioning any
+variables:
+
+```{r cache = T}
+p_postpred_approx_3 = approx_inf(observed_cols = NULL, method = 'lw')
+
+tlp_approx3 = test_log_predictive(p_postpred_approx_3,
+                                  insurance_splitted$test[,output_columns],
+                                  insurance_splitted$train[,output_columns])
+print(tlp_approx3)
+
+```
+
+As seen, the score is near zero if we do not supply with any variables. This
+mean that the prediction in this case is almost completely the same as the
+previously mentioned frequency-in-training-set baseline method. This makes sense
+since both of them are prediction of the output variables without observing
+any other variables.
+
+# Number of equivalent classes in space of 5-node DAGs
+
+To estimate the total number of equivalent classes of DAG, a uniformly
+distributed graph is sampled and we would count the number of the
+equivalent classes of DAG is included in this sample.
+
+```{r}
+est_uniq_classes = function (nsamp) {
+    ((g = random.graph(nodes = as.character(1:5),
+                     num = nsamp,
+                     method = 'ic-dag')) %>%
+        map(cpdag) %>%
+        unique %>%
+        length) / length(unique(g))
+}
+u = est_uniq_classes(10000)
+print(u)
+
+```
+
+As the proportion of unique classes in the set of sampled unique graph is only
+`r u`. This suggests that lots of DAGs in the possible space of DAGs are
+actually capable of representing the same set of independence statements.
+
+
+
+

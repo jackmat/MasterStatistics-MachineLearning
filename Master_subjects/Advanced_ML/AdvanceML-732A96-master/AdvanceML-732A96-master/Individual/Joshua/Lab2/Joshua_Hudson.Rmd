@@ -1,0 +1,216 @@
+---
+title: "AML Lab 2: Hidden Markov Models"
+author: "Joshua Hudson"
+date: "14 September 2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width = 5, fig.asp = 0.66, fig.show = "asis", fig.align = "center", fig.pos = "htbp")
+```
+
+##(1)
+
+The first step was to construct the Hidden Markov Model, by defining the unobserved/hidden variable states (named "states" in the HMM package), observed variable states ("symbols"), transmission model and emission model.
+The hidden variables states were the true positions of the robot, from sectors 1 to 10.
+The observed variable states were the positions of the robot as given by the robot's tracking device. 
+The transition model defines probability distribution between the hidden states over a time step, i.e. the probabilities of the robot moving from one sector to another (or staying in the same one). Here we were told that the robot will with equal probability stay in the same sector or move to the next. 
+The emission model defines the probability distribution between the hidden variable state and the observed variable state at the same time step, i.e. the probabilities that the robot will be reported by the tracking device as being in a sector j when it is actually in sector i. Note that B could be A if the tracking device is correct in that instance. We were told that if the tracking device can give a reading of up to $\pm2$ sectors off the true position with equal probability. 
+I decided to start the robot in sector 1.
+Using this information we obtained the following HMM, as shown by the output of the `initHMM()` function:
+```{r 1}
+library(HMM)
+#set number of sectors
+n <- 10
+#define transition probability matrix
+transP <- matrix(ncol = n, nrow = n)
+for (i in 1:n) {
+  for (j in 1:n) {
+    if (j==i) {transP[i, j] <- 0.5}
+    else if (j==i+1) {transP[i,j] <- 0.5}
+    else {transP[i,j] <- 0}
+  }
+}
+transP[10, 1] <- 0.5
+
+#define emission probability matrix
+emissP <- diag(0.2, n)
+for (i in 1:n) {
+  for (j in 1:n) {
+    if (abs(i-j) <= 2 || abs(i-j)>= 8) {emissP[i, j] <- 0.2}
+    else {emissP[i, j] <- 0}
+  }
+}
+
+hmm <- initHMM(States = 1:10, Symbols = 1:10, startProbs =  c(1, rep(0, 9)),
+        transProbs = transP, emissionProbs = emissP)
+
+```
+```{r 1print, echo=TRUE}
+print(hmm)
+```
+##(2)
+
+We then used this model to simulate from for 100 timesteps. Using the `simHMM()` function, we obtained the following observed and hidden path:
+```{r 2}
+#simulate the HMM for 100 timesteps
+set.seed(12345)
+simpath <- simHMM(hmm, 100)
+```
+```{r 2print, echo=TRUE}
+print(simpath)
+```
+
+##(3)
+
+For this assignment, we put the hidden states aside and considered only the observed states obtained by simulation. Using these, we computed the filtered and smoothed posterior probability distributions. The filtered posterior at time t uses only the data uptil that timepoint so is given by: $p(z^t|x^{0:t})$. The smoothed posterior on the contrary uses all the data, uptil the last timestep T: $p(z^t|x^{0:T})$.
+```{r 3}
+#discard hidden states
+X <- simpath$observation
+
+#filtered posterior P(Z[t]|x[0:t]) = probs of hidden at time t given all obs uptil time t
+#joint pdf P(x[0:t], Z[t])
+jointprobs <- exp(forward(hmm, X))
+#divide by normalisation constant
+filterpost <- apply(jointprobs, 2, FUN = prop.table)
+#check sum(filtpost) == 1 (TRUE)
+
+#smoothed posterior P(Z[t]|x[0:T]) = probs of hidden at time t given ALL observations (uptil big T)
+smoothpost <- posterior(hmm, X)
+
+#most probable path
+optpath <- viterbi(hmm, X)
+
+#change decimal places shown for future prints
+options(digits = 5)
+```
+In order to obtain the filtered distribution, we used the `forward()` function to calculate the joint distribution of observing the observed states uptil time t and of the hidden states at this time t. As this function outputs the results in the logarithmic scale, we took the exponential of each probability. In order to get the filtered posterior, we used the `prop.table()` function to divide the joint by the Bayesian constant term. This is shown by the equations below:
+$$P(z^t|x^{0:t})=\frac{P(z^t, x^{0:t})}{P(x^{0:t})}=\frac{P(z^t, x^{0:t})}{\sum_i{P(z_i^t, x^{0:t})}}$$
+Below is the filtered distribution for the last 10 timesteps as an example:
+```{r 3print_filt, echo=TRUE}
+print(filterpost[, 91:100])
+```
+Finding the smoothed posterior distribution was a little more straight-forward as the function `posterior()` computes this directly. Below is the smoothed posterior for the last 10 timesteps as an example:
+```{r 3print_smth, echo=TRUE}
+print(smoothpost[, 91:100])
+```
+
+We also used the Viterbi algorithm to compute the most probable path using the implemention inside the `viterbi()` function. The resulting path is shown below:
+```{r 3print_vtrb, echo=TRUE}
+print(optpath)
+```
+
+##(4)
+
+Next we recovered the hidden states obtained through simulation in (2) in order to compute the accuracy of our filtered and smoothed posteriors and most probable path. We assumed that the robot took the position with the highest probability at each timesteps to obtain a path of states to compare to the true hidden states (majority voting). We then used the `table()` function to calculate the accuracy as a percentage.
+```{r 4}
+Z <- simpath$states
+
+Zpred_filter <- apply(filterpost, 2, FUN = which.max)
+Zpred_smooth <- apply(smoothpost, 2, FUN = which.max)
+
+acc_filter <- table(Z==Zpred_filter)[2]
+acc_smooth <- table(Z==Zpred_smooth)[2]
+acc_viterbi <- table(Z==optpath)[2]
+comp_acc <- data.frame(Filtered = acc_filter,
+                       Smoothed = acc_smooth,
+                       Viterbi = acc_viterbi)
+
+```
+
+```{r 4print}
+library(knitr)
+kable(comp_acc, caption = "Accuracy of the 3 Methods (%)")
+```
+
+For this simulation, it is clear that the Smoothed Posterior is the most accurate by far, while the Viterbi and Filtered Posterior are almost equivalent in this respect.
+
+##(5)
+
+We then repeated steps (3) and (4) for `r n` diffent simulations from the same HMM.
+```{r 5}
+#write function that takes in simulated hmms and returns accuracy for the 3 methods ((3) + (4))
+
+HMMacc <- function(simpath) { 
+  
+#discard hidden states
+X <- simpath$observation
+
+#filtered posterior P(Z[t]|x[0:t]) = probs of hidden at time t given all obs uptil time t
+#joint pdf P(x[0:t], Z[t])
+jointprobs <- exp(forward(hmm, X))
+#divide by normalisation constant
+filterpost <- apply(jointprobs, 2, FUN = prop.table)
+#check sum(filtpost) == 1 (TRUE)
+
+#smoothed posterior P(Z[t]|x[0:T]) = probs of hidden at time t given ALL observations (uptil big T)
+smoothpost <- posterior(hmm, X)
+
+#most probable path
+optpath <- viterbi(hmm, X)
+
+#compute accuracy of each method
+Z <- simpath$states
+
+Zpred_filter <- apply(filterpost, 2, FUN = which.max)
+Zpred_smooth <- apply(smoothpost, 2, FUN = which.max)
+
+acc_filter <- table(Z==Zpred_filter)[2]
+acc_smooth <- table(Z==Zpred_smooth)[2]
+acc_viterbi <- table(Z==optpath)[2]
+comp_acc <- data.frame(Filtered = acc_filter,
+                       Smoothed = acc_smooth,
+                       Viterbi = acc_viterbi)
+return(comp_acc)
+}
+
+#simulate n times (1st should be the same as before) 
+n <- 10
+hmmsims <- list()
+set.seed(12345)
+for (i in 1:n) {
+  hmmsims[[i]] <- simHMM(hmm, length = 100)
+}
+acclist <- lapply(hmmsims, FUN = HMMacc)
+accdf <- data.frame(acclist[[1]])
+for (i in 2:n) {
+  accdf <- rbind(accdf, acclist[[i]])
+}
+rownames(accdf) <- 1:n
+accdf[n+1, ] <- colMeans(accdf)
+rownames(accdf)[n+1] <- "Mean"
+
+```
+Below is the table containing the accuracies for each method for every simulation. The last line of the table contains the mean value over these simulations.
+
+```{r 5print}
+kable(accdf, caption = "Accuracy of the 3 Methods (%) for 10 simulations")
+```
+
+As seen in with the original simulation, the accuracy of the Smoothed Posterior is better than the other 2 methods for every simulation. However, although the mean accuracy of the Filtered Posterior and the Viterbi Most Probable Path are almost the same, they have often very different accuarcies for different simulations.
+The Smoothed Posterior should perform better than the Filtered one as it uses all the data (observed states) to compute the posterior at any timestep, while the Filtered uses only the data uptil the current considered timestep. The accuracy difference should therefore converge to 0 as t reaches the final timestep T.
+The Smoothed Posterior also outperforms the Viterbi Most Probable Path method for accuracy. This could be because accuracy is not 
+
+##(6)
+
+Next we wanted to determine whether the certainty of knowing where the robot is increases with more observations. Shannon Entropy can be seen as a measure of uncertainty in a distribution, so we used the `entropy.empirical()` function from the `entropy` package to compute the value at each timestep. We used for input the filtered posterior as this takes into account the current timestep only. We plotted the entropy over increasing timesteps (i.e. number of observations used) for the 1st simulation below:
+
+```{r 6}
+library(entropy)
+
+entrpy <- apply(filterpost, 2, FUN = entropy.empirical)
+plot(entrpy, type = "l")
+```
+We can see that the entropy seems to have no clear downward trend, nor does the variance seem to be decreasing: it does not show any indication that it is converging to 0, as it would be if the certainty of the robot's position increased for more observations.
+##(7)
+Joint
+$$p(Z^{101},Z^{100}|x^{1:100}) = p(Z^{100}|x^{1:100})p(Z^{101}|Z^{100})$$
+marginalise out Z100
+
+```{r 7}
+Z101probs <- prop.table(as.vector(filterpost[, 100]%*%transP))
+
+
+
+
+```

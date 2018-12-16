@@ -224,4 +224,70 @@ for(i in 1:length(alpha)){
   
   
 }
-result
+
+######Activity 3
+
+sigmaf<-1
+l<-1
+alpha<-c(1/2,2,20)
+r<-seq(0,4, by = 0.4)
+model1<-k1(sigmaf, l)
+model2_1<-k2(sigmaf, l, alpha= alpha[1])
+model2_2<-k2(sigmaf, l, alpha= alpha[2])
+model2_3<-k2(sigmaf, l, alpha= alpha[3])
+model3<-k3(sigmaf, l)
+Kernel1<-kernelMatrix(model1, r)[1,]
+Kernel2_1<-kernelMatrix(model2_1, r)[1,]
+Kernel2_2<-kernelMatrix(model2_2, r)[1,]
+Kernel2_3<-kernelMatrix(model2_3, r)[1,]
+Kernel3<-kernelMatrix(model3, r)[1,]
+
+mydata<-data.frame(k1= Kernel1, k2_1= Kernel2_1, k2_2= Kernel2_2, k2_3= Kernel2_3, k3= Kernel3)
+
+
+
+library(ggplot2)
+library(reshape2)
+df.melted<-melt(mydata)
+df.melted<-cbind(df.melted, x=1:11)
+ggplot(data = df.melted, aes(x = x, y = value)) +
+  geom_line(aes(colour=variable))
+
+####3b
+
+load("C:/Users/Carles/Desktop/MasterStatistics-MachineLearning/Master_subjects/Advanced_ML/Exam/GPdata.RData")
+library(kernlab)
+####
+grid<-seq(-3,3, length.out = 100)
+cov<-kernelMatrix(model1, x,y)
+mean<-gausspr(x,y, kernel= model1, kpar= list(sigma = 1, ell = 1), var= 0.5**2)
+mymeanpred<-predict(mean, grid)
+posteriorcov<- kernelMatrix(kernel = model1,grid,grid)-
+                kernelMatrix(kernel = model1,grid,x)%*%
+                solve(kernelMatrix(kernel = model1,x,x)+
+                        diag(length(y))*0.5**2)%*%kernelMatrix(kernel = model1,x,grid)
+mysd<-sqrt(diag(posteriorcov))
+lowerint<- mymeanpred-1.96*mysd
+highint<- mymeanpred+1.96*mysd
+lowerpred<-mymeanpred-1.96*sqrt(mysd**2+0.5**2)
+higherpred<-mymeanpred+1.96*sqrt(mysd**2+0.5**2)
+
+myframe<- data.frame(grid= grid,x=x, y =y, mean= mymeanpred, 
+                     lowci95=lowerint, 
+                     highci95= highint,
+                     lowpred=lowerpred,
+                     higherpred= higherpred
+                     )
+
+ggplot2::ggplot(myframe, aes(x =grid))+
+  geom_ribbon(aes(ymin= lowci95, ymax=highci95), alpha = 0.2)+
+  geom_ribbon(aes(ymin= lowpred, ymax=higherpred), alpha = 0.2)+
+  geom_line(aes(y = mymeanpred), color = "blue")+
+  geom_point(aes(x=x,y = y))
+  
+test_data <-
+  data.frame(
+    var0 = 100 + c(0, cumsum(runif(49, -20, 20))),
+    var1 = 150 + c(0, cumsum(runif(49, -10, 10))),
+    date = seq(as.Date("2002-01-01"), by="1 month", length.out=100)
+  )

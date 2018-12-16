@@ -18,8 +18,9 @@ omega_0<-diag(3)
 v_0<-6
 sigma2_0<-16
 
-
-
+install.packages("glmulti")
+library(glmulti)
+?glmulti()
 ###1.2
 #install.packages("geoR")
 library("geoR")

@@ -1,0 +1,671 @@
+Received: from AM5PR0602MB2961.eurprd06.prod.outlook.com (10.175.43.139) by
+ HE1PR0602MB2971.eurprd06.prod.outlook.com (10.175.33.137) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.407.7 via Mailbox Transport; Tue, 16 Jan 2018 12:57:43 +0000
+Received: from AM0PR0602MB3444.eurprd06.prod.outlook.com (52.133.49.10) by
+ AM5PR0602MB2961.eurprd06.prod.outlook.com (10.175.43.139) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.407.7; Tue, 16 Jan 2018 12:57:43 +0000
+Received: from AM0PR0602MB3441.eurprd06.prod.outlook.com (52.133.48.159) by
+ AM0PR0602MB3444.eurprd06.prod.outlook.com (52.133.49.10) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.407.7; Tue, 16 Jan 2018 12:57:41 +0000
+Received: from AM0PR0602MB3441.eurprd06.prod.outlook.com
+ ([fe80::51bd:9768:c4b2:55c6]) by AM0PR0602MB3441.eurprd06.prod.outlook.com
+ ([fe80::51bd:9768:c4b2:55c6%13]) with mapi id 15.20.0407.012; Tue, 16 Jan
+ 2018 12:57:41 +0000
+From: Jens Wintzer <Jens.Wintzer@knowit.se>
+To: funk-kam-lf <lf-konsult@knowit.se>
+Subject: VB: 18003 Projektledare/Kravledare  - GDPR
+Thread-Topic: 18003 Projektledare/Kravledare  - GDPR
+Thread-Index: AdOOyYr3KFt6fFbdRJmJxHXyw/lBPA==
+Date: Tue, 16 Jan 2018 12:57:41 +0000
+Message-ID: <AM0PR0602MB344127BC3EE58CB3883B2D8D97EA0@AM0PR0602MB3441.eurprd06.prod.outlook.com>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: AM0PR0602MB3441.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-Network-Message-Id: 250142db-8d14-429c-8a40-08d55ce0bad4
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [77.53.171.27]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:AM0PR0602MB3444;H:AM0PR0602MB3441.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;;SKIP:1;
+x-ms-exchange-organization-originalclientipaddress: 77.53.171.27
+x-ms-exchange-organization-originalserveripaddress: 25.161.122.143
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0602MB2971;27:v6uK1uQHFxNFPH7Z664SdbQIN+i2dc2JIt63VHsHOX21E5KS+4OR8zmbzuVK7A490kqjtqb6sdnrS786WYJ1ZpGPz2ldEbNYUiSpBFiM/jeA5r8itS36Sy3E9ChcYN47
+X-Microsoft-Antispam-Message-Info: BCfMaYfibxdFx4IE/lH2Xbv/gMlZjWKg4a2gboFNDaNw5FrqRB3d/+8yP7g+IqEPK1eEKOTtBYCOl3k09ZBycByKZQWqZHdaBAySslFHubA=
+Content-Type: multipart/alternative;
+	boundary="_000_AM0PR0602MB344127BC3EE58CB3883B2D8D97EA0AM0PR0602MB3441_"
+MIME-Version: 1.0
+
+--_000_AM0PR0602MB344127BC3EE58CB3883B2D8D97EA0AM0PR0602MB3441_
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0602MB2971;27:v6uK1uQHFxNFPH7Z664SdbQIN+i2dc2JIt63VHsHOX21E5KS+4OR8zmbzuVK7A490kqjtqb6sdnrS786WYJ1ZpGPz2ldEbNYUiSpBFiM/jeA5r8itS36Sy3E9ChcYN47
+X-Microsoft-Antispam-Message-Info: BCfMaYfibxdFx4IE/lH2Xbv/gMlZjWKg4a2gboFNDaNw5FrqRB3d/+8yP7g+IqEPK1eEKOTtBYCOl3k09ZBycByKZQWqZHdaBAySslFHubA=
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+
+Hej,
+
+
+
+Vi s=F6ker en konsult i en kombinerad roll enligt f=F6ljande beskrivning:
+
+
+
+Roll/niv=E5
+
+Projektledare f=F6r GDPR i linjen f=F6r Aff=E4rsuppf=F6ljning/Kravledare oc=
+h utredare f=F6r WA Cyklop
+
+Kort beskrivning av projektet och arbetsuppgifter
+
+GDPR i linjen Aff=E4rsuppf=F6ljning:
+
+Arbetsuppgifter
+
+*       Ta =F6ver projektet fr=E5n nuvarande projektledare och fullf=F6lja =
+plan f=F6r att bli GDPR-compliant
+*       Ta fram, implementera och dokumentera arbetss=E4tt f=F6r det som be=
+h=F6vs f=F6r att s=E4kerst=E4lla GDPR-compliance f=F6r gruppen. Tex regler =
+och arbetss=E4tt kring rensning, loggning etc.
+*       Driva arbetet med att f=E5 fram beslut kring lagliggrund f=F6r de k=
+=F6rningar som inneh=E5ller personuppgifter
+*       Driva och f=F6lja upp arbetet som ska utf=F6ras f=F6r att bli compl=
+iant tex. utf=F6ra rensning eller genomf=F6ra de =E5tg=E4rder som beh=F6vs
+
+
+
+F=F6rstudie WA Cyklop:
+
+Arbetsuppgifter
+
+*       F=E5nga in och f=F6rst=E5 krav och s=E4tta upp en leveransplan. H=
+=E4r ing=E5r =E4ven f=F6rankringsarbete med anv=E4ndarna.
+*       GAP-analyser av vilken information har vi redan p=E5 plats och vilk=
+en saknas eller finns n=E5got liknande men med lite olika aff=E4rsregler
+*       Prototypa fram f=F6rslag p=E5 hur vi b=E4st presenterar/visualisera=
+r det anv=E4ndarna beh=F6ver f=F6r att m=F6ta deras krav (Power BI).
+
+Kompetenskrav
+
+*       Projektledarkunskaper
+*       BI-projekterfarenhet, arbetat med rapporter, kuber och analys
+*       Kravanalys
+*       Synnerligen god f=F6rm=E5ga att driva arbetet sj=E4lv
+*       GDPR-erfarenhet
+*       F=F6rs=E4kringskunskap
+*       Erfarenhet av att jobba med detaljerad data och dra aff=E4rsm=E4ssi=
+ga slutsatser
+
+=D6nskat startdatum
+
+Andra halvan av februari
+
+=D6nskat slutdatum
+
+=C5ret ut
+
+Omfattning (% av heltid)
+
+100
+
+Svar =F6nskar senast
+
+Snarast m=F6jligt
+
+Intervjuer kommer att h=E5llas (ange datum eller vecka/veckor)
+
+Snarast m=F6jligt
+
+Motivering & pris asap.
+
+
+
+Mvh
+
+Jens Wintzer
+
+
+
+
+--_000_AM0PR0602MB344127BC3EE58CB3883B2D8D97EA0AM0PR0602MB3441_
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0602MB2971;27:v6uK1uQHFxNFPH7Z664SdbQIN+i2dc2JIt63VHsHOX21E5KS+4OR8zmbzuVK7A490kqjtqb6sdnrS786WYJ1ZpGPz2ldEbNYUiSpBFiM/jeA5r8itS36Sy3E9ChcYN47
+X-Microsoft-Antispam-Message-Info: BCfMaYfibxdFx4IE/lH2Xbv/gMlZjWKg4a2gboFNDaNw5FrqRB3d/+8yP7g+IqEPK1eEKOTtBYCOl3k09ZBycByKZQWqZHdaBAySslFHubA=
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParag=
+raphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListPar=
+agraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagra=
+phCxSpLast
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.E-postmall19
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.E-postmall20
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:510728219;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-381010948 69009409 69009411 69009413 69009409 69009=
+411 69009413 69009409 69009411 69009413;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:1141730635;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1517050062 1116644122 -1937888812 838208132 -1268605=
+444 2042017286 -1359036120 -1900262680 525238124 -1135467708;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"SV" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Hej, <o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Vi s=F6ker en konsult i en kombinerad roll enligt f=
+=F6ljande beskrivning:
+<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"margin-left:5.4pt;border-collapse:collapse">
+<tbody>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot=
+;,sans-serif">Roll/niv=E5<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">P=
+rojektledare f=F6r GDPR i linjen f=F6r Aff=E4rsuppf=F6ljning/Kravledare och=
+ utredare f=F6r WA Cyklop&nbsp;
+<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot=
+;,sans-serif">Kort beskrivning av projektet och arbetsuppgifter<o:p></o:p><=
+/span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif=
+">GDPR i linjen Aff=E4rsuppf=F6ljning:<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">A=
+rbetsuppgifter <o:p>
+</o:p></span></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoNormal" style=3D"margin-top:6.0pt;margin-bottom:6.0pt;margi=
+n-left:0cm;mso-list:l1 level1 lfo2;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">T=
+a =F6ver projektet fr=E5n nuvarande projektledare och fullf=F6lja plan f=F6=
+r att bli GDPR-compliant<o:p></o:p></span></li><li class=3D"MsoNormal" styl=
+e=3D"margin-top:6.0pt;margin-bottom:6.0pt;margin-left:0cm;mso-list:l1 level=
+1 lfo2;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">T=
+a fram, implementera och dokumentera arbetss=E4tt f=F6r det som beh=F6vs f=
+=F6r att s=E4kerst=E4lla GDPR-compliance f=F6r gruppen. Tex regler och arbe=
+tss=E4tt kring rensning, loggning etc.<o:p></o:p></span></li><li class=3D"M=
+soNormal" style=3D"margin-top:6.0pt;margin-bottom:6.0pt;margin-left:0cm;mso=
+-list:l1 level1 lfo2;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">D=
+riva arbetet med att f=E5 fram beslut kring lagliggrund f=F6r de k=F6rninga=
+r som inneh=E5ller personuppgifter<o:p></o:p></span></li><li class=3D"MsoNo=
+rmal" style=3D"margin-top:6.0pt;margin-bottom:6.0pt;margin-left:0cm;mso-lis=
+t:l1 level1 lfo2;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">D=
+riva och f=F6lja upp arbetet som ska utf=F6ras f=F6r att bli compliant tex.=
+ utf=F6ra rensning eller genomf=F6ra de =E5tg=E4rder som beh=F6vs<o:p></o:p=
+></span></li></ul>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:36.0pt;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif"><=
+o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<b><span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif=
+">F=F6rstudie WA Cyklop:
+<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">A=
+rbetsuppgifter<o:p></o:p></span></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoNormal" style=3D"margin-top:6.0pt;margin-bottom:6.0pt;margi=
+n-left:0cm;mso-list:l1 level1 lfo2;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">F=
+=E5nga in och f=F6rst=E5 krav och s=E4tta upp en leveransplan. H=E4r ing=E5=
+r =E4ven f=F6rankringsarbete med anv=E4ndarna.<o:p></o:p></span></li><li cl=
+ass=3D"MsoNormal" style=3D"margin-top:6.0pt;margin-bottom:6.0pt;margin-left=
+:0cm;mso-list:l1 level1 lfo2;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">G=
+AP-analyser av vilken information har vi redan p=E5 plats och vilken saknas=
+ eller finns n=E5got liknande men med lite olika aff=E4rsregler<o:p></o:p><=
+/span></li><li class=3D"MsoNormal" style=3D"margin-top:6.0pt;margin-bottom:=
+6.0pt;margin-left:0cm;mso-list:l1 level1 lfo2;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">P=
+rototypa fram f=F6rslag p=E5 hur vi b=E4st presenterar/visualiserar det anv=
+=E4ndarna beh=F6ver f=F6r att m=F6ta deras krav (Power BI).<o:p></o:p></spa=
+n></li></ul>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot=
+;,sans-serif">Kompetenskrav<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpFirst" style=3D"margin-top:6.0pt;margin-bo=
+ttom:6.0pt;margin-left:0cm;mso-add-space:auto;mso-list:l0 level1 lfo4;text-=
+autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">P=
+rojektledarkunskaper<o:p></o:p></span></li><li class=3D"MsoListParagraphCxS=
+pMiddle" style=3D"margin-top:6.0pt;margin-bottom:6.0pt;margin-left:0cm;mso-=
+add-space:auto;mso-list:l0 level1 lfo4;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">B=
+I-projekterfarenhet, arbetat med rapporter, kuber och analys<o:p></o:p></sp=
+an></li><li class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-top:6.0pt;=
+margin-bottom:6.0pt;margin-left:0cm;mso-add-space:auto;mso-list:l0 level1 l=
+fo4;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">K=
+ravanalys<o:p></o:p></span></li><li class=3D"MsoListParagraphCxSpMiddle" st=
+yle=3D"margin-top:6.0pt;margin-bottom:6.0pt;margin-left:0cm;mso-add-space:a=
+uto;mso-list:l0 level1 lfo4;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">S=
+ynnerligen god f=F6rm=E5ga att driva arbetet sj=E4lv<o:p></o:p></span></li>=
+<li class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-top:6.0pt;margin-b=
+ottom:6.0pt;margin-left:0cm;mso-add-space:auto;mso-list:l0 level1 lfo4;text=
+-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">G=
+DPR-erfarenhet<o:p></o:p></span></li><li class=3D"MsoListParagraphCxSpMiddl=
+e" style=3D"margin-top:6.0pt;margin-bottom:6.0pt;margin-left:0cm;mso-add-sp=
+ace:auto;mso-list:l0 level1 lfo4;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">F=
+=F6rs=E4kringskunskap <o:p>
+</o:p></span></li><li class=3D"MsoListParagraphCxSpLast" style=3D"margin-to=
+p:6.0pt;margin-bottom:6.0pt;margin-left:0cm;mso-add-space:auto;mso-list:l0 =
+level1 lfo4;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">E=
+rfarenhet av att jobba med detaljerad data och dra aff=E4rsm=E4ssiga slutsa=
+tser<o:p></o:p></span></li></ul>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot=
+;,sans-serif">=D6nskat startdatum<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">A=
+ndra halvan av februari<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot=
+;,sans-serif">=D6nskat slutdatum<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">=
+=C5ret ut<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot=
+;,sans-serif">Omfattning (% av heltid)<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">1=
+00<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot=
+;,sans-serif">Svar =F6nskar senast<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">S=
+narast m=F6jligt<o:p></o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&quot=
+;,sans-serif">Intervjuer kommer att h=E5llas (ange datum eller vecka/veckor=
+)<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">S=
+narast m=F6jligt<o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;line-height:115%">
+<span style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial&qu=
+ot;,sans-serif">Motivering &amp; pris asap.<o:p></o:p></span></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;line-height:115%">
+<span lang=3D"EN-GB" style=3D"mso-fareast-language:SV"><o:p>&nbsp;</o:p></s=
+pan></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;line-height:115%">
+<span lang=3D"EN-GB" style=3D"mso-fareast-language:SV">Mvh<o:p></o:p></span=
+></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:auto;mso-margin-bottom-a=
+lt:auto;line-height:115%">
+<span lang=3D"EN-GB" style=3D"mso-fareast-language:SV">Jens Wintzer<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_AM0PR0602MB344127BC3EE58CB3883B2D8D97EA0AM0PR0602MB3441_--

@@ -1,0 +1,878 @@
+---
+title: "AdvRes"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r pressure, echo=TRUE}
+
+
+
+
+######Kalman filter
+
+#Specifications of variables
+
+t_total <- 10000
+A <- 1
+B <- 1
+C <- 1
+R <- 1^2
+Q <- 5^2
+Sigma_0 <- 10^2
+mu_0 <- 50
+
+
+
+kalman_filter <- function(A, B, C, R, Q, Sigma_0, mu_0, u, z) {
+  # Arguments follow notation on the slides, Lecture SSM 1, slide 11, except for
+  # all them are scalars and not matrices/vectors.
+  #
+  # Returns:
+  # List:
+  # $mu
+  # $sigma
+  t_total <- length(z)
+  
+  mu <- rep(NA, t_total)
+  sigma <- rep(NA, t_total)
+  
+  mu[1] <- mu_0
+  sigma[1] <- Sigma_0
+  
+  for (t in 2:t_total) {
+    mu_bar <- A * mu[t-1] + B * u[t]
+    sigma_bar <- A * sigma[t-1] * A + R
+  
+    K <- sigma_bar * C / (C * sigma_bar * C + Q)
+    mu[t] <- mu_bar + K * (z[t] - C * mu_bar)
+    sigma[t] <- (1 - K * C) * sigma_bar
+}
+  return(list(mu = mu, sigma = sigma))
+}
+
+##SImulations
+u <- rep(1, t_total) # actions (always 1)
+x <- rep(NA, t_total) # hidden
+z <- rep(NA, t_total) # observed
+x[1] <- rnorm(1, mu_0, sqrt(Sigma_0))
+z[1] <- rnorm(1, x[1], sqrt(Q))
+for (t in 2:t_total) {
+x[t] <- rnorm(1, x[t-1] + B*u[t], sqrt(R))
+z[t] <- rnorm(1, x[t], sqrt(Q))
+}
+
+
+
+
+```
+
+
+##Lab1
+
+```{r , echo=TRUE}
+
+##Advanced Machine Learning lab 1
+
+
+# source("http://bioconductor.org/biocLite.R")
+# biocLite(c("graph", "RBGL", "Rgraphviz"))
+#install.packages("gRain", dependencies=TRUE)
+#install.packages("bnlearn")
+#install.packages("gRbase")
+#install.packages("gRain")
+library(bnlearn)
+library(gRain)
+library(gRbase)
+
+###1
+data(asia)
+
+plot(asia)
+
+par(mfrow=c(1,2))
+
+wl = matrix(c("E", "T"), ncol = 2, byrow = TRUE,
+            dimnames = list(NULL, c("from", "to")))
+
+plot(hc(asia, whitelist = wl), main ="HC with initial constraint")
+plot(hc(asia, whitelist = NULL),main ="HC without constraint")
+
+mygraph<-cpdag(hc(asia, whitelist = NULL, restart = 10))
+cmygraph<-cpdag(hc(asia, whitelist = wl))
+mygraph
+cmygraph
+all.equal(mygraph, cmygraph)
+
+#################Alternative
+set.seed(12345)
+countinue <- TRUE
+while(countinue){
+  hc1 <- hc(alarm, restart = 10)
+  hc2 <- hc(alarm, restart = 10)
+  continue <- ifelse(all.equal(vstructs(hc1), vstructs(hc2)) == TRUE, TRUE, FALSE)
+  if (continue !=TRUE){
+    par(mfrow = c(1,2))
+    graphviz.compare(hc1, hc2)
+    par(mfrow = c(1,1))
+    break
+  }
+}
+
+###2
+data("alarm")
+n<-4
+iss<- c(1,25,50,100)
+mydag<-list()
+par(mfrow=c(2,2))
+for(i in 1:n){
+  mydag[[i]]<- hc(alarm, restart = n,  
+                  score = "bde", iss = iss[i])
+  plot(mydag[[i]], sub = paste0("iss = ", iss[i] ))
+  print(alpha.star(mydag[[i]], alarm, debug = FALSE))
+}
+
+
+par(mfrow=c(1,1))
+
+####3
+data(learning.test)
+pdag = iamb(learning.test)
+pdag
+plot(pdag)
+dag = set.arc(pdag, from = "B", to = "A")
+dag = pdag2dag(pdag, ordering = c("A", "B", "C", "D", "E", "F"))
+plot(dag)
+
+fit = bn.fit(dag, learning.test)##It creates all conditional tables from one edge with another with his possible outcomes
+LS<- as.grain(fit)## it creates LS
+plot(LS)
+MM<- compile(LS)##it triangulates and moralizes
+plot(MM)
+basic<-querygrain(MM, nodes = c("A","E"))
+
+###################
+###################comparison of results for one change
+## I want the conditional distribution of A, E given B = b
+
+##Exact one
+ChangeEvidence<-setEvidence(MM, c("B"), c("b"))
+finalstate<-querygrain(ChangeEvidence, nodes = c("A","E"))
+
+##Greedy algorithm
+rsample<-cpdist(fit, nodes = c("A", "E"), evidence= (B=="b"), method = "ls")
+condprob<-lapply(rsample, FUN = function(x){table(x)/length(x)})
+
+res1<-cbind(A_LS= as.data.frame(finalstate)[1], A_Greedy= condprob$A,
+      E_LS= as.data.frame(finalstate)[2], E_Greedy= condprob$E)
+res1<-res1[,c(1,3,4,6)]
+colnames(res1)<- c("A_LS", "A_Greedy","E_LS", "E_Greedy" )
+res1
+
+###################comparison of results for two changes
+## I want the conditional distribution of A, E given B = b and F = b
+ChangeEvidence2<-setEvidence(MM, c("B","F"), c("b", "b"))
+finalstate2<-querygrain(ChangeEvidence2, nodes = c("A","E"))
+
+
+res2<- list()
+for(i in 1:4){
+  ##Exact one
+  ChangeEvidence2<-setEvidence(MM, c("B","F"), c("b", "b"))
+  finalstate2<-querygrain(ChangeEvidence2, nodes = c("A","E"))
+  ##Greedy algorithm
+  rsample2<-cpdist(fit, nodes = c("A", "E"), evidence= (B=="b")&(F=="b"), method = "ls")
+  condprob2<-lapply(rsample2, FUN = function(x){table(x)/length(x)})
+  
+  res2[[i]]<-cbind(A_LS= as.data.frame(finalstate2)[1], A_Approx= condprob2$A,
+              E_LS= as.data.frame(finalstate2)[2], E_Approx= condprob2$E)
+  res2[[i]]<-res2[[i]][,c(1,3,4,6)]
+  
+}
+res2
+
+
+###wITHOUT EVIDENCE
+## I want the conditional distribution of A, E 
+
+##Exact one
+finalstate3<-querygrain(MM, nodes = c("A","E"))
+
+
+###################comparison of results for two changes
+## I want the conditional distribution of A, E given B = b and F = b, D=d
+ChangeEvidence4<-setEvidence(MM, c("B","F","D", "A"), c("b", "b","b", "b"))
+finalstate4<-querygrain(ChangeEvidence4, nodes = c("A","E"))
+
+i<-1
+res5<- list()
+for(i in 1:4){
+  ##Exact one
+  ChangeEvidence5<-setEvidence(MM, c("B","F","D", "C"), c("b", "b","b", "b"))
+  finalstate5<-querygrain(ChangeEvidence5, nodes = c("A","E"))
+  ##Greedy algorithm
+  rsample5<-cpdist(fit, nodes = c("A", "E"), evidence= (B=="b")&(F=="b")&(D=="b")&(C=="b"), method = "ls")
+  condprob5<-lapply(rsample5, FUN = function(x){table(x)/length(x)})
+  
+  res5[[i]]<-cbind(A_LS= data.frame(finalstate5)[1], A_Approx= data.frame(condprob5$A),
+                   E_LS= data.frame(finalstate5)[2], E_Approx= data.frame(condprob5$E))
+  res5[[i]]<-res5[[i]][,c(1,3,4,6)]
+  
+}
+res5
+
+
+
+###4
+burn_in<- c(1,100, 10000, 1000000)
+every<-c(2,20,100, 200)
+
+nodes<- LETTERS[1:5]
+num <- 1000
+
+
+checkingDags<- function(burnin, every, num, nodes){
+  mymat<- matrix(ncol =length(burnin), nrow=length(every))
+  for(i in 1:length(burnin)){
+    for(j in 1:length(every)){
+      z<-random.graph(nodes = nodes, num = num,  method = "ic-dag", 
+                      every = every[j], burn.in =burnin[i])
+      
+      m<-unique(z)
+      print(length(m))# This gives the proportion the number of repeated graphs out my 
+      
+      dagGraph<-lapply(m, FUN= function(x){cpdag(x)})
+      mymat[j,i]<- length(unique(dagGraph))/length(m)
+      }
+  }
+  return(mymat)
+}
+
+result<-checkingDags(burnin = burn_in, every = every, num = num, nodes = nodes)
+colnames(result)<- paste0("burn in = " , burn_in)
+rownames(result)<- paste0("every = " , every)
+result
+
+
+```
+
+##Lab2
+
+
+
+```{r , echo=TRUE}
+
+
+###################Lab1
+
+set.seed(12345)
+#install.packages("HMM")
+library(HMM)
+
+##Question1
+# Initialise HMM
+states          <- as.character(1:10)
+symbols         <- as.character(1:10) 
+startProbs      <- rep(0.1,10) 
+transProbs      <- diag(x = 0.5, 10)
+transProbs[10,1]<- 0.5 #writing the ones left
+emissionProbs   <- diag(x = 0.2, 10)
+emissionProbs[1,9:10]<-rep(0.2,2)
+emissionProbs[2,10]<-rep(0.2,1)
+emissionProbs[9,1]<-rep(0.2,1)
+emissionProbs[10,1:2]<-rep(0.2,1)
+for(i in 1:ncol(transProbs)){
+  for(j in 1:nrow(transProbs)){
+    if(j == i+1){
+      transProbs[i,j]<-0.5
+      emissionProbs[i,j]<-0.2}
+    if(j == i+2){ emissionProbs[i,j]<-0.2}
+    if(j == i-1){ emissionProbs[i,j]<-0.2}
+    if(j == i-2){ emissionProbs[i,j]<-0.2}
+}}
+  
+
+myhmm = initHMM(States = states, 
+              Symbols = symbols, 
+              startProbs = startProbs,
+              transProbs= transProbs,
+              emissionProbs=emissionProbs)
+
+##2
+length<-100
+
+my100sim<-simHMM(myhmm, length)
+
+
+#3
+
+myobs<-my100sim$observation # Taking just the real observations (Z)
+###Filtering
+filtering<-exp(forward(myhmm, observation=myobs))#A matrix containing the forward probabilities given on a logarithmic scale (natural logarithm).
+marginalFilter<-apply(as.data.frame(filtering),2,  FUN = function(x){prop.table(x)})##prop.table already calculated the % on 1.
+
+
+###Smoothing
+smoothing<-posterior(myhmm, observation=myobs)
+
+##Most probable path
+
+Viterbi<-viterbi(myhmm, observation=myobs)
+
+#4
+mystates<-my100sim$states
+
+
+smoothingMostProb   <- sapply(as.data.frame(smoothing), which.max)
+FilteringMostProb   <- sapply(as.data.frame(marginalFilter),which.max)
+Viterbi
+
+smoothingresult <-table(mystates == smoothingMostProb)
+Filteringresult <-table(mystates == FilteringMostProb)
+Viterbiresult   <-table(mystates == Viterbi)
+
+ResultTable     <-cbind(smoothingresult, Filteringresult, Viterbiresult)
+
+###5
+
+
+Comparingsimuations<-function(HMM, length){
+  ResultTable<-list()
+  FilterEntropy<-list()
+  library(entropy)
+  for(i in 1:length(length)){
+    my100sim              <-simHMM(myhmm, length[i])
+    myobs                 <-my100sim$observation # Taking just the real observations (Z)
+    ###Filtering
+    filtering             <-exp(forward(myhmm, observation=myobs))#A matrix containing the forward probabilities given on a logarithmic scale (natural logarithm).
+    marginalFilter        <-apply(as.data.frame(filtering),2,  FUN = function(x){prop.table(x)})##prop.table already calculated the % on 1.
+    ###Smoothing
+    smoothing             <-posterior(myhmm, observation=myobs)
+    
+    
+    #Getting just the Z states for different models
+    mystates              <-my100sim$states
+    smoothingMostProb     <- sapply(as.data.frame(smoothing), which.max)
+    FilteringMostProb     <- sapply(as.data.frame(marginalFilter),which.max)
+    
+    smoothingresult       <-table(mystates == smoothingMostProb)
+    Filteringresult       <-table(mystates == FilteringMostProb)
+    Viterbi               <-viterbi(myhmm, observation=myobs)##Most probable path
+    
+    Viterbiresult         <-table(mystates == Viterbi)
+    ResultTable[[i]]      <-cbind(smoothingresult, Filteringresult, Viterbiresult)/length[i]
+  
+    
+    FilterEntropy[[i]]    <- apply(marginalFilter,2,entropy.empirical)
+
+  }
+ return(list(PercentageSIm=ResultTable, Entropy=FilterEntropy)) 
+}  
+
+
+length  <-rep(100,5)
+myhmm = initHMM(States = states, 
+                Symbols = symbols, 
+                startProbs = startProbs,
+                transProbs= transProbs,
+                emissionProbs=emissionProbs)
+
+Simulations<-Comparingsimuations(myhmm, length = length)
+
+Simulations$PercentageSIm
+
+#6
+#install.packages("entropy")
+
+Entropy<-Simulations$Entropy
+
+plot(Entropy[[1]], col = "red", type = "l")
+lines(Entropy[[2]], col = "blue")
+lines(Entropy[[3]], col = "green")
+lines(Entropy[[4]], col = "purple")
+lines(Entropy[[5]], col = "black")
+
+##7
+likelihood<-posterior(myhmm, myobs)
+prior<-transProbs
+result<-prior%*%likelihood[,100]
+
+
+```
+
+
+##Lab3
+
+
+```{r , echo=TRUE}
+##Advanced ML lab 3
+library("mvtnorm")
+
+##1a
+x <-  c(0.4)  
+y <- c(0.719)
+xStar <- seq(-1,1,length=200)
+sigma_f<-1
+l<-0.3
+hyperParam<- c(sigma_f, l)
+sigmaNoise<- 0.1
+nSim <- 100
+
+###Calculating K from y and x, that are two vector inputs
+GaussianKernel<- function(x1,x2, sigma_f =sigma_f, l=l){
+  n1<- length(x1)
+  n2<- length(x2)
+  K<- matrix(NA, n1, n2)
+  for(i in 1:n2){
+    K[,i]<-  sigma_f^2*exp(-0.5*( (x1-x2[i])/l)^2 )
+  }
+  return(K)
+}
+
+GaussianKernel(c(1,4), c(3,1), sigma = 2, l=1)
+GaussianKernel(c(1,4), c(3,1), sigma = 2, l=2)
+GaussianKernel(c(1,4), c(3,1), sigma = 2, l=3)
+GaussianKernel(c(1,4), c(3,1), sigma = 2, l=4)
+
+
+
+SimGP <- function(K,x,y, xStar, nSim, sigmaNoise, ...){
+  # Simulates nSim realizations (function) form a Gaussian process with mean m(x) and covariance K(x,x')
+  # over a grid of inputs (x)
+  n <- length(xStar)
+  #if (is.numeric(m)) meanVector <- rep(0,n) else meanVector <- m(xStar)
+  
+
+  covMat    <- K(x, x,...)
+  covMatdiff2<- K(x, xStar,...)
+  covMatStar<- K(xStar, xStar,...)
+  L<-t(chol(covMat+ (sigmaNoise^2)*diag(dim(covMat)[2])))
+  alpha<- solve(t(L),solve(L,y))
+  fStar<- t(covMatdiff2)%*%alpha
+  v<-solve(L,covMatdiff2)
+  covfStar <- covMatStar-t(v)%*%v
+  return(list(mean=fStar, covfStar= diag(covfStar)))
+}
+
+##b
+fSim <- SimGP(y=y, xStar = xStar, x= x, K=GaussianKernel, nSim = nSim, sigma_f =sigma_f, l=l, sigmaNoise = sigmaNoise )
+
+plot(fSim$mean)
+plot(fSim$covfStar)
+tablefsim<-cbind(mean = fSim$mean, low= fSim$mean-1.96*sqrt(fSim$covfStar),high= fSim$mean+1.96*sqrt(fSim$covfStar))
+plot(x= xStar,y = tablefsim[,1], col = "red", type = "l", ylim = c(-3,5), main = "1 data prior")
+lines(x= xStar, y =tablefsim[,2], col ="green")
+lines(x= xStar, y = tablefsim[,3], col = "green")
+points(x = x, y = y)
+legend("topleft", # places a legend at the appropriate place 
+       c("Mean distr ", "95% Conf. bands"), # puts text in the legend
+       lty=c(1,1), # gives the legend appropriate symbols (lines)
+       lwd=c(2.5,2.5),col=c("Red","Green")) # gives the legend lines the correct color and width
+
+##c
+
+x<-c(x,-0.6)
+y<-c(y, -0.044)
+
+fSim <- SimGP(y=y, xStar = xStar, x= x, K=GaussianKernel, nSim = nSim, sigma_f =sigma_f, l=l, sigmaNoise = sigmaNoise )
+
+tablefsim<-cbind(mean = fSim$mean, low= fSim$mean-1.96*sqrt(fSim$covfStar),high= fSim$mean+1.96*sqrt(fSim$covfStar))
+plot(x= xStar,y = tablefsim[,1], col = "red", type = "l", ylim = c(-3,3), main = "2 data prior")
+lines(x= xStar, y =tablefsim[,2], col ="green")
+lines(x= xStar, y = tablefsim[,3], col = "green")
+points(x = x, y = y)
+legend("topleft", # places a legend at the appropriate place 
+       c("Mean distr ", "95% Conf. bands"), # puts text in the legend
+       lty=c(1,1), # gives the legend appropriate symbols (lines)
+       lwd=c(2.5,2.5),col=c("Red","Green")) # gives the legend lines the correct color and width
+
+###d
+x<- c(-1.0,-0.6,-0.2,0.4,0.8)
+y<- c(0.768,-0.044,-0.940,0.719, -0.664)
+
+fSim <- SimGP(y=y, xStar = xStar, x= x, K=GaussianKernel, nSim = nSim, sigma_f =sigma_f, l=l, sigmaNoise = sigmaNoise )
+
+tablefsim<-cbind(mean = fSim$mean, low= fSim$mean-1.96*sqrt(fSim$covfStar),high= fSim$mean+1.96*sqrt(fSim$covfStar))
+plot(x= xStar,y = tablefsim[,1], col = "red", type = "l", main = "5 data prior, l = 0.3", ylim = c(-2,2))
+lines(x= xStar, y =tablefsim[,2], col ="green")
+points(x = x, y = y)
+lines(x= xStar, y = tablefsim[,3], col = "green")
+legend("topleft", # places a legend at the appropriate place 
+       c("Mean distr ", "95% Conf. bands"), # puts text in the legend
+       lty=c(1,1), # gives the legend appropriate symbols (lines)
+       lwd=c(2.5,2.5),col=c("Red","Green")) # gives the legend lines the correct color and width
+
+###e
+
+sigma_f<-1
+l<-1
+hyperParam<- c(sigma_f, l)
+
+fSim <- SimGP(y=y, xStar = xStar, x= x, K=GaussianKernel, nSim = nSim, sigma_f =sigma_f, l=l, sigmaNoise = sigmaNoise )
+
+tablefsim<-cbind(mean = fSim$mean, low= fSim$mean-1.96*sqrt(fSim$covfStar),high= fSim$mean+1.96*sqrt(fSim$covfStar))
+plot(x= xStar,y = tablefsim[,1], col = "red", type = "l", ylim = c(-2,3), main = "5 prior l = 1")
+lines(x= xStar, y =tablefsim[,2], col ="green")
+lines(x= xStar, y = tablefsim[,3], col = "green")
+points(x = x, y = y)
+legend("topleft", # places a legend at the appropriate place 
+       c("Mean distr ", "95% Conf. bands"), # puts text in the legend
+       lty=c(1,1), # gives the legend appropriate symbols (lines)
+       lwd=c(2.5,2.5),col=c("Red","Green")) # gives the legend lines the correct color and width
+
+###################################2
+# 
+# 
+# 
+# plot(xStar, fSim[1,], type="l", ylim = c(-3,3))
+# for (i in 2:dim(fSim)[1]) {
+#   lines(xStar, fSim[i,], type="l")
+# }
+# lines(xStar,MeanFunc(xStar), col = "red", lwd = 3)
+# 
+# 
+# # Plotting using manipulate package
+# #install.packages("manipulate")
+# library(manipulate)
+# 
+# plotGPPrior <- function(sigma_f, l, nSim=20){
+#   fSim <- SimGP(y=y, xStar = xStar, x= x, K=GaussianKernel, nSim = nSim, sigma_f =sigma_f, l=l, sigmaNoise = sigmaNoise )
+#   plot(xStar, fSim[1,], type="l", ylim = c(-3,3), ylab="f(x)", xlab="x")
+#   for (i in 2:nSim) {
+#     lines(xStar, fSim[i,], type="l")
+#   }
+#   title(paste('length scale =',l,', sigmaf =',sigma_f))
+# }
+# 
+# manipulate(
+#   plotGPPrior(sigma_f, l, nSim = 20),
+#   sigma_f = slider(0, 2, step=0.1, initial = 1, label = "SigmaF"),
+#   l = slider(0, 2, step=0.1, initial = 1, label = "Length scale, l")
+# )
+# 
+
+###2
+
+library(kernlab)
+Data<- read.csv("https://github.com/STIMALiU/AdvMLCourse/raw/master/GaussianProcess/Code/TempTullinge.csv", header=TRUE,  
+                sep = ";")
+
+TData<-data.frame(time = 1:2190, date = Data$date,day =rep(1:365,6), temp = Data$temp)
+GaussKernel<- function(sigmaF , ell){
+  rval <- function(x,y, sigma_f = sigmaF, l = ell){
+    n1 <- length(x)
+    n2 <- length(y)
+    K <- matrix(NA,n1,n2)
+    for (i in 1:n2){
+      K[,i] <- sigma_f^2*exp(-0.5*( (x-y[i])/l)^2 )
+    }
+    return(K)
+  }
+  
+  class(rval) <- "kernel"
+  return(rval)
+}
+
+SmallData<-  TData[seq(1, nrow(TData), 5), ]
+sigma_f<-2
+l<-1
+X<-matrix(c(1,3,4), ncol = 1)
+XStar<-matrix(c(2,3,4), ncol = 1)
+
+GaussianKernel2 <- GaussKernel(sigmaF =  sigma_f, ell = l)
+cov_matrix <- kernelMatrix(kernel =  GaussianKernel2, x=X, y = XStar)
+
+x1<-1
+x2<-2
+
+K<-GaussianKernel2(x=x1,y= x2)
+##b
+sigma_f<-20
+l <-0.2
+
+x<-SmallData$time
+x_prime<- seq(1,365,1)
+GaussianKernel3<-GaussKernel(sigmaF = sigma_f, ell = l)
+K<-kernelMatrix(GaussianKernel3, x,x_prime)
+
+mylm<-lm(temp~time+ I(time^2), SmallData)
+sigma_2_n<-var(mylm$residuals)
+
+
+GPfit <- gausspr(temp ~ time, data = SmallData , 
+                 kernel = GaussianKernel3, 
+                 kpar = list(sigma = sigma_f, ell = l), var = sigma_2_n)
+
+myrange<-range(SmallData$time)
+Xgrid<- myrange[1]:myrange[2]
+meanPred<-predict(GPfit, SmallData)
+length(meanPred)
+plot(x = SmallData$time, SmallData$temp, type = "l",
+     xlab = "Time", ylab = "temp")
+lines(SmallData$time, meanPred, col="blue", lwd = 2)
+
+
+##c
+
+fSim <- SimGP(y=SmallData$temp, xStar = SmallData$time, x= SmallData$time, 
+              K=GaussianKernel3, nSim = nSim, 
+              sigma_f =sigma_f, l=l, 
+              sigmaNoise = sqrt(sigma_2_n ))
+
+
+tablefsim<-cbind(mean = fSim$mean, low= fSim$mean-1.96*sqrt(fSim$covfStar),high= fSim$mean+1.96*sqrt(fSim$covfStar))
+plot(x = SmallData$time, SmallData$temp, type = "l",
+     xlab = "Time", ylab = "temp", ylim= c(-40,40))
+lines(SmallData$time, meanPred, col="blue", lwd = 2)
+lines(x= SmallData$time, y =tablefsim[,2], col ="green")
+lines(x= SmallData$time, y = tablefsim[,3], col = "green")
+legend("topleft", # places a legend at the appropriate place 
+       c( "95% Conf. bands", "meanpredb"), # puts text in the legend
+       lty=c(1,1), # gives the legend appropriate symbols (lines)
+       lwd=c(2.5,2.5),col=c("Green", "blue")) # gives the legend lines the correct color and width
+
+####d
+
+
+mylm<-lm(temp~day+ I(day^2), SmallData)
+sigma_2_n<-var(mylm$residuals)
+sigma_f<-20
+l <- 1.2
+
+
+GaussianKernel4<-GaussKernel(sigmaF = sigma_f, ell = l)
+
+
+GPfit <- gausspr(temp ~ day, data = SmallData , 
+                 kernel = GaussianKernel4, 
+                 kpar = list(sigma = sigma_f, ell = l), var = sigma_2_n)
+
+
+meanPred2<-predict(GPfit, SmallData)
+
+plot(x = SmallData$time, SmallData$temp, type = "l",
+     xlab = "Time", ylab = "temp", ylim= c(-40,80))
+lines(SmallData$time, meanPred, col="blue", lwd = 2)
+lines(x= SmallData$time, y =tablefsim[,2], col ="green")
+lines(x= SmallData$time, y = tablefsim[,3], col = "green")
+lines(SmallData$time, meanPred2, col="red", lwd = 2)
+
+legend("topleft", # places a legend at the appropriate place 
+       c( "95% Conf. bands", "mean. pred. time", "mean. pred. day"), # puts text in the legend
+       lty=c(1,1), # gives the legend appropriate symbols (lines)
+       lwd=c(2.5,2.5),col=c("Green", "blue", "red")) # gives the legend lines the correct color and width
+
+
+
+##e
+
+periodicKernel<- function(sigmaF, ell1, ell2, di){
+  rval<-function(x1,x2, sigma_f =sigmaF, l_1=ell1, l_2=ell2, d=di){
+  
+      K<-  sigma_f^2*exp((-2*sin(pi*abs(x1-x2)/d)**2)/l_1^2)*exp((-1/2*abs(x1-x2)**2)/l_2^2)
+    
+  }
+  class(rval) <- "kernel"
+  return(rval)
+}
+sigma_f<-20
+l_1<- 1
+l_2<-10
+d <- 365/sd(SmallData$time)
+periodicKernel5<-periodicKernel(sigmaF=sigma_f, ell1=l_1, ell2=l_2, di=d)
+
+GPfit <- gausspr(temp ~ time, data = SmallData , 
+                 kernel = periodicKernel5, 
+                 kpar = list(sigma = sigma_f, ell = l), var = sigma_2_n)
+
+meanPred3<-predict(GPfit, SmallData)
+
+plot(x = SmallData$time, SmallData$temp, type = "l",
+     xlab = "Time", ylab = "temp", ylim= c(-30,70))
+lines(SmallData$time, meanPred, col="blue", lwd = 2)
+lines(x= SmallData$time, y =tablefsim[,2], col ="green")
+lines(x= SmallData$time, y = tablefsim[,3], col = "green")
+lines(SmallData$time, meanPred2, col="red", lwd = 2)
+lines(SmallData$time, meanPred3, col="orange", lwd = 2)
+legend("topleft", # places a legend at the appropriate place 
+       c( "95% Conf. bands", "mean. pred. time", "mean. pred. day", "kernelperiodic"), # puts text in the legend
+       lty=c(1,1), # gives the legend appropriate symbols (lines)
+       lwd=c(2.5,2.5),col=c("Green", "blue", "red", "orange")) # gives the legend lines the correct color and width
+
+
+
+##3
+
+
+data <- read.csv("https://github.com/STIMALiU/AdvMLCourse/raw/master/GaussianProcess/Code/banknoteFraud.csv", header=FALSE, sep=",") 
+names(data) <- c("varWave","skewWave","kurtWave","entropyWave","fraud") 
+
+
+data[,5] <- as.factor(data[,5]) 
+set.seed(111)
+SelectTraining <- sample(1:dim(data)[1], size = 1000, replace = FALSE)
+model<-gausspr(fraud~varWave+skewWave, data = data[SelectTraining,])
+##Part III
+data<- data
+predictionfunction<- function(data, rows){
+  prediction<-predict(model,data[rows,])
+  confusionMat<-table(pred=prediction, true = data[rows,5]) # confusion matrix
+  Accuracy<-sum(diag(confusionMat))/sum(confusionMat)
+  print(confusionMat)
+  print(as.numeric(Accuracy))
+  
+}
+
+predictionfunction(data = data, rows = SelectTraining)
+##contour
+library(AtmRay)
+x1 <- seq(min(data[,"varWave"]),max(data["varWave"]),length=100)
+x2 <- seq(min(data["skewWave"]),max(data["skewWave"]),length=100)
+gridPoints <- meshgrid(x1, x2)
+gridPoints <- cbind(c(gridPoints$x), c(gridPoints$y))
+
+gridPoints <- data.frame(gridPoints)
+names(gridPoints) <- c("varWave", "skewWave")
+######
+probPreds <- predict(model, gridPoints, type="probabilities")
+# Plotting for Prob(setosa)
+contour(x2,x1,matrix(probPreds[,1],100), 20, xlab = "skewWave", ylab = "varWave", main = "Prob(varWave, Skewwave)  is not fraud(red), fraud(blue)")
+points(data[data[,5]==1,"skewWave"],data[data[,5]==1,"varWave"],col="blue")
+points(data[data[,5]==0,"skewWave"],data[data[,5]==0,"varWave"],col="red")
+
+###b
+
+test<-setdiff( 1:dim(data)[1], SelectTraining)
+probPreds<-predictionfunction(data = data, rows = test)
+
+
+
+
+
+#c
+
+model<-gausspr(fraud~., data = data[SelectTraining,])
+#train
+predictionfunction(data = data, rows = SelectTraining)
+#test
+predictionfunction(data = data, rows = test)
+
+
+
+```
+
+##Lab4
+
+```{r , echo=TRUE}
+##########
+#####1
+set.seed(12345)
+#######Generating model
+#initial model
+p1<-runif(1,0,100)
+
+# Transition
+
+sd_T<-1
+sd_E<-50
+
+Transition<- function(n,p0, sd_2){
+  z<- integer(n)
+  z[1]<-p0
+  for(i in 2:n){
+    p<- sample(c(z[i-1]+2,z[i-1],z[i-1]+1),1)
+    z[i]<-rnorm(1,p,sqrt(sd_2))
+    }
+  return(z)
+}
+myZ<-Transition(100, p0= p1, sd_2= sd_T**2)
+##Emission model
+
+
+Emission<- function(vectorz, sd_2){
+  n<- length(vectorz)
+  x<- integer(n)
+  for(i in 1:n){
+    p<- sample(c(vectorz[i]-1,vectorz[i],vectorz[i]+1),1)
+    x[i]<-rnorm(1,p,sqrt(sd_2))
+  }
+  return(x)
+}
+x_t<- Emission(myZ, sd_2 = sd_E**2)
+
+#####################
+weights<- rep(0.01,100)
+X<-runif(100,0,100)
+calculationprob<- function(simulations, init_weights, grid, sd_E, sd_T, x_t= x_t){
+  n<- length(grid)
+  parameters<- matrix( ncol = n,nrow = simulations)
+  newweigths<- matrix(ncol = n,nrow = simulations)
+  
+  newweigths[1,]<-init_weights/sum(init_weights)
+  parameters[1,]<-sample(x =grid,size = n, replace=TRUE, prob = newweigths[1,])
+ ### sample(dnorm(parameters[1,],grid) Left that
+  xt<- integer(100)
+  for(i in 2:simulations){
+    
+    for(j in 1:simulations){
+      xt[j]<-Transition(2,parameters[i-1,j],sd_T)[2]
+    }
+    newweigths[i,]<-dnorm(x_t[i-1], xt, sqrt(sd_E))/sum(dnorm(x_t[i-1], xt,sqrt(sd_E)))
+    parameters[i,]<-sample(xt, size =n, replace=TRUE, prob = newweigths[i,])
+
+  }
+  result<- list(parameters = parameters, weights=newweigths)
+  return(result)  
+}
+sd_2T<-1
+sd_2E<-1
+
+trial<-calculationprob(simulations =100, init_weights = weights, grid= X, 
+                       sd_T = sd_T, sd_E = sd_E,x_t= x_t)
+parameter_est<-trial$parameters
+parameter_est
+
+plotting<- function(Z=myZ,  X=x_t , particle= trial$parameters){
+  n<-1:length(Z)
+  for(i in n){
+    plot(0, xlim= c(1,300), ylim = c(0,150 ),bty='n',pch='',ylab='sep representation for clearness',xlab='position')
+    points(y = 20, x = Z[i], col ="red")
+    points(y = 30, x = X[i], col ="blue")
+    points(y =rep(40, 100), x = particle[i,], col = "green")
+    legend("topleft", # places a legend at the appropriate place 
+           c("True point (Z) ", "Estimated point (X)", "Particle filtering"), # puts text in the legend
+           lty=c(1,1), # gives the legend appropriate symbols (lines)
+           lwd=c(2.5,2.5),col=c("Red"," blue", "Green")) # gives the legend lines the correct color and width
+            Sys.sleep(0.2)
+  }
+}
+par(mfrow=c(1,1))
+#plotting()
+
+
+par(mfrow=c(1,1))
+plot(0, xlim= c(1,100), ylim = c(-50,400),
+     bty='n',pch='',ylab='position',xlab='time', main = paste0("Values for  sd = ", sd_E))
+lines(x = 1:100, y = myZ, col ="red")
+lines(x = 1:100, y = x_t, col ="blue")
+lines(x =1:100, y = apply(trial$parameters,1,mean), col = "green")
+legend("topleft", # places a legend at the appropriate place 
+       c("True point (Z) ", "Observed point (X)", "Particle filtering"), # puts text in the legend
+       lty=c(1,1), # gives the legend appropriate symbols (lines)
+       lwd=c(2.5,2.5),col=c("Red"," blue", "Green")) # gives the legend lines the correct color and width
+
+par(mfrow=c(2,2))
+hist(trial$parameters[1,], main= "Initial distribution of numbers", xlab = "range", col = "black")
+hist(trial$parameters[3,], main= "3rd distribution of numbers", xlab = "range", col = "black")
+hist(trial$parameters[50,], main= "50th distribution of numbers", xlab = "range", col = "black")
+hist(trial$parameters[100,], main= "Final distribution of numbers", xlab = "range", col = "black")
+
+
+
+```
+

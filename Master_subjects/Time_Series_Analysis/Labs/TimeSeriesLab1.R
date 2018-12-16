@@ -67,7 +67,7 @@ acf(model , lag.max = 100)
 #2
 #a
 library(astsa)
-Data<-read.csv("C:/Users/Carles/Desktop/MasterStatistics-MachineLearning/Master_subjects/Time_Series_Analysis/Rhine.csv", sep =";", dec = ",")
+Data<-read.csv("C:/Users/Carles/Desktop/MasterStatistics-MachineLearning/Master_subjects/Time_Series_Analysis/Data/Rhine.csv", sep =";", dec = ",")
 tsdata<-ts(data = Data$TotN_conc) 
 plot(tsdata)
 lag1.plot(tsdata, max.lag = 12)

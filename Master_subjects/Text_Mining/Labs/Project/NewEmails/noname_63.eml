@@ -1,0 +1,343 @@
+Received: from DB6PR0602MB2966.eurprd06.prod.outlook.com (10.172.250.22) by
+ HE1PR0602MB2971.eurprd06.prod.outlook.com (10.175.33.137) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.407.7 via Mailbox Transport; Tue, 16 Jan 2018 14:12:20 +0000
+Received: from HE1PR06MB3003.eurprd06.prod.outlook.com (10.171.197.12) by
+ DB6PR0602MB2966.eurprd06.prod.outlook.com (10.172.250.22) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.407.7; Tue, 16 Jan 2018 14:12:19 +0000
+Received: from HE1PR06MB3002.eurprd06.prod.outlook.com (10.171.197.11) by
+ HE1PR06MB3003.eurprd06.prod.outlook.com (10.171.197.12) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.407.7; Tue, 16 Jan 2018 14:12:17 +0000
+Received: from HE1PR06MB3002.eurprd06.prod.outlook.com
+ ([fe80::f123:bbfb:5454:79a1]) by HE1PR06MB3002.eurprd06.prod.outlook.com
+ ([fe80::f123:bbfb:5454:79a1%13]) with mapi id 15.20.0407.009; Tue, 16 Jan
+ 2018 14:12:17 +0000
+From: =?iso-8859-1?Q?Bo-G=F6ran_Perlstr=F6m?= <bo-goran.perlstrom@knowit.se>
+To: funk-affarsansvariga <funk-affarsansvariga@knowit.se>
+Subject: =?iso-8859-1?Q?F=F6rfr=E5gan_resurser_till_TIPf_-_Trafikverkets_Integrati?=
+ =?iso-8859-1?Q?onsPlattform?=
+Thread-Topic: =?iso-8859-1?Q?F=F6rfr=E5gan_resurser_till_TIPf_-_Trafikverkets_Integrati?=
+ =?iso-8859-1?Q?onsPlattform?=
+Thread-Index: AdOO0+f9D0WR9OJSRnSGyde9955DLw==
+Importance: high
+X-Priority: 1
+Date: Tue, 16 Jan 2018 14:12:16 +0000
+Message-ID: <HE1PR06MB30025086855D0F207937B563C5EA0@HE1PR06MB3002.eurprd06.prod.outlook.com>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: HE1PR06MB3002.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-Network-Message-Id: c65650ea-c0b1-4bf3-1389-08d55ceb262b
+X-Message-Flag: Follow up
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [192.71.76.144]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:HE1PR06MB3003;H:HE1PR06MB3002.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;;SKIP:1;
+x-ms-exchange-organization-originalclientipaddress: 192.71.76.144
+x-ms-exchange-organization-originalserveripaddress: 25.171.120.151
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0602MB2971;27:ZQAikP+82FDgs4MmYXHFQlg++tw86w03J6NvOWe/HF+9gcAfcjyZyUL7+Ms1boU1M3bronvtPtbNoEQZAidYKIpcvQCALPobhuJTWkiechnzGXbmvKzrAwUBlkjR4ZVV
+X-Microsoft-Antispam-Message-Info: orZi+9oZO0t0VSRx4tCSJv2i73UIaHpZBYVheydCWiy56VTQZ8OCLnXo+THo0VF88mI91JnMP9XdcmmGGk6A32uxTRR33++9PPWCgU5XrSQ=
+Content-Type: multipart/alternative;
+	boundary="_000_HE1PR06MB30025086855D0F207937B563C5EA0HE1PR06MB3002eurp_"
+MIME-Version: 1.0
+
+--_000_HE1PR06MB30025086855D0F207937B563C5EA0HE1PR06MB3002eurp_
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0602MB2971;27:ZQAikP+82FDgs4MmYXHFQlg++tw86w03J6NvOWe/HF+9gcAfcjyZyUL7+Ms1boU1M3bronvtPtbNoEQZAidYKIpcvQCALPobhuJTWkiechnzGXbmvKzrAwUBlkjR4ZVV
+X-Microsoft-Antispam-Message-Info: orZi+9oZO0t0VSRx4tCSJv2i73UIaHpZBYVheydCWiy56VTQZ8OCLnXo+THo0VF88mI91JnMP9XdcmmGGk6A32uxTRR33++9PPWCgU5XrSQ=
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hej!
+
+Trafikverket s=F6ker resurser som kan ta en, flera eller alla uppgifter ned=
+an till deras integrationscenter. TRV anv=E4nder prim=E4rt BizTalk som inte=
+grationsplattform.
+
+Nedan =E4r de uppgifter TRV har som de s=F6ker resurser till, hittar vi n=
+=E5gon som kan ta flertalet men inte alla s=E5 =E4r de =E4nd=E5 intresserad=
+e. Det =E4r ok med n=E5gon som utg=E5r fr=E5n annan ort och kan vara p=E5 p=
+lats i Borl=E4nge 2-3 dagar var annan eller var tredje vecka. =C5terkom sna=
+rast med f=F6rslag p=E5 resurser s=E5 tar vi det d=E4rifr=E5n, det =E4r lit=
+e br=E5ttom att tills=E4tta dessa.
+
+
+
+*       Roller vi s=F6ker idag inom FO Integration
+
+   *    TIPf taktisk/strategisk niv=E5
+
+      * Planera livscykelhantering komponenter i TIP
+      * Inventera behov p=E5 Trafikverket ang integration,
+      * Optimering av licenser
+      * Ansvara f=F6r inneh=E5ll i dokumentation (tekniska beskrivningar, r=
+utiner, karta)
+      * Driva framtagande av nya komponenter i TIP
+      * Infrastrukturell arkitektur i TIP
+      * Expert p=E5 tekniken i de komponenter som finns i TIP
+      * Polis p=E5 TIP
+
+   *    TIPf operativ niv=E5
+
+      * Genomf=F6ra och driva livscykelhantering komponenter TIP
+      * Koordinera/utf=F6ra realisering av nya komponenter i TIP
+      * Kapacitetsplanering, koll p=E5 patchar som kommer
+      * Ansvara f=F6r att ta fram dokumentation
+      * Tekniskt st=F6d f=F6r drift och utvecklare
+
+
+
+
+
+      mvh
+
+
+
+      B-G Perlstr=F6m p=E5 Knowit
+
+
+
+      T: +46 (0)70 5954 962  |  E: b-g.perlstrom@knowit.se<mailto:b-g.perls=
+trom@knowit.se>
+
+
+
+
+--_000_HE1PR06MB30025086855D0F207937B563C5EA0HE1PR06MB3002eurp_
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0602MB2971;27:ZQAikP+82FDgs4MmYXHFQlg++tw86w03J6NvOWe/HF+9gcAfcjyZyUL7+Ms1boU1M3bronvtPtbNoEQZAidYKIpcvQCALPobhuJTWkiechnzGXbmvKzrAwUBlkjR4ZVV
+X-Microsoft-Antispam-Message-Info: orZi+9oZO0t0VSRx4tCSJv2i73UIaHpZBYVheydCWiy56VTQZ8OCLnXo+THo0VF88mI91JnMP9XdcmmGGk6A32uxTRR33++9PPWCgU5XrSQ=
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+span.E-postmall18
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.E-postmall19
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+span.E-postmall21
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:214589565;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-593850542 -917611454 -641796158 1768966504 -1985605=
+970 -1405742916 1384003010 -1392097762 1653655772 943597506;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level2
+	{mso-level-start-at:189;
+	mso-level-number-format:bullet;
+	mso-level-text:\2013;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level3
+	{mso-level-start-at:189;
+	mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"SV" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Hej!<o:p></o:p></p>
+<p class=3D"MsoNormal">Trafikverket s=F6ker resurser som kan ta en, flera e=
+ller alla uppgifter nedan till deras integrationscenter. TRV anv=E4nder pri=
+m=E4rt BizTalk som integrationsplattform.<o:p></o:p></p>
+<p class=3D"MsoNormal">Nedan =E4r de uppgifter TRV har som de s=F6ker resur=
+ser till, hittar vi n=E5gon som kan ta flertalet men inte alla s=E5 =E4r de=
+ =E4nd=E5 intresserade. Det =E4r ok med n=E5gon som utg=E5r fr=E5n annan or=
+t och kan vara p=E5 plats i Borl=E4nge 2-3 dagar var annan eller
+ var tredje vecka. =C5terkom snarast med f=F6rslag p=E5 resurser s=E5 tar v=
+i det d=E4rifr=E5n, det =E4r lite br=E5ttom att tills=E4tta dessa.<o:p></o:=
+p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoNormal" style=3D"mso-list:l0 level1 lfo2">Roller vi s=F6ker=
+ idag inom FO Integration<o:p></o:p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoNormal" style=3D"mso-list:l0 level2 lfo2">TIPf taktisk/stra=
+tegisk niv=E5
+<o:p></o:p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoNormal" style=3D"mso-list:l0 level3 lfo2">Planera livscykel=
+hantering komponenter i TIP<o:p></o:p></li><li class=3D"MsoNormal" style=3D=
+"mso-list:l0 level3 lfo2">Inventera behov p=E5 Trafikverket ang integration=
+,
+<o:p></o:p></li><li class=3D"MsoNormal" style=3D"mso-list:l0 level3 lfo2">O=
+ptimering av licenser<o:p></o:p></li><li class=3D"MsoNormal" style=3D"mso-l=
+ist:l0 level3 lfo2">Ansvara f=F6r inneh=E5ll i dokumentation (tekniska besk=
+rivningar, rutiner, karta)<o:p></o:p></li><li class=3D"MsoNormal" style=3D"=
+mso-list:l0 level3 lfo2">Driva framtagande av nya komponenter i TIP<o:p></o=
+:p></li><li class=3D"MsoNormal" style=3D"mso-list:l0 level3 lfo2">Infrastru=
+kturell arkitektur i TIP<o:p></o:p></li><li class=3D"MsoNormal" style=3D"ms=
+o-list:l0 level3 lfo2">Expert p=E5 tekniken i de komponenter som finns i TI=
+P<o:p></o:p></li><li class=3D"MsoNormal" style=3D"mso-list:l0 level3 lfo2">=
+Polis p=E5 TIP<o:p></o:p></li></ul>
+</li><li class=3D"MsoNormal" style=3D"mso-list:l0 level2 lfo2">TIPf operati=
+v niv=E5<o:p></o:p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoNormal" style=3D"mso-list:l0 level3 lfo2">Genomf=F6ra och d=
+riva livscykelhantering komponenter TIP<o:p></o:p></li><li class=3D"MsoNorm=
+al" style=3D"mso-list:l0 level3 lfo2">Koordinera/utf=F6ra realisering av ny=
+a komponenter i TIP<o:p></o:p></li><li class=3D"MsoNormal" style=3D"mso-lis=
+t:l0 level3 lfo2">Kapacitetsplanering, koll p=E5 patchar som kommer<o:p></o=
+:p></li><li class=3D"MsoNormal" style=3D"mso-list:l0 level3 lfo2">Ansvara f=
+=F6r att ta fram dokumentation<o:p></o:p></li><li class=3D"MsoNormal" style=
+=3D"mso-list:l0 level3 lfo2">Tekniskt st=F6d f=F6r drift och utvecklare<o:p=
+></o:p></li></ul>
+</li></ul>
+</li></ul>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">mvh<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:9.0pt;font-family:&quot;=
+Arial&quot;,sans-serif;color:black;mso-fareast-language:NO-BOK">B-G Perlstr=
+=F6m p=E5 Knowit</span></b><span lang=3D"NO-BOK" style=3D"color:black;mso-f=
+areast-language:NO-BOK"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.5pt;font-family:&quot;Ari=
+al&quot;,sans-serif;color:#7F7F7F;mso-fareast-language:NO-BOK"><o:p>&nbsp;<=
+/o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.5pt;font-family:&quot;Ari=
+al&quot;,sans-serif;color:#7F7F7F;mso-fareast-language:NO-BOK">T: &#43;46&n=
+bsp;(0)70 5954 962&nbsp; |&nbsp; E:
+</span><span lang=3D"EN-US" style=3D"font-size:8.5pt;font-family:&quot;Aria=
+l&quot;,sans-serif;mso-fareast-language:NO-BOK"><a href=3D"mailto:b-g.perls=
+trom@knowit.se"><span lang=3D"SV">b-g.perlstrom@knowit.se</span></a>
+</span><span lang=3D"NO-BOK" style=3D"color:black;mso-fareast-language:NO-B=
+OK"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"mso-fareast-language:SV"><o:p>&nbsp;<=
+/o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_HE1PR06MB30025086855D0F207937B563C5EA0HE1PR06MB3002eurp_--

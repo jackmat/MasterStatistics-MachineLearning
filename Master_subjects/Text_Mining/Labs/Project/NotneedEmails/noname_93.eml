@@ -1,0 +1,83 @@
+Received: from DB6PR06MB3206.eurprd06.prod.outlook.com (10.170.215.149) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.239.5 via Mailbox Transport; Mon, 20 Nov 2017 15:06:55 +0000
+Received: from DB6PR0601CA0020.eurprd06.prod.outlook.com (2603:10a6:4:7b::30)
+ by DB6PR06MB3206.eurprd06.prod.outlook.com (2603:10a6:6:f::21) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.239.5; Mon, 20
+ Nov 2017 15:06:54 +0000
+Received: from VE1EUR03FT062.eop-EUR03.prod.protection.outlook.com
+ (2a01:111:f400:7e09::207) by DB6PR0601CA0020.outlook.office365.com
+ (2603:10a6:4:7b::30) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.239.5 via Frontend
+ Transport; Mon, 20 Nov 2017 15:06:54 +0000
+Received: from smtp-relay.telecomputing.se (84.17.192.147) by
+ VE1EUR03FT062.mail.protection.outlook.com (10.152.18.252) with Microsoft SMTP
+ Server (version=TLS1_0, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA_P384) id
+ 15.20.218.12 via Frontend Transport; Mon, 20 Nov 2017 15:06:53 +0000
+Received: from z07ar1swb086.z07.tconet.net (HELO backoffice.eworkgroup.com) ([172.25.7.52])
+  by smtp-relay.telecomputing.se with ESMTP; 20 Nov 2017 16:06:54 +0100
+From: "noreply@eworkgroup.com" <noreply@eworkgroup.com>
+To: Urban Jonsson <urban.jonsson@knowit.se>
+Subject: =?utf-8?B?VGFjayBmw7ZyIGRpbiBhbnPDtmthbg==?=
+Thread-Topic: =?utf-8?B?VGFjayBmw7ZyIGRpbiBhbnPDtmthbg==?=
+Thread-Index: AQHTYhE0m2V9iNWuxEG9YKjFfrzv+A==
+Date: Mon, 20 Nov 2017 15:06:53 +0000
+Message-ID: <2001892051.5960.1511190413547@smtp-relay.telecomputing.se>
+Content-Language: en-GB
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: VE1EUR03FT062.eop-EUR03.prod.protection.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id: 589eb8bd-58b2-4358-3279-08d530285630
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-attachmentfilenames:
+received-spf: Pass (protection.outlook.com: domain of eworkgroup.com
+ designates 84.17.192.147 as permitted sender)
+ receiver=protection.outlook.com; client-ip=84.17.192.147;
+ helo=smtp-relay.telecomputing.se;
+authentication-results: spf=pass (sender IP is 84.17.192.147)
+ smtp.mailfrom=eworkgroup.com; knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=bestguesspass action=none
+ header.from=eworkgroup.com;compauth=pass reason=100
+x-forefront-antispam-report: CIP:84.17.192.147;IPV:NLI;CTRY:SE;EFV:NLI;SFV:SFE;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:DB6PR06MB3206;H:smtp-relay.telecomputing.se;FPR:;SPF:None;LANG:sv;
+x-ms-exchange-organization-originalclientipaddress: 84.17.192.147
+x-ms-exchange-organization-originalserveripaddress: 25.152.18.252
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:8i4Vxz3gwt6H4DhysvzTVQ29AztYlWK3j8WqSK/rHweCgrFjASnQjSsU1f1kWSksbwvB+xOk1JiQGy5iUZikzNCcNo8Gl+lenoVaTaGWk8i7Rn//17e36eFX0lTP+4Ra
+Content-Type: multipart/alternative;
+	boundary="_000_200189205159601511190413547smtprelaytelecomputingse_"
+MIME-Version: 1.0
+
+--_000_200189205159601511190413547smtprelaytelecomputingse_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:8i4Vxz3gwt6H4DhysvzTVQ29AztYlWK3j8WqSK/rHweCgrFjASnQjSsU1f1kWSksbwvB+xOk1JiQGy5iUZikzNCcNo8Gl+lenoVaTaGWk8i7Rn//17e36eFX0lTP+4Ra
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+SGVqIFVyYmFuLA0KDQpUYWNrIGbDtnIgZGluIGFuc8O2a2FuIHRpbGwgU3lzdGVtdXR2ZWNrbGFy
+ZSAuTkVULyBDIyAoMTctMTEtMjY4NSkuIEFuc3ZhcmlnIGbDtnIgZGV0IGjDpHIgdXBwZHJhZ2V0
+IMOkciBLYXJpbiBIZWRibG9tLiBEdSBrYW4gYmV2YWthIGRpbiBhbnPDtmthbiBww6UgTWl0dCBF
+d29yazxodHRwczovL215ZXdvcmsuZXdvcmtncm91cC5jb20+LiBEw6RyIGhpdHRhciBkdSDDpHZl
+biBrb250YWt0dXBwZ2lmdGVyIHRpbGwgS2FyaW4gSGVkYmxvbSBvbSBkdSBoYXIgbsOlZ3JhIGZy
+w6Vnb3IgZWxsZXIgc3lucHVua3Rlci4NCg0KVsOkbmxpZ2EgaMOkbHNuaW5nYXIsDQoNCkV3b3Jr
+DQo=
+
+--_000_200189205159601511190413547smtprelaytelecomputingse_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:8i4Vxz3gwt6H4DhysvzTVQ29AztYlWK3j8WqSK/rHweCgrFjASnQjSsU1f1kWSksbwvB+xOk1JiQGy5iUZikzNCcNo8Gl+lenoVaTaGWk8i7Rn//17e36eFX0lTP+4Ra
+Content-Type: text/html; charset="utf-8"
+Content-ID: <6349EA61A5F7C042A2C13AB545BA0E8F@eurprd06.prod.outlook.com>
+Content-Transfer-Encoding: base64
+
+PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0i
+dGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5Pg0KPHA+SGVqIFVyYmFu
+LDwvcD4NCjxwPlRhY2sgZsO2ciBkaW4gYW5zw7ZrYW4gdGlsbCA8Yj5TeXN0ZW11dHZlY2tsYXJl
+IC5ORVQvIEMjICgxNy0xMS0yNjg1KTwvYj4uIEFuc3ZhcmlnIGbDtnIgZGV0IGjDpHIgdXBwZHJh
+Z2V0IMOkciBLYXJpbiBIZWRibG9tLiBEdSBrYW4gYmV2YWthIGRpbiBhbnPDtmthbiBww6UNCjxh
+IGhyZWY9Imh0dHBzOi8vbXlld29yay5ld29ya2dyb3VwLmNvbSI+TWl0dCBFd29yazwvYT4uIETD
+pHIgaGl0dGFyIGR1IMOkdmVuIGtvbnRha3R1cHBnaWZ0ZXIgdGlsbCBLYXJpbiBIZWRibG9tIG9t
+IGR1IGhhciBuw6VncmEgZnLDpWdvciBlbGxlciBzeW5wdW5rdGVyLjwvcD4NCjxwPlbDpG5saWdh
+IGjDpGxzbmluZ2FyLDwvcD4NCjxwPkV3b3JrPC9wPg0KPC9ib2R5Pg0KPC9odG1sPg0K
+
+--_000_200189205159601511190413547smtprelaytelecomputingse_--

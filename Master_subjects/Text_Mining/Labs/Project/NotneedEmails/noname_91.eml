@@ -1,0 +1,273 @@
+Received: from AM5PR06MB3204.eurprd06.prod.outlook.com (10.175.231.19) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.239.5 via Mailbox Transport; Mon, 20 Nov 2017 15:24:34 +0000
+Received: from AM5PR0601MB2435.eurprd06.prod.outlook.com (10.173.91.144) by
+ AM5PR06MB3204.eurprd06.prod.outlook.com (10.175.231.19) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.239.5; Mon, 20 Nov 2017 15:24:34 +0000
+Received: from AM5PR0601MB2387.eurprd06.prod.outlook.com (10.173.91.21) by
+ AM5PR0601MB2435.eurprd06.prod.outlook.com (10.173.91.144) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.239.5; Mon, 20 Nov 2017 15:24:33 +0000
+Received: from AM5PR0601MB2387.eurprd06.prod.outlook.com
+ ([fe80::5d85:6827:64b2:c615]) by AM5PR0601MB2387.eurprd06.prod.outlook.com
+ ([fe80::5d85:6827:64b2:c615%17]) with mapi id 15.20.0239.007; Mon, 20 Nov
+ 2017 15:24:33 +0000
+From: =?iso-8859-1?Q?Funktionsl=E5da_KK-PT_2014?= <kk-pt2014@knowit.se>
+To: Magnus Tauvon <Magnus.Tauvon@knowit.se>, Nils Kumar
+	<Nils.Kumar@knowit.se>, =?iso-8859-1?Q?Camilla_Land=E9n?=
+	<Camilla.Landen@knowit.se>, =?iso-8859-1?Q?M=E5ns_Hjertstrand?=
+	<Mans.Hjertstrand@knowit.se>, Emma Tarandi <Emma.Tarandi@knowit.se>, "Lars
+ Erickson" <lars.erickson@knowit.se>, Sebastian Vidovic
+	<sebastian.vidovic@knowit.se>, =?iso-8859-1?Q?H=E5kan_Als=E9n?=
+	<Hakan.Alsen@knowit.se>, Hanna Aspklint <Hanna.Aspklint@knowit.se>, "Peder
+ Lundgren" <Peder.Lundgren@knowit.se>, Mats Ohlsson <mats.ohlsson@knowit.se>,
+	Pernilla Snis <pernilla.snis@knowit.se>, Henrik Serlow
+	<henrik.serlow@knowit.se>, Pia Engwall <Pia.Engwall@knowit.se>,
+	=?iso-8859-1?Q?Cia_=D6rvill?= <Cia.orvill@knowit.se>, Daniel Borgentun
+	<daniel.borgentun@knowit.se>, =?iso-8859-1?Q?=C5sa_Holmberg?=
+	<asa.Holmberg@knowit.se>, Tomas Rimming <tomas.rimming@knowit.se>, "Peter
+ Lindstedt" <Peter.Lindstedt@knowit.se>, Kenneth Ericsson
+	<kenneth.ericsson@knowit.se>, =?iso-8859-1?Q?J=F8rn_Aaberg?=
+	<jorn.aaberg@knowit.no>, =?iso-8859-1?Q?P=E4r_Nilsson?=
+	<par.nilsson@knowit.se>, Erik Johansson <erik.johansson@knowit.se>, "Staffan
+ Nilsson" <Staffan.Nilsson@knowit.se>, =?iso-8859-1?Q?Axel_Holt=E5s?=
+	<Axel.Holtas@knowit.se>, Johan Hallgren <johan.hallgren@knowit.se>,
+	=?iso-8859-1?Q?Michael_Fr=F6ling?= <Michael.Froling@knowit.se>, "Thomas
+ Gustavsson" <thomas.gustavsson@knowit.se>, Thomas Wenngren
+	<thomas.wenngren@knowit.se>, Ola Ehrstedt <ola.ehrstedt@knowit.se>, "Hans
+ Reinikainen" <hans.reinikainen@knowit.se>, Kenneth Lyngshede
+	<kenneth.lyngshede@knowit.se>, Fredrik Grahn <Fredrik.Grahn@knowit.se>,
+	=?iso-8859-1?Q?Nils-G=F6ran_Wirehn?= <Nils-Goran.Wirehn@knowit.se>, "Thomas
+ Nord" <Thomas.Nord@knowit.se>, Dan Jacobsson <Dan.Jacobsson@knowit.se>, "Lisa
+ Lind" <lisa.lind@knowit.se>, =?iso-8859-1?Q?Bo-G=F6ran_Perlstr=F6m?=
+	<bo-goran.perlstrom@knowit.se>, Jonas Svensson <Jonas.Svensson@knowit.se>,
+	Helen Lyhde Nial <helen.lyhde.nial@knowit.se>, Bertil Nordlund
+	<bertil.nordlund@knowit.se>, =?iso-8859-1?Q?Maj_S=F6rensen-Ringi?=
+	<Maj.Sorensen-Ringi@knowit.se>, Urban Jonsson <urban.jonsson@knowit.se>,
+	=?iso-8859-1?Q?Pontus_Andr=E9?= <Pontus.Andre@knowit.se>,
+	=?iso-8859-1?Q?Helena_Bj=F6rnberg?= <Helena.Bjornberg@knowit.se>, "Jens
+ Wallentin" <Jens.Wallentin@knowit.se>, Fredrik Eriksson
+	<Fredrik.Eriksson@knowit.se>, Magnus Witting <Magnus.Witting@knowit.se>,
+	Johan Kuru <Johan.Kuru@knowit.se>, Ulf Johansson <Ulf.Johansson@knowit.se>,
+	Rickard Alfredson <Rickard.Alfredson@knowit.se>, Linus Larsson
+	<Linus.Larsson@knowit.se>, Berit Vonstad <Berit.Vonstad@knowit.se>,
+	=?iso-8859-1?Q?=C5sa_Schwarz?= <asa.Schwarz@knowit.se>, "info@candidator.se"
+	<info@candidator.se>, Linus Friborg <linus.friborg@knowit.se>,
+	=?iso-8859-1?Q?Bo-G=F6ran_Perlstr=F6m?= <bo-goran.perlstrom@knowit.se>,
+	=?iso-8859-1?Q?Thomas_Engstr=F6m?= <thomas.engstrom@knowit.se>,
+	=?iso-8859-1?Q?Nils-G=F6ran_Wirehn?= <Nils-Goran.Wirehn@knowit.se>, "Pia
+ Engwall" <Pia.Engwall@knowit.se>, Hans Reinikainen
+	<hans.reinikainen@knowit.se>, Christer Holman <christer.holman@knowit.se>,
+	Thomas Gustavsson <thomas.gustavsson@knowit.se>, Lisa Lind
+	<lisa.lind@knowit.se>, Erik Johansson <erik.johansson@knowit.se>, "Joakim
+ Jormelin" <joakim.jormelin@knowit.se>, Martin Skarp <martin.skarp@knowit.se>,
+	Kenneth Lyngshede <kenneth.lyngshede@knowit.se>,
+	=?iso-8859-1?Q?H=E5kan_Ramberg?= <Hakan.Ramberg@knowit.se>, Jonas Svensson
+	<Jonas.Svensson@knowit.se>, Thomas Wenngren <thomas.wenngren@knowit.se>,
+	Staffan Nilsson <Staffan.Nilsson@knowit.se>, =?iso-8859-1?Q?Axel_Holt=E5s?=
+	<Axel.Holtas@knowit.se>, Magnus Tauvon <Magnus.Tauvon@knowit.se>, Thomas Nord
+	<Thomas.Nord@knowit.se>, Mats Thorstenson <Mats.Thorstenson@knowit.se>,
+	Daniel Borgentun <daniel.borgentun@knowit.se>, Helen Lyhde Nial
+	<helen.lyhde.nial@knowit.se>, Kenneth Ericsson <kenneth.ericsson@knowit.se>,
+	=?iso-8859-1?Q?Michael_Fr=F6ling?= <Michael.Froling@knowit.se>,
+	=?iso-8859-1?Q?P=E4r_Nilsson?= <par.nilsson@knowit.se>, Johan Hallgren
+	<johan.hallgren@knowit.se>, =?iso-8859-1?Q?=C5sa_Schwarz?=
+	<asa.Schwarz@knowit.se>, Peter Lindstedt <Peter.Lindstedt@knowit.se>, "Tomas
+ Rimming" <tomas.rimming@knowit.se>, Henrik Serlow <henrik.serlow@knowit.se>,
+	=?iso-8859-1?Q?Anders_Ther=E9n?= <anders.theren@knowit.se>, Pernilla Snis
+	<pernilla.snis@knowit.se>, Mats Ohlsson <mats.ohlsson@knowit.se>, "Peder
+ Lundgren" <Peder.Lundgren@knowit.se>, Hanna Aspklint
+	<Hanna.Aspklint@knowit.se>, =?iso-8859-1?Q?H=E5kan_Als=E9n?=
+	<Hakan.Alsen@knowit.se>, Lars Erickson <lars.erickson@knowit.se>, "Emma
+ Tarandi" <Emma.Tarandi@knowit.se>, =?iso-8859-1?Q?M=E5ns_Hjertstrand?=
+	<Mans.Hjertstrand@knowit.se>, =?iso-8859-1?Q?Camilla_Land=E9n?=
+	<Camilla.Landen@knowit.se>, Nils Kumar <Nils.Kumar@knowit.se>, Urban Jonsson
+	<urban.jonsson@knowit.se>, =?iso-8859-1?Q?Pontus_Andr=E9?=
+	<Pontus.Andre@knowit.se>, Fredrik Eriksson <Fredrik.Eriksson@knowit.se>,
+	Magnus Witting <Magnus.Witting@knowit.se>, Johan Kuru <Johan.Kuru@knowit.se>,
+	=?iso-8859-1?Q?Nils-G=F6ran_Wirehn?= <Nils-Goran.Wirehn@knowit.se>, "Ulf
+ Johansson" <Ulf.Johansson@knowit.se>, =?iso-8859-1?Q?Maj_S=F6rensen-Ringi?=
+	<Maj.Sorensen-Ringi@knowit.se>, Thomas Wenngren <thomas.wenngren@knowit.se>,
+	Thomas Nord <Thomas.Nord@knowit.se>, Tomas Rimming <tomas.rimming@knowit.se>,
+	Sebastian Vidovic <sebastian.vidovic@knowit.se>, Rickard Alfredson
+	<Rickard.Alfredson@knowit.se>, Linus Larsson <Linus.Larsson@knowit.se>,
+	"Berit Vonstad" <Berit.Vonstad@knowit.se>, Linus Friborg
+	<linus.friborg@knowit.se>
+Subject: =?iso-8859-1?Q?VB:_Information_om_upphandling_"17/12:_F=F6rnyad_konkurren?=
+ =?iso-8859-1?Q?suts=E4ttning_Webbportal_till_SKL"?=
+Thread-Topic: =?iso-8859-1?Q?Information_om_upphandling_"17/12:_F=F6rnyad_konkurrensuts?=
+ =?iso-8859-1?Q?=E4ttning_Webbportal_till_SKL"?=
+Thread-Index: AQHTYhCw4kOubHAg20C5x7EPiVnl46MdYsU/
+Date: Mon, 20 Nov 2017 15:24:32 +0000
+Message-ID: <AM5PR0601MB238710288B0FE0EE46432E2CEC220@AM5PR0601MB2387.eurprd06.prod.outlook.com>
+References: <20171120150312.F05011A478@relay.opic.com>
+In-Reply-To: <20171120150312.F05011A478@relay.opic.com>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: AM5PR0601MB2387.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id: a1153ca7-0b7e-4693-0e9e-08d5302acd43
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [192.71.76.144]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:AM5PR0601MB2435;H:AM5PR0601MB2387.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;;SKIP:1;
+x-ms-exchange-organization-originalclientipaddress: 192.71.76.144
+x-ms-exchange-organization-originalserveripaddress: 2a01:111:e400:52b7::18
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:1VdfFhrFtKaQbVWDMbW0/WSpc9xEXQU1q8S9oViXAcsybPUCCEJpQyrPD3VFsFepF9jq6uqpVe3gGp4G8hJIBd+lwgEHXRXyhON50Sobx9tCJff73KxLpOFr58l7/NpC
+Content-Type: multipart/alternative;
+	boundary="_000_AM5PR0601MB238710288B0FE0EE46432E2CEC220AM5PR0601MB2387_"
+MIME-Version: 1.0
+
+--_000_AM5PR0601MB238710288B0FE0EE46432E2CEC220AM5PR0601MB2387_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:1VdfFhrFtKaQbVWDMbW0/WSpc9xEXQU1q8S9oViXAcsybPUCCEJpQyrPD3VFsFepF9jq6uqpVe3gGp4G8hJIBd+lwgEHXRXyhON50Sobx9tCJff73KxLpOFr58l7/NpC
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hej,
+
+
+SKL utf=F6r en f=F6rnyad konkurrensuts=E4ttning p=E5 KK-PT informationsf=F6=
+rs=F6rjning- man avropar en  ny Webbportal.
+
+
+F=F6r mer information: https://tendsign.com/doc.aspx?ID=3D126806&B=3DOqCJb8=
++E11QA
+
+
+Sista inl=E4mningsdag: 2017-12-04
+
+
+Med v=E4nlig h=E4lsning,
+
+
+Aff=E4rskontoret
+
+Knowit AB
+
+
+________________________________
+Fr=E5n: noreply@tendsign.com <noreply@tendsign.com>
+Skickat: den 20 november 2017 16:03
+Till: Funktionsl=E5da KK-PT 2014
+=C4mne: Information om upphandling "17/12: F=F6rnyad konkurrensuts=E4ttning=
+ Webbportal till SKL"
+
+Vi vill uppm=E4rksamma er om att vi har en aktuell f=F6rnyad konkurrensuts=
+=E4ttning som kan intressera ert f=F6retag. F=F6r att l=E4sa mer om upphand=
+lingen klicka p=E5 f=F6ljande l=E4nk:
+
+OBSERVERA att det enda s=E4ttet att n=E5 annonsen =E4r via l=E4nken nedan.
+
+https://tendsign.com/doc.aspx?ID=3D126806&B=3DOqCJb8+E11QA
+
+V=E4nliga h=E4lsningar
+
+Sveriges Kommuner och Landsting
+
+
+Ulrika Lundberg
+Avdelningen f=F6r administration
+Telefon: +46 8 542 76 51
+E-post: Ulrika.Lundberg@skl.se<mailto:Ulrika.Lundberg@skl.se>
+
+
+--_000_AM5PR0601MB238710288B0FE0EE46432E2CEC220AM5PR0601MB2387_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:1VdfFhrFtKaQbVWDMbW0/WSpc9xEXQU1q8S9oViXAcsybPUCCEJpQyrPD3VFsFepF9jq6uqpVe3gGp4G8hJIBd+lwgEHXRXyhON50Sobx9tCJff73KxLpOFr58l7/NpC
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;font=
+-family:Calibri,Helvetica,sans-serif;" dir=3D"ltr">
+<p>Hej,</p>
+<p><br>
+</p>
+<p>SKL utf=F6r en f=F6rnyad konkurrensuts=E4ttning p=E5 KK-PT informationsf=
+=F6rs=F6rjning- man avropar en&nbsp;&nbsp;ny Webbportal.&nbsp;</p>
+<p><br>
+</p>
+<p>F=F6r mer information:&nbsp;<span style=3D"font-family: Calibri, Helveti=
+ca, sans-serif, Helvetica, EmojiFont, &quot;Apple Color Emoji&quot;, &quot;=
+Segoe UI Emoji&quot;, NotoColorEmoji, &quot;Segoe UI Symbol&quot;, &quot;An=
+droid Emoji&quot;, EmojiSymbols; font-size: 16px;">https://tendsign.com/doc=
+.aspx?ID=3D126806&amp;B=3DOqCJb8&#43;E11QA</span><br style=3D"font-family: =
+Calibri, Helvetica, sans-serif, Helvetica, EmojiFont, &quot;Apple Color Emo=
+ji&quot;, &quot;Segoe UI Emoji&quot;, NotoColorEmoji, &quot;Segoe UI Symbol=
+&quot;, &quot;Android Emoji&quot;, EmojiSymbols; font-size: 16px;">
+</p>
+<p><span style=3D"font-family: Calibri, Helvetica, sans-serif, Helvetica, E=
+mojiFont, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, NotoCo=
+lorEmoji, &quot;Segoe UI Symbol&quot;, &quot;Android Emoji&quot;, EmojiSymb=
+ols; font-size: 16px;"><br>
+</span></p>
+<p>Sista inl=E4mningsdag: 2017-12-04</p>
+<p><br>
+</p>
+<div id=3D"Signature">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size: 12pt; color: rgb(0, 0,=
+ 0); background-color: rgb(255, 255, 255); font-family: Calibri, Arial, Hel=
+vetica, sans-serif, Helvetica, EmojiFont, &quot;Apple Color Emoji&quot;, &q=
+uot;Segoe UI Emoji&quot;, NotoColorEmoji, &quot;Segoe UI Symbol&quot;, &quo=
+t;Android Emoji&quot;, EmojiSymbols;">
+<p>Med v=E4nlig h=E4lsning,</p>
+<p><br>
+</p>
+<p>Aff=E4rskontoret</p>
+<p>Knowit AB</p>
+</div>
+</div>
+<br>
+<br>
+<div style=3D"color: rgb(0, 0, 0);">
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>Fr=E5n:</b> noreply@tendsign.co=
+m &lt;noreply@tendsign.com&gt;<br>
+<b>Skickat:</b> den 20 november 2017 16:03<br>
+<b>Till:</b> Funktionsl=E5da KK-PT 2014<br>
+<b>=C4mne:</b> Information om upphandling &quot;17/12: F=F6rnyad konkurrens=
+uts=E4ttning Webbportal till SKL&quot;</font>
+<div>&nbsp;</div>
+</div>
+<div>Vi vill uppm=E4rksamma er om att vi har en aktuell f=F6rnyad konkurren=
+suts=E4ttning som kan intressera ert f=F6retag. F=F6r att l=E4sa mer om upp=
+handlingen klicka p=E5 f=F6ljande l=E4nk:<br>
+<br>
+OBSERVERA att det enda s=E4ttet att n=E5 annonsen =E4r via l=E4nken nedan.<=
+br>
+<br>
+https://tendsign.com/doc.aspx?ID=3D126806&amp;B=3DOqCJb8&#43;E11QA<br>
+<br>
+V=E4nliga h=E4lsningar<br>
+<br>
+Sveriges Kommuner och Landsting<br>
+<br>
+<br>
+Ulrika Lundberg<br>
+Avdelningen f=F6r administration<br>
+Telefon: &#43;46 8 542 76 51<br>
+E-post: <a href=3D"mailto:Ulrika.Lundberg@skl.se">Ulrika.Lundberg@skl.se</a=
+> <br>
+<br>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_AM5PR0601MB238710288B0FE0EE46432E2CEC220AM5PR0601MB2387_--

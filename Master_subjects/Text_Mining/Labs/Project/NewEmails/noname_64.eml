@@ -1,0 +1,1548 @@
+Received: from DB6PR0602MB2966.eurprd06.prod.outlook.com (10.172.250.22) by
+ HE1PR0602MB2971.eurprd06.prod.outlook.com (10.175.33.137) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.407.7 via Mailbox Transport; Tue, 16 Jan 2018 12:12:39 +0000
+Received: from AM6PR0602MB3624.eurprd06.prod.outlook.com (52.133.23.141) by
+ DB6PR0602MB2966.eurprd06.prod.outlook.com (10.172.250.22) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.407.7; Tue, 16 Jan 2018 12:12:38 +0000
+Received: from AM6PR0602MB3624.eurprd06.prod.outlook.com (52.133.23.141) by
+ AM6PR0602MB3624.eurprd06.prod.outlook.com (52.133.23.141) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.407.7; Tue, 16 Jan 2018 12:12:36 +0000
+Received: from AM6PR0602MB3624.eurprd06.prod.outlook.com
+ ([fe80::d5d4:734f:76b9:1e5d]) by AM6PR0602MB3624.eurprd06.prod.outlook.com
+ ([fe80::d5d4:734f:76b9:1e5d%13]) with mapi id 15.20.0407.012; Tue, 16 Jan
+ 2018 12:12:36 +0000
+From: =?iso-8859-1?Q?Nils-G=F6ran_Wirehn?= <Nils-Goran.Wirehn@knowit.se>
+To: funk-affarsansvariga <funk-affarsansvariga@knowit.se>
+Subject: =?iso-8859-1?Q?IT-arkitekt_till_Luftfartsverket_Norrk=F6ping?=
+Thread-Topic: =?iso-8859-1?Q?IT-arkitekt_till_Luftfartsverket_Norrk=F6ping?=
+Thread-Index: AdOOwh8i4clTVglORZWnVd2tX0mt3A==
+Date: Tue, 16 Jan 2018 12:12:36 +0000
+Message-ID: <AM6PR0602MB3624BF1E14C943D80D6A0C9EA3EA0@AM6PR0602MB3624.eurprd06.prod.outlook.com>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: AM6PR0602MB3624.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-Network-Message-Id: 8243ba5f-9bb0-402e-9d0d-08d55cda6e5b
+X-Message-Flag: Follow up
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [192.71.76.144]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:AM6PR0602MB3624;H:AM6PR0602MB3624.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;;SKIP:1;
+x-ms-exchange-organization-originalclientipaddress: 192.71.76.144
+x-ms-exchange-organization-originalserveripaddress: 25.173.68.24
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0602MB2971;27:25IFOc2z5I6jeBEcXcCqhkdHGOkYRLyUHvoXw2PjaHK3kzJYwacRAc0N/cDmhEfjxx1A/8hIp1T4tDsC9eUTUpD/OZqGuND4FTIv9D9fKKdu8jBGAMv1kgiG2Vfo+b58
+X-Microsoft-Antispam-Message-Info: MD84KfzMqNVcUd0mxj4bgrN7bIo7h4LysDsPLNv5xC/HSRdQEdp7LM2+0BMtKhE66QgDSgMvHgiicUtyO6vEeOjs/A27iHd2MCJ6ZS5xOVc=
+Content-Type: multipart/alternative;
+	boundary="_000_AM6PR0602MB3624BF1E14C943D80D6A0C9EA3EA0AM6PR0602MB3624_"
+MIME-Version: 1.0
+
+--_000_AM6PR0602MB3624BF1E14C943D80D6A0C9EA3EA0AM6PR0602MB3624_
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0602MB2971;27:25IFOc2z5I6jeBEcXcCqhkdHGOkYRLyUHvoXw2PjaHK3kzJYwacRAc0N/cDmhEfjxx1A/8hIp1T4tDsC9eUTUpD/OZqGuND4FTIv9D9fKKdu8jBGAMv1kgiG2Vfo+b58
+X-Microsoft-Antispam-Message-Info: MD84KfzMqNVcUd0mxj4bgrN7bIo7h4LysDsPLNv5xC/HSRdQEdp7LM2+0BMtKhE66QgDSgMvHgiicUtyO6vEeOjs/A27iHd2MCJ6ZS5xOVc=
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hej Alla!
+
+
+
+H=E4r finns chansen till ett intressant uppdrag p=E5 Luftfartsverket i Norr=
+k=F6ping.
+
+
+
+
+
+IT-arkitekt
+
+
+
+Uppdraget ska p=E5b=F6rjas snarast ber=E4knas p=E5g=E5 ca 6 m=E5nader. Omfa=
+ttningen ber=E4knas till ca 50%. Omfattning och l=E4ngd p=E5 uppdraget kan =
+komma att =E4ndras.
+
+Uppdraget skall genomf=F6ras p=E5 plats p=E5 LFVs huvudkontor i Norrk=F6pin=
+g.
+
+
+
+V=E5rt taktimpris =E4r 900 kr, inga andra ers=E4ttningar utg=E5r.
+
+Inget mellansk=E4r.
+
+
+
+Svar till mig senast fredagen den 19/3 kl. 13 och d=E5 med CV som ska match=
+a efterfr=E5gad kompetens enligt nedan.
+
+
+
+Om intressant, se nedan f=F6r fler detaljer.
+
+
+
+Fr=E5n f=F6rfr=E5gan
+
+LFV s=F6ker IT-arkitekt f=F6r uppdrag r=F6rande LFVs IT-arbetsplats. Uppdra=
+get best=E5r i att underl=E4tta =F6verg=E5ngen fr=E5n dagens Arbetsplatstj=
+=E4nst till hur dessa tj=E4nster ska levereras i n=E4sta generations Arbets=
+platstj=E4nst.
+
+
+
+Bakgrund
+
+
+
+LFV har under m=E5nga =E5r haft administrativa IT tj=E4nster outsourcade ti=
+ll olika leverant=F6rer. De tj=E4nster som ing=E5r i Arbetsplatstj=E4nsten =
+=E4r:
+
+*       Datorer inkl. managering av basplattform
+*       Utskrift (print on demand)
+*       ServiceDesk
+*       AD
+*       Certifikatstj=E4nst (PKI)
+*       SMS OTP
+*       Lync
+*       Best=E4llningsportal
+*       Sj=E4lvhj=E4lpsportal
+*       Licenshantering (SAM)
+*       Intern DNS
+*       DHCP
+*       Tillbeh=F6rsportal (Capeiro)
+*       Gruppdiskar
+
+
+
+Till ovan tj=E4nster kommer de infrastrukturella komponenter som beh=F6vs f=
+=F6r att tillhanda=ADh=E5lla tj=E4nsterna. Denna infrastruktur st=E5r tj=E4=
+nsteleverant=F6ren i huvudsak f=F6r, men vissa tj=E4nster och infrastruktur=
+ utnyttjas =E4ven fr=E5n andra avtal och leverant=F6rer. Detta samtidigt so=
+m leverant=F6reren av Arbetsplatstj=E4nst tillhandah=E5ller tj=E4nster och =
+infrastruktur till andra tj=E4nster.
+
+
+
+Inom arbetsplatstj=E4nsten s=E5 best=E5r idag den =F6verv=E4gande delen av =
+infrastrukturen av Microsoftprodukter (Exchange, Lync, AD etc.) men det f=
+=F6rkommer =E4ven en del produkter av andra fabrikat och =E4ven egenh=E4ndi=
+gt utvecklade tj=E4nster som CGIs SMS OTP. Klienterna =E4r i princip helt M=
+icrosoft-baserade med Windows 7 och Windows 10. Tj=E4nster inom arbetsplats=
+tj=E4nsten utnyttjas av tj=E4nster inom andra leveranser s=E5 som VPN (Juni=
+per SA) och MDM (MobileIron).
+
+
+
+Under 2016-2017 har fokus p=E5 IT s=E4kerhet =F6kat och den outsourcing-str=
+ategi som funnits p=E5 flera myndigheter har till viss del reviderats. Unde=
+r perioden har ett flertal h=E4ndelser p=E5 olika myndigheter gjort att all=
+a myndigheter i Sverige beh=F6ver se =F6ver sin leveransstrategi f=F6r olik=
+a IT tj=E4nster, s=E5 =E4ven LFV.
+
+
+
+Under 2018 kommer en ny upphandling av Arbetsplatstj=E4nst att genomf=F6ras=
+ och denna kommer att genomf=F6ras p=E5 de delar som beslutas ska hantearas=
+ genom outsourcing, medan andra delar ska flyttas tillbaka till LFV att han=
+tera. Exakt vilka delar som kommer att hamna vart =E4r inte i dagsl=E4get h=
+elt utrett.
+
+
+
+F=F6r att underl=E4tta en =F6verg=E5ng fr=E5n dagens Arbetsplatstj=E4nst ti=
+ll morgondagens beh=F6ver f=F6rberedande arbete med kartl=E4ggning genomf=
+=F6ras, d=E5 det i huvudsak =E4r leverant=F6rerna som sitter med dokumentat=
+ion av infrastruktur och konfigurationer.
+
+
+
+Uppdragsbeskrivning
+
+
+
+Uppgifter
+
+
+
+De uppgifter som skall genomf=F6ras under uppdraget =E4r:
+
+1.      att kartl=E4gga dagens infrastruktur, och dess konfigurationer, ino=
+m ramen f=F6r Arbetsplatstj=E4nsten, samt n=E4rliggande avtalsomr=E5den, ex=
+. n=E4t och telefoni
+2.      att ta fram designf=F6rslag p=E5 n=E4sta generations Arbetsplatstj=
+=E4nst utifr=E5n kravbild (b=E5de funktionell och icke funktionell)
+3.      att vara behj=E4lplig i upphandling av nya tj=E4nster f=F6r arbetsp=
+lats
+4.      att vara behj=E4lplig vid etablering av LFVs infrastruktur f=F6r de=
+ delar som LFV skall hantera sj=E4lva
+
+
+
+All dokumentation av IT arkitektur skall ske i LFVs arkitekturverktyg (MooD=
+).
+
+
+
+Leverabler
+
+
+
+De f=F6rv=E4ntade leverablerna i uppdraget =E4r:
+
+*       Dokumenterat nul=E4ge av tj=E4nster, infrastruktur, konfigurationer=
+ och beroenden
+*       Dokumenterat framtida l=E4ge av tj=E4nster, infrastruktur, konfigur=
+ationer och beroenden
+*       F=F6r de delar av framtida l=E4ge som skall hanteras av LFV skall =
+=E4ven produktf=F6rslag, kostnadsuppskattning, personal=E5tg=E5ng och kompe=
+tensbehov dokumenteras
+*       Under uppdragets g=E5ng skall det beslutsunderlag som beh=F6vas tas=
+ fram (ex. scenario, alternativ, kostnadsuppskattningar etc.)
+
+
+
+Arbetsbeskrivning
+
+
+
+Uppdraget skall genomf=F6ras p=E5 plats p=E5 LFVs huvudkontor i Norrk=F6pin=
+g.
+
+
+
+Arbetet ska bedriva i samarbete med:
+
+*       CIO
+*       IT Arkitekt
+*       IT S=E4kerhetsspecialist
+*       SA och FA f=F6r Arbetsplatstj=E4nst, N=E4t respektive Telefoni
+*       Projektet f=F6r upphandling av ny Arbetsplatstj=E4nst (projektet =
+=E4r =E4nnu inte startat och PL ej tillsatt idag)
+*       Projektet f=F6r hemtagning av infrastruktur (projektet =E4r =E4nnu =
+inte startat och PL ej tillsatt idag)
+
+
+
+Uppdraget rapporterar till LFVs IT Arkitekt.
+
+
+
+
+1                            Behov och volymer
+
+
+
+
+Uppdraget ska p=E5b=F6rjas snarast ber=E4knas p=E5g=E5 ca 6 m=E5nader. Omfa=
+ttningen ber=E4knas till ca 50%. Omfattning och l=E4ngd p=E5 uppdraget kan =
+komma att =E4ndras.
+
+
+
+
+2                            Kravspecifikation
+
+
+=D6nskad kompetens =E4r inom IT infrastruktur med fokus p=E5 Microsoft. Det=
+ =E4r inte n=F6dv=E4ndigt att vara expert p=E5 ing=E5ende produkter utan en=
+ generalist med bred kunskap =E4r att f=F6redra framf=F6r en produktspecial=
+ist. Design kommer att tas fram i samarbete med =E4mnesexperter fr=E5n leve=
+rant=F6rer.
+
+
+3                            Anbud
+
+
+Anbud i form av CV som styrker ovanst=E5ende krav. Det =E4r fritt att l=E4m=
+na in flera f=F6rslag.
+
+
+4                            Pris
+
+
+Pris anges som kr/tim, l=F6pande fakturering.
+
+
+5                            Tidpunkter och fr=E5gor
+
+
+Svar ska vara LFV tillhanda senast: 2018-01-22
+
+Fr=E5gor st=E4lls till: fredrik.lundqvist@lfv.se svar delges samtliga Ramav=
+talsleverant=F6rer och fr=E5gor ska vara st=E4llda s=E5 att svar kan ges se=
+nast tv=E5 arbetsdagar innan svar p=E5 anbudsf=F6rfr=E5gan ska l=E4mnas.
+
+Avropssvar ska vara giltigt i 3 m=E5nader fr=E5n sista dag att l=E4mna svar=
+ p=E5 denna avropsf=F6rfr=E5gan.
+
+
+6                            Utv=E4rdering
+
+
+
+
+LFV kommer att utv=E4rdera anbuden. Vid behov kommer LFV att styrka efterfr=
+=E5gade kompetenser och f=F6rm=E5gor genom intervjuer av f=F6reslagna resur=
+ser. LFV kommer att l=E4gga stor vikt vid de f=F6reslagna resursernas kompe=
+tens och personliga egenskaper och bed=F6ma dem enligt skalan f=F6r po=E4ng=
+bed=F6mning nedan.
+
+
+
+Det anbud med den eller de resurser som LFV anser l=E4mpligast f=F6r uppdra=
+get kommer att antas. Om tv=E5 anbud anses likv=E4rdiga kommer anbud med l=
+=E4gst timpris att antas.
+
+
+
+LFV f=F6rbeh=E5ller sig r=E4tten att inte anta n=E5got anbud om LFV anser a=
+tt f=F6reslagna resurser inte motsvarar LFVs krav.
+
+
+
+Po=E4ngbed=F6mning
+
+Po=E4ng ges utifr=E5n hur v=E4l leverant=F6rens beskrivningar i anbud uppfy=
+ller syfte och krav p=E5 en skala 0-10 enligt nedan, den anbudsgivare som u=
+ppn=E5r h=F6gst totalpo=E4ng f=E5r avropskontraktet.
+
+*       Tio (10) po=E4ng
+
+Myndigheten anser att mycket h=F6g niv=E5 uppn=E5tts i beskrivningar och of=
+fererad konsults svar under en eventuell intervju. Den sammanlagda bed=F6mn=
+ingen visar att anbudsgivarens beskrivning/redovisning =E4r p=E5 en utm=E4r=
+kt niv=E5 och uppfyller kriteriet och ger betydande beh=E5llning f=F6r best=
+=E4llaren. Anbudsgivaren beskriver p=E5 ett mycket tydligt strukturerat och=
+ detaljerat s=E4tt och med mycket stor relevans f=F6r det som efterfr=E5gat=
+s. Beskrivningar och svar visar p=E5 en djup f=F6rst=E5else f=F6r det som e=
+fterfr=E5gats.
+
+
+
+*       Fem (5) po=E4ng
+
+Myndigheten anser att h=F6g niv=E5 uppn=E5tts i beskrivningar och offererad=
+ konsults svar under en eventuell intervju. Den sammanlagda bed=F6mningen v=
+isar att anbudsgivarens beskrivning i huvudsak uppfyller kriteriet och ger =
+beh=E5llning f=F6r best=E4llaren. Anbudsgivaren svarar p=E5 ett tydligt str=
+ukturerat och detaljerat s=E4tt och med relevans det som efterfr=E5gats. Be=
+skrivningar och svar visar p=E5 f=F6rst=E5else f=F6r det som efterfr=E5gats=
+.
+
+
+
+*       Tv=E5 (2) po=E4ng
+
+Myndigheten anser att godk=E4nd niv=E5 uppn=E5s i beskrivningar och offerer=
+ad konsults svar under en eventuell intervju. Den sammanlagda bed=F6mningen=
+ visar att anbudsgivarens beskrivning delvis uppfyller kriteriet och bed=F6=
+ms tillf=F6ra en god kvalitet. Anbudsgivaren beskriver p=E5 en fullgod niv=
+=E5 det som efterfr=E5gats. Beskrivningar och svar visar p=E5 viss f=F6rst=
+=E5else f=F6r det som efterfr=E5gas.
+
+
+
+*       Noll (0) po=E4ng
+
+Myndigheten anser att anbudsgivarens/ offererad konsults svar =E4r bristf=
+=E4lliga. Beskrivning/redovisning/svar =E4r p=E5 en otillr=E4cklig niv=E5/s=
+aknas. Kriteriet uppfylls inte alls.
+
+
+
+Mvh / Nisse
+
+
+
+Nils-G=F6ran Wir=E9hn at Knowit
+
+CEO
+
+* * * * * * * * * * * * * * * * * *
+
+Knowit Experience Link=F6ping AB
+
+Klostergtan 13, SE-582 23 Link=F6ping, Sweden
+
++46703520022  |  +4687006600
+
+
+
+http://www.knowit.se<http://www.knowit.se/>
+http://knowit.se/facebook
+http://www.knowit.se/Linkedin
+
+
+
+
+
+
+
+
+
+
+--_000_AM6PR0602MB3624BF1E14C943D80D6A0C9EA3EA0AM6PR0602MB3624_
+X-Microsoft-Exchange-Diagnostics: 1;HE1PR0602MB2971;27:25IFOc2z5I6jeBEcXcCqhkdHGOkYRLyUHvoXw2PjaHK3kzJYwacRAc0N/cDmhEfjxx1A/8hIp1T4tDsC9eUTUpD/OZqGuND4FTIv9D9fKKdu8jBGAMv1kgiG2Vfo+b58
+X-Microsoft-Antispam-Message-Info: MD84KfzMqNVcUd0mxj4bgrN7bIo7h4LysDsPLNv5xC/HSRdQEdp7LM2+0BMtKhE66QgDSgMvHgiicUtyO6vEeOjs/A27iHd2MCJ6ZS5xOVc=
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+h1
+	{mso-style-link:"Rubrik 1 Char";
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-indent:-70.9pt;
+	line-height:13.0pt;
+	page-break-after:avoid;
+	mso-list:l4 level1 lfo1;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;
+	text-transform:uppercase;}
+h2
+	{mso-style-link:"Rubrik 2 Char";
+	margin-top:18.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-indent:-70.9pt;
+	line-height:13.0pt;
+	page-break-after:avoid;
+	mso-list:l4 level2 lfo1;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+h3
+	{mso-style-link:"Rubrik 3 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-indent:-70.9pt;
+	page-break-after:avoid;
+	mso-list:l4 level3 lfo1;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:normal;}
+h4
+	{mso-style-link:"Rubrik 4 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-indent:-70.9pt;
+	page-break-after:avoid;
+	mso-list:l4 level4 lfo1;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:normal;
+	font-style:italic;}
+h5
+	{mso-style-link:"Rubrik 5 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-indent:-70.9pt;
+	page-break-after:avoid;
+	mso-list:l4 level5 lfo1;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	font-weight:normal;}
+h6
+	{mso-style-link:"Rubrik 6 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:9.0pt;
+	margin-left:0cm;
+	text-indent:-70.9pt;
+	mso-list:l4 level6 lfo1;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:normal;
+	font-style:italic;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-link:"Rubrik 7 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:9.0pt;
+	margin-left:0cm;
+	text-indent:-70.9pt;
+	mso-list:l4 level7 lfo1;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-link:"Rubrik 8 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:9.0pt;
+	margin-left:0cm;
+	text-indent:-70.9pt;
+	mso-list:l4 level8 lfo1;
+	font-size:11.0pt;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-link:"Rubrik 9 Char";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:9.0pt;
+	margin-left:0cm;
+	text-indent:-70.9pt;
+	mso-list:l4 level9 lfo1;
+	font-size:9.0pt;
+	font-family:"Times New Roman",serif;
+	font-style:italic;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+span.MsoPlaceholderText
+	{mso-style-priority:99;
+	font-family:"Times New Roman",serif;
+	color:gray;
+	mso-style-textfill-fill-color:gray;
+	mso-style-textfill-fill-alpha:100.0%;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.Default, li.Default, div.Default
+	{mso-style-name:Default;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;}
+span.E-postmall21
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.E-postmall22
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+span.E-postmall23
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.E-postmall24
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.E-postmall25
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.E-postmall26
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.E-postmall27
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.E-postmall28
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.Rubrik1Char
+	{mso-style-name:"Rubrik 1 Char";
+	mso-style-link:"Rubrik 1";
+	font-family:"Calibri",sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;}
+span.Rubrik2Char
+	{mso-style-name:"Rubrik 2 Char";
+	mso-style-link:"Rubrik 2";
+	font-family:"Calibri",sans-serif;
+	font-weight:bold;}
+span.Rubrik3Char
+	{mso-style-name:"Rubrik 3 Char";
+	mso-style-link:"Rubrik 3";
+	font-family:"Calibri",sans-serif;}
+span.Rubrik4Char
+	{mso-style-name:"Rubrik 4 Char";
+	mso-style-link:"Rubrik 4";
+	font-family:"Calibri",sans-serif;
+	font-style:italic;}
+span.Rubrik5Char
+	{mso-style-name:"Rubrik 5 Char";
+	mso-style-link:"Rubrik 5";
+	font-family:"Calibri",sans-serif;}
+span.Rubrik6Char
+	{mso-style-name:"Rubrik 6 Char";
+	mso-style-link:"Rubrik 6";
+	font-style:italic;}
+span.Rubrik7Char
+	{mso-style-name:"Rubrik 7 Char";
+	mso-style-link:"Rubrik 7";}
+span.Rubrik8Char
+	{mso-style-name:"Rubrik 8 Char";
+	mso-style-link:"Rubrik 8";
+	font-style:italic;}
+span.Rubrik9Char
+	{mso-style-name:"Rubrik 9 Char";
+	mso-style-link:"Rubrik 9";
+	font-style:italic;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:560675028;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-2085427914 1049889914 69009433 69009435 69009423 69=
+009433 69009435 69009423 69009433 69009435;}
+@list l0:level1
+	{mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:83.25pt;
+	text-indent:-65.25pt;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1
+	{mso-list-id:961499416;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-2016216080 69009423 69009433 69009435 69009423 6900=
+9433 69009435 69009423 69009433 69009435;}
+@list l1:level1
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l1:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;}
+@list l1:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	text-indent:-9.0pt;}
+@list l2
+	{mso-list-id:1560896631;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-612101632 118890996 69009411 69009413 69009409 6900=
+9411 69009413 69009409 69009411 69009413;}
+@list l2:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l2:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l2:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l3
+	{mso-list-id:1812941535;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-2031171012 -373523082 69009411 69009413 69009409 69=
+009411 69009413 69009409 69009411 69009413;}
+@list l3:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l3:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l3:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l3:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l3:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l3:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l4
+	{mso-list-id:2018605929;
+	mso-list-template-ids:-1069544040;}
+@list l4:level1
+	{mso-level-style-link:"Rubrik 1";
+	mso-level-text:%1;
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:-70.9pt;}
+@list l4:level2
+	{mso-level-style-link:"Rubrik 2";
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:-70.9pt;}
+@list l4:level3
+	{mso-level-style-link:"Rubrik 3";
+	mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:-70.9pt;}
+@list l4:level4
+	{mso-level-style-link:"Rubrik 4";
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:-70.9pt;}
+@list l4:level5
+	{mso-level-style-link:"Rubrik 5";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:0cm;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:-70.9pt;}
+@list l4:level6
+	{mso-level-number-format:none;
+	mso-level-style-link:"Rubrik 6";
+	mso-level-suffix:none;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:-70.9pt;}
+@list l4:level7
+	{mso-level-number-format:none;
+	mso-level-style-link:"Rubrik 7";
+	mso-level-suffix:none;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:-70.9pt;}
+@list l4:level8
+	{mso-level-number-format:none;
+	mso-level-style-link:"Rubrik 8";
+	mso-level-suffix:none;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:-70.9pt;}
+@list l4:level9
+	{mso-level-number-format:none;
+	mso-level-style-link:"Rubrik 9";
+	mso-level-suffix:none;
+	mso-level-text:"";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:0cm;
+	text-indent:-70.9pt;}
+@list l5
+	{mso-list-id:2098398989;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1705147336 1228975806 919757268 1774911372 131545850=
+6 -1245699928 410135856 -54224862 -1245391450 -849546810;}
+@list l5:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l5:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\2022;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Arial",sans-serif;
+	mso-bidi-font-family:"Times New Roman";}
+@list l6
+	{mso-list-id:2115325275;
+	mso-list-type:hybrid;
+	mso-list-template-ids:514901772 481988136 69009411 69009413 69009409 69009=
+411 69009413 69009409 69009411 69009413;}
+@list l6:level1
+	{mso-level-start-at:8;
+	mso-level-number-format:bullet;
+	mso-level-text:-;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";}
+@list l6:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l6:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l6:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l6:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l6:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l6:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l6:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l6:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"SV" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Hej Alla!<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">H=E4r finns chansen till ett intressant uppdrag p=E5=
+ Luftfartsverket i Norrk=F6ping.<o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"color:#1F497D"><o:p>&nbsp;</o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:14.0pt">IT-arkitekt </sp=
+an></b><o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Uppdraget ska p=E5b=F6rjas snarast ber=E4knas p=E5g=
+=E5 ca 6 m=E5nader. Omfattningen ber=E4knas till ca 50%. Omfattning och l=
+=E4ngd p=E5 uppdraget kan komma att =E4ndras.<o:p></o:p></p>
+<p class=3D"MsoNormal">Uppdraget skall genomf=F6ras p=E5 plats p=E5 LFVs hu=
+vudkontor i Norrk=F6ping.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">V=E5rt taktimpris =E4r 900 kr, inga andra ers=E4ttni=
+ngar utg=E5r. <o:p>
+</o:p></p>
+<p class=3D"MsoNormal">Inget mellansk=E4r.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Svar till mig senast fredagen den <span style=3D"bac=
+kground:yellow;mso-highlight:yellow">
+19/3 kl. 13</span> och d=E5 med CV som ska matcha efterfr=E5gad kompetens e=
+nligt nedan.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Om intressant, se nedan f=F6r fler detaljer.<o:p></o=
+:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:12.0pt">Fr=E5n f=F6rfr=
+=E5gan<o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">LFV s=F6ker IT-arki=
+tekt f=F6r uppdrag r=F6rande LFVs IT-arbetsplats. Uppdraget best=E5r i att =
+underl=E4tta =F6verg=E5ngen fr=E5n dagens Arbetsplatstj=E4nst till hur dess=
+a tj=E4nster ska levereras i n=E4sta generations Arbetsplatstj=E4nst.</span=
+><span style=3D"font-size:12.0pt;font-family:&quot;Times New Roman&quot;,se=
+rif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b>Bakgrund<o:p></o:p></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">LFV har under m=E5n=
+ga =E5r haft administrativa IT tj=E4nster outsourcade till olika leverant=
+=F6rer. De tj=E4nster som ing=E5r i Arbetsplatstj=E4nsten =E4r:
+<o:p></o:p></span></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoNormal" style=3D"margin-left:0cm;mso-list:l5 level1 lfo2"><=
+span style=3D"font-size:12.0pt">Datorer inkl. managering av basplattform<o:=
+p></o:p></span></li><li class=3D"MsoNormal" style=3D"margin-left:0cm;mso-li=
+st:l5 level1 lfo2"><span style=3D"font-size:12.0pt">Utskrift (print on dema=
+nd)<o:p></o:p></span></li><li class=3D"MsoNormal" style=3D"margin-left:0cm;=
+mso-list:l5 level1 lfo2"><span style=3D"font-size:12.0pt">ServiceDesk<o:p><=
+/o:p></span></li><li class=3D"MsoNormal" style=3D"margin-left:0cm;mso-list:=
+l5 level1 lfo2"><span style=3D"font-size:12.0pt">AD<o:p></o:p></span></li><=
+li class=3D"MsoNormal" style=3D"margin-left:0cm;mso-list:l5 level1 lfo2"><s=
+pan style=3D"font-size:12.0pt">Certifikatstj=E4nst (PKI)<o:p></o:p></span><=
+/li><li class=3D"MsoNormal" style=3D"margin-left:0cm;mso-list:l5 level1 lfo=
+2"><span style=3D"font-size:12.0pt">SMS OTP<o:p></o:p></span></li><li class=
+=3D"MsoNormal" style=3D"margin-left:0cm;mso-list:l5 level1 lfo2"><span styl=
+e=3D"font-size:12.0pt">Lync<o:p></o:p></span></li><li class=3D"MsoNormal" s=
+tyle=3D"margin-left:0cm;mso-list:l5 level1 lfo2"><span style=3D"font-size:1=
+2.0pt">Best=E4llningsportal<o:p></o:p></span></li><li class=3D"MsoNormal" s=
+tyle=3D"margin-left:0cm;mso-list:l5 level1 lfo2"><span style=3D"font-size:1=
+2.0pt">Sj=E4lvhj=E4lpsportal<o:p></o:p></span></li><li class=3D"MsoNormal" =
+style=3D"margin-left:0cm;mso-list:l5 level1 lfo2"><span style=3D"font-size:=
+12.0pt">Licenshantering (SAM)<o:p></o:p></span></li><li class=3D"MsoNormal"=
+ style=3D"margin-left:0cm;mso-list:l5 level1 lfo2"><span style=3D"font-size=
+:12.0pt">Intern DNS<o:p></o:p></span></li><li class=3D"MsoNormal" style=3D"=
+margin-left:0cm;mso-list:l5 level1 lfo2"><span style=3D"font-size:12.0pt">D=
+HCP<o:p></o:p></span></li><li class=3D"MsoNormal" style=3D"margin-left:0cm;=
+mso-list:l5 level1 lfo2"><span style=3D"font-size:12.0pt">Tillbeh=F6rsporta=
+l (Capeiro)<o:p></o:p></span></li><li class=3D"MsoNormal" style=3D"margin-l=
+eft:0cm;mso-list:l5 level1 lfo2"><span style=3D"font-size:12.0pt">Gruppdisk=
+ar<o:p></o:p></span></li></ul>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Till ovan tj=E4nste=
+r kommer de infrastrukturella komponenter som beh=F6vs f=F6r att tillhanda=
+=ADh=E5lla tj=E4nsterna. Denna infrastruktur st=E5r tj=E4nsteleverant=F6ren=
+ i huvudsak f=F6r, men vissa tj=E4nster och infrastruktur utnyttjas
+ =E4ven fr=E5n andra avtal och leverant=F6rer. Detta samtidigt som leverant=
+=F6reren av Arbetsplatstj=E4nst tillhandah=E5ller tj=E4nster och infrastruk=
+tur till andra tj=E4nster.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Inom arbetsplatstj=
+=E4nsten s=E5 best=E5r idag den =F6verv=E4gande delen av infrastrukturen av=
+ Microsoftprodukter (Exchange, Lync, AD etc.) men det f=F6rkommer =E4ven en=
+ del produkter av andra fabrikat och =E4ven egenh=E4ndigt
+ utvecklade tj=E4nster som CGIs SMS OTP. Klienterna =E4r i princip helt Mic=
+rosoft-baserade med Windows 7 och Windows 10. Tj=E4nster inom arbetsplatstj=
+=E4nsten utnyttjas av tj=E4nster inom andra leveranser s=E5 som VPN (Junipe=
+r SA) och MDM (MobileIron).<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Under 2016-2017 har=
+ fokus p=E5 IT s=E4kerhet =F6kat och den outsourcing-strategi som funnits p=
+=E5 flera myndigheter har till viss del reviderats. Under perioden har ett =
+flertal h=E4ndelser p=E5 olika myndigheter gjort
+ att alla myndigheter i Sverige beh=F6ver se =F6ver sin leveransstrategi f=
+=F6r olika IT tj=E4nster, s=E5 =E4ven LFV.&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Under 2018 kommer e=
+n ny upphandling av Arbetsplatstj=E4nst att genomf=F6ras och denna kommer a=
+tt genomf=F6ras p=E5 de delar som beslutas ska hantearas genom outsourcing,=
+ medan andra delar ska flyttas tillbaka till
+ LFV att hantera. Exakt vilka delar som kommer att hamna vart =E4r inte i d=
+agsl=E4get helt utrett.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">F=F6r att underl=E4=
+tta en =F6verg=E5ng fr=E5n dagens Arbetsplatstj=E4nst till morgondagens beh=
+=F6ver f=F6rberedande arbete med kartl=E4ggning genomf=F6ras, d=E5 det i hu=
+vudsak =E4r leverant=F6rerna som sitter med dokumentation av infrastruktur
+ och konfigurationer.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b>Uppdragsbeskrivning<o:p></o:p></b></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b>Uppgifter<o:p></o:p></b></p>
+<p class=3D"MsoNormal"><b><o:p>&nbsp;</o:p></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">De uppgifter som sk=
+all genomf=F6ras under uppdraget =E4r:<o:p></o:p></span></p>
+<ol style=3D"margin-top:0cm" start=3D"1" type=3D"1">
+<li class=3D"MsoListParagraphCxSpFirst" style=3D"margin-left:0cm;mso-add-sp=
+ace:auto;mso-list:l1 level1 lfo3">
+<span style=3D"font-size:12.0pt">att kartl=E4gga dagens infrastruktur, och =
+dess konfigurationer, inom ramen f=F6r Arbetsplatstj=E4nsten, samt n=E4rlig=
+gande avtalsomr=E5den, ex. n=E4t och telefoni<o:p></o:p></span></li><li cla=
+ss=3D"MsoListParagraphCxSpMiddle" style=3D"margin-left:0cm;mso-add-space:au=
+to;mso-list:l1 level1 lfo3">
+<span style=3D"font-size:12.0pt">att ta fram designf=F6rslag p=E5 n=E4sta g=
+enerations Arbetsplatstj=E4nst utifr=E5n kravbild (b=E5de funktionell och i=
+cke funktionell)&nbsp;
+<o:p></o:p></span></li><li class=3D"MsoListParagraphCxSpMiddle" style=3D"ma=
+rgin-left:0cm;mso-add-space:auto;mso-list:l1 level1 lfo3">
+<span style=3D"font-size:12.0pt">att vara behj=E4lplig i upphandling av nya=
+ tj=E4nster f=F6r arbetsplats<o:p></o:p></span></li><li class=3D"MsoListPar=
+agraphCxSpLast" style=3D"margin-left:0cm;mso-add-space:auto;mso-list:l1 lev=
+el1 lfo3">
+<span style=3D"font-size:12.0pt">att vara behj=E4lplig vid etablering av LF=
+Vs infrastruktur f=F6r de delar som LFV skall hantera sj=E4lva<o:p></o:p></=
+span></li></ol>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">All dokumentation a=
+v IT arkitektur skall ske i LFVs arkitekturverktyg (MooD).<o:p></o:p></span=
+></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><b>Leverabler</b><b><o:p></o:p></b></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">De f=F6rv=E4ntade l=
+everablerna i uppdraget =E4r:<o:p></o:p></span></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpFirst" style=3D"margin-left:0cm;mso-add-sp=
+ace:auto;mso-list:l3 level1 lfo4">
+<span style=3D"font-size:12.0pt">Dokumenterat nul=E4ge av tj=E4nster, infra=
+struktur, konfigurationer och beroenden<o:p></o:p></span></li><li class=3D"=
+MsoListParagraphCxSpMiddle" style=3D"margin-left:0cm;mso-add-space:auto;mso=
+-list:l3 level1 lfo4">
+<span style=3D"font-size:12.0pt">Dokumenterat framtida l=E4ge av tj=E4nster=
+, infrastruktur, konfigurationer och beroenden<o:p></o:p></span></li><li cl=
+ass=3D"MsoListParagraphCxSpMiddle" style=3D"margin-left:0cm;mso-add-space:a=
+uto;mso-list:l3 level1 lfo4">
+<span style=3D"font-size:12.0pt">F=F6r de delar av framtida l=E4ge som skal=
+l hanteras av LFV skall =E4ven produktf=F6rslag, kostnadsuppskattning, pers=
+onal=E5tg=E5ng och kompetensbehov dokumenteras
+<o:p></o:p></span></li><li class=3D"MsoListParagraphCxSpMiddle" style=3D"ma=
+rgin-left:0cm;mso-add-space:auto;mso-list:l3 level1 lfo4">
+<span style=3D"font-size:12.0pt">Under uppdragets g=E5ng skall det beslutsu=
+nderlag som beh=F6vas tas fram (ex. scenario, alternativ, kostnadsuppskattn=
+ingar etc.)<o:p></o:p></span></li></ul>
+<p class=3D"MsoListParagraph"><span style=3D"font-size:12.0pt"><o:p>&nbsp;<=
+/o:p></span></p>
+<p class=3D"MsoNormal"><b>Arbetsbeskrivning</b><b><o:p></o:p></b></p>
+<p class=3D"MsoNormal"><b><o:p>&nbsp;</o:p></b></p>
+<p class=3D"MsoNormal">Uppdraget skall genomf=F6ras p=E5 plats p=E5 LFVs hu=
+vudkontor i Norrk=F6ping.
+<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Arbetet ska bedriva i samarbete med:<o:p></o:p></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpFirst" style=3D"margin-left:0cm;mso-add-sp=
+ace:auto;mso-list:l2 level1 lfo5">
+<span style=3D"font-size:12.0pt">CIO<o:p></o:p></span></li><li class=3D"Mso=
+ListParagraphCxSpMiddle" style=3D"margin-left:0cm;mso-add-space:auto;mso-li=
+st:l2 level1 lfo5">
+<span style=3D"font-size:12.0pt">IT Arkitekt<o:p></o:p></span></li><li clas=
+s=3D"MsoListParagraphCxSpMiddle" style=3D"margin-left:0cm;mso-add-space:aut=
+o;mso-list:l2 level1 lfo5">
+<span style=3D"font-size:12.0pt">IT S=E4kerhetsspecialist <o:p></o:p></span=
+></li><li class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-left:0cm;mso=
+-add-space:auto;mso-list:l2 level1 lfo5">
+<span style=3D"font-size:12.0pt">SA och FA f=F6r Arbetsplatstj=E4nst, N=E4t=
+ respektive Telefoni<o:p></o:p></span></li><li class=3D"MsoListParagraphCxS=
+pMiddle" style=3D"margin-left:0cm;mso-add-space:auto;mso-list:l2 level1 lfo=
+5">
+<span style=3D"font-size:12.0pt">Projektet f=F6r upphandling av ny Arbetspl=
+atstj=E4nst (projektet =E4r =E4nnu inte startat och PL ej tillsatt idag)<o:=
+p></o:p></span></li><li class=3D"MsoListParagraphCxSpLast" style=3D"margin-=
+left:0cm;mso-add-space:auto;mso-list:l2 level1 lfo5">
+<span style=3D"font-size:12.0pt">Projektet f=F6r hemtagning av infrastruktu=
+r (projektet =E4r =E4nnu inte startat och PL ej tillsatt idag)<o:p></o:p></=
+span></li></ul>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Uppdraget rapporter=
+ar till LFVs IT Arkitekt.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<h2 style=3D"mso-margin-top-alt:10.0pt;margin-right:0cm;margin-bottom:0cm;m=
+argin-left:83.25pt;margin-bottom:.0001pt;text-indent:-65.25pt;line-height:1=
+15%;mso-list:l0 level1 lfo6">
+<![if !supportLists]><span style=3D"mso-list:Ignore">1<span style=3D"font:7=
+.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Behov och volymer<o:p></o:p></h2>
+<p class=3D"MsoNormal" style=3D"margin-left:18.0pt"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Uppdraget ska p=E5b=
+=F6rjas snarast ber=E4knas p=E5g=E5 ca 6 m=E5nader. Omfattningen ber=E4knas=
+ till ca 50%. Omfattning och l=E4ngd p=E5 uppdraget kan komma att =E4ndras.=
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<h2 style=3D"mso-margin-top-alt:10.0pt;margin-right:0cm;margin-bottom:0cm;m=
+argin-left:83.25pt;margin-bottom:.0001pt;text-indent:-65.25pt;line-height:1=
+15%;mso-list:l0 level1 lfo6">
+<![if !supportLists]><span style=3D"mso-list:Ignore">2<span style=3D"font:7=
+.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Kravspecifikation<o:p></o:p></h2>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">=D6nskad kompetens =
+=E4r inom IT infrastruktur med fokus p=E5 Microsoft. Det =E4r inte n=F6dv=
+=E4ndigt att vara expert p=E5 ing=E5ende produkter utan en generalist med b=
+red kunskap =E4r att f=F6redra framf=F6r en produktspecialist.
+ Design kommer att tas fram i samarbete med =E4mnesexperter fr=E5n leverant=
+=F6rer.<o:p></o:p></span></p>
+<h2 style=3D"mso-margin-top-alt:10.0pt;margin-right:0cm;margin-bottom:0cm;m=
+argin-left:83.25pt;margin-bottom:.0001pt;text-indent:-65.25pt;line-height:1=
+15%;mso-list:l0 level1 lfo6">
+<![if !supportLists]><span style=3D"mso-list:Ignore">3<span style=3D"font:7=
+.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Anbud<o:p></o:p></h2>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Anbud i form av CV =
+som styrker ovanst=E5ende krav. Det =E4r fritt att l=E4mna in flera f=F6rsl=
+ag.<o:p></o:p></span></p>
+<h2 style=3D"mso-margin-top-alt:10.0pt;margin-right:0cm;margin-bottom:0cm;m=
+argin-left:83.25pt;margin-bottom:.0001pt;text-indent:-65.25pt;line-height:1=
+15%;mso-list:l0 level1 lfo6">
+<![if !supportLists]><span style=3D"mso-list:Ignore">4<span style=3D"font:7=
+.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Pris<o:p></o:p></h2>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Pris anges som kr/t=
+im, l=F6pande fakturering.
+<o:p></o:p></span></p>
+<h2 style=3D"mso-margin-top-alt:10.0pt;margin-right:0cm;margin-bottom:0cm;m=
+argin-left:83.25pt;margin-bottom:.0001pt;text-indent:-65.25pt;line-height:1=
+15%;mso-list:l0 level1 lfo6">
+<![if !supportLists]><span style=3D"mso-list:Ignore">5<span style=3D"font:7=
+.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Tidpunkter och fr=E5gor<o:p></o:p></h2>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Svar ska vara LFV t=
+illhanda senast: 2018-01-22<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Fr=E5gor st=E4lls t=
+ill: fredrik.lundqvist@lfv.se svar delges samtliga Ramavtalsleverant=F6rer =
+och fr=E5gor ska vara st=E4llda s=E5 att svar kan ges senast tv=E5 arbetsda=
+gar innan svar p=E5 anbudsf=F6rfr=E5gan ska l=E4mnas.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Avropssvar ska vara=
+ giltigt i 3 m=E5nader fr=E5n sista dag att l=E4mna svar p=E5 denna avropsf=
+=F6rfr=E5gan.<o:p></o:p></span></p>
+<h2 style=3D"mso-margin-top-alt:10.0pt;margin-right:0cm;margin-bottom:0cm;m=
+argin-left:83.25pt;margin-bottom:.0001pt;text-indent:-65.25pt;line-height:1=
+15%;mso-list:l0 level1 lfo6">
+<![if !supportLists]><span style=3D"mso-list:Ignore">6<span style=3D"font:7=
+.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Utv=E4rdering<o:p></o:p></h2>
+<p class=3D"Default"><span style=3D"font-size:11.0pt;font-family:&quot;Cali=
+bri&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"Default"><span style=3D"color:windowtext">LFV kommer att utv=E4=
+rdera anbuden. Vid behov kommer LFV att styrka efterfr=E5gade kompetenser o=
+ch f=F6rm=E5gor genom intervjuer av f=F6reslagna resurser. LFV kommer att l=
+=E4gga stor vikt vid de f=F6reslagna resursernas kompetens
+ och personliga egenskaper och bed=F6ma dem enligt skalan f=F6r po=E4ngbed=
+=F6mning nedan.
+<o:p></o:p></span></p>
+<p class=3D"Default"><span style=3D"color:windowtext"><o:p>&nbsp;</o:p></sp=
+an></p>
+<p class=3D"Default"><span style=3D"color:windowtext">Det anbud med den ell=
+er de resurser som LFV anser l=E4mpligast f=F6r uppdraget kommer att antas.=
+ Om tv=E5 anbud anses likv=E4rdiga kommer anbud med l=E4gst timpris att ant=
+as.<o:p></o:p></span></p>
+<p class=3D"Default"><span style=3D"color:windowtext"><o:p>&nbsp;</o:p></sp=
+an></p>
+<p class=3D"Default"><span style=3D"color:windowtext">LFV f=F6rbeh=E5ller s=
+ig r=E4tten att inte anta n=E5got anbud om LFV anser att f=F6reslagna resur=
+ser inte motsvarar LFVs krav.<o:p></o:p></span></p>
+<p class=3D"Default"><span style=3D"font-size:11.0pt"><o:p>&nbsp;</o:p></sp=
+an></p>
+<p class=3D"MsoNormal"><b>Po=E4ngbed=F6mning</b><b><span style=3D"font-fami=
+ly:&quot;Times New Roman&quot;,serif"><o:p></o:p></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Po=E4ng ges utifr=
+=E5n hur v=E4l leverant=F6rens beskrivningar i anbud uppfyller syfte och kr=
+av p=E5 en skala 0-10 enligt nedan, den anbudsgivare som uppn=E5r h=F6gst t=
+otalpo=E4ng f=E5r avropskontraktet.
+<o:p></o:p></span></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpFirst" style=3D"margin-bottom:10.0pt;margi=
+n-left:0cm;mso-add-space:auto;line-height:115%;mso-list:l6 level1 lfo7">
+<span style=3D"font-size:12.0pt;line-height:115%">Tio (10) po=E4ng<o:p></o:=
+p></span></li></ul>
+<p class=3D"MsoListParagraph"><span style=3D"font-size:12.0pt">Myndigheten =
+anser att mycket h=F6g niv=E5 uppn=E5tts i beskrivningar och offererad kons=
+ults svar under en eventuell intervju. Den sammanlagda bed=F6mningen visar =
+att anbudsgivarens beskrivning/redovisning =E4r
+ p=E5 en utm=E4rkt niv=E5 och uppfyller kriteriet och ger betydande beh=E5l=
+lning f=F6r best=E4llaren. Anbudsgivaren beskriver p=E5 ett mycket tydligt =
+strukturerat och detaljerat s=E4tt och med mycket stor relevans f=F6r det s=
+om efterfr=E5gats. Beskrivningar och svar visar p=E5 en
+ djup f=F6rst=E5else f=F6r det som efterfr=E5gats.<o:p></o:p></span></p>
+<p class=3D"MsoListParagraph"><span style=3D"font-size:12.0pt"><o:p>&nbsp;<=
+/o:p></span></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-bottom:10.0pt;marg=
+in-left:0cm;mso-add-space:auto;line-height:115%;mso-list:l6 level1 lfo7">
+<span style=3D"font-size:12.0pt;line-height:115%">Fem (5) po=E4ng<o:p></o:p=
+></span></li></ul>
+<p class=3D"MsoListParagraph"><span style=3D"font-size:12.0pt">Myndigheten =
+anser att h=F6g niv=E5 uppn=E5tts i beskrivningar och offererad konsults sv=
+ar under en eventuell intervju. Den sammanlagda bed=F6mningen visar att anb=
+udsgivarens beskrivning i huvudsak uppfyller
+ kriteriet och ger beh=E5llning f=F6r best=E4llaren. Anbudsgivaren svarar p=
+=E5 ett tydligt strukturerat och detaljerat s=E4tt och med relevans det som=
+ efterfr=E5gats. Beskrivningar och svar visar p=E5 f=F6rst=E5else f=F6r det=
+ som efterfr=E5gats.<o:p></o:p></span></p>
+<p class=3D"MsoListParagraph"><span style=3D"font-size:12.0pt"><o:p>&nbsp;<=
+/o:p></span></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-bottom:10.0pt;marg=
+in-left:0cm;mso-add-space:auto;line-height:115%;mso-list:l6 level1 lfo7">
+<span style=3D"font-size:12.0pt;line-height:115%">Tv=E5 (2) po=E4ng<o:p></o=
+:p></span></li></ul>
+<p class=3D"MsoListParagraph"><span style=3D"font-size:12.0pt">Myndigheten =
+anser att godk=E4nd niv=E5 uppn=E5s i beskrivningar och offererad konsults =
+svar under en eventuell intervju. Den sammanlagda bed=F6mningen visar att a=
+nbudsgivarens beskrivning delvis uppfyller kriteriet
+ och bed=F6ms tillf=F6ra en god kvalitet. Anbudsgivaren beskriver p=E5 en f=
+ullgod niv=E5 det som efterfr=E5gats. Beskrivningar och svar visar p=E5 vis=
+s f=F6rst=E5else f=F6r det som efterfr=E5gas.<o:p></o:p></span></p>
+<p class=3D"MsoListParagraph"><span style=3D"font-size:12.0pt"><o:p>&nbsp;<=
+/o:p></span></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpLast" style=3D"margin-bottom:10.0pt;margin=
+-left:0cm;mso-add-space:auto;line-height:115%;mso-list:l6 level1 lfo7">
+<span style=3D"font-size:12.0pt;line-height:115%">Noll (0) po=E4ng<o:p></o:=
+p></span></li></ul>
+<p class=3D"MsoNormal" style=3D"margin-left:36.0pt"><span style=3D"font-siz=
+e:12.0pt">Myndigheten anser att anbudsgivarens/ offererad konsults svar =E4=
+r bristf=E4lliga. Beskrivning/redovisning/svar =E4r p=E5 en otillr=E4cklig =
+niv=E5/saknas. Kriteriet uppfylls inte alls.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt"><o:p>&nbsp;</o:p></=
+span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:12.0pt">Mvh / Nisse<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-US" style=3D"font-size:9.0pt;fon=
+t-family:&quot;Arial&quot;,sans-serif;color:black;mso-fareast-language:NO-B=
+OK">Nils-G=F6ran Wir=E9hn
+</span></b><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-family:&quot;=
+Arial&quot;,sans-serif;color:black;mso-fareast-language:NO-BOK">at
+<b>Knowit</b></span><span lang=3D"NO-BOK" style=3D"color:black;mso-fareast-=
+language:NO-BOK"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-f=
+amily:&quot;Arial&quot;,sans-serif;mso-fareast-language:NO-BOK">CEO<o:p></o=
+:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"NO-BOK" style=3D"font-size:9.0pt;mso-f=
+areast-language:NO-BOK">&#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8=
+226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226=
+; &#8226; &#8226;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-f=
+amily:&quot;Arial&quot;,sans-serif;mso-fareast-language:NO-BOK">Knowit Expe=
+rience Link=F6ping AB<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-f=
+amily:&quot;Arial&quot;,sans-serif;mso-fareast-language:NO-BOK">Klostergtan=
+ 13, SE-582 23 Link=F6ping, Sweden<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-f=
+amily:&quot;Arial&quot;,sans-serif;mso-fareast-language:NO-BOK">&#43;467035=
+20022&nbsp; |&nbsp; &#43;4687006600<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-f=
+amily:&quot;Arial&quot;,sans-serif;mso-fareast-language:NO-BOK"><o:p>&nbsp;=
+</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif"><a href=3D"http://www.knowit.se/"><span lang=3D"NO-BOK=
+" style=3D"color:windowtext;mso-fareast-language:NO-BOK">http://www.knowit.=
+se</span></a></span><span lang=3D"NO-BOK" style=3D"font-size:9.0pt;font-fam=
+ily:&quot;Arial&quot;,sans-serif;mso-fareast-language:NO-BOK"><br>
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif"><a href=3D"http://knowit.se/facebook"><span lang=3D"NO-BOK" style=3D"c=
+olor:windowtext;mso-fareast-language:NO-BOK">http://knowit.se/facebook</spa=
+n></a></span><span lang=3D"NO-BOK" style=3D"font-size:9.0pt;font-family:&qu=
+ot;Arial&quot;,sans-serif;mso-fareast-language:NO-BOK"><br>
+</span><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-se=
+rif"><a href=3D"http://www.knowit.se/Linkedin"><span lang=3D"NO-BOK" style=
+=3D"color:windowtext;mso-fareast-language:NO-BOK">http://www.knowit.se/Link=
+edin</span></a></span><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-fa=
+mily:&quot;Arial&quot;,sans-serif"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-US"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_AM6PR0602MB3624BF1E14C943D80D6A0C9EA3EA0AM6PR0602MB3624_--

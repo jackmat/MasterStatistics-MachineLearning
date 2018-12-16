@@ -1,0 +1,776 @@
+---
+title: '732A96: Advance Machine Learning'
+subtitle: "LAB 3: Gaussian Processes"
+author: "Arian Barakat/ariba405"
+output: pdf_document
+header-includes: \usepackage{float}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE,
+                      error = FALSE)
+
+library(ggplot2)
+library(kernlab)
+library(timeDate)
+library(dplyr)
+library(grid)
+library(gridExtra)
+library(knitr)
+pathData <- "../Data"
+
+```
+
+
+# Question 1: Implementing Gaussian process regression from scratch
+
+This first exercise will have you writing your own code for the Gaussian process regression model:
+
+$$
+y  = f(x)+ \epsilon, \quad\varepsilon\sim N(0,\sigma_{n}^{2})
+$$
+
+$$
+f  \sim GP\left[0,k\left(x,x^{\prime}\right)\right]
+$$
+
+When it comes to the posterior distribution for $f$, I strongly suggest that you implement Algorithm 2.1 on page 19 of Rasmussen and Willams (RW). That algorithm uses the Cholesky decomposition ($\text{chol}()$ in R) to attain numerical stability. Here is what you need to do:
+
+
+## (a)
+
+Write your own code for simulating from the posterior distribution of $f(x)$ using the squared exponential kernel. The function (name it __posteriorGP__) should return vectors with the posterior mean and variance of $f$, both evaluated at a set of $x$-values ($x^{\star}$). You can assume that the prior mean of $f$ is zero for all $x$. The function should have the following inputs:
+
+* $x$ (vector of training inputs)
+* $y$ (vector of training targets/outputs)
+* $x_*$ (vector of inputs where the posterior distribution is evaluated)
+* hyperParam (vector with two elements $\sigma_{f}$ and $\ell$)
+* sigmaNoise ($\sigma_{n}$)
+
+
+__Answer:__  
+
+See code in appendix 
+
+```{r}
+
+# Question 1 (a)
+
+# Kernal - Squared Exponential 
+
+# Setting up the kernel
+sqExpKernel <- function(x1,x2, sigmaF,l){
+  n1 <- length(x1)
+  n2 <- length(x2)
+  K <- matrix(NA,n1,n2)
+  for (i in 1:n2){
+    K[,i] <- sigmaF^2*exp(-0.5*( (x1-x2[i])/l)^2 )
+  }
+  return(K)
+}
+
+
+posteriorGP <- function(x,y,xStar,K,hyperParam,sigmaNoise){
+  
+  if(is.data.frame(x) || is.matrix(x)){
+    nParam <- nrow(x)
+    nDim <- ncol(x)
+  } else {
+    nParam <- length(x)
+    nDim <- 1
+  }
+  
+  if(!is.null(hyperParam)){
+      Ktrain <- do.call(K, args = list(x, x,hyperParam[1], hyperParam[2]))
+      Kstar <- do.call(K, args = list(x, xStar,hyperParam[1], hyperParam[2]))
+      Ktest <- do.call(K, args = list(xStar, xStar,hyperParam[1], hyperParam[2]))
+  } else {
+    # If a kernel with pre-specified hyperparameters is provided
+      Ktrain <- do.call(K, args = list(x, x))
+      Kstar <- do.call(K, args = list(x, xStar))
+      Ktest <- do.call(K, args = list(xStar, xStar))
+    }
+  
+
+  
+  # Based on Algorithm 2.1 on page 19 of Rasmussen and Willams (RW)
+  L <- chol(Ktrain + (sigmaNoise^2)*diag(nParam))
+  alpha <- solve(L, solve(t(L), y))
+  fBarStar <- t(Kstar)%*%alpha
+  v <- solve(t(L), Kstar)
+  vVar <- Ktest - t(v)%*%v
+  
+  
+  return(list("Fstar" = as.vector(fBarStar),
+              "Fcovar" = vVar))
+}
+
+
+
+```
+
+\newpage
+
+## (b)
+
+Now let the prior hyperparameters be $\sigma_{f}=1,\ell=0.3$. Update this prior with a single observation: $(x,y)=(0.4,0.719)$. Assume that the noise standard deviation is known to be $\sigma_{n}=0.1$. Plot the posterior mean of $f$ over the interval $x\in[-1,1]$. Plot also $95\%$ probability (pointwise) bands for $f$.
+
+__Answer:__  
+
+
+```{r, fig.pos="HTBP"}
+
+# Question 1 (b)
+
+x <- c(0.4)
+y <- c(0.719)
+
+xGrid <- seq(-1,1, length.out = 100)
+hypPar <- c(1,0.3)
+
+posteriorGPQ1b <- posteriorGP(x = x, y = y, 
+                              xStar = xGrid, 
+                              K = sqExpKernel,
+                              hyperParam = hypPar, 
+                              sigmaNoise = 0.1)
+
+ggplot(data.frame(f = posteriorGPQ1b$Fstar,
+                  x = xGrid,
+                  var = diag(posteriorGPQ1b$Fcovar))) +
+  geom_line(aes(y = f, x = x), col = "red") +
+  geom_ribbon(aes(x = x,
+                  ymin = (f - 1.96*sqrt(var)), 
+                  ymax = (f + 1.96*sqrt(var))),
+              alpha = 0.2) +
+  ylab("f(x)") + 
+  theme_minimal() +
+  geom_point(data = data.frame(xTrain = x,
+                               yTrain = y),
+             aes(x = xTrain, y = yTrain), col = "black", size = 2)
+
+
+# Removing since it's not going 
+# to be used anymore (consumes memory)
+rm(posteriorGPQ1b)
+
+```
+
+\newpage
+
+## (c)
+
+Update your posterior from 1b) with another observation: $(x,y)=(-0.6,-0.044)$. Plot the posterior mean of $f$ over the interval $x\in[-1,1]$. Plot also $95\%$ probability bands for $f$.[Hint: updating the posterior after one observation with a new observation gives the same result as updating the prior directly with the two observations. Bayes is beautiful!]
+
+__Answer:__  
+
+
+```{r, fig.pos="HTBP"}
+
+# Question 1 (c)
+
+
+
+x <- c(x, -0.6)
+y <- c(y, -0.044)
+
+posteriorGPQ1c <- posteriorGP(x = x, y = y, 
+                              xStar = xGrid, 
+                              K = sqExpKernel,
+                              hyperParam = hypPar, 
+                              sigmaNoise = 0.1)
+
+ggplot(data.frame(f = posteriorGPQ1c$Fstar,
+                  x = xGrid,
+                  var = diag(posteriorGPQ1c$Fcovar))) +
+  geom_line(aes(y = f, x = x), col = "red") +
+  geom_ribbon(aes(x = x,
+                  ymin = (f - 1.96*sqrt(var)), 
+                  ymax = (f + 1.96*sqrt(var))),
+              alpha = 0.2) +
+  ylab("f(x)") + 
+  theme_minimal() +
+  geom_point(data = data.frame(xTrain = x,
+                               yTrain = y),
+             aes(x = xTrain, y = yTrain), col = "black", size = 2)
+
+# Removing since it's not going 
+# to be used anymore (consumes memory)
+rm(posteriorGPQ1c)
+
+
+
+```
+
+\newpage
+
+## (d)
+
+Compute the posterior distribution of $f$ using all $5$ data points in Table 1 below (note that the two previous observations are included in the table).Plot the posterior mean of $f$ over the interval $x\in[-1,1]$. Plot also $95\%$ probability intervals for $f$.  
+
+__Answer:__  
+
+
+```{r, fig.pos="HTBP"}
+# Question 1 (d)
+
+x <- c(-1.0, -0.6,-0.2,0.4,0.8)
+y <- c(0.768,-0.044,-0.940,0.719,-0.664)
+
+
+posteriorGPQ1d <- posteriorGP(x = x, y = y, 
+                              xStar = xGrid, 
+                              K = sqExpKernel,
+                              hyperParam = hypPar, 
+                              sigmaNoise = 0.1)
+
+ggplot(data.frame(f = posteriorGPQ1d$Fstar,
+                  x = xGrid,
+                  var = diag(posteriorGPQ1d$Fcovar))) +
+  geom_line(aes(y = f, x = x), col = "red") +
+  geom_ribbon(aes(x = x,
+                  ymin = (f - 1.96*sqrt(var)), 
+                  ymax = (f + 1.96*sqrt(var))),
+              alpha = 0.2) +
+  ylab("f(x)") + 
+  theme_minimal() +
+  geom_point(data = data.frame(xTrain = x,
+                               yTrain = y),
+             aes(x = xTrain, y = yTrain), col = "black", size = 2)
+
+
+# Removing since it's not going 
+# to be used anymore (consumes memory)
+rm(posteriorGPQ1d)
+
+
+
+```
+
+\newpage
+
+## (e)
+
+Repeat 1d), this time with the hyperparameters $\sigma_{f}=1,\ell=1$. Compare the results.
+
+__Answer:__ 
+
+If we compare the figure for question (e) with the one provided in question (d) we can observe that the former one has a more smoothed or "generalized" posterior GP. A greater value of the $\ell$ hyperparameter implies that we place relatively more weight on distant training points compared to when we use a kernel with lower length scale. Another observation is that the variance in this model seems to have decreased, which intuitively can be linked to the fact we have relatively more information as we allow a greater influence from distant points.
+
+```{r, fig.pos="HTBP"}
+
+# Question 1 (e)
+
+hypPar <- c(1,1)
+
+posteriorGPQ1e <- posteriorGP(x = x, y = y, 
+                              xStar = xGrid, 
+                              K = sqExpKernel,
+                              hyperParam = hypPar, 
+                              sigmaNoise = 0.1)
+
+ggplot(data.frame(f = posteriorGPQ1e$Fstar,
+                  x = xGrid,
+                  var = diag(posteriorGPQ1e$Fcovar))) +
+  geom_line(aes(y = f, x = x), col = "red") +
+  geom_ribbon(aes(x = x,
+                  ymin = (f - 1.96*sqrt(var)), 
+                  ymax = (f + 1.96*sqrt(var))),
+              alpha = 0.2) +
+  ylab("f(x)") + 
+  theme_minimal() + 
+  geom_point(data = data.frame(xTrain = x,
+                               yTrain = y),
+             aes(x = xTrain, y = yTrain), col = "black", size = 2)
+
+
+# Removing since it's not going 
+# to be used anymore (consumes memory)
+rm(posteriorGPQ1e)
+
+```
+
+
+\newpage
+
+# Question 2: Gaussian process regression on real data using the kernlab package
+
+This exercise lets you explore the kernlab package on a data set of daily mean temperature in Stockholm (Tullinge) during the period January 1, 2010 - December 31, 2015. I have removed the leap year day February 29, 2012 to make your life simpler
+
+Create the variable __time__ which records the day number since the start of the dataset (i.e.time $=1,2,...,365\cdot6=2190$). Also, create the variable day that records the day number since the start of each year (i.e.day $=1,2,...,365,1,2,...,365$). Estimating a GP on $2190$ observations can take some time on slower computers, so let's thin out the data by only using every fifth observation. This means that your time variable is now time $=1,6,11,...,2186$ and day $=1,6,11,...,361,1,6,...,361$.
+
+```{r}
+
+# Question 2 
+
+# Reading the Data
+dataTullinge <- read.csv(paste(pathData, "TempTullinge.csv", sep = "/"),
+                         header = TRUE, sep = ";")
+
+dataTullinge$date <- strptime(dataTullinge$date, format = "%d/%m/%y")
+dataTullinge$time <- 1:nrow(dataTullinge)
+dataTullinge$day <- dayOfYear(as.timeDate(dataTullinge$date))
+
+# Thinning, keeping every 5th obs. starting with the first
+toKeep <- ((1:nrow(dataTullinge) %% 5) - 1) == 0
+dataTullinge <- dataTullinge[toKeep,]
+
+
+```
+
+
+## (a)
+
+Familiarize yourself with the following functions in kernlab, in particular the gausspr and kernelMatrix function. Do ?gausspr and read the input arguments and the output. Also, go through my KernLabDemo.R carefully; you will need to understand it. Now, define your own square exponential kernel function (with parameters $\ell$ (ell) and $\sigma_{f}$ (sigmaf)), evaluate it in the point $x=1$, $x^{\prime}=2$, and use the kernelMatrix function to compute the covariance matrix $K(\mathbf{x},\mathbf{x}_{\star})$ for the input vectors $\mathbf{x}=(1,3,4)^{T}$ and $\mathbf{x}_{\star}=(2,3,4)^{T}$.
+
+__Answer:__
+
+
+```{r}
+
+# Question 2 (a)
+
+
+# Kernel using closjure
+
+sqExpKer <- function(sigma, ell){
+  
+  rval <- function(x,y, sigmaF = sigma, l = ell){
+    n1 <- length(x)
+    n2 <- length(y)
+    K <- matrix(NA,n1,n2)
+    for (i in 1:n2){
+      K[,i] <- sigmaF^2*exp(-0.5*( (x-y[i])/l)^2 )
+    }
+    return(K)
+  }
+  
+  class(rval) <- 'kernel'
+  return(rval)
+}
+
+
+sigmaF <- 2
+ell <- 1
+kernelSqExp <- sqExpKer(sigma = sigmaF, ell = ell)
+
+x <- 1
+xPrime <- 2
+kernelSqExp(x, xPrime)
+
+x <- c(1,3,4)
+xStar <- c(2,3,4)
+
+
+kernelMatrix(kernel = kernelSqExp, x = x, y = xStar)
+
+```
+
+\newpage
+
+## (b)
+
+Consider first the model:
+
+$$
+temp  =f(\text{time})+\varepsilon\quad\varepsilon\sim N(0,\sigma_{n}^{2})
+$$
+$$
+f  \sim GP\left[0,k(\text{time},\text{time}^{\prime})\right]
+$$
+
+
+Let $\sigma_{n}^{2}$ be the residual variance from a simple quadratic regression fit (using the lm() function in R). Estimate the above Gaussian process regression model using the squared exponential function from 2a) with $\sigma_{f}=20$ and $\ell=0.2$. Use the predict function to compute the posterior mean at every data point in the training datasets. Make a scatterplot of the data and superimpose the posterior mean of $f$ as a curve (use type="l" in the plot function).Play around with different values on $\sigma_{f}$ and $\ell$ (no need to write this in the report though).
+
+__Answer:__
+
+```{r, fig.pos = "HTBP"}
+
+# Question 2 (b)
+
+sigmaF <- 20
+ell <- 0.2 
+
+
+formula <- as.formula(temp ~ time + I(time^2))
+
+sigmaSq_n <- dataTullinge %>% 
+              lm(formula = formula) %>% 
+              residuals() %>% 
+              var()
+
+GPfit <- gausspr(temp ~ time, data = dataTullinge,
+                 kernel = sqExpKer, kpar = list(sigma = sigmaF, ell = ell), 
+                 var = sigmaSq_n)
+
+timeRange <- range(dataTullinge$time)
+xGrid <- seq(timeRange[1],timeRange[2], by = 1)
+predictedQ2b <- predict(GPfit, data.frame(time = xGrid))
+
+plotGPQ2b <- dataTullinge %>% 
+  ggplot() +
+  geom_point(aes(y = temp, x = time)) +
+  theme_minimal() +
+  geom_line(data = data.frame(fbar = as.vector(predictedQ2b),
+                              x = xGrid), 
+            aes(x = x, y = fbar), col = "red")
+
+
+print(plotGPQ2b)
+
+
+```
+
+\newpage
+
+## (c)
+
+Kernlab can compute the posterior variance of $f$, but I suspect a bug in the code (I get weird results). Do you own computations for the posterior variance of $f$ (hint: Algorithm 2.1 in RW), and plot 95% (pointwise) posterior probability bands for $f$. Use $\sigma_{f}=20$ and $\ell=0.2$. Superimpose those bands on the figure with the posterior mean in 2b).
+
+__Answer:__
+
+
+```{r, fig.pos="HTBP"}
+
+# Question 2 (c)
+
+posteriorGPQ2c <- posteriorGP(x = dataTullinge$time,
+                              y = dataTullinge$temp,
+                              xStar = xGrid,
+                              K = sqExpKernel,
+                              hyperParam = c(sigmaF, ell),
+                              sigmaNoise = sqrt(sigmaSq_n))
+
+
+plotGPQ2c <- plotGPQ2b + 
+  geom_ribbon(data = data.frame(f = as.vector(predictedQ2b),
+                                x = xGrid,
+                                var = diag(posteriorGPQ2c$Fcovar)), 
+              aes(x = x,
+                  ymin = (f - 1.96*sqrt(var)), 
+                  ymax = (f + 1.96*sqrt(var))),
+              alpha = 0.2)
+
+
+
+# Removing since it's not going 
+# to be used anymore (consumes memory)
+rm(posteriorGPQ2c)
+print(plotGPQ2c)
+
+```
+
+
+\newpage
+
+## (d)
+
+Estimate the model using the squared exponential function from 2a) with $\sigma_{f}=20$ and $\ell=6\cdot0.2=1.2$. (I multiplied $\ell$ by 6 compared to when you used time as input variable since kernlab automatically standardizes the data which makes the distance between points larger for day compared to time). Superimpose the posterior mean from this model on the fit (posterior mean) from the model with time using $\sigma_{f}=20,\ell=0.2$. Note that this plot should also have the time variable on the horizontal axis. Compare the results from using time to the ones with day. What are the pros and cons of each model?
+
+__Answer:__  
+
+Before a conclusion is made it's worth mentioning that R recycles the prediction from the "Day" model when we impose the predictions over the time-axis. In other words, the predictions will have the same pattern from year to year.
+
+From the combined figure, one could draw the conclusion that models are quite similar to each other with some minor differences at the yearly minimum and maximum temperatures. The "Day" model has the benefit of being able to capture the seasonal variation within the years, while the "Time" model is beneficial for capturing the longterm variation and trend. It can be assumed that none of these models will be able to capture the interacted variation between the variables independently, at least very poorly. One could theoretically be better off by constructing a kernel that is able to combine the effect of the two variables. 
+
+```{r}
+
+# Question 2 (d)
+
+GPfitDay <- gausspr(temp ~ day, data = dataTullinge,
+                    kernel = sqExpKer, kpar = list(sigma = sigmaF, ell = ell*6), 
+                    var = sigmaSq_n)
+
+xGridDay <- seq(1,365, 1)
+
+predictedQ2Day <- predict(GPfitDay, data.frame(day = xGridDay))
+
+plotGPQ2Day <- dataTullinge %>% 
+  ggplot() + 
+  geom_point(aes(y = temp, x = day)) +
+  theme_minimal() + 
+  geom_line(data = data.frame(fbarDay = as.vector(predictedQ2Day),
+                              x = xGridDay),
+            aes(x = x, y = fbarDay), col = "blue")
+
+
+predictedQ2DayTime <- predict(GPfitDay, data.frame(day = xGrid))
+plotGPQ2Joined <- plotGPQ2b +
+  geom_line(data = data.frame(fbarDay = rep(as.vector(predictedQ2Day), 6)[1:length(xGrid)],
+                              x = xGrid),
+            aes(x = x, y = fbarDay), col = "blue")
+
+grid.arrange(grobs = list(plotGPQ2Joined + ggtitle("Combined"),
+                          plotGPQ2b + ggtitle("Time"),
+                          plotGPQ2Day + ggtitle("Day")))
+
+```
+
+
+\newpage
+
+## (e)
+
+Now implement a generalization of the periodic kernel given in my slides from Lecture 2 of the GP topic (Slide 6)
+
+$$
+k(x,x^{\prime})=\sigma_{f}^{2}\exp\left(-\frac{2\sin^{2}\left(\pi\left|x-x^{\prime}\right|/d\right)}{\ell_{1}^{2}}\right)\times\exp\left(-\frac{1}{2}\frac{\left|x-x^{\prime}\right|^{2}}{\ell_{2}^{2}}\right).
+$$
+
+Note that we have two different length scales here, and $\ell_{2}$ controls the correlation between the same day in different years $(\ell_{2})$. So this kernel has four hyperparameters $\sigma_{f}$, $\ell_{1}$, $\ell_{2}$ and the period $d$. Estimate the GP model using the time variable with this kernel with hyperparameters $\sigma_{f}=20$, $\ell_{1}=1$, $\ell_{2}=10$ and $d=365/$ sd(time). The reason for the rather strange period here is that kernlab standardized inputs to have standard deviation of 1. Compare the fit to the previous two models (with $\sigma_{f}=20,\ell=0.2$). Discuss the results.
+
+__Answer:__ 
+
+From the figure, we can observe that the periodic model seems relatively more smooth compared to the other models yet being able to capture more extreme observation (e.g. time $\approx$ 400 and time $\approx$ 1500). This kind of behavior indicates that the model is rather a good model for capturing the seasonal and longterm variation.
+
+```{r}
+
+# Question 2 (e)
+
+periodicKernel <- function(ell, period, sigma){
+  
+  rval <- function(x, y, ell1 = ell[1] , ell2 = ell[2], d = period, sigmaF = sigma){
+    n1 <- length(x)
+    n2 <- length(y)
+    K <- matrix(NA, n1, n2)
+    for (i in 1:n2) {
+      K[, i] <-  sigmaF^2*exp(-(2*(sin(pi*abs(x - y[i])/d)^2)) / ell1^2)*
+        exp(-0.5*((x - y[i])^2/ell2^2))
+    }
+    return(K)
+  }
+  class(rval) <- "kernel"
+  return(rval)
+}
+
+sigmaF <- 20
+ell <- c(1,10)
+d <- 365/sd(dataTullinge$time)
+
+
+GPfitPeriodic <- gausspr(temp ~ time, data = dataTullinge,
+                         kernel = periodicKernel, 
+                         kpar = list(sigma = sigmaF, 
+                                     ell = ell,
+                                     period = d), 
+                         var = sigmaSq_n
+                         )
+
+
+posteriorGPeriodic <- posteriorGP(x = dataTullinge$time,
+                                  y = dataTullinge$temp,
+                                  xStar = xGrid,
+                                  K = periodicKernel(sigma = sigmaF, 
+                                                     ell = ell,
+                                                     period = d),
+                                  hyperParam = NULL,
+                                  sigmaNoise = sqrt(sigmaSq_n))
+
+predictedPeriodic <- predict(GPfitPeriodic,
+                             data.frame(time = xGrid))
+
+
+
+
+plotGPperiodic <- dataTullinge %>% 
+  ggplot() +
+  geom_point(aes(y = temp, x = time)) +
+  theme_minimal() +
+  geom_line(data = data.frame(fbar = as.vector(predictedPeriodic),
+                              x = xGrid), 
+            aes(x = x, y = fbar), col = "red") +
+  geom_ribbon(data = data.frame(f = as.vector(predictedPeriodic),
+                                x = xGrid,
+                                var = diag(posteriorGPeriodic$Fcovar)), 
+              aes(x = x,
+                  ymin = (f - 1.96*sqrt(var)), 
+                  ymax = (f + 1.96*sqrt(var))),
+              alpha = 0.2)
+
+plotGPperiodicVSsqExp <- dataTullinge %>% 
+  ggplot() +
+  geom_point(aes(y = temp, x = time)) +
+  theme_minimal() +
+  geom_line(data = data.frame(fbar = c(as.vector(predictedQ2b), 
+                                       as.vector(predictedPeriodic),
+                                       rep(as.vector(predictedQ2Day), 6)[1:length(xGrid)]),
+                              Kernel = c(rep("Squared Exponential (Time)", length(as.vector(predictedQ2b))),
+                                         rep("Periodic (Time & Day)", length(as.vector(predictedPeriodic))),
+                                         rep("Squared Exponential (Day)", length(as.vector(predictedPeriodic)))),
+                              x = xGrid), 
+            aes(x = x, y = fbar, col = Kernel))
+
+
+plotGPperiodicVSsqExp + theme(legend.position="bottom")
+
+```
+
+
+\newpage
+
+# Question 3: Gaussian process classification using the kernlab package
+
+```{r}
+
+# Question 3
+
+dataBank <- read.csv(paste(pathData,"banknoteFraud.csv", sep = "/"),
+                      header=FALSE, sep=",")
+names(dataBank) <- c("varWave","skewWave","kurtWave","entropyWave","fraud")
+dataBank[,5] <- as.factor(dataBank[,5])
+set.seed(111)
+trainOBS <- sample(1:dim(dataBank)[1], size = 1000, replace = FALSE)
+
+
+```
+
+
+## (a)
+
+Use kernlab to fit a Gaussian process classification model for fraud on the training data, using kernlab. Use kernlab's the default kernel and hyperparameters. Start with using only the first two covariates _varWave_ and _skewWave_ in the model. Plot contours of the prediction probabilities over a suitable grid of values for varWave and skewWave. Overlay the training data for fraud = 1 (as blue points) and fraud = 0 (as red points). You can take a lot of code for this from my KernLabDemo.R. Compute the confusion matrix for the classifier and its accuracy.
+
+__Answer:__ 
+
+```{r}
+
+# Question 3 (a)
+
+fraudGPclass <- gausspr(fraud ~ varWave + skewWave,
+                        data = dataBank[trainOBS,])
+trainPredProbabilities <- predict(fraudGPclass,
+                              newdata = dataBank[trainOBS,],
+                              type = "probabilities")
+trainPredLabel <- predict(fraudGPclass,
+                      newdata = dataBank[trainOBS,],
+                      type = "response")
+
+dataGrid <- expand.grid(seq(min(dataBank[trainOBS,]$varWave), 
+                            max(dataBank[trainOBS,]$varWave), 
+                            length.out = 100),
+                        seq(min(dataBank[trainOBS,]$skewWave), 
+                            max(dataBank[trainOBS,]$skewWave), 
+                            length.out = 100))
+colnames(dataGrid) <- c("varWave", "skewWave")
+predPrGrid <- predict(fraudGPclass,
+                      newdata = dataGrid,
+                      type = "probabilities")
+
+dataGrid <- cbind(dataGrid, predPrGrid)
+colnames(dataGrid) <- c(colnames(dataGrid)[1:2], "Pr0", "Pr1")
+
+#  Plot
+cbind(dataBank[trainOBS,],
+      data.frame(Pr = ifelse(dataBank[trainOBS,]$fraud == 1, 
+                             trainPredProbabilities[,2],
+                             trainPredProbabilities[,1]),
+                 Pr2 = predPrGrid[,2])) %>% 
+  ggplot() + 
+  geom_point(aes(x = varWave,
+                 y = skewWave,
+                 col = fraud)) +
+  geom_contour(data = dataGrid,
+               aes(x = varWave,
+                   y = skewWave,
+                   z =  Pr1),
+               col = "black") + 
+  theme_minimal() + 
+  theme(legend.position = "bottom")
+
+
+
+```
+
+```{r}
+
+confTableTrainPred <- table("True" = dataBank[trainOBS,]$fraud,
+                            "Predicted" = trainPredLabel) 
+
+
+kable(confTableTrainPred, caption = "Confusion Matrix, Training Data")
+
+accurTrain <- sum(diag(confTableTrainPred))/sum(confTableTrainPred)
+
+printString <- sprintf("Accuracy, %s data: %f", "Train", accurTrain)
+cat(printString)
+
+```
+
+## (b)
+
+Using the estimated model from 3a), make predictions for the testset. Compute the accuracy.
+
+__Answer:__ 
+
+```{r}
+
+# Question 3 (b)
+
+testPredLabel <- predict(fraudGPclass,
+                         newdata = dataBank[-trainOBS,],
+                         type = "response")
+
+confTableTestPred <- table("True" = dataBank[-trainOBS,]$fraud,
+                            "Predicted" = testPredLabel) 
+
+
+kable(confTableTestPred, caption = "Confusion Matrix, Test Data")
+
+accurTest <- sum(diag(confTableTestPred))/sum(confTableTestPred)
+
+
+printString <- sprintf("Accuracy, %s data: %f", "Test", accurTest)
+cat(printString)
+
+```
+
+
+## (c)
+
+Train a model using all four covariates. Make predictions on the test and compare the accuracy to the model with only two covariates.
+
+__Answer:__ 
+
+From the result below we can observe that the prediction accuracy improves as we increase the number of features in the model.
+
+```{r }
+
+# Question 3 (c)
+
+fraudGPclassAllcov <- gausspr(fraud ~ varWave + skewWave + kurtWave + entropyWave,
+                              data = dataBank[trainOBS,])
+
+
+testPredLabelAllcov <- predict(fraudGPclassAllcov,
+                               newdata = dataBank[-trainOBS,],
+                               type = "response")
+
+
+confTableTestPredAllcov <- table("True" = dataBank[-trainOBS,]$fraud,
+                            "Predicted" = testPredLabelAllcov) 
+
+
+kable(confTableTestPredAllcov, caption = "Confusion Matrix, Test Data (All four Covariates)")
+
+accurTestAllcov <- sum(diag(confTableTestPredAllcov))/sum(confTableTestPredAllcov)
+
+
+printString <- sprintf("Accuracy, %s data: %f", "Test (All four Covariates)", accurTestAllcov)
+cat(printString)
+
+```
+
+
+\newpage
+
+# Appendix 
+
+
+```{r, ref.label=knitr::all_labels(),echo=TRUE,eval=FALSE}
+
+
+
+```
+
+
+

@@ -1,0 +1,46 @@
+802	Ali Zardari	Pakistan People 's Party
+2297	Abdul Aziz al-Hakim	Supreme Council
+4823	Slavkov	Bulgarian National Olympic Committee
+7902	Mr. Hakim	Supreme Council
+8206	J. Patrick Boyle	American Meat Institute
+8633	Ali Rodriguez	Petroleos de Venezuela
+9004	Foreign Minister Joschka Fischer	Green Party
+11021	Khalaf	al-Qaida
+11259	Joseph Domenech	U.N. 's Food and Agricultural Organization
+13043	David Petraeus	U.S. Central Command
+15203	Joseph Kony	Lord 's Resistance Army
+15494	Khodorkovsky	Yukos
+15906	President Chen Shui-bian	Democratic Progressive Party
+18977	General Petraeus	U.S. Central Command
+20496	Avigdor Lieberman	Yisrael Beitenu
+20667	Mr. Fini	National Alliance
+21914	Mr. Mwanawasa	Southern African Development Community
+23016	Osama bin Laden	al-Qaida
+28997	Ma	Nationalist Party
+30171	al-Zarqawi	al-Qaida
+31546	Mr. Abbas	Fatah
+32262	Morgan Tsvangirai	Movement for Democratic Change
+33646	Mr. Coleman	Senate Government Affairs
+34889	Prince Ali	West Asian Football Federation
+36946	Vintsuk Vyachorka	Belarus Popular Front
+37037	Ali Akbar Salehi	Atomic Energy Organization
+40736	Lal Krishna Advani	Bharatiya Janata Party
+41998	Ebadi	Human Rights Center
+42098	Mr. Abbas	Fatah
+44280	Gandhi	National Advisory Council
+44637	Saad al-Fagih	Movement of Islamic Reform
+44784	Mr. Rafsanjani	Expediency Council
+44908	Kevin Costner	Kevin Costner Band
+48378	Abu Musab al-Zarqawi	al Qaida
+49242	Ayatollah Ahmad Jannati	Guardian Council
+49336	Manie de Clerq	Public Servants Association
+49705	Ocalan	Kurdistan Workers Party
+51157	Abu Musab al-Zarqawi	al-Qaeda
+51507	Abdullah Ocalan	Kurdistan Workers Party
+51967	Saad al-Fagih	Movement for Islamic Reform
+53075	Mr. Rafsanjani	Expediency Council
+57350	Gene Sperling	National Economic Council
+57420	Major General Udi Adam	Northern Command
+60729	General David Petraeus	U.S. Central Command
+61152	Saad al-Fagih	Movement for Islamic Reform
+61337	Lisa Jackson	Environmental Protection Agency

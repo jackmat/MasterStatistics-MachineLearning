@@ -1,0 +1,210 @@
+---
+title: 'AML Lab 4: State Space Models'
+author: "Joshua Hudson"
+date: "8 October 2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width = 5, fig.asp = 0.66, fig.show = "asis", fig.align = "center", fig.pos = "htbp")
+```
+
+```{r SMMsim}
+
+##generate SMM
+#initial model
+set.seed(12345)
+z1 <- runif(1, 0, 100)
+
+#transition model to generate true states
+transition <- function(T, z0, sigma) {
+  z <- vector(length = T)
+  z[1] <- z0
+  for (t in 2:T) {
+    comp <- sample(1:3, size = 1, prob = rep(1/3, 3))
+    if (comp == 1) {
+      z[t] <- rnorm(1, mean=z[t-1], sd=sigma)
+    }
+    if (comp == 2) {
+      z[t] <- rnorm(1, mean=z[t-1]+1, sd=sigma)
+    }
+    if (comp == 3) {
+      z[t] <- rnorm(1, mean=z[t-1]+2, sd=sigma)
+    }
+  }
+  z
+}
+
+#emission model to generate observations  
+emission <- function(z, sigma) {
+  T <- length(z)
+  x <- vector(length=T)
+  for (t in 1:T) {
+    comp <- sample(1:3, size = 1, prob = rep(1/3, 3))
+    if (comp == 1) {
+      x[t] <- rnorm(1, mean=z[t], sd=sigma)
+    }
+    if (comp == 2) {
+      x[t] <- rnorm(1, mean=z[t]-1, sd=sigma)
+    }
+    if (comp == 3) {
+      x[t] <- rnorm(1, mean=z[t]+1, sd=sigma)
+    }
+  }
+  x
+}
+
+z <- transition(T=100, z0 = z1, sigma = 1)
+x <- emission(z, sigma = 1)
+print(list(states=z, observations=x))
+
+```
+
+```{r partfilt}
+partfilt <- function(x, M, sigma) {
+
+#fix transition sd (emission sd is sigma variable)
+sigmaT <- 1
+#initialisation
+set.seed(12345)
+ztm <- runif(M, 0, 100)
+
+#Pred/correction
+#prior belief on true statess (Z with bar on top) !!Notation from original HMM slides not the swapped ones
+Zbar <- matrix(nrow = T, ncol =  M)
+#posterior belief
+Z <- matrix(nrow = T, ncol = M)
+#z0m, add to Z0
+Z[1, ] <- ztm
+
+for (t in 2:T) {
+  w <- vector(length = M)
+  ztm <- Z[t-1, ]
+  #prediction step
+  for (m in 1:M) {
+    Zbar[t, m] <- transition(T=2, z0 = ztm[m], sigma = sigmaT)[2]
+    
+    #Importance weight (overwritten at each t iteration)
+    w[m] <- (dnorm(x[t], mean = Zbar[t, m], sd = sigma)+dnorm(x[t], mean = Zbar[t, m]-1, sd = sigma)+dnorm(x[t], mean = Zbar[t, m]+1))/3
+  }
+  
+  #correction step
+  for (m in 1:M) {
+    Z[t, m] <- sample(Zbar[t, ], size = 1, prob = w)
+  }
+  Z
+}
+#expected location is mean position over the particles (at each timestep)
+exploc <- rowMeans(Z) 
+
+return(list(pred=exploc, particles=Z))
+}
+
+
+res <- partfilt(x=x, M=100, sigma=1)
+Z <- res$particles
+zpred <- res$pred
+
+#plots
+noPlots <- 4
+for (t in round(seq(from=1, to=100, length.out = noPlots))) {
+  Zt <- Z[t, ]
+  plot(Zt)
+  abline(h=z[t]) #true location
+  abline(h=zpred[t], col = "red") #expected location from particles
+}
+plot(abs(z-zpred), type="l")
+```
+
+```{r sigma5}
+x5 <- emission(z, sigma = 5)
+
+res5 <- partfilt(x=x5, M=100, sigma = 5)
+Z5 <- res5$particles
+zpred5 <- res5$pred
+
+#plots
+noPlots <- 4
+for (t in round(seq(from=1, to=100, length.out = noPlots))) {
+  Zt <- Z5[t, ]
+  plot(Zt)
+  abline(h=z[t]) #true location
+  abline(h=zpred5[t], col = "red") #expected location from particles
+}
+plot(abs(z-zpred5), type="l")
+
+```
+
+```{r sigma50}
+x50 <- emission(z, sigma = 50)
+
+res50 <- partfilt(x=x50, M=100, sigma=50)
+
+Z50 <- res50$particles
+zpred50 <- res50$pred
+
+#plots
+noPlots <- 4
+for (t in round(seq(from=1, to=100, length.out = noPlots))) {
+  Zt <- Z50[t, ]
+  plot(Zt)
+  abline(h=z[t]) #true location
+  abline(h=zpred50[t], col = "red") #expected location from particles
+}
+plot(abs(z-zpred50), type="l")
+```
+
+```{r equalw}
+partfilt2 <- function(x, M, sigma) {
+
+#fix transition sd (emission sd is sigma variable)
+sigmaT <- 1
+#initialisation
+set.seed(12345)
+ztm <- runif(M, 0, 100)
+
+#Pred/correction
+#prior belief on true statess (Z with bar on top) !!Notation from original HMM slides not the swapped ones
+Zbar <- matrix(nrow = T, ncol =  M)
+#posterior belief
+Z <- matrix(nrow = T, ncol = M)
+#z0m, add to Z0
+Z[1, ] <- ztm
+
+for (t in 2:T) {
+  
+  ztm <- Z[t-1, ]
+  #prediction step
+  for (m in 1:M) {
+    Zbar[t, m] <- transition(T=2, z0 = ztm[m], sigma = sigmaT)[2]
+    
+    #Importance weight (overwritten at each t iteration)=1 every time
+    w <- rep(1, M)
+  }
+  
+  #correction step
+  for (m in 1:M) {
+    Z[t, m] <- sample(Zbar[t, ], size = 1, prob = w)
+  }
+  Z
+}
+#expected location is mean position over the particles (at each timestep)
+exploc <- rowMeans(Z) 
+
+return(list(pred=exploc, particles=Z))
+}
+
+res_w1 <- partfilt2(x=x, M=100, sigma=1)
+Z_w1 <- res_w1$particles
+zpred_w1 <- res_w1$pred
+
+#plots
+noPlots <- 4
+for (t in round(seq(from=1, to=100, length.out = noPlots))) {
+  Zt <- Z_w1[t, ]
+  plot(Zt)
+  abline(h=z[t]) #true location
+  abline(h=zpred_w1[t], col = "red") #expected location from particles
+}
+plot(abs(z-zpred_w1), type="l")
+```

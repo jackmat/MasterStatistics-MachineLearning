@@ -1,0 +1,856 @@
+Received: from HE1PR06MB3212.eurprd06.prod.outlook.com (10.171.198.144) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.282.5 via Mailbox Transport; Mon, 4 Dec 2017 07:54:51 +0000
+Received: from HE1PR06MB3209.eurprd06.prod.outlook.com (10.171.198.141) by
+ HE1PR06MB3212.eurprd06.prod.outlook.com (10.171.198.144) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.282.5; Mon, 4 Dec 2017 07:54:50 +0000
+Received: from HE1PR06MB3209.eurprd06.prod.outlook.com
+ ([fe80::1036:2255:dcfe:a4d0]) by HE1PR06MB3209.eurprd06.prod.outlook.com
+ ([fe80::1036:2255:dcfe:a4d0%13]) with mapi id 15.20.0282.010; Mon, 4 Dec 2017
+ 07:54:50 +0000
+From: Jens Wintzer <Jens.Wintzer@knowit.se>
+To: funk-kam-lf <lf-konsult@knowit.se>
+Subject: =?iso-8859-1?Q?VB:_17177_Sakkunnig_Enterprise_information_management_(tea?=
+ =?iso-8859-1?Q?mleverans_m=F6jlig)?=
+Thread-Topic: =?iso-8859-1?Q?17177_Sakkunnig_Enterprise_information_management_(teamlev?=
+ =?iso-8859-1?Q?erans_m=F6jlig)?=
+Thread-Index: AdNs1QT8b/txopTZTsaKS4N69t0CMw==
+Date: Mon, 4 Dec 2017 07:54:50 +0000
+Message-ID: <HE1PR06MB3209B0B15D49368326CDBB1B973C0@HE1PR06MB3209.eurprd06.prod.outlook.com>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: HE1PR06MB3209.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-Network-Message-Id: 95fecbd0-3eb5-4714-55b6-08d53aec4c1e
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [192.71.76.144]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:HE1PR06MB3212;H:HE1PR06MB3209.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;
+x-ms-exchange-organization-originalclientipaddress: 192.71.76.144
+x-ms-exchange-organization-originalserveripaddress: 25.173.67.154
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:iKdf3xV6qAXB5jqqvZACxc5HlraVxDFY2KzP2Scjc5dQEH5DlMa5vs+F3qU119EbddZLQWMa8R68o2b4ngsJVsfUc5iEsmFrCo/8h6b8y5wM8dhVtV9sHoL/gCqGatGk
+X-Microsoft-Antispam-Message-Info: pvGOtYHI2xYypyH8i4IhxvtZZjMDRTkmBbNzdNZRhTckx1JF384yfvxlcsjoRXkR
+Content-Type: multipart/alternative;
+	boundary="_000_HE1PR06MB3209B0B15D49368326CDBB1B973C0HE1PR06MB3209eurp_"
+MIME-Version: 1.0
+
+--_000_HE1PR06MB3209B0B15D49368326CDBB1B973C0HE1PR06MB3209eurp_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:iKdf3xV6qAXB5jqqvZACxc5HlraVxDFY2KzP2Scjc5dQEH5DlMa5vs+F3qU119EbddZLQWMa8R68o2b4ngsJVsfUc5iEsmFrCo/8h6b8y5wM8dhVtV9sHoL/gCqGatGk
+X-Microsoft-Antispam-Message-Info: pvGOtYHI2xYypyH8i4IhxvtZZjMDRTkmBbNzdNZRhTckx1JF384yfvxlcsjoRXkR
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+
+Hej,
+
+
+
+LF s=F6ker en resurs att st=F6tta nedan beskrivet projekt.
+
+
+
+Roll/niv=E5
+
+Sakkunnig inom Enterprise Information Management
+
+Kort beskrivning av projektet och arbetsuppgifter
+
+L=E4nsf=F6rs=E4kringar kommer under 2018 att bedriva ett projekt i syfte at=
+t etablera Enterprise Information Management i organisationen. Detta inneb=
+=E4r i korthet att f=F6r omr=E5det definiera och etablera (se bild i Bilaga=
+)
+
+*       Vision & Strategi
+*       Governance
+*       Informationsf=F6rm=E5gor
+*       Operativ modell
+*       Metoder och verktyg
+
+I syfte att avlasta f=F6r L=E4nsf=F6rs=E4kringars interna resurser s=F6ker =
+vi en resurs som =E4r sakkunnig inom Enterprise Information Management.
+
+Du kommer att ing=E5 i projektet som leds av L=E4nsf=F6rs=E4kringar. Du kom=
+mer att ha ett n=E4ra samarbete med m=E5nga olika delar av L=E4nsf=F6rs=E4k=
+ringars organisation. Vi f=F6rv=E4ntar oss att du har med dig erfarenheter =
+av motsvarande inf=F6rande i andra organisationer. Uppdraget kan beskrivas =
+i fyra delar
+
+*       Workshops f=F6r att f=E5nga organisationens perspektiv i olika fr=
+=E5gor (vi pratar svenska)
+*       Dokumentation av det vi kommer fram till (vi dokumenterar p=E5 sven=
+ska och engelska)
+*       Beslutsunderlag i f=F6rekommande fall
+*       Kommunikationsmaterial
+
+Vi anger nedan att uppdraget motsvarar en omfattning p=E5 50-100% av en hel=
+tid. Detta beh=F6ver inte betyda att det =E4r en (1) person som utf=F6r upp=
+draget. Beskriv hur du/ni avser erbjuda resurs/er f=F6r detta uppdrag.
+
+Kompetenskrav
+
+*       Bred och djup kompetens inom Enterprise Information Management
+*       God kommunikationsf=F6rm=E5ga (svenska)
+*       God dokumentationsf=F6rm=E5ga (svenska och engelska)
+*       Erfarenhet av omr=E5det i en federerad organisation =E4r meriterand=
+e
+*       Branscherfarenhet =E4r meriterande
+
+=D6nskat startdatum
+
+2018-01-01
+
+=D6nskat slutdatum
+
+2018-12-31
+
+Omfattning (% av heltid)
+
+50-100
+
+Svar =F6nskar senast
+
+S=E5 snart som m=F6jligt
+
+Intervjuer kommer att h=E5llas (ange datum eller vecka/veckor)
+
+L=F6pande
+
+
+
+
+
+
+
+
+V=E4nligen inkom med offert till mig.
+
+
+
+Mvh
+
+
+
+Jens Wintzer
+
+
+
+
+--_000_HE1PR06MB3209B0B15D49368326CDBB1B973C0HE1PR06MB3209eurp_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:iKdf3xV6qAXB5jqqvZACxc5HlraVxDFY2KzP2Scjc5dQEH5DlMa5vs+F3qU119EbddZLQWMa8R68o2b4ngsJVsfUc5iEsmFrCo/8h6b8y5wM8dhVtV9sHoL/gCqGatGk
+X-Microsoft-Antispam-Message-Info: pvGOtYHI2xYypyH8i4IhxvtZZjMDRTkmBbNzdNZRhTckx1JF384yfvxlcsjoRXkR
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParag=
+raphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListPar=
+agraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagra=
+phCxSpLast
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.E-postmall19
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.E-postmall20
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:#1F497D;}
+span.E-postmall21
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:510728219;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-381010948 69009409 69009411 69009413 69009409 69009=
+411 69009413 69009409 69009411 69009413;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:1549144975;
+	mso-list-type:hybrid;
+	mso-list-template-ids:576194918 69009409 69009411 69009413 69009409 690094=
+11 69009413 69009409 69009411 69009413;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l2
+	{mso-list-id:1679850371;
+	mso-list-type:hybrid;
+	mso-list-template-ids:709771122 69009409 69009411 69009413 69009409 690094=
+11 69009413 69009409 69009411 69009413;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l2:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l2:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l2:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l2:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"SV" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:5.0pt;margin-right:0cm;m=
+argin-bottom:5.0pt;margin-left:0cm;text-autospace:none">
+Hej,<o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:5.0pt;margin-right:0cm;m=
+argin-bottom:5.0pt;margin-left:0cm;text-autospace:none">
+<o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:5.0pt;margin-right:0cm;m=
+argin-bottom:5.0pt;margin-left:0cm;text-autospace:none">
+LF s=F6ker<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,san=
+s-serif"> en resurs att st=F6tta nedan beskrivet projekt.
+</span><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:5.0pt;margin-right:0cm;m=
+argin-bottom:5.0pt;margin-left:0cm;text-autospace:none">
+<b><span style=3D"font-size:9.0pt;font-family:&quot;Times New Roman&quot;,s=
+erif;color:#002060;mso-fareast-language:SV">&nbsp;</span></b><o:p></o:p></p=
+>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" align=3D"left" style=3D"border-collapse:collapse;margin-left:4.8pt;m=
+argin-right:4.8pt">
+<tbody>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none;mso-el=
+ement:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-ele=
+ment-anchor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-ele=
+ment-left:-14.7pt;mso-height-rule:exactly">
+<b><span style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial=
+&quot;,sans-serif">Roll/niv=E5</span></b><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none;mso-element:frame;ms=
+o-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.=
+7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">S=
+akkunnig inom Enterprise Information Management</span><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none;mso-el=
+ement:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-ele=
+ment-anchor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-ele=
+ment-left:-14.7pt;mso-height-rule:exactly">
+<b><span style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial=
+&quot;,sans-serif">Kort beskrivning av projektet och arbetsuppgifter</span>=
+</b><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none;mso-element:frame;ms=
+o-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.=
+7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">L=
+=E4nsf=F6rs=E4kringar kommer under 2018 att bedriva ett projekt i syfte att=
+ etablera Enterprise Information Management i organisationen. Detta inneb=
+=E4r i korthet att f=F6r omr=E5det definiera och etablera
+ (se bild i Bilaga)</span><o:p></o:p></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpFirst" style=3D"margin-top:6.0pt;margin-bo=
+ttom:6.0pt;margin-left:0cm;mso-add-space:auto;mso-list:l1 level1 lfo2;text-=
+autospace:none;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-elemen=
+t-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-hori=
+zontal:column;mso-element-left:-14.7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">V=
+ision &amp; Strategi</span><o:p></o:p></li><li class=3D"MsoListParagraphCxS=
+pMiddle" style=3D"margin-top:6.0pt;margin-bottom:6.0pt;margin-left:0cm;mso-=
+add-space:auto;mso-list:l1 level1 lfo2;text-autospace:none;mso-element:fram=
+e;mso-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-ancho=
+r-vertical:paragraph;mso-element-anchor-horizontal:column;mso-element-left:=
+-14.7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">G=
+overnance</span><o:p></o:p></li><li class=3D"MsoListParagraphCxSpMiddle" st=
+yle=3D"margin-top:6.0pt;margin-bottom:6.0pt;margin-left:0cm;mso-add-space:a=
+uto;mso-list:l1 level1 lfo2;text-autospace:none;mso-element:frame;mso-eleme=
+nt-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-vertical:=
+paragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.7pt;mso=
+-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">I=
+nformationsf=F6rm=E5gor</span><o:p></o:p></li><li class=3D"MsoListParagraph=
+CxSpMiddle" style=3D"margin-top:6.0pt;margin-bottom:6.0pt;margin-left:0cm;m=
+so-add-space:auto;mso-list:l1 level1 lfo2;text-autospace:none;mso-element:f=
+rame;mso-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-an=
+chor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-element-le=
+ft:-14.7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">O=
+perativ modell</span><o:p></o:p></li><li class=3D"MsoListParagraphCxSpLast"=
+ style=3D"margin-top:6.0pt;margin-bottom:6.0pt;margin-left:0cm;mso-add-spac=
+e:auto;mso-list:l1 level1 lfo2;text-autospace:none;mso-element:frame;mso-el=
+ement-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-vertic=
+al:paragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.7pt;=
+mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">M=
+etoder och verktyg</span><o:p></o:p></li></ul>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none;mso-element:frame;ms=
+o-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.=
+7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">I=
+ syfte att avlasta f=F6r L=E4nsf=F6rs=E4kringars interna resurser s=F6ker v=
+i en resurs som =E4r sakkunnig inom Enterprise Information Management.</spa=
+n><o:p></o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none;mso-element:frame;ms=
+o-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.=
+7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">D=
+u kommer att ing=E5 i projektet som leds av L=E4nsf=F6rs=E4kringar. Du komm=
+er att ha ett n=E4ra samarbete med m=E5nga olika delar av L=E4nsf=F6rs=E4kr=
+ingars organisation. Vi f=F6rv=E4ntar oss att du har med dig erfarenheter
+ av motsvarande inf=F6rande i andra organisationer. Uppdraget kan beskrivas=
+ i fyra delar</span><o:p></o:p></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpFirst" style=3D"margin-top:6.0pt;margin-bo=
+ttom:6.0pt;margin-left:0cm;mso-add-space:auto;mso-list:l2 level1 lfo4;text-=
+autospace:none;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-elemen=
+t-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-hori=
+zontal:column;mso-element-left:-14.7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">W=
+orkshops f=F6r att f=E5nga organisationens perspektiv i olika fr=E5gor (vi =
+pratar svenska)</span><o:p></o:p></li><li class=3D"MsoListParagraphCxSpMidd=
+le" style=3D"margin-top:6.0pt;margin-bottom:6.0pt;margin-left:0cm;mso-add-s=
+pace:auto;mso-list:l2 level1 lfo4;text-autospace:none;mso-element:frame;mso=
+-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-ver=
+tical:paragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.7=
+pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">D=
+okumentation av det vi kommer fram till (vi dokumenterar p=E5 svenska och e=
+ngelska)</span><o:p></o:p></li><li class=3D"MsoListParagraphCxSpMiddle" sty=
+le=3D"margin-top:6.0pt;margin-bottom:6.0pt;margin-left:0cm;mso-add-space:au=
+to;mso-list:l2 level1 lfo4;text-autospace:none;mso-element:frame;mso-elemen=
+t-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-vertical:p=
+aragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.7pt;mso-=
+height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">B=
+eslutsunderlag i f=F6rekommande fall</span><o:p></o:p></li><li class=3D"Mso=
+ListParagraphCxSpLast" style=3D"margin-top:6.0pt;margin-bottom:6.0pt;margin=
+-left:0cm;mso-add-space:auto;mso-list:l2 level1 lfo4;text-autospace:none;ms=
+o-element:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:around;mso=
+-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:column;mso=
+-element-left:-14.7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">K=
+ommunikationsmaterial</span><o:p></o:p></li></ul>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none;mso-element:frame;ms=
+o-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.=
+7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">V=
+i anger nedan att uppdraget motsvarar en omfattning p=E5 50-100% av en helt=
+id. Detta beh=F6ver inte betyda att det =E4r en (1) person som utf=F6r uppd=
+raget. Beskriv hur du/ni avser erbjuda resurs/er f=F6r
+ detta uppdrag.</span><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none;mso-el=
+ement:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-ele=
+ment-anchor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-ele=
+ment-left:-14.7pt;mso-height-rule:exactly">
+<b><span style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial=
+&quot;,sans-serif">Kompetenskrav</span></b><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpFirst" style=3D"margin-top:6.0pt;margin-bo=
+ttom:6.0pt;margin-left:0cm;mso-add-space:auto;mso-list:l0 level1 lfo6;text-=
+autospace:none;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-elemen=
+t-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-hori=
+zontal:column;mso-element-left:-14.7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">B=
+red och djup kompetens inom Enterprise Information Management</span><o:p></=
+o:p></li><li class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-top:6.0pt=
+;margin-bottom:6.0pt;margin-left:0cm;mso-add-space:auto;mso-list:l0 level1 =
+lfo6;text-autospace:none;mso-element:frame;mso-element-frame-hspace:7.05pt;=
+mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-a=
+nchor-horizontal:column;mso-element-left:-14.7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">G=
+od kommunikationsf=F6rm=E5ga (svenska)</span><o:p></o:p></li><li class=3D"M=
+soListParagraphCxSpMiddle" style=3D"margin-top:6.0pt;margin-bottom:6.0pt;ma=
+rgin-left:0cm;mso-add-space:auto;mso-list:l0 level1 lfo6;text-autospace:non=
+e;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:around=
+;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:column=
+;mso-element-left:-14.7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">G=
+od dokumentationsf=F6rm=E5ga (svenska och engelska)</span><o:p></o:p></li><=
+li class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-top:6.0pt;margin-bo=
+ttom:6.0pt;margin-left:0cm;mso-add-space:auto;mso-list:l0 level1 lfo6;text-=
+autospace:none;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-elemen=
+t-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-hori=
+zontal:column;mso-element-left:-14.7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">E=
+rfarenhet av omr=E5det i en federerad organisation =E4r meriterande</span><=
+o:p></o:p></li><li class=3D"MsoListParagraphCxSpLast" style=3D"margin-top:6=
+.0pt;margin-bottom:6.0pt;margin-left:0cm;mso-add-space:auto;mso-list:l0 lev=
+el1 lfo6;text-autospace:none;mso-element:frame;mso-element-frame-hspace:7.0=
+5pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-eleme=
+nt-anchor-horizontal:column;mso-element-left:-14.7pt;mso-height-rule:exactl=
+y">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">B=
+ranscherfarenhet =E4r meriterande</span><o:p></o:p></li></ul>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none;mso-el=
+ement:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-ele=
+ment-anchor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-ele=
+ment-left:-14.7pt;mso-height-rule:exactly">
+<b><span style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial=
+&quot;,sans-serif">=D6nskat startdatum</span></b><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none;mso-element:frame;ms=
+o-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.=
+7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">2=
+018-01-01</span><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none;mso-el=
+ement:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-ele=
+ment-anchor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-ele=
+ment-left:-14.7pt;mso-height-rule:exactly">
+<b><span style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial=
+&quot;,sans-serif">=D6nskat slutdatum</span></b><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none;mso-element:frame;ms=
+o-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.=
+7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">2=
+018-12-31</span><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none;mso-el=
+ement:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-ele=
+ment-anchor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-ele=
+ment-left:-14.7pt;mso-height-rule:exactly">
+<b><span style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial=
+&quot;,sans-serif">Omfattning (% av heltid)</span></b><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none;mso-element:frame;ms=
+o-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.=
+7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">5=
+0-100</span><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none;mso-el=
+ement:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-ele=
+ment-anchor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-ele=
+ment-left:-14.7pt;mso-height-rule:exactly">
+<b><span style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial=
+&quot;,sans-serif">Svar =F6nskar senast</span></b><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none;mso-element:frame;ms=
+o-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.=
+7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">S=
+=E5 snart som m=F6jligt
+</span><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;border-top:none;background:#C6D9F1;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none;mso-el=
+ement:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-ele=
+ment-anchor-vertical:paragraph;mso-element-anchor-horizontal:column;mso-ele=
+ment-left:-14.7pt;mso-height-rule:exactly">
+<b><span style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Arial=
+&quot;,sans-serif">Intervjuer kommer att h=E5llas (ange datum eller vecka/v=
+eckor)</span></b><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border-top:none;bor=
+der-left:solid windowtext 1.0pt;border-bottom:none;border-right:solid windo=
+wtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none;mso-element:frame;ms=
+o-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.=
+7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">L=
+=F6pande </span><o:p></o:p></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border-top:none;bor=
+der-left:solid windowtext 1.0pt;border-bottom:none;border-right:solid windo=
+wtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none;mso-element:frame;ms=
+o-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.=
+7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif"><=
+o:p>&nbsp;</o:p></span></p>
+</td>
+</tr>
+<tr>
+<td width=3D"624" valign=3D"top" style=3D"width:468.3pt;border:solid window=
+text 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none;mso-element:frame;ms=
+o-element-frame-hspace:7.05pt;mso-element-wrap:around;mso-element-anchor-ve=
+rtical:paragraph;mso-element-anchor-horizontal:column;mso-element-left:-14.=
+7pt;mso-height-rule:exactly">
+<span style=3D"font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif"><=
+o:p>&nbsp;</o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><br clear=3D"all">
+<o:p></o:p></p>
+<p class=3D"MsoNormal">V=E4nligen inkom med offert till mig.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Mvh<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Jens Wintzer<o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_HE1PR06MB3209B0B15D49368326CDBB1B973C0HE1PR06MB3209eurp_--

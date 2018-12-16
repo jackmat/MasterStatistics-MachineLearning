@@ -1,0 +1,383 @@
+Received: from AM5PR06MB3204.eurprd06.prod.outlook.com (10.175.231.19) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.260.4 via Mailbox Transport; Thu, 30 Nov 2017 09:09:21 +0000
+Received: from AM4PR0601MB2131.eurprd06.prod.outlook.com (10.167.123.144) by
+ AM5PR06MB3204.eurprd06.prod.outlook.com (10.175.231.19) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.282.5; Thu, 30 Nov 2017 09:09:20 +0000
+Received: from AM4PR0601MB2131.eurprd06.prod.outlook.com (10.167.123.144) by
+ AM4PR0601MB2131.eurprd06.prod.outlook.com (10.167.123.144) with Microsoft
+ SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.282.5; Thu, 30
+ Nov 2017 09:09:18 +0000
+Received: from AM4PR0601MB2131.eurprd06.prod.outlook.com
+ ([fe80::3189:737e:d5e1:10b]) by AM4PR0601MB2131.eurprd06.prod.outlook.com
+ ([fe80::3189:737e:d5e1:10b%14]) with mapi id 15.20.0282.006; Thu, 30 Nov 2017
+ 09:09:18 +0000
+From: Jonas Jareborg <Jonas.Jareborg@knowit.se>
+To: funk-affarsansvariga <funk-affarsansvariga@knowit.se>
+Subject: =?iso-8859-1?Q?Stockholm:_Uppdragsf=F6rfr=E5gan_fr=E5n_Skatteverket,_Proc?=
+ =?iso-8859-1?Q?essledare?=
+Thread-Topic: =?iso-8859-1?Q?Stockholm:_Uppdragsf=F6rfr=E5gan_fr=E5n_Skatteverket,_Proc?=
+ =?iso-8859-1?Q?essledare?=
+Thread-Index: AdNpsWz0IVZ0dsz1RGqOP7fIqgZSgA==
+Date: Thu, 30 Nov 2017 09:09:18 +0000
+Message-ID: <AM4PR0601MB2131C7454ED3CFBCC3C53A6591380@AM4PR0601MB2131.eurprd06.prod.outlook.com>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: AM4PR0601MB2131.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-Network-Message-Id: 486b70de-0701-4e42-d9be-08d537d209a6
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [81.234.58.25]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:AM4PR0601MB2131;H:AM4PR0601MB2131.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;;SKIP:1;
+x-ms-exchange-organization-originalclientipaddress: 81.234.58.25
+x-ms-exchange-organization-originalserveripaddress: 25.175.37.29
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:KOnWHppBucrYmvYB6BZFxjLZMsW+IsLjO7BA71oexe6WJASIKI+2ZCYM8QJgr+pA7aAwt7PVgsGZryaw6n0EiUZl3+Zki0bZPM899rFMSLzLUQuDGl0v12jsnzf0yw//
+Content-Type: multipart/alternative;
+	boundary="_000_AM4PR0601MB2131C7454ED3CFBCC3C53A6591380AM4PR0601MB2131_"
+MIME-Version: 1.0
+
+--_000_AM4PR0601MB2131C7454ED3CFBCC3C53A6591380AM4PR0601MB2131_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:KOnWHppBucrYmvYB6BZFxjLZMsW+IsLjO7BA71oexe6WJASIKI+2ZCYM8QJgr+pA7aAwt7PVgsGZryaw6n0EiUZl3+Zki0bZPM899rFMSLzLUQuDGl0v12jsnzf0yw//
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hej!
+
+Vi har f=E5tt en f=F6rfr=E5gan p=E5 en Processledare, Niv=E5 4 till Skattev=
+erket.
+=C5terkoppla till mig snarast om du har n=E5gonsom passar.
+
+
+H=E4lsningar
+Jonas
+
+
+Avropsf=F6rfr=E5gan: 270052539
+Antal konsulter: 1
+Kompetensomr=E5de: Middleware & Klient
+Roll: Processledare f=F6r=E4ndring/release & deploy
+Kompetensniv=E5: 4
+Omfattning: 1000h
+Placeringsort: Solna
+Startdatum: 2018-01-08
+Slutdatum: 2018-12-21
+F=F6rl=E4ngningsoption:  12 + 12 m=E5n
+SUA: Ja
+Sista anbudsdag: 2017-12-06 23:59
+
+Allm=E4n beskrivning:
+IT-service s=F6ker en Processledare f=F6r=E4ndring/release och deploy med o=
+perativ erfarenhet fr=E5n etablering
+och implementation av nya arbetss=E4tt och ITIL-processer i st=F6rre organi=
+sationer...
+
+Arbetsbeskrivning:
+Specificerade arbetsuppgifter:
+Processledare f=F6r=E4ndringshantering/release och deploy f=F6r att arbeta =
+med etablering av ny process och
+hantering av change/release och deploy.
+
+Involverade tekniker/modeller/metoder/produkter
+
+  *   SM9
+  *   Processer f=F6r f=F6r=E4ndrings-/releasehantering och deploy
+
+
+F=F6r att utf=F6ra uppdraget p=E5 ett bra vis beh=F6ver konsulten ha:
+ITIL-certifiering, god processf=F6rst=E5else, god f=F6rst=E5else f=F6r Serv=
+ice Management. Erfarenhet av
+f=F6r=E4ndrings- och releasehantering med deploy med hj=E4lp av centralt ve=
+rktyg. Kunskap om
+=E4rendehantering. Kompetens f=F6r koordinering och samverkan inom processo=
+rganisationen samt med
+=F6vriga relevanta intressenter. Analytisk och l=E4tt f=F6r att samverka. D=
+riva etableringar av nya processer
+och arbetss=E4tt.
+Skakrav:
+a. Konsulten ska ha tidigare erfarenhet av etablering och inf=F6rande
+av anpassad ITIL-process f=F6r change/release och deploy.
+
+b. Konsulten ska ha tidigare erfarenhet av arbete med
+change/release och deploy - process och arbetss=E4tt.
+
+Meriterande krav:
+a. Konsulten b=F6r ha ITIL-certifiering v3 Foundation
+b. Konsulten b=F6r ha processf=F6rst=E5else
+c. Konsulten b=F6r ha f=F6rst=E5else f=F6r Service Management inkluderande
+verktyg
+d. Konsulten b=F6r ha kunskap om =E4rendehantering
+e. Konsulten b=F6r ha erfarenhet av change/release och deploy med hj=E4lp
+av centrala verktyg
+f. Konsulten b=F6r ha erfarenhet av =E4rendehantering och change/release
+och deploy fr=E5n en st=F6rre organisation minst 1000 anv=E4ndare
+
+
+
+--_000_AM4PR0601MB2131C7454ED3CFBCC3C53A6591380AM4PR0601MB2131_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:KOnWHppBucrYmvYB6BZFxjLZMsW+IsLjO7BA71oexe6WJASIKI+2ZCYM8QJgr+pA7aAwt7PVgsGZryaw6n0EiUZl3+Zki0bZPM899rFMSLzLUQuDGl0v12jsnzf0yw//
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:ArialMT;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.E-postmall19
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.E-postmall20
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.E-postmall21
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:205945454;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1339354802 69009409 69009411 69009413 69009409 69009=
+411 69009413 69009409 69009411 69009413;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"SV" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Hej!<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Vi har f=E5tt en f=F6rfr=E5gan p=E5 en Processledare=
+, Niv=E5 4 till Skatteverket.<o:p></o:p></p>
+<p class=3D"MsoNormal">=C5terkoppla till mig snarast om du har n=E5gonsom p=
+assar.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">H=E4lsningar<o:p></o:p></p>
+<p class=3D"MsoNormal">Jonas<o:p></o:p></p>
+<p class=3D"MsoNormal">&nbsp;<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b>Avropsf=F6rfr=E5gan:</b> 270052539<o:p></o:p></p>
+<p class=3D"MsoNormal"><b>Antal konsulter:</b> 1<o:p></o:p></p>
+<p class=3D"MsoNormal"><b>Kompetensomr=E5de:</b> Middleware &amp; Klient<o:=
+p></o:p></p>
+<p class=3D"MsoNormal"><b>Roll:</b> Processledare f=F6r=E4ndring/release &a=
+mp; deploy<o:p></o:p></p>
+<p class=3D"MsoNormal"><b>Kompetensniv=E5:</b> 4<o:p></o:p></p>
+<p class=3D"MsoNormal"><b>Omfattning:</b> 1000h <o:p></o:p></p>
+<p class=3D"MsoNormal"><b>Placeringsort:</b> Solna<b><o:p></o:p></b></p>
+<p class=3D"MsoNormal"><b>Startdatum:</b> 2018-01-08 <o:p></o:p></p>
+<p class=3D"MsoNormal"><b>Slutdatum:</b> 2018-12-21<o:p></o:p></p>
+<p class=3D"MsoNormal"><b>F=F6rl=E4ngningsoption:</b> &nbsp;12 &#43; 12 m=
+=E5n<o:p></o:p></p>
+<p class=3D"MsoNormal"><b>SUA:</b> Ja<o:p></o:p></p>
+<p class=3D"MsoNormal"><b>Sista anbudsdag</b>: 2017-12-06 23:59 <o:p></o:p>=
+</p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b>Allm=E4n beskrivning</b>:<o:p></o:p></p>
+<p class=3D"MsoNormal">IT-service s=F6ker en Processledare f=F6r=E4ndring/r=
+elease och deploy med operativ erfarenhet fr=E5n etablering<o:p></o:p></p>
+<p class=3D"MsoNormal">och implementation av nya arbetss=E4tt och ITIL-proc=
+esser i st=F6rre organisationer...<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b>Arbetsbeskrivning:<o:p></o:p></b></p>
+<p class=3D"MsoNormal"><u>Specificerade arbetsuppgifter:<o:p></o:p></u></p>
+<p class=3D"MsoNormal">Processledare f=F6r=E4ndringshantering/release och d=
+eploy f=F6r att arbeta med etablering av ny process och<o:p></o:p></p>
+<p class=3D"MsoNormal">hantering av change/release och deploy.<o:p></o:p></=
+p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b>Involverade tekniker/modeller/metoder/produkter<o=
+:p></o:p></b></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraph" style=3D"margin-left:0cm;mso-list:l0 level1 =
+lfo2">SM9<o:p></o:p></li><li class=3D"MsoListParagraph" style=3D"margin-lef=
+t:0cm;mso-list:l0 level1 lfo2">Processer f=F6r f=F6r=E4ndrings-/releasehant=
+ering och deploy<o:p></o:p></li></ul>
+<p class=3D"MsoListParagraph"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b>F=F6r att utf=F6ra uppdraget p=E5 ett bra vis beh=
+=F6ver konsulten ha:<o:p></o:p></b></p>
+<p class=3D"MsoNormal">ITIL-certifiering, god processf=F6rst=E5else, god f=
+=F6rst=E5else f=F6r Service Management. Erfarenhet av<o:p></o:p></p>
+<p class=3D"MsoNormal">f=F6r=E4ndrings- och releasehantering med deploy med=
+ hj=E4lp av centralt verktyg. Kunskap om<o:p></o:p></p>
+<p class=3D"MsoNormal">=E4rendehantering. Kompetens f=F6r koordinering och =
+samverkan inom processorganisationen samt med<o:p></o:p></p>
+<p class=3D"MsoNormal">=F6vriga relevanta intressenter. Analytisk och l=E4t=
+t f=F6r att samverka. Driva etableringar av nya processer<o:p></o:p></p>
+<p class=3D"MsoNormal">och arbetss=E4tt.<o:p></o:p></p>
+<p class=3D"MsoNormal"><b>Skakrav:<o:p></o:p></b></p>
+<p class=3D"MsoNormal">a. Konsulten ska ha tidigare erfarenhet av etablerin=
+g och inf=F6rande<o:p></o:p></p>
+<p class=3D"MsoNormal">av anpassad ITIL-process f=F6r change/release och de=
+ploy.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">b. Konsulten ska ha tidigare erfarenhet av arbete me=
+d<o:p></o:p></p>
+<p class=3D"MsoNormal">change/release och deploy &#8211; process och arbets=
+s=E4tt.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b>Meriterande krav:<o:p></o:p></b></p>
+<p class=3D"MsoNormal">a. Konsulten b=F6r ha ITIL-certifiering v3 Foundatio=
+n<o:p></o:p></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:10.0pt;font-family:ArialMT"=
+>b. Konsulten b=F6r ha processf=F6rst=E5else<o:p></o:p></span></p>
+<p class=3D"MsoNormal">c. Konsulten b=F6r ha f=F6rst=E5else f=F6r Service M=
+anagement inkluderande<o:p></o:p></p>
+<p class=3D"MsoNormal">verktyg<o:p></o:p></p>
+<p class=3D"MsoNormal">d. Konsulten b=F6r ha kunskap om =E4rendehantering<o=
+:p></o:p></p>
+<p class=3D"MsoNormal">e. Konsulten b=F6r ha erfarenhet av change/release o=
+ch deploy med hj=E4lp<o:p></o:p></p>
+<p class=3D"MsoNormal">av centrala verktyg<o:p></o:p></p>
+<p class=3D"MsoNormal">f. Konsulten b=F6r ha erfarenhet av =E4rendehanterin=
+g och change/release<o:p></o:p></p>
+<p class=3D"MsoNormal">och deploy fr=E5n en st=F6rre organisation minst 100=
+0 anv=E4ndare<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_AM4PR0601MB2131C7454ED3CFBCC3C53A6591380AM4PR0601MB2131_--

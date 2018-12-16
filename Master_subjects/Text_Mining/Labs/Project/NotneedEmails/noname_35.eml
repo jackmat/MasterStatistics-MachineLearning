@@ -1,0 +1,168 @@
+Received: from AM5PR06MB3203.eurprd06.prod.outlook.com (10.175.231.18) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.260.4 via Mailbox Transport; Sun, 26 Nov 2017 16:01:04 +0000
+Received: from AM5PR06CA0035.eurprd06.prod.outlook.com (2603:10a6:206:2::48)
+ by AM5PR06MB3203.eurprd06.prod.outlook.com (2603:10a6:206:11::18) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.260.4; Sun, 26
+ Nov 2017 16:01:04 +0000
+Received: from DB5EUR03FT026.eop-EUR03.prod.protection.outlook.com
+ (2a01:111:f400:7e0a::205) by AM5PR06CA0035.outlook.office365.com
+ (2603:10a6:206:2::48) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.260.4 via Frontend
+ Transport; Sun, 26 Nov 2017 16:01:04 +0000
+Received: from halon5.space2u.com (193.45.5.199) by
+ DB5EUR03FT026.mail.protection.outlook.com (10.152.20.159) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.20.239.4 via Frontend Transport; Sun, 26 Nov 2017 16:01:03 +0000
+Received: from mail4.space2u.com (unknown [62.20.1.217])
+	by halon5.space2u.com (Halon) with ESMTP
+	id ffe0b9e8-d2c2-11e7-ab10-005056992d6d;
+	Sun, 26 Nov 2017 17:01:01 +0100 (CET)
+Received: from www4.space2u.com (www4.space2u.com [62.20.1.216])
+	(authenticated bits=0)
+	by mail4.space2u.com (8.14.5/8.14.4) with ESMTP id vAQG104Z006234
+	(version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NOT)
+	for <urban.jonsson@knowit.se>; Sun, 26 Nov 2017 17:01:00 +0100
+From: "info@datakonsulter.info" <info@datakonsulter.info>
+To: Urban Jonsson <urban.jonsson@knowit.se>
+Subject: Jobb som matchar din kompetens
+Thread-Topic: Jobb som matchar din kompetens
+Thread-Index: AQHTZs/DlG695fYo906RshgJhP2nHg==
+Date: Sun, 26 Nov 2017 16:01:00 +0000
+Message-ID: <16628639.531511712060256.JavaMail.d15124@www4.space2u.com>
+Content-Language: en-GB
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: DB5EUR03FT026.eop-EUR03.prod.protection.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id: 82aea5e7-e8ea-4851-4337-08d534e6e580
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+received-spf: None (protection.outlook.com: datakonsulter.info does not
+ designate permitted sender hosts)
+authentication-results: spf=none (sender IP is 193.45.5.199)
+ smtp.mailfrom=datakonsulter.info; knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none
+ header.from=datakonsulter.info;
+x-forefront-antispam-report: CIP:193.45.5.199;IPV:NLI;CTRY:SE;EFV:NLI;SFV:SFE;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:AM5PR06MB3203;H:halon5.space2u.com;FPR:;SPF:None;LANG:sv;
+x-ms-exchange-organization-originalclientipaddress: 193.45.5.199
+x-ms-exchange-organization-originalserveripaddress: 25.152.20.159
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:uXKKE2dC39Cij+enSuFryMCYWT27sUuEebQOSnJii/nzw6XH773mTgsE5vy319BBcV7cPKWhClrmV87fy5x9eoRV3VeMFpDmHuCCgn45fB8zXtDI92hqp77hT5WY8xcQ
+Content-Type: multipart/alternative;
+	boundary="_000_16628639531511712060256JavaMaild15124www4space2ucom_"
+MIME-Version: 1.0
+
+--_000_16628639531511712060256JavaMaild15124www4space2ucom_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:uXKKE2dC39Cij+enSuFryMCYWT27sUuEebQOSnJii/nzw6XH773mTgsE5vy319BBcV7cPKWhClrmV87fy5x9eoRV3VeMFpDmHuCCgn45fB8zXtDI92hqp77hT5WY8xcQ
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Uppdrag som matchar din kompetens och dina urvalskriterier
+________________________________
+
+Uppdrag 1
+Namn: .Net Utvecklare<https://datakonsulter.info/WiseDki/StartController?as=
+signmentIdRemote=3D12932>
+Beskrivning: Vi s=F6ker en duktigt .Net utvecklare f=F6r en 3 =E5rs l=E5ngt=
+ uppdrag. Konsulten ska ha kompetens inom systemutveckling i Programspr=E5k=
+et C#. Konsulten ska ha kompetens inom systemutveckling bl.a. WCF 5+ =E5rs =
+erfarenehet
+Uppdragsid: 12932
+Publiceringsdatum: 2017-11-26 11:37:52
+Startdatum: omedelbart
+Slutdatum: tills vidare
+Sista ans=F6kningsdag: 2017-12-31
+Roll: Systemutvecklare
+Bransch: Data/IT
+Arbetsort: Stockholm
+Jag vill inte l=E4ngre prenumerera p=E5 uppdrag<https://datakonsulter.info/=
+WiseDki/SubscriptionController?subscriptionRemove=3Don&remoteUser=3D428>
+
+--_000_16628639531511712060256JavaMaild15124www4space2ucom_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:uXKKE2dC39Cij+enSuFryMCYWT27sUuEebQOSnJii/nzw6XH773mTgsE5vy319BBcV7cPKWhClrmV87fy5x9eoRV3VeMFpDmHuCCgn45fB8zXtDI92hqp77hT5WY8xcQ
+Content-Type: text/html; charset="iso-8859-1"
+Content-ID: <294B18467425EE46B641F0C7ECED6A48@eurprd06.prod.outlook.com>
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style> .overAll{background-color:#D3D3D3;} .mailRubrik {font-family:Verdan=
+a; font-size:12px;}.mailNormal {font-family:Verdana; font-size:10px;}</styl=
+e>
+</head>
+<body style=3D"background-color:#D3D3D3;">
+<table>
+<tbody>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:12px;font-weight:bold">Up=
+pdrag som matchar din kompetens och dina urvalskriterier</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 1</span></=
+td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D12932">Nam=
+n: .Net Utvecklare</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: Vi s=
+=F6ker en duktigt .Net utvecklare f=F6r en 3 =E5rs l=E5ngt uppdrag. Konsult=
+en ska ha kompetens inom systemutveckling i Programspr=E5ket C#. Konsulten =
+ska ha kompetens inom systemutveckling bl.a.
+ WCF 5&#43; =E5rs erfarenehet</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 12932<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-26 11:37:52</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: omedel=
+bart</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: tills v=
+idare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2017-12-31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: Systemutveck=
+lare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Data/IT</=
+span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: Stockho=
+lm</span></td>
+</tr>
+<tr style=3D"font-family:Verdana; font-size:10px;">
+<td><a href=3D"https://datakonsulter.info/WiseDki/SubscriptionController?su=
+bscriptionRemove=3Don&amp;remoteUser=3D428">Jag vill inte l=E4ngre prenumer=
+era p=E5 uppdrag</a></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+
+--_000_16628639531511712060256JavaMaild15124www4space2ucom_--

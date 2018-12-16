@@ -1,0 +1,225 @@
+---
+title: "Decision Theory Lab2"
+author: "Carles Sans Fuentes"
+date: "6 de diciembre de 2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE, fig.width = 5, fig.asp = 0.66, fig.show = "asis", fig.align = "center", fig.pos = "htbp",tidy.opts=list(width.cutoff=60),tidy=TRUE)
+```
+
+
+## R Markdown
+##Question 1: 
+**This is essentially Exercises 12 and 13 in Chapter 5 of "Winkler: An Introduction to Bayesian inference and decision, 2nd ed."One nonprobabilistic decision-making criterion involves the consideration of a weighted average of the highest and lowest payoffs for each action. The weights, which must sum to 1, can be thought of as an optimism-pessimism index. The action with the highest weighted average of the highest and lowest payoffs is the action chosen by this criterion.** 
+
+```{r , echo=TRUE}
+PayTab<- matrix(c(-50,30,10,-10,80,40,30,-50,20,70,-30,-70,100,20,10,-20,0,50,40,200),4,5)
+rownames(PayTab)<- 1:4
+colnames(PayTab)<- LETTERS[1:5]
+PayTab
+```
+
+**a) Comment on this decision-making criterion and use it for payoff table (i) below with the highest payoff in each row receiving a weight of 0.4 and the lowest payoff receiving a weight of 0.6** 
+ 
+Given the table we have been provided with (shown), the maximum and the lowest payoffs have been selected, and the following calculus have been done analogoulsy as shown below: 
+
+So for instance, the first case the expected reward for action one will be:
+$$ER(Action1) = min(Action1)*0.6+ max(Action1)*0.4 =$$
+$$ A*0.6+ D*0.4 = -50*0.6+100*0.4 = 30-40 = 10$$
+Analogously, and using R software, we get the following Payoffs
+
+```{r , echo=TRUE}
+Payoffs<-data.frame(ExpectedPayoff = apply(PayTab,1,function(x){min(x)*0.6+max(x)*0.4}))
+Payoffs
+```
+
+Action 2 is therefore the most preferable one.
+
+**Use the decision-making criterion described above for payoff table (ii) below, with the highest payoff in each row receiving a weight of 0.8 and the lowest payoff receiving a weight of 0.2. For payoff table (ii) the ER criterion would also involve a weighted average of the two payoffs in each row. Compare the criterion described above with the ER criterion. **
+
+
+```{r , echo=TRUE}
+Payoff<- matrix(c(10,7,4,9),2,2)
+rownames(Payoff)<- 1:2
+colnames(Payoff)<- c("I", "II")
+Payoff
+```
+Doing the same as before we do the following as an example for action 1: 
+$$ER(Action1) = min(Action1)*0.2+ max(Action1)*0.8 =$$
+$$ II*0.2+ I*0.8 = 4*0.2+10*0.8 = 0.+8 = 8.8$$
+Analogously, we get by using the software and inputting the rules the following results:
+
+```{r , echo=TRUE}
+Payoffs2<-data.frame(ExpectedPayoff = apply(Payoff,1,function(x){min(x)*0.2+max(x)*0.8}))
+Payoffs2
+```
+
+The first action is the best one to do.
+
+
+##Question 2: 
+**This is essentially Exercises 35ab, 38 and 39  in Chapter 5 of "Winkler: An Introduction to Bayesian inference and decision, 2nd ed." Suppose that a person's utility function for total assets (not changes in assets) is** 
+$$U(A)=200A-A^2$$ for$$ 0<= A<=100$$, 
+
+
+**where A represents total assets in thousands of dollars.** 
+
+```{r , echo=TRUE}
+Utilityfunc<- function(A){
+  if(A>=0 && A<=100){
+    return(200*A-A**2)
+  }
+  else{
+    stop("A not between 0 and 100")
+  }
+}
+```
+**a) Graph this utility function. How could you classify this person with regard to their attitude towards risk?** 
+
+The plot is visible below using the function written I have written above.
+
+```{r , echo=TRUE}
+vectorResult<- Utilityfunc(0:100) # the utlitiy function between 0 and 100
+plot(vectorResult, type = "l", col = "red", xlab = "thousands of dollars", ylab =  "Utility Result")
+```
+
+I would classify this person as a risk avoider person because for the same point of Reward of a risk neutral person (linear utily instead of concave) this person has a such lower utility for the same outcome, making him or her not to take  the bet if the risk neutral person feels indiferent from taking it or not.
+
+**b) If the person's total assets are currently $10 000, should they take a bet in which they will win $10 000 with probability 0.6 and loose $10 000with probability 0.4? **
+Given that A is in thousand of dollars, 10000 will be 10 in our utility function. Therefore, the expected payoff and the following reward are the following ones:
+
+```{r , echo=TRUE}
+dollars <- 10000/1000
+Expay <- dollars*0.6-dollars*0.4 #Expected payoff from the activity
+Expay
+
+Data<- data.frame(y = vectorResult, x = 0:100)
+model <-lm(y~x, Data)
+linear<-model$coefficients[2]*0:100
+
+## Getting the the Utility for the linear function, which is when A = 2, therefore the 3rd number
+
+linear[3] #Utility = 200
+
+
+{plot(vectorResult, type = "l", col = "red", xlab = "thousands of dollars", ylab =  "Utility Result", xlim = c(1.95,2.05), ylim = c(190,210))
+lines(x = 0:100, linear, col ="green")
+abline(v=2, col= "black")
+legend("topleft", c("Risk avoid ", "risk neutral"), # puts text in the legend
+       lty=c(1,1), # gives the legend appropriate symbols (lines)
+       lwd=c(2.5,2.5),col=c("Red", "Green")) # gives the legend lines the correct color and width
+}
+```
+
+It will be taking it by a really small difference.
+
+**c)A function that is often used to measure the degree of risk aversion in a given utility function is the Pratt-Arrow risk-aversion function. This function is of the form**
+$$r(A) = -U''(A)/U'(A)$$ 
+**, where U(A) represents the utility function for total assets, and where  the primes denote differentiation (first and second derivatives, i.e.**
+$$U'(A) = dU/dA$$  and  $$U''(A) = d^2U/dA^2 $$ 
+**[Primes have otherwise related to prior and posterior function in the textbook]. Find r(A) for the utility function given above.**
+
+Given that $$U(A)=200A-A^2$$, 
+$$r(A) = -U''(A)/U'(A) = -(-2)/(-2A+200)= 2/(-2A+200)$$
+
+**d)Find the Pratt-Arrow risk-aversion functions for $0<A< 100$ for the following utility functions, where A represents total assets in thousands of dollars:**
+(i) $$U(A)= 1-\exp^(-0.05*A)$$
+(ii)$$U(A)= ln(A)$$
+
+The Pratt-Arrow risk aversion result for this ones are:
+
+i)$$r(A) = -U''(A)/U'(A)=  -(-0.05^2)*e^(-0.05*A) /(0.05)*\exp^(-0.05*A)=$$
+$$ \frac{0.05^2*e^(-0.05*A)}{(0.05)*e^(-0.05*A)}= 0.05$$
+
+ii) $$r(A) = -U''(A)/U'(A)=  \frac{-(-1/A^2)}{1/A} = 1/A $$
+** Graph these risk-aversion functions and the risk-aversion function in subtask  above and compare them in terms of how the risk aversion changes as A increases** 
+The plot can be seen below:
+ 
+```{r , echo=TRUE}
+A<-0:100
+c<-2/(-2*A+200)
+i<-rep(0.05,101)
+ii<-1/A
+{plot(c, col = "red", type = "l")
+lines(x = A, i, col = "blue")
+lines(x= A, ii, col ="green")
+legend("center", c("c ", "i", "ii"), # puts text in the legend
+       lty=c(1,1), # gives the legend appropriate symbols (lines)
+       lwd=c(2.5,2.5),col=c("Red","Blue", "Green")) # gives the legend lines the correct color and width
+}
+
+
+```
+
+The function from activity part c is risk avoidance, the i is meant to be risk neutral and the ii is mean to be risk lover.
+
+
+##Question 3 
+**In the slides to Meeting 8 (12 October)  (which you find under Work plan and material on the course web) Exercise 36 and Exercise 45a in Chapter 5 of the textbook are solved. For each of the gambles in Exercise 45, show the risk premium graphically when the utility function for monetary payoffs is** $$U(R) =4000-(200-R)^2$$ for $$-200<=R<=200$$
+
+
+a) 100*0.5-100*0.5
+b) 100*0.4-50*0.6
+c) 70*0.3-30*0.7
+d) 200*0.5-50*0.5
+
+The code for the activity has been done as following, doing four plots for each of the cases
+
+```{r , echo=TRUE}
+
+
+Utilityfunc2<- function(R){
+  if(R>=-200 && R<=200){
+    return(40000-(200-R)^2)
+  }
+  else{
+    stop("A not between -200 and 200")
+  }
+}
+
+
+ce <- function(r) {
+  return(200 - sqrt(40000 - r))
+}
+
+plot_RE <- function(utility, inverse_utility, probs=c(0.5, 0.5), values=c(100, -100)) {
+  prob_win <- probs[1]
+  prob_loose <- probs[2]
+  value_win <- values[1]
+  value_loose <- values[2]
+  
+  ER <- prob_win*value_win + prob_loose*value_loose 
+  UER <- utility(ER)
+  EU <- prob_win*utility(value_win) + prob_loose*utility(value_loose)
+  CE <- ce(EU)
+  UCE <- utility(CE)
+  RP <-ER-CE
+  x <- seq(-200, 200, 0.01)
+  plot(x, sapply(x, utility), type="l",
+       main="Utility function", xlab="R", ylab="Utility")
+  
+  print(c("ER"=ER, "EU"=EU, "CE"=CE, "UCE" = UCE, "RP" = RP))
+  
+  points(ER, EU, col="red", pch=16) #EU
+  points(CE, UCE, col="blue", pch=16) #CE
+  points(ER, UER, col="green", pch=16) #UER
+  
+  lines(c(ER, ER), c(UER, -10^12), lty=2)
+  lines(c(CE, UCE), c(UCE, -10^12), lty=2)
+  legend("topleft", c("EU", "UCE", "UER"), # puts text in the legend
+       lty=c(1,1), # gives the legend appropriate symbols (lines)
+       lwd=c(2.5,2.5),col=c("Red","Blue", "Green")) # gives the legend lines the correct color and width
+}
+par(mfrow=c(1,1))
+#a
+plot_RE(Utilityfunc2, ce, probs=c(0.5, 0.5), values=c(100, -100))
+#b
+plot_RE(Utilityfunc2, ce, probs=c(0.4, 0.6), values=c(100, -50))
+#c
+plot_RE(Utilityfunc2, ce, probs=c(0.3, 0.7), values=c(70, -30))
+#d
+plot_RE(Utilityfunc2, ce, probs=c(0.5, 0.5), values=c(200, 50))
+
+```

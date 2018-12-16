@@ -1,0 +1,809 @@
+Received: from HE1PR06MB3211.eurprd06.prod.outlook.com (10.171.198.143) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.239.5 via Mailbox Transport; Fri, 24 Nov 2017 15:02:13 +0000
+Received: from HE1PR06MB3209.eurprd06.prod.outlook.com (10.171.198.141) by
+ HE1PR06MB3211.eurprd06.prod.outlook.com (10.171.198.143) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.239.5; Fri, 24 Nov 2017 15:02:12 +0000
+Received: from HE1PR06MB3209.eurprd06.prod.outlook.com
+ ([fe80::7969:6bb4:b1be:1368]) by HE1PR06MB3209.eurprd06.prod.outlook.com
+ ([fe80::7969:6bb4:b1be:1368%13]) with mapi id 15.20.0239.009; Fri, 24 Nov
+ 2017 15:02:12 +0000
+From: Jens Wintzer <Jens.Wintzer@knowit.se>
+To: funk-kam-lf <lf-konsult@knowit.se>
+Subject: =?iso-8859-1?Q?VB:_17180_IT-arkitekt_Integration_-_SOA_-_L=E4nsf=F6rs=E4k?=
+ =?iso-8859-1?Q?ringar?=
+Thread-Topic: =?iso-8859-1?Q?17180_IT-arkitekt_Integration_-_SOA_-_L=E4nsf=F6rs=E4kring?=
+ =?iso-8859-1?Q?ar?=
+Thread-Index: AdNlNRavzCj+zW4pRUiyt40aXUoQpA==
+Date: Fri, 24 Nov 2017 15:02:12 +0000
+Message-ID: <HE1PR06MB3209C26FD8B705C9355D91A397260@HE1PR06MB3209.eurprd06.prod.outlook.com>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: HE1PR06MB3209.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-Network-Message-Id: 9c41db0b-2710-4e6f-36d2-08d5334c57d5
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [192.71.76.144]
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:HE1PR06MB3211;H:HE1PR06MB3209.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;
+x-ms-exchange-organization-originalclientipaddress: 192.71.76.144
+x-ms-exchange-organization-originalserveripaddress: 25.161.139.34
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:htRqk4m5FlxE/TG9gcrnY1cPNGYRuDI8d4NmCy99ce7EP66mpMdWoxBkESKnJMOelIn/OLrTPyabv4ptIyjlaX3aA3WS36K9MOsIey8hRkd8xoKUJDYTm1rChpuW2RL5
+Content-Type: multipart/alternative;
+	boundary="_000_HE1PR06MB3209C26FD8B705C9355D91A397260HE1PR06MB3209eurp_"
+MIME-Version: 1.0
+
+--_000_HE1PR06MB3209C26FD8B705C9355D91A397260HE1PR06MB3209eurp_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:htRqk4m5FlxE/TG9gcrnY1cPNGYRuDI8d4NmCy99ce7EP66mpMdWoxBkESKnJMOelIn/OLrTPyabv4ptIyjlaX3aA3WS36K9MOsIey8hRkd8xoKUJDYTm1rChpuW2RL5
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hej,
+
+LF s=F6ker en konsult enligt nedan:
+
+Konsultbehov
+Roll/niv=E5
+
+IT-arkitekt, niv=E54
+
+
+1.1     Arbetsuppgifter
+Som l=F6sningsarkitekt ing=E5r du i projekt och i uppdrag fr=E5n f=F6rvaltn=
+ingen som en representant fr=E5n Arkitekturfunktionen d=E4r du f=E5r arkite=
+ktonisk styrning och st=F6d av dom=E4narkitekter i L=E4nsf=F6rs=E4kringars =
+Arkitekturr=E5d.
+F=F6rutom att driva l=F6sningsframtagning och s=E4kerst=E4lla att l=F6sning=
+ar f=F6ljer beslutade strategier och riktlinjer och m=F6ter funktionella oc=
+h icke-funktionella krav, s=E5 medverkar du ocks=E5 i kravanalys samt i pla=
+nering och koordinering av projektens leverabler. I din roll =E4r du =E4ven=
+ ett st=F6d till projektledare och it-projektledare. Du kommer att ha ett n=
+=E4ra samarbete med v=E5ra leverant=F6rer r=F6rande detaljerade krav, syste=
+mdesign, systemutveckling, test och leverans.
+Som l=F6sningsarkitekt Integration s=E5 kommer du fr=E4mst att arbeta med a=
+tt vidareutveckla v=E5ra SOA-plattformar och dess tj=E4nster, men =E4ven vi=
+d behov arbeta med andra integrationstekniker s=E5 som filplattformar och a=
+tt vidareutveckla v=E5ra f=F6rm=E5gor inom eventdriven arkitektur och v=E5r=
+ API-plattform. Vi l=E4gger d=E4rf=F6r vikt vid att du har en bredd inom in=
+tegrationsomr=E5det och goda kunskap kring olika teknikers anv=E4ndningsomr=
+=E5de.
+1.2     Kunskaper och erfarenheter
+
+  *   Bred kompetens inom l=F6sningsarkitektur, med specifikt fokus p=E5 in=
+tegration, men =E4ven med kunskap inom applikationsarkitektur och infrastru=
+ktur.
+  *   Erfarenhet av att utveckla och f=F6rvalta integrations-f=F6rm=E5gor o=
+ch l=F6sningar i stora organisationer
+  *   Specifik erfarenhet av att utveckla och f=F6rvalta SOA-arkitekturer
+  *   Goda kunskaper inom informationsarkitektur och informationsmodellerin=
+g
+  *   Erfarenhet av att arbeta i outsourcad milj=F6
+  *   Intresse f=F6r Micro services - inspirerade arkitekturer och eventdri=
+ven arkitektur
+  *   Stor f=F6rdel om erfarenheter fr=E5n f=F6rs=E4kringsbranschen
+  *   Du har god f=F6rm=E5ga att uttrycka dig i tal och skrift p=E5 svenska=
+ och engelska
+
+
+
+1.3     Personliga egenskaper
+Som person =E4r du strukturerad, har god analytisk f=F6rm=E5ga och en f=F6r=
+st=E5else f=F6r komplexa fl=F6den och beroendesamband. Du har f=F6rm=E5gan =
+att kommunicera p=E5 ett pedagogiskt och tydligt s=E4tt. Vi vill att du bid=
+rar och samarbetar v=E4l med kollegor och samarbetspartners och =E4r en lag=
+spelare som =E4r noggrann, ansvarstagande, prestigel=F6s och initiativrik.
+
+=D6nskat startdatum
+
+Snarast
+
+=D6nskat slutdatum
+
+2018-06-31
+
+Omfattning (% av heltid)
+
+100%
+
+Svar =F6nskar senast
+
+Omg=E5ende
+
+Intervjuer kommer att h=E5llas (ange datum eller vecka/veckor)
+
+Fortl=F6pande
+
+
+Pris & motivering till mig.
+
+/Jens
+
+--_000_HE1PR06MB3209C26FD8B705C9355D91A397260HE1PR06MB3209eurp_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:htRqk4m5FlxE/TG9gcrnY1cPNGYRuDI8d4NmCy99ce7EP66mpMdWoxBkESKnJMOelIn/OLrTPyabv4ptIyjlaX3aA3WS36K9MOsIey8hRkd8xoKUJDYTm1rChpuW2RL5
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Cambria;
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+h1
+	{mso-style-priority:9;
+	mso-style-link:"Rubrik 1 Char";
+	margin-top:10.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:21.6pt;
+	margin-bottom:.0001pt;
+	text-indent:-21.6pt;
+	mso-line-height-alt:13.0pt;
+	page-break-after:avoid;
+	mso-list:l1 level1 lfo2;
+	font-size:18.0pt;
+	font-family:"Cambria",serif;
+	color:#4F81BD;
+	mso-fareast-language:EN-US;}
+h2
+	{mso-style-priority:9;
+	mso-style-link:"Rubrik 2 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:28.8pt;
+	margin-bottom:.0001pt;
+	text-indent:-28.8pt;
+	mso-line-height-alt:13.0pt;
+	page-break-after:avoid;
+	mso-list:l1 level2 lfo2;
+	font-size:16.0pt;
+	font-family:"Cambria",serif;
+	color:#4F81BD;
+	mso-fareast-language:EN-US;}
+h3
+	{mso-style-priority:9;
+	mso-style-link:"Rubrik 3 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-36.0pt;
+	line-height:13.0pt;
+	page-break-after:avoid;
+	mso-list:l1 level3 lfo2;
+	font-size:11.0pt;
+	font-family:"Cambria",serif;
+	color:#4F81BD;
+	letter-spacing:.2pt;
+	mso-fareast-language:EN-US;}
+h4
+	{mso-style-priority:9;
+	mso-style-link:"Rubrik 4 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:43.2pt;
+	margin-bottom:.0001pt;
+	text-indent:-43.2pt;
+	line-height:13.0pt;
+	page-break-after:avoid;
+	mso-list:l1 level4 lfo2;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	color:#0066B3;
+	mso-fareast-language:EN-US;
+	font-weight:normal;}
+h5
+	{mso-style-priority:9;
+	mso-style-link:"Rubrik 5 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:50.4pt;
+	margin-bottom:.0001pt;
+	text-indent:-50.4pt;
+	line-height:13.0pt;
+	page-break-after:avoid;
+	mso-list:l1 level5 lfo2;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	color:#4F81BD;
+	mso-fareast-language:EN-US;
+	font-weight:normal;}
+h6
+	{mso-style-priority:9;
+	mso-style-link:"Rubrik 6 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:57.6pt;
+	margin-bottom:.0001pt;
+	text-indent:-57.6pt;
+	line-height:13.0pt;
+	page-break-after:avoid;
+	mso-list:l1 level6 lfo2;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	color:#4F81BD;
+	mso-fareast-language:EN-US;
+	font-weight:normal;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{mso-style-priority:9;
+	mso-style-link:"Rubrik 7 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:64.8pt;
+	margin-bottom:.0001pt;
+	text-indent:-64.8pt;
+	line-height:13.0pt;
+	page-break-after:avoid;
+	mso-list:l1 level7 lfo2;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	color:#4F81BD;
+	mso-fareast-language:EN-US;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{mso-style-priority:9;
+	mso-style-link:"Rubrik 8 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:72.0pt;
+	margin-bottom:.0001pt;
+	text-indent:-72.0pt;
+	line-height:13.0pt;
+	page-break-after:avoid;
+	mso-list:l1 level8 lfo2;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	color:#4F81BD;
+	mso-fareast-language:EN-US;}
+p.MsoHeading9, li.MsoHeading9, div.MsoHeading9
+	{mso-style-priority:9;
+	mso-style-link:"Rubrik 9 Char";
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:79.2pt;
+	margin-bottom:.0001pt;
+	text-indent:-79.2pt;
+	line-height:13.0pt;
+	page-break-after:avoid;
+	mso-list:l1 level9 lfo2;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	color:#4F81BD;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:purple;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:13.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:13.0pt;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParag=
+raphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:13.0pt;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListPar=
+agraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:13.0pt;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagra=
+phCxSpLast
+	{mso-style-priority:34;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:13.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:13.0pt;
+	font-size:10.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+span.Rubrik1Char
+	{mso-style-name:"Rubrik 1 Char";
+	mso-style-priority:9;
+	mso-style-link:"Rubrik 1";
+	font-family:"Cambria",serif;
+	color:#4F81BD;
+	font-weight:bold;}
+span.Rubrik2Char
+	{mso-style-name:"Rubrik 2 Char";
+	mso-style-priority:9;
+	mso-style-link:"Rubrik 2";
+	font-family:"Cambria",serif;
+	color:#4F81BD;
+	font-weight:bold;}
+span.Rubrik3Char
+	{mso-style-name:"Rubrik 3 Char";
+	mso-style-priority:9;
+	mso-style-link:"Rubrik 3";
+	font-family:"Cambria",serif;
+	color:#4F81BD;
+	letter-spacing:.2pt;
+	font-weight:bold;}
+span.Rubrik4Char
+	{mso-style-name:"Rubrik 4 Char";
+	mso-style-priority:9;
+	mso-style-link:"Rubrik 4";
+	font-family:"Times New Roman",serif;
+	color:#0066B3;}
+span.Rubrik5Char
+	{mso-style-name:"Rubrik 5 Char";
+	mso-style-priority:9;
+	mso-style-link:"Rubrik 5";
+	font-family:"Times New Roman",serif;
+	color:#4F81BD;}
+span.Rubrik6Char
+	{mso-style-name:"Rubrik 6 Char";
+	mso-style-priority:9;
+	mso-style-link:"Rubrik 6";
+	font-family:"Times New Roman",serif;
+	color:#4F81BD;}
+p.msonormal0, li.msonormal0, div.msonormal0
+	{mso-style-name:msonormal;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.Rubrik7Char
+	{mso-style-name:"Rubrik 7 Char";
+	mso-style-priority:9;
+	mso-style-link:"Rubrik 7";
+	font-family:"Times New Roman",serif;
+	color:#4F81BD;}
+span.Rubrik8Char
+	{mso-style-name:"Rubrik 8 Char";
+	mso-style-priority:9;
+	mso-style-link:"Rubrik 8";
+	font-family:"Times New Roman",serif;
+	color:#4F81BD;}
+span.Rubrik9Char
+	{mso-style-name:"Rubrik 9 Char";
+	mso-style-priority:9;
+	mso-style-link:"Rubrik 9";
+	font-family:"Times New Roman",serif;
+	color:#4F81BD;}
+span.E-postmall28
+	{mso-style-type:personal;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+span.E-postmall29
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:1150629974;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-762819478 69009409 69009411 69009413 69009409 69009=
+411 69009413 69009409 69009411 69009413;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:1757827194;
+	mso-list-template-ids:69009445;}
+@list l1:level1
+	{mso-level-style-link:"Rubrik 1";
+	mso-level-text:%1;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:21.6pt;
+	text-indent:-21.6pt;}
+@list l1:level2
+	{mso-level-style-link:"Rubrik 2";
+	mso-level-text:"%1\.%2";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:28.8pt;
+	text-indent:-28.8pt;}
+@list l1:level3
+	{mso-level-style-link:"Rubrik 3";
+	mso-level-text:"%1\.%2\.%3";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:36.0pt;
+	text-indent:-36.0pt;}
+@list l1:level4
+	{mso-level-style-link:"Rubrik 4";
+	mso-level-text:"%1\.%2\.%3\.%4";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:43.2pt;
+	text-indent:-43.2pt;}
+@list l1:level5
+	{mso-level-style-link:"Rubrik 5";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:50.4pt;
+	text-indent:-50.4pt;}
+@list l1:level6
+	{mso-level-style-link:"Rubrik 6";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:57.6pt;
+	text-indent:-57.6pt;}
+@list l1:level7
+	{mso-level-style-link:"Rubrik 7";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:64.8pt;
+	text-indent:-64.8pt;}
+@list l1:level8
+	{mso-level-style-link:"Rubrik 8";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:72.0pt;
+	text-indent:-72.0pt;}
+@list l1:level9
+	{mso-level-style-link:"Rubrik 9";
+	mso-level-text:"%1\.%2\.%3\.%4\.%5\.%6\.%7\.%8\.%9";
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:79.2pt;
+	text-indent:-79.2pt;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"SV" link=3D"blue" vlink=3D"purple">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal">Hej,<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">LF s=F6ker en konsult enligt nedan:<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:5.0pt;margin-right:0cm;m=
+argin-bottom:5.0pt;margin-left:0cm;text-autospace:none">
+<b><span style=3D"font-size:12.0pt;font-family:&quot;Cambria&quot;,serif;co=
+lor:#4F81BD">Konsultbehov<o:p></o:p></span></b></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"margin-left:5.4pt;border-collapse:collapse">
+<tbody>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;background:#3B9FBA;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:5.0pt;margin-right:0cm;m=
+argin-bottom:5.0pt;margin-left:0cm;line-height:13.0pt;text-autospace:none">
+<b><span style=3D"font-size:10.0pt;font-family:&quot;Cambria&quot;,serif;co=
+lor:#4F81BD">Roll/niv=E5<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:5.0pt;margin-right:0cm;m=
+argin-bottom:5.0pt;margin-left:0cm;line-height:13.0pt;text-autospace:none">
+<b><span style=3D"font-size:10.0pt;font-family:&quot;Cambria&quot;,serif;co=
+lor:#4F81BD">IT-arkitekt, niv=E54<o:p></o:p></span></b></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal" style=3D"line-height:15.6pt;background:white"><span =
+style=3D"font-size:10.0pt"><o:p>&nbsp;</o:p></span></p>
+<h2 style=3D"mso-list:l1 level2 lfo2"><a name=3D"_Toc455558910"><![if !supp=
+ortLists]><span style=3D"mso-list:Ignore">1.1<span style=3D"font:7.0pt &quo=
+t;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Arbetsuppgifter</a><o:p></o:p></h2>
+<p class=3D"MsoNormal">Som l=F6sningsarkitekt ing=E5r du i projekt och i up=
+pdrag fr=E5n f=F6rvaltningen som en representant fr=E5n Arkitekturfunktione=
+n d=E4r du f=E5r arkitektonisk styrning och st=F6d av dom=E4narkitekter i L=
+=E4nsf=F6rs=E4kringars Arkitekturr=E5d.
+<o:p></o:p></p>
+<p class=3D"MsoNormal">F=F6rutom att driva l=F6sningsframtagning och s=E4ke=
+rst=E4lla att l=F6sningar f=F6ljer beslutade strategier och riktlinjer och =
+m=F6ter funktionella och icke-funktionella krav, s=E5 medverkar du ocks=E5 =
+i kravanalys samt i planering och koordinering av projektens
+ leverabler. I din roll =E4r du =E4ven ett st=F6d till projektledare och it=
+-projektledare. Du kommer att ha ett n=E4ra samarbete med v=E5ra leverant=
+=F6rer r=F6rande detaljerade krav, systemdesign, systemutveckling, test och=
+ leverans.<o:p></o:p></p>
+<p class=3D"MsoNormal">Som l=F6sningsarkitekt Integration s=E5 kommer du fr=
+=E4mst att arbeta med att vidareutveckla v=E5ra SOA-plattformar och dess tj=
+=E4nster, men =E4ven vid behov arbeta med andra integrationstekniker s=E5 s=
+om filplattformar och att vidareutveckla v=E5ra f=F6rm=E5gor
+ inom eventdriven arkitektur och v=E5r API-plattform. Vi l=E4gger d=E4rf=F6=
+r vikt vid att du har en bredd inom integrationsomr=E5det och goda kunskap =
+kring olika teknikers anv=E4ndningsomr=E5de. &nbsp;<o:p></o:p></p>
+<h2 style=3D"mso-list:l1 level2 lfo2"><![if !supportLists]><span style=3D"m=
+so-list:Ignore">1.2<span style=3D"font:7.0pt &quot;Times New Roman&quot;">&=
+nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><![endif]>Kunskaper och erfarenheter<o:p></o:p></h2>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraphCxSpFirst" style=3D"margin-bottom:0cm;margin-l=
+eft:0cm;margin-bottom:.0001pt;mso-add-space:auto;line-height:normal;mso-lis=
+t:l0 level1 lfo4">
+Bred kompetens inom l=F6sningsarkitektur, med specifikt fokus p=E5 integrat=
+ion, men =E4ven med kunskap inom applikationsarkitektur och infrastruktur.
+<o:p></o:p></li><li class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-bo=
+ttom:0cm;margin-left:0cm;margin-bottom:.0001pt;mso-add-space:auto;line-heig=
+ht:normal;mso-list:l0 level1 lfo4">
+Erfarenhet av att utveckla och f=F6rvalta integrations-f=F6rm=E5gor och l=
+=F6sningar i stora organisationer<o:p></o:p></li><li class=3D"MsoListParagr=
+aphCxSpMiddle" style=3D"margin-bottom:0cm;margin-left:0cm;margin-bottom:.00=
+01pt;mso-add-space:auto;line-height:normal;mso-list:l0 level1 lfo4">
+Specifik erfarenhet av att utveckla och f=F6rvalta SOA-arkitekturer<o:p></o=
+:p></li><li class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-bottom:0cm=
+;margin-left:0cm;margin-bottom:.0001pt;mso-add-space:auto;line-height:norma=
+l;mso-list:l0 level1 lfo4">
+Goda kunskaper inom informationsarkitektur och informationsmodellering<o:p>=
+</o:p></li><li class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-bottom:=
+0cm;margin-left:0cm;margin-bottom:.0001pt;mso-add-space:auto;line-height:no=
+rmal;mso-list:l0 level1 lfo4">
+Erfarenhet av att arbeta i outsourcad milj=F6<o:p></o:p></li><li class=3D"M=
+soListParagraphCxSpMiddle" style=3D"margin-bottom:0cm;margin-left:0cm;margi=
+n-bottom:.0001pt;mso-add-space:auto;line-height:normal;mso-list:l0 level1 l=
+fo4">
+Intresse f=F6r Micro services - inspirerade arkitekturer och eventdriven ar=
+kitektur<o:p></o:p></li><li class=3D"MsoListParagraphCxSpMiddle" style=3D"m=
+argin-bottom:0cm;margin-left:0cm;margin-bottom:.0001pt;mso-add-space:auto;l=
+ine-height:normal;mso-list:l0 level1 lfo4">
+Stor f=F6rdel om erfarenheter fr=E5n f=F6rs=E4kringsbranschen<o:p></o:p></l=
+i><li class=3D"MsoListParagraphCxSpMiddle" style=3D"margin-bottom:0cm;margi=
+n-left:0cm;margin-bottom:.0001pt;mso-add-space:auto;line-height:normal;mso-=
+list:l0 level1 lfo4">
+Du har god f=F6rm=E5ga att uttrycka dig i tal och skrift p=E5 svenska och e=
+ngelska<o:p></o:p></li></ul>
+<p class=3D"MsoListParagraphCxSpLast" style=3D"margin-bottom:0cm;margin-bot=
+tom:.0001pt;mso-add-space:auto;line-height:normal">
+<o:p>&nbsp;</o:p></p>
+<h2 style=3D"margin-bottom:1.2pt;mso-line-height-alt:12.0pt;mso-list:l1 lev=
+el2 lfo2;background:white">
+<a name=3D"_Toc455558911"><![if !supportLists]><span style=3D"mso-list:Igno=
+re">1.3<span style=3D"font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&=
+nbsp;&nbsp;
+</span></span><![endif]>Personliga egenskaper</a><o:p></o:p></h2>
+<p class=3D"MsoNormal">Som person =E4r du strukturerad, har god analytisk f=
+=F6rm=E5ga och en f=F6rst=E5else f=F6r komplexa fl=F6den och beroendesamban=
+d. Du har f=F6rm=E5gan att kommunicera p=E5 ett pedagogiskt och tydligt s=
+=E4tt. Vi vill att du bidrar och samarbetar v=E4l med kollegor
+ och samarbetspartners och =E4r en lagspelare som =E4r noggrann, ansvarstag=
+ande, prestigel=F6s och initiativrik.
+<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" style=3D"margin-left:5.4pt;border-collapse:collapse">
+<tbody>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;background:#3B9FBA;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Cambria&qu=
+ot;,serif;color:#4F81BD">=D6nskat startdatum<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<b><span style=3D"font-size:10.0pt;font-family:&quot;Cambria&quot;,serif;co=
+lor:#4F81BD">Snarast<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#3B9FBA;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Cambria&qu=
+ot;,serif;color:#4F81BD">=D6nskat slutdatum<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<b><span style=3D"font-size:10.0pt;font-family:&quot;Cambria&quot;,serif;co=
+lor:#4F81BD">2018-06-31<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#3B9FBA;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Cambria&qu=
+ot;,serif;color:#4F81BD">Omfattning (% av heltid)<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<b><span style=3D"font-size:10.0pt;font-family:&quot;Cambria&quot;,serif;co=
+lor:#4F81BD">100%<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#3B9FBA;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Cambria&qu=
+ot;,serif;color:#4F81BD">Svar =F6nskar senast<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<b><span style=3D"font-size:10.0pt;font-family:&quot;Cambria&quot;,serif;co=
+lor:#4F81BD">Omg=E5ende<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;background:#3B9FBA;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"line-height:115%;text-autospace:none"><b><s=
+pan style=3D"font-size:10.0pt;line-height:115%;font-family:&quot;Cambria&qu=
+ot;,serif;color:#4F81BD">Intervjuer kommer att h=E5llas (ange datum eller v=
+ecka/veckor)<o:p></o:p></span></b></p>
+</td>
+</tr>
+<tr>
+<td width=3D"605" valign=3D"top" style=3D"width:16.0cm;border:solid windowt=
+ext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt">
+<p class=3D"MsoNormal" style=3D"mso-margin-top-alt:6.0pt;margin-right:0cm;m=
+argin-bottom:6.0pt;margin-left:0cm;text-autospace:none">
+<b><span style=3D"font-size:10.0pt;font-family:&quot;Cambria&quot;,serif;co=
+lor:#4F81BD">Fortl=F6pande<o:p></o:p></span></b></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">Pris &amp; motivering till mig.<o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">/Jens<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_HE1PR06MB3209C26FD8B705C9355D91A397260HE1PR06MB3209eurp_--

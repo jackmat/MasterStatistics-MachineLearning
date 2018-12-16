@@ -1,0 +1,249 @@
+Received: from VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.260.4 via Mailbox Transport; Tue, 28 Nov 2017 09:26:02 +0000
+Received: from AM5PR0601MB2338.eurprd06.prod.outlook.com (10.173.91.8) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.260.4; Tue, 28 Nov 2017 09:26:01 +0000
+Received: from AM5PR0601MB2387.eurprd06.prod.outlook.com (10.173.91.21) by
+ AM5PR0601MB2338.eurprd06.prod.outlook.com (10.173.91.8) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.260.4; Tue, 28 Nov 2017 09:26:00 +0000
+Received: from AM5PR0601MB2387.eurprd06.prod.outlook.com
+ ([fe80::5d85:6827:64b2:c615]) by AM5PR0601MB2387.eurprd06.prod.outlook.com
+ ([fe80::5d85:6827:64b2:c615%17]) with mapi id 15.20.0260.006; Tue, 28 Nov
+ 2017 09:26:00 +0000
+From: =?Windows-1252?Q?Funktionsl=E5da_KK-PT_2014?= <kk-pt2014@knowit.se>
+To: =?Windows-1252?Q?Bo-G=F6ran_Perlstr=F6m?= <bo-goran.perlstrom@knowit.se>,
+	=?Windows-1252?Q?Thomas_Engstr=F6m?= <thomas.engstrom@knowit.se>,
+	=?Windows-1252?Q?Nils-G=F6ran_Wirehn?= <Nils-Goran.Wirehn@knowit.se>, "Pia
+ Engwall" <Pia.Engwall@knowit.se>, Hans Reinikainen
+	<hans.reinikainen@knowit.se>, Christer Holman <christer.holman@knowit.se>,
+	Thomas Gustavsson <thomas.gustavsson@knowit.se>, Lisa Lind
+	<lisa.lind@knowit.se>, Erik Johansson <erik.johansson@knowit.se>, "Joakim
+ Jormelin" <joakim.jormelin@knowit.se>, Martin Skarp <martin.skarp@knowit.se>,
+	Kenneth Lyngshede <kenneth.lyngshede@knowit.se>,
+	=?Windows-1252?Q?H=E5kan_Ramberg?= <Hakan.Ramberg@knowit.se>, Jonas Svensson
+	<Jonas.Svensson@knowit.se>, Thomas Wenngren <thomas.wenngren@knowit.se>,
+	Staffan Nilsson <Staffan.Nilsson@knowit.se>, =?Windows-1252?Q?Axel_Holt=E5s?=
+	<Axel.Holtas@knowit.se>, Magnus Tauvon <Magnus.Tauvon@knowit.se>, Thomas Nord
+	<Thomas.Nord@knowit.se>, Mats Thorstenson <Mats.Thorstenson@knowit.se>,
+	Daniel Borgentun <daniel.borgentun@knowit.se>, Helen Lyhde Nial
+	<helen.lyhde.nial@knowit.se>, Kenneth Ericsson <kenneth.ericsson@knowit.se>,
+	=?Windows-1252?Q?Michael_Fr=F6ling?= <Michael.Froling@knowit.se>,
+	=?Windows-1252?Q?P=E4r_Nilsson?= <par.nilsson@knowit.se>, Johan Hallgren
+	<johan.hallgren@knowit.se>, =?Windows-1252?Q?=C5sa_Schwarz?=
+	<asa.Schwarz@knowit.se>, Peter Lindstedt <Peter.Lindstedt@knowit.se>, "Tomas
+ Rimming" <tomas.rimming@knowit.se>, Henrik Serlow <henrik.serlow@knowit.se>,
+	=?Windows-1252?Q?Anders_Ther=E9n?= <anders.theren@knowit.se>, Pernilla Snis
+	<pernilla.snis@knowit.se>, Mats Ohlsson <mats.ohlsson@knowit.se>, "Peder
+ Lundgren" <Peder.Lundgren@knowit.se>, Hanna Aspklint
+	<Hanna.Aspklint@knowit.se>, =?Windows-1252?Q?H=E5kan_Als=E9n?=
+	<Hakan.Alsen@knowit.se>, Lars Erickson <lars.erickson@knowit.se>, "Emma
+ Tarandi" <Emma.Tarandi@knowit.se>, =?Windows-1252?Q?M=E5ns_Hjertstrand?=
+	<Mans.Hjertstrand@knowit.se>, =?Windows-1252?Q?Camilla_Land=E9n?=
+	<Camilla.Landen@knowit.se>, Nils Kumar <Nils.Kumar@knowit.se>, Urban Jonsson
+	<urban.jonsson@knowit.se>, =?Windows-1252?Q?Pontus_Andr=E9?=
+	<Pontus.Andre@knowit.se>, Fredrik Eriksson <Fredrik.Eriksson@knowit.se>,
+	Magnus Witting <Magnus.Witting@knowit.se>, Johan Kuru <Johan.Kuru@knowit.se>,
+	=?Windows-1252?Q?Nils-G=F6ran_Wirehn?= <Nils-Goran.Wirehn@knowit.se>, "Ulf
+ Johansson" <Ulf.Johansson@knowit.se>, =?Windows-1252?Q?Maj_S=F6rensen-Ringi?=
+	<Maj.Sorensen-Ringi@knowit.se>, Thomas Wenngren <thomas.wenngren@knowit.se>,
+	Thomas Nord <Thomas.Nord@knowit.se>, Tomas Rimming <tomas.rimming@knowit.se>,
+	Sebastian Vidovic <sebastian.vidovic@knowit.se>, Rickard Alfredson
+	<Rickard.Alfredson@knowit.se>, Linus Larsson <Linus.Larsson@knowit.se>,
+	"Berit Vonstad" <Berit.Vonstad@knowit.se>, Linus Friborg
+	<linus.friborg@knowit.se>
+Subject: =?Windows-1252?Q?Avrop_fr=E5n_SPV:_Information_om_upphandling_"MD2017/439?=
+ =?Windows-1252?Q?:_Avrop_VMware"?=
+Thread-Topic: =?Windows-1252?Q?Avrop_fr=E5n_SPV:_Information_om_upphandling_"MD2017/439?=
+ =?Windows-1252?Q?:_Avrop_VMware"?=
+Thread-Index: AQHTZ4P+tQg3hmFeDk2fTMXtdYTcTaMplXLP
+Date: Tue, 28 Nov 2017 09:26:00 +0000
+Message-ID: <AM5PR0601MB238777E4E3AE44A8305B87AAEC3A0@AM5PR0601MB2387.eurprd06.prod.outlook.com>
+References: <20171127133110.BEDB11A469@relay.opic.com>
+In-Reply-To: <20171127133110.BEDB11A469@relay.opic.com>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: AM5PR0601MB2387.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id: a7bf5c83-5126-4efb-a3f9-08d5364209ce
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [192.71.76.144]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:AM5PR0601MB2338;H:AM5PR0601MB2387.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;;SKIP:1;
+x-ms-exchange-organization-originalclientipaddress: 192.71.76.144
+x-ms-exchange-organization-originalserveripaddress: 2a01:111:e400:52b7::40
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:bXcS+ZUjD5qaWJLGv9dkZHZkQfLg+r/Cm2O53Q6g8vyu/BjEciy2XU0vax1zEJQ9CaDXMnxuFrd1UGfRgB8thhELrW4TJrRWplLDTQy3t3XP6rmojeHcd48Q7Ys/nVD5
+Content-Type: multipart/alternative;
+	boundary="_000_AM5PR0601MB238777E4E3AE44A8305B87AAEC3A0AM5PR0601MB2387_"
+MIME-Version: 1.0
+
+--_000_AM5PR0601MB238777E4E3AE44A8305B87AAEC3A0AM5PR0601MB2387_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:bXcS+ZUjD5qaWJLGv9dkZHZkQfLg+r/Cm2O53Q6g8vyu/BjEciy2XU0vax1zEJQ9CaDXMnxuFrd1UGfRgB8thhELrW4TJrRWplLDTQy3t3XP6rmojeHcd48Q7Ys/nVD5
+Content-Type: text/plain; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+Hej,
+
+
+Detta avrop g=F6rs fr=E5n ramavtal Programvaror och tj=E4nster 2014 =96 Sys=
+temutveckling  med =E4rendenummer 96-36-2014
+
+SPV i Sundsvall avropar support, uppgraderingar och eventuella uppdateringa=
+r till befintlig programvara VMware.
+
+
+F=F6r mer information: https://tendsign.com/doc.aspx?ID=3D127002&B=3DVqQPS2=
++YSRsA
+
+Sista inl=E4mningsdag: 2017-12-15
+
+
+Med v=E4nlig h=E4lsning,
+
+
+Aff=E4rskontoret
+
+Knowit AB
+
+
+________________________________
+Fr=E5n: noreply@tendsign.com <noreply@tendsign.com>
+Skickat: den 27 november 2017 14:31
+Till: Funktionsl=E5da KK-PT 2014
+=C4mne: Information om upphandling "MD2017/439: Avrop VMware"
+
+Vi vill uppm=E4rksamma er om att vi har en aktuell upphandling som kan intr=
+essera ert f=F6retag. F=F6r att l=E4sa mer om upphandlingen klicka p=E5 f=
+=F6ljande l=E4nk:
+
+OBSERVERA att det enda s=E4ttet att n=E5 annonsen =E4r via l=E4nken nedan.
+
+https://tendsign.com/doc.aspx?ID=3D127002&B=3DVqQPS2+YSRsA
+
+V=E4nliga h=E4lsningar
+
+Statens Tj=E4nstepensionsverk
+
+
+Tobias Guss
+Statens Tj=E4nstepensionsverk
+Telefon: 060-187729
+E-post: tobias.guss@spv.se<mailto:tobias.guss@spv.se>
+
+
+--_000_AM5PR0601MB238777E4E3AE44A8305B87AAEC3A0AM5PR0601MB2387_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:bXcS+ZUjD5qaWJLGv9dkZHZkQfLg+r/Cm2O53Q6g8vyu/BjEciy2XU0vax1zEJQ9CaDXMnxuFrd1UGfRgB8thhELrW4TJrRWplLDTQy3t3XP6rmojeHcd48Q7Ys/nVD5
+Content-Type: text/html; charset="Windows-1252"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3DWindows-1=
+252">
+<style type=3D"text/css" style=3D"display:none;"><!-- P {margin-top:0;margi=
+n-bottom:0;} --></style>
+</head>
+<body dir=3D"ltr">
+<div id=3D"divtagdefaultwrapper" style=3D"font-size:12pt;color:#000000;font=
+-family:Calibri,Helvetica,sans-serif;" dir=3D"ltr">
+<p style=3D"margin-top:0;margin-bottom:0"><span style=3D"font-family: Arial=
+, Helvetica, sans-serif; font-size: 12pt;">Hej,</span></p>
+<p style=3D"margin-top:0;margin-bottom:0"><br>
+</p>
+<p style=3D"margin-top:0;margin-bottom:0"></p>
+<p style=3D"margin: 0cm 0cm 8pt; font-size: 12pt; font-family: &quot;Times =
+New Roman&quot;;">
+<span style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 12pt;"=
+>Detta avrop g=F6rs fr=E5n ramavtal Programvaror och tj=E4nster 2014 =96 Sy=
+stemutveckling&nbsp; med =E4rendenummer 96-36-2014</span><o:p></o:p></p>
+<p></p>
+<p style=3D"margin-top:0;margin-bottom:0"><span style=3D"font-family: Arial=
+, Helvetica, sans-serif; font-size: 12pt;">SPV i Sundsvall avropar support,=
+ uppgraderingar och eventuella uppdateringar till befintlig programvara VMw=
+are.&nbsp;</span><br>
+</p>
+<p style=3D"margin-top:0;margin-bottom:0"><span style=3D"font-family: &quot=
+;Times New Roman&quot;; font-size: 12pt;"><br>
+</span></p>
+<p style=3D"margin-top:0;margin-bottom:0"><span style=3D"font-family: &quot=
+;Times New Roman&quot;; font-size: 12pt;"><span style=3D"font-family: Arial=
+, Helvetica, sans-serif; font-size: 12pt;">F=F6r mer information:&nbsp;</sp=
+an><a href=3D"https://tendsign.com/doc.aspx?ID=3D127002&amp;B=3DVqQPS2&#43;=
+YSRsA" class=3D"OWAAutoLink" id=3D"LPlnk769381" previewremoved=3D"true"><sp=
+an style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 12pt;">ht=
+tps://tendsign.com/doc.aspx?ID=3D127002&amp;B=3DVqQPS2&#43;YSRsA</span></a>=
+</span></p>
+<p style=3D"margin-top:0;margin-bottom:0"></p>
+<p style=3D"margin: 0cm 0cm 8pt; font-size: 12pt; font-family: &quot;Times =
+New Roman&quot;;">
+<o:p></o:p></p>
+<span style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 12pt;"=
+>Sista inl=E4mningsdag: 2017-12-15</span>
+<p></p>
+<p style=3D"margin-top:0;margin-bottom:0"><br>
+</p>
+<div id=3D"Signature"><span style=3D"font-family: Arial, Helvetica, sans-se=
+rif; font-size: 12pt;"></span>
+<div id=3D"divtagdefaultwrapper" style=3D"font-size: 12pt; color: rgb(0, 0,=
+ 0); background-color: rgb(255, 255, 255); font-family: Calibri, Arial, Hel=
+vetica, sans-serif, Helvetica, EmojiFont, &quot;Apple Color Emoji&quot;, &q=
+uot;Segoe UI Emoji&quot;, NotoColorEmoji, &quot;Segoe UI Symbol&quot;, &quo=
+t;Android Emoji&quot;, EmojiSymbols;">
+<span style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 12pt;"=
+></span>
+<p><span style=3D"font-family: Arial, Helvetica, sans-serif; font-size: 12p=
+t;">Med v=E4nlig h=E4lsning,</span></p>
+<p><br>
+</p>
+<p>Aff=E4rskontoret</p>
+<p>Knowit AB</p>
+</div>
+</div>
+<br>
+<br>
+<div style=3D"color: rgb(0, 0, 0);">
+<hr style=3D"display:inline-block;width:98%" tabindex=3D"-1">
+<div id=3D"divRplyFwdMsg" dir=3D"ltr"><font face=3D"Calibri, sans-serif" st=
+yle=3D"font-size:11pt" color=3D"#000000"><b>Fr=E5n:</b> noreply@tendsign.co=
+m &lt;noreply@tendsign.com&gt;<br>
+<b>Skickat:</b> den 27 november 2017 14:31<br>
+<b>Till:</b> Funktionsl=E5da KK-PT 2014<br>
+<b>=C4mne:</b> Information om upphandling &quot;MD2017/439: Avrop VMware&qu=
+ot;</font>
+<div>&nbsp;</div>
+</div>
+<div>Vi vill uppm=E4rksamma er om att vi har en aktuell upphandling som kan=
+ intressera ert f=F6retag. F=F6r att l=E4sa mer om upphandlingen klicka p=
+=E5 f=F6ljande l=E4nk:<br>
+<br>
+OBSERVERA att det enda s=E4ttet att n=E5 annonsen =E4r via l=E4nken nedan.<=
+br>
+<br>
+https://tendsign.com/doc.aspx?ID=3D127002&amp;B=3DVqQPS2&#43;YSRsA<br>
+<br>
+V=E4nliga h=E4lsningar<br>
+<br>
+Statens Tj=E4nstepensionsverk<br>
+<br>
+<br>
+Tobias Guss<br>
+Statens Tj=E4nstepensionsverk<br>
+Telefon: 060-187729<br>
+E-post: <a href=3D"mailto:tobias.guss@spv.se">tobias.guss@spv.se</a> <br>
+<br>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_AM5PR0601MB238777E4E3AE44A8305B87AAEC3A0AM5PR0601MB2387_--

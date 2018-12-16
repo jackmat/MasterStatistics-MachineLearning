@@ -1,0 +1,141 @@
+---
+title: 'AML Lab 1: Graphical Models'
+author: "Joshua Hudson"
+date: "5 September 2017"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE, fig.width = 5, fig.asp = 0.66, fig.show = "asis", fig.align = "center", fig.pos = "htbp")
+```
+
+## (1)
+
+In this assignment, we used the `alarm` data set to show how the hill-climbing algorithm can return non-equivalent DAGs. We ran the algorithm 5 times using the implementation `hc()` from the `bnlearn` package. We then used the `cpdag()` function to obtain the essential graphs for each of the 5 DAGs generated. Finally, we compared the remaining 4 of the essential DAGs in turn with the 1st one (denoted "0th"" graph), usin the `all.equal()` function. The output is shown below, showing a list of the comparison results: comparing graph 0 in turn to graph 1, then graph 2, etc...
+```{r 1}
+
+library(bnlearn)
+data(alarm)
+n <- 4 #number of graphs to make
+dag_hc <- list()
+
+set.seed(12345)
+for (i in 1:n) {
+  dag_hc[[i]] <- hc(alarm, restart = 10)
+}
+#create essential dag to compare with
+ess_dag0 <- cpdag(hc(alarm))
+ess_dag <- lapply(dag_hc, FUN = cpdag)
+equi <- lapply(ess_dag, FUN = function(g) {
+  all.equal(ess_dag0, g)
+})
+print(equi)
+```
+We see that only the 3rd essential graph is identical to the 0th one, graphs 1, 2 and 4 are different. Therefore, as 2 DAGs are equivalent if and only if they have the same essential graph, we can see that the hill-climbing algorithm can return non-equivalent DAGs. This is because the hill-climbing algorithm is not asymptotically correct as arbitrarily picks an initial node to start from, which can lead to different final graphs.
+
+##(2)
+
+In this assignment, we examined the impact of changing the imaginary sample size (ISS) parameter when using the `hc()` function for structure learning. To do this, we ran the algorithm on the `alarm` data set 4 times, with ISS values 1, 10, 20 and 50 respectively. We then plotted the resulting DAGs, as shown below.
+```{r 2}
+n <- 4 #number of graphs to make
+dag_hc2 <- list()
+iss <- c(1, 10, 20, 50)
+set.seed(12345)
+par(mfrow=c(2,2))
+for (i in 1:n) {
+  dag_hc2[[i]] <- hc(alarm, restart = 10, score = "bde", iss = iss[i])
+  graphviz.plot(dag_hc2[[i]], sub = paste0("iss = ", iss[i]))
+}
+
+noArcs_1 <- nrow(arcs(dag_hc2[[1]]))
+noArcs_50 <- nrow(arcs(dag_hc2[[4]]))
+```
+We observed that the higher the ISS value, the more densely connected the resulting DAG. In fact, an ISS of 1 gives `r noArcs_1` arcs, while an ISS of 50 gives almost double the amount with `r noArcs_50` arcs. Imaginary Sample Size determines the weight of the prior compared to the sample, which in turn leads to posterior smoothing. Therefore high ISS values give very different networks a similar score so extra arcs can be added unnecessarily.
+
+##(3)
+
+In this assignment, we switched our focus away from structure learning and onto parameter learning and inference. We started by generating a DAG from the `asia` data set, using the `hc()` function and fitting its parameters using the `bn.fit()` function. The DAG is shown below.
+```{r 3_learning}
+## Exact inference
+#generate structure
+data(asia)
+sl <- hc(asia, restart = 10)
+graphviz.plot(sl)
+#fit parameters to structure
+bnmod <- bn.fit(sl, asia)
+```
+The first algoithm we used was the Lauritzen-Spiegelhalter algorithm  for exact inference. We used the implementation in the `gRain` package. The first step of this was to transform our DAG into a junction tree through moralisation and triangulation; this was done with the `compile()` function. The resulting junction tree is shown below.
+```{r 3_junctiontree}
+#switch to gRain
+bnmod <- as.grain(bnmod)
+library(gRain)
+
+#SL algorithm#
+#create junction tree
+jtree <- compile(bnmod)
+plot(jtree)
+```
+Finally we set the evidence, i.e. we set the states of certain nodes to some values: for example we first set E="yes".
+```{r 3_exactinf}
+#find Junction Tree set given variables to a certain observation: E=yes
+JTgivenE<- setEvidence(jtree, nodes = "E", states = "yes")
+#increase conditional set and try again
+JTgivenBEXD <- setEvidence(jtree, nodes = c("B", "E", "X", "D"), states = c("no", "yes", "no", "yes"))
+#get node probabilities conditional on evidence
+pexact_givenE <- querygrain(JTgivenE)
+pexact_givenBEXD <- querygrain(JTgivenBEXD)
+#(compare to original
+#probs_orig <- querygrain(jtree)
+#)
+```
+
+```{r 3_approxinf}
+## Approximate inference
+bnmod <- as.bn.fit(bnmod)
+#given E = yes
+samples_givenE <- cpdist(bnmod, nodes = names(bnmod)[-which(names(bnmod) == "E")], evidence = (E == "yes"))
+papprox_givenE <- apply(samples_givenE, MARGIN = 2, FUN = function(col) {prop.table(table(col))})
+#given BE = no yes !had to reduce cond set as returned only 1 sample otherwise
+samples_givenBEX <- cpdist(bnmod, nodes = c("A", "S", "T", "L", "X", "D"), evidence = (B == "no")&(E == "yes"))
+papprox_givenBEXD <- apply(samples_givenBEX, MARGIN = 2, FUN = function(col) {prop.table(table(col))})
+
+```
+
+
+##(4)
+
+We know that there are 29281 DAGs with 5 nodes. In this assignment, we aimed to find the proportion of non-equivalent DAGs among these DAGs. To do this we generated 5-node DAGs with the `random.graph()` function. We used Melancon and Philippe's Uniform Acyclic Digraphs algorithm as the method. We then used the `cpdag()` function to reduce each to its essential graph and counted the proportion of unique ones with respect to the total number of DAGs we generated. 
+```{r 4}
+#generate n DAGs with 5 nodes
+n <- 10000
+set.seed(12345)
+#a: default settings
+dags <- random.graph(nodes = c("A", "B", "C", "D", "E"), num = n, method = "melancon")
+essdags <- lapply(dags, FUN = cpdag)
+no_eq <- length(unique(essdags))
+prop_eq <- no_eq/n
+
+#b: increase "every" parameter
+dags2 <- random.graph(nodes = c("A", "B", "C", "D", "E"), num = n, method = "melancon", every = 5)
+essdags2 <- lapply(dags2, FUN = cpdag)
+no_eq2 <- length(unique(essdags2))
+prop_eq2 <- no_eq2/n
+
+#c: increase burn-in parameter
+dags3 <- random.graph(nodes = c("A", "B", "C", "D", "E"), num = n, method = "melancon", burn.in = 2000)
+essdags3 <- lapply(dags3, FUN = cpdag)
+no_eq3 <- length(unique(essdags3))
+prop_eq3 <- no_eq3/n
+
+```
+We generated 10,000 DAGs using the default parameter settings for `random.graph()` and obtained `r no_eq` different independence models, so `r prop_eq` of the DAGs.
+Next we increased `every` parameter to 5 and repeated the experiment. This time we obtained a proportion of `r prop_eq2` different independence models.  This is because the `every` parameter sets the fraction of graphs that make the final cut: setting it to 5 means the `random.graph()` outputs 1 graphs every 5 steps in the algorithm, leading to an increased diversity in the final graphs. Note that the default setting was 1, so every graph was put in the output.
+Finally we changed the `burn-in` parameter from the default of `r 6*5^2` (the number of nodes squared, times 6) to 2000.
+
+\newpage
+
+## Appendix
+
+```{r ref.label = knitr::all_labels(), eval = FALSE, echo = TRUE}
+
+```

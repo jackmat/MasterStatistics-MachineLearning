@@ -1,0 +1,597 @@
+Received: from DB6PR06MB3205.eurprd06.prod.outlook.com (10.170.215.148) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.282.5 via Mailbox Transport; Thu, 7 Dec 2017 13:05:58 +0000
+Received: from HE1PR0602MB3322.eurprd06.prod.outlook.com (10.170.255.33) by
+ DB6PR06MB3205.eurprd06.prod.outlook.com (10.170.215.148) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.302.9; Thu, 7 Dec 2017 13:05:57 +0000
+Received: from HE1PR0602MB3323.eurprd06.prod.outlook.com (10.171.196.33) by
+ HE1PR0602MB3322.eurprd06.prod.outlook.com (10.170.255.33) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.260.4; Thu, 7 Dec 2017 13:05:54 +0000
+Received: from HE1PR0602MB3323.eurprd06.prod.outlook.com
+ ([fe80::c440:b7a1:13f:a3dc]) by HE1PR0602MB3323.eurprd06.prod.outlook.com
+ ([fe80::c440:b7a1:13f:a3dc%13]) with mapi id 15.20.0260.007; Thu, 7 Dec 2017
+ 13:05:54 +0000
+From: Ola Ehrstedt <ola.ehrstedt@knowit.se>
+To: funk-affarsansvariga <funk-affarsansvariga@knowit.se>
+Subject: =?iso-8859-1?Q?F=F6rfr=E5gan_fr=E5n_E.ON_-_Integrationsarkitekt_-_rfx7907?=
+ =?iso-8859-1?Q?81?=
+Thread-Topic: =?iso-8859-1?Q?F=F6rfr=E5gan_fr=E5n_E.ON_-_Integrationsarkitekt_-_rfx7907?=
+ =?iso-8859-1?Q?81?=
+Thread-Index: AdNvW/xb5nHEGz52S36saB4douI89A==
+Date: Thu, 7 Dec 2017 13:05:54 +0000
+Message-ID: <HE1PR0602MB332379C80EFE3D038D8C54B683330@HE1PR0602MB3323.eurprd06.prod.outlook.com>
+Accept-Language: sv-SE, en-US
+Content-Language: sv-SE
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: HE1PR0602MB3323.eurprd06.prod.outlook.com
+X-MS-Has-Attach:
+X-Auto-Response-Suppress: DR, OOF, AutoReply
+X-MS-Exchange-Organization-Network-Message-Id: c12544bf-cd44-47f9-4bff-08d53d733fff
+X-Message-Flag: Follow up
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-originating-ip: [192.71.76.144]
+authentication-results: knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none header.from=knowit.se;
+x-forefront-antispam-report: SFV:SKI;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:HE1PR0602MB3322;H:HE1PR0602MB3323.eurprd06.prod.outlook.com;FPR:;SPF:None;LANG:sv;;SKIP:1;
+x-ms-exchange-organization-originalclientipaddress: 192.71.76.144
+x-ms-exchange-organization-originalserveripaddress: 25.169.145.146
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:+OD0Q0fAfqbgUoQ5cSBY4lpDS/Ind1pgHRfBvsmklj3fWX99ushyuh7diNLO4EHs3YdKQDqytYz8O2YTXm/wfAr8C+lLwvbO7c3ghF9ejis+nkPfV+dAOx/6SDI5Vh3j
+X-Microsoft-Antispam-Message-Info: hMeYe/Uc4c/SOmbuyYxJli4562dtKMWpPLUvk0KDub2kePmPCRmLm6swYksjJVMk
+Content-Type: multipart/alternative;
+	boundary="_000_HE1PR0602MB332379C80EFE3D038D8C54B683330HE1PR0602MB3323_"
+MIME-Version: 1.0
+
+--_000_HE1PR0602MB332379C80EFE3D038D8C54B683330HE1PR0602MB3323_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:+OD0Q0fAfqbgUoQ5cSBY4lpDS/Ind1pgHRfBvsmklj3fWX99ushyuh7diNLO4EHs3YdKQDqytYz8O2YTXm/wfAr8C+lLwvbO7c3ghF9ejis+nkPfV+dAOx/6SDI5Vh3j
+X-Microsoft-Antispam-Message-Info: hMeYe/Uc4c/SOmbuyYxJli4562dtKMWpPLUvk0KDub2kePmPCRmLm6swYksjJVMk
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Hej alla,
+
+
+
+Ny f=F6rfr=E5gan fr=E5n E.ON
+
+Pris ca 900.-/h (p=E5 plats inkl allt)
+
+Jag beh=F6ver
+
+*       CV
+*       kort motivering p=E5 engelska
+*       Tillg=E4nglighet.
+
+
+
+Utv=E4rdering sker l=F6pande s=E5 har ni en kandidat s=E5 skicka den s=E5 s=
+nart som m=F6jligt.
+
+Notera att man inte beh=F6ver vara onsite f=F6r denna rollen =E4ven om det =
+=E4r en f=F6rdel.
+
+
+
+
+Integrationsarkitekt -
+
+
+
+
+
+start date                                    15 January 2018
+
+end date                                      31 March 2018
+
+Availability in %                                                    100
+
+number of people                                                1
+
+number of service hours                                     500 Hour(s)
+
+number of service hours onsite                        0 Hour(s)
+
+Language requirements                                       Swe, Eng
+
+Place of work - country                                       Sweden
+
+Place of work - city                                               Malm=F6
+
+
+
+
+
+V=E5rt integrationsteam jobbar med E.ON Nordics behov av integrationer och =
+API:er med m=E5let "Your partner of choice for integrations and APIs". Vi d=
+esignar, bygger, driftar, underh=E5ller och supporterar API och integration=
+er p=E5 f=F6ljande plattformar: SAP Netweaver PO, DellBoomi, WSO2 och API H=
+ub (java baserad milj=F6 baserad p=E5 bland annat Crossbread, Ping, CA och =
+Kafka). Vi jobbar =E4ven med LCM av dessa plattformar. Teamet =E4r uppdelat=
+ i tv=E5 underteam, d=E4r det ena fokuserar p=E5 externa och interna System=
+-till-system integrationer och det andra p=E5 API:er. N=E5gra roller i team=
+et st=F6ttar b=E5da underteamen.
+
+P=E5 E.ON =E4r vi mitt i en sp=E4nnande resa d=E4r vi f=F6r=E4ndrar v=E5rt =
+arbetss=E4tt och v=E5r organisation, vilket inneb=E4r att det inte alltid =
+=E4r tydligt hur en uppgift ska l=F6sas, utan att uppgiften ocks=E5 kr=E4ve=
+r att man hittar v=E4gen fram=E5t. Vi =E4r ocks=E5 mitt i en kulturf=F6r=E4=
+ndring d=E4r medledarskap =E4r en viktig ingrediens. I integrationsteamet h=
+ar vi jobbat aktivt med v=E5r f=F6r=E4ndringsresa under det senaste =E5ret,=
+ ett arbete som fortfarande p=E5g=E5r och som vi r=E4knar med och hoppas ko=
+mmer att p=E5g=E5 under en l=E5ng tid fram=F6ver.
+
+Vi s=F6ker en person till integrationsteamet som fokuserar p=E5 system-till=
+-system integrationer. Rollen kallar vi f=F6r integrationsarkitekt, vilket =
+=E4r en bred teknisk roll och den inneb=E4r bland annat att du
+*representerar integrationsteamet i en m=E4ngd initiativ med system-system =
+integrationsbehov
+*=E4r engagerad i en m=E4ngd initiativ (nyutveckling, change och plattforms=
+-LCM) d=E4r du diskuterar krav/user stories med verksamhet samt IT-kollegor=
+ och g=F6r integrationsdesignarbetet. Detta inneb=E4r att du ibland diskute=
+rar integrationsbehov med personer utan teknisk bakgrund.
+*estimerar utvecklingsarbete
+*deltar aktivt i teamets f=F6r=E4ndringsresa
+*tillsammans med v=E5ra utvecklare arbetar med att f=F6rb=E4ttra och utveck=
+la v=E5rt ramverk f=F6r design, utveckling och drift
+*vid behov, utvecklar integrationer
+*dokumenteterar integrationer i v=E5rt repository
+*koordinerar utvecklingsarbetet mellan inblandande (d=E5 oftast arkitekter =
+och utvecklare), s=E5 att arbetet fortl=F6per och du s=E4kerst=E4ller att a=
+lla f=F6rst=E5r kraven och l=F6sningen. Till din hj=E4lp finns utvecklare i=
+ teamet med djup teknisk kunskap om v=E5ra plattformar och milj=F6er.
+*har kunskap om hela v=E5rt integrationslandskap, inte minst f=F6r att fr=
+=E4mja =E5teranv=E4ndning
+*kunskaps=F6verf=F6r till andra arkitekter och utvecklare
+*prioriterar dina och andras uppgifter
+*uppskattar att ha diskussioner r=F6rande integrationer med en stor m=E4ngd=
+ varierande personer, b=E5de med och utan teknisk bakgrund. Vid behov, styr=
+ du upp dessa diskussioner fr=E5n ett =F6vergripande end-to-end perspektiv,=
+ bland annat genom att skapa f=F6rst=E5else f=F6r hela kedjan, samt bena up=
+p och f=F6renkla diskussionen.
+*mellan varven s=E4ger nej och f=F6rklarar anledningen till det
+*=E4r involverad i flera p=E5g=E5ende projekt och =E4renden "samtidigt"
+
+
+
+Krav:
+*Erfarenhet av system integration
+*Svenska och engelska i tal och skrift
+
+B=F6r:
+*Vi ser g=E4rna att du har bakgrund som utvecklare
+*Erfarenhet fr=E5n teknisk roll inom system integration
+
+
+
+Ola Ehrstedt at Knowit
+
+VD
+Knowit ICE
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Stortorget 9, SE-211 22 Malm=F6, Sweden
+
+=D6stra Hamngatan 16, SE-411 09  G=F6teborg, Sweden
+
+Klarabergsgatan 60, Box 3383, SE-103 68  Stockholm
+
++46725193030  |  +4687006600
+knowit.se<http://www.knowit.se> | knowit.se/facebook<http://www.knowit.se/f=
+acebook> | knowit.se/linkedin<http://www.knowit.se/linkedin>
+
+
+
+
+--_000_HE1PR0602MB332379C80EFE3D038D8C54B683330HE1PR0602MB3323_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:+OD0Q0fAfqbgUoQ5cSBY4lpDS/Ind1pgHRfBvsmklj3fWX99ushyuh7diNLO4EHs3YdKQDqytYz8O2YTXm/wfAr8C+lLwvbO7c3ghF9ejis+nkPfV+dAOx/6SDI5Vh3j
+X-Microsoft-Antispam-Message-Info: hMeYe/Uc4c/SOmbuyYxJli4562dtKMWpPLUvk0KDub2kePmPCRmLm6swYksjJVMk
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html xmlns:v=3D"urn:schemas-microsoft-com:vml" xmlns:o=3D"urn:schemas-micr=
+osoft-com:office:office" xmlns:w=3D"urn:schemas-microsoft-com:office:word" =
+xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml" xmlns=3D"http:=
+//www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<meta name=3D"Generator" content=3D"Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-priority:99;
+	color:#954F72;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-language:EN-US;}
+span.E-postmall17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:1663699746;
+	mso-list-type:hybrid;
+	mso-list-template-ids:1266053842 -1025239320 69009411 69009413 69009409 69=
+009411 69009413 69009409 69009411 69009413;}
+@list l0:level1
+	{mso-level-start-at:0;
+	mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;
+	mso-fareast-font-family:Calibri;
+	mso-bidi-font-family:Arial;
+	mso-ansi-font-weight:bold;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext=3D"edit" spidmax=3D"1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext=3D"edit">
+<o:idmap v:ext=3D"edit" data=3D"1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang=3D"SV" link=3D"#0563C1" vlink=3D"#954F72">
+<div class=3D"WordSection1">
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">Hej alla, <o:p></o:p></span></p=
+>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif">Ny f=F6rfr=E5gan fr=E5n E.ON<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif">Pris ca 900.-/h (p=E5 plats inkl allt)<o:p></o:p></spa=
+n></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif">Jag beh=F6ver<o:p></o:p></span></p>
+<ul style=3D"margin-top:0cm" type=3D"disc">
+<li class=3D"MsoListParagraph" style=3D"margin-left:0cm;mso-list:l0 level1 =
+lfo1"><b><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-=
+serif">CV
+</span></b><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,san=
+s-serif"><o:p></o:p></span></li><li class=3D"MsoListParagraph" style=3D"mar=
+gin-left:0cm;mso-list:l0 level1 lfo1"><b><span style=3D"font-size:9.0pt;fon=
+t-family:&quot;Arial&quot;,sans-serif">kort motivering p=E5 engelska</span>=
+</b><span style=3D"font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif=
+">
+<o:p></o:p></span></li><li class=3D"MsoListParagraph" style=3D"margin-left:=
+0cm;mso-list:l0 level1 lfo1"><b><span style=3D"font-size:9.0pt;font-family:=
+&quot;Arial&quot;,sans-serif">Tillg=E4nglighet.
+<o:p></o:p></span></b></li></ul>
+<p class=3D"MsoNormal"><b><span style=3D"font-size:9.0pt;font-family:&quot;=
+Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></b></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif">Utv=E4rdering sker l=F6pande s=E5 har ni en kandidat s=
+=E5 skicka den s=E5 snart som m=F6jligt.<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif">Notera att man inte beh=F6ver vara onsite f=F6r denna =
+rollen =E4ven om det =E4r en f=F6rdel.
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<table class=3D"MsoNormalTable" border=3D"0" cellspacing=3D"0" cellpadding=
+=3D"0" width=3D"1440" style=3D"width:1080.0pt;border-collapse:collapse">
+<tbody>
+<tr>
+<td valign=3D"top" style=3D"padding:0cm 0cm 0cm 0cm">
+<p class=3D"MsoNormal"><span style=3D"font-size:9.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif;color:#424242"><br>
+Integrationsarkitekt - <o:p></o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">start date&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 15 January 2018&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">end date&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 31 March 2018&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">Availability in %&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 100&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">number of people&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">number of service hours&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 500 Hour(s)&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">number of service hours onsite&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0 Hour(s)&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;=
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nb=
+sp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">Language requirements&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swe, E=
+ng&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">Place of work - country&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Swed=
+en&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbs=
+p;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&=
+nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB">Place of work - city&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp=
+;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&n=
+bsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Malm=F6<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span lang=3D"EN-GB"><o:p>&nbsp;</o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:8.0pt;font-family:&quot;Ari=
+al&quot;,sans-serif;color:#424242;background:white">V=E5rt integrationsteam=
+ jobbar med E.ON Nordics behov av integrationer och API:er med m=E5let &quo=
+t;Your partner of choice for integrations and APIs&quot;. Vi
+ designar, bygger, driftar, underh=E5ller och supporterar API och integrati=
+oner p=E5 f=F6ljande plattformar: SAP Netweaver PO, DellBoomi, WSO2 och API=
+ Hub (java baserad milj=F6 baserad p=E5 bland annat Crossbread, Ping, CA oc=
+h Kafka). Vi jobbar =E4ven med LCM av dessa
+ plattformar. Teamet =E4r uppdelat i tv=E5 underteam, d=E4r det ena fokuser=
+ar p=E5 externa och interna System-till-system integrationer och det andra =
+p=E5 API:er. N=E5gra roller i teamet st=F6ttar b=E5da underteamen.&nbsp;</s=
+pan><span style=3D"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif=
+;color:#424242"><br>
+<br>
+<span style=3D"background:white">P=E5 E.ON =E4r vi mitt i en sp=E4nnande re=
+sa d=E4r vi f=F6r=E4ndrar v=E5rt arbetss=E4tt och v=E5r organisation, vilke=
+t inneb=E4r att det inte alltid =E4r tydligt hur en uppgift ska l=F6sas, ut=
+an att uppgiften ocks=E5 kr=E4ver att man hittar v=E4gen fram=E5t.
+ Vi =E4r ocks=E5 mitt i en kulturf=F6r=E4ndring d=E4r medledarskap =E4r en =
+viktig ingrediens. I integrationsteamet har vi jobbat aktivt med v=E5r f=F6=
+r=E4ndringsresa under det senaste =E5ret, ett arbete som fortfarande p=E5g=
+=E5r och som vi r=E4knar med och hoppas kommer att p=E5g=E5 under
+ en l=E5ng tid fram=F6ver.</span><br>
+<br>
+<span style=3D"background:white">Vi s=F6ker en person till integrationsteam=
+et som fokuserar p=E5 system-till-system integrationer. Rollen kallar vi f=
+=F6r integrationsarkitekt, vilket =E4r en bred teknisk roll och den inneb=
+=E4r bland annat att du&nbsp;</span><br>
+<span style=3D"background:white">&#8226;representerar integrationsteamet i =
+en m=E4ngd initiativ med system-system integrationsbehov</span><br>
+<span style=3D"background:white">&#8226;=E4r engagerad i en m=E4ngd initiat=
+iv (nyutveckling, change och plattforms-LCM) d=E4r du diskuterar krav/user =
+stories med verksamhet samt IT-kollegor och g=F6r integrationsdesignarbetet=
+. Detta inneb=E4r att du ibland diskuterar integrationsbehov
+ med personer utan teknisk bakgrund.&nbsp;</span><br>
+<span style=3D"background:white">&#8226;estimerar utvecklingsarbete</span><=
+br>
+<span style=3D"background:white">&#8226;deltar aktivt i teamets f=F6r=E4ndr=
+ingsresa</span><br>
+<span style=3D"background:white">&#8226;tillsammans med v=E5ra utvecklare a=
+rbetar med att f=F6rb=E4ttra och utveckla v=E5rt ramverk f=F6r design, utve=
+ckling och drift</span><br>
+<span style=3D"background:white">&#8226;vid behov, utvecklar integrationer<=
+/span><br>
+<span style=3D"background:white">&#8226;dokumenteterar integrationer i v=E5=
+rt repository</span><br>
+<span style=3D"background:white">&#8226;koordinerar utvecklingsarbetet mell=
+an inblandande (d=E5 oftast arkitekter och utvecklare), s=E5 att arbetet fo=
+rtl=F6per och du s=E4kerst=E4ller att alla f=F6rst=E5r kraven och l=F6sning=
+en. Till din hj=E4lp finns utvecklare i teamet med djup teknisk
+ kunskap om v=E5ra plattformar och milj=F6er.</span><br>
+<span style=3D"background:white">&#8226;har kunskap om hela v=E5rt integrat=
+ionslandskap, inte minst f=F6r att fr=E4mja =E5teranv=E4ndning&nbsp;</span>=
+<br>
+<span style=3D"background:white">&#8226;kunskaps=F6verf=F6r till andra arki=
+tekter och utvecklare</span><br>
+<span style=3D"background:white">&#8226;prioriterar dina och andras uppgift=
+er</span><br>
+<span style=3D"background:white">&#8226;uppskattar att ha diskussioner r=F6=
+rande integrationer med en stor m=E4ngd varierande personer, b=E5de med och=
+ utan teknisk bakgrund. Vid behov, styr du upp dessa diskussioner fr=E5n et=
+t =F6vergripande end-to-end perspektiv, bland annat
+ genom att skapa f=F6rst=E5else f=F6r hela kedjan, samt bena upp och f=F6re=
+nkla diskussionen.&nbsp;</span><br>
+<span style=3D"background:white">&#8226;mellan varven s=E4ger nej och f=F6r=
+klarar anledningen till det</span><br>
+<span style=3D"background:white">&#8226;=E4r involverad i flera p=E5g=E5end=
+e projekt och =E4renden &quot;samtidigt&quot;<o:p></o:p></span></span></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal">K<span style=3D"font-size:9.0pt;font-family:&quot;Ar=
+ial&quot;,sans-serif;color:#424242">rav:<br>
+&#8226;Erfarenhet av system integration&nbsp;<br>
+&#8226;Svenska och engelska i tal och skrift<br>
+<br>
+B=F6r:&nbsp;<br>
+&#8226;Vi ser g=E4rna att du har bakgrund som utvecklare<br>
+&#8226;Erfarenhet fr=E5n teknisk roll inom system integration&nbsp;</span><=
+o:p></o:p></p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-US" style=3D"font-size:9.0pt;fon=
+t-family:&quot;Arial&quot;,sans-serif;color:black;mso-fareast-language:SV">=
+Ola Ehrstedt</span></b><span lang=3D"EN-US" style=3D"font-size:9.0pt;font-f=
+amily:&quot;Arial&quot;,sans-serif;color:black;mso-fareast-language:SV">&nb=
+sp;at
+<b>Knowit</b></span><span lang=3D"EN-GB" style=3D"mso-fareast-language:SV">=
+<o:p></o:p></span></p>
+<p class=3D"MsoNormal"><b><span lang=3D"EN-US" style=3D"font-size:8.0pt;fon=
+t-family:&quot;Arial&quot;,sans-serif;color:black;mso-fareast-language:SV">=
+VD</span></b><span lang=3D"EN-US" style=3D"font-family:&quot;Arial&quot;,sa=
+ns-serif;color:black;mso-fareast-language:SV"><br>
+</span><span lang=3D"EN-US" style=3D"font-size:7.5pt;font-family:&quot;Aria=
+l&quot;,sans-serif;color:black;mso-fareast-language:SV">Knowit ICE</span><s=
+pan lang=3D"EN-GB" style=3D"mso-fareast-language:SV"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:7.5pt;font-family:&quot;Ari=
+al&quot;,sans-serif;color:black;mso-fareast-language:SV">&#8226; &#8226; &#=
+8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#822=
+6; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; =
+&#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8226; &#8=
+226; &#8226; &#8226;</span><span style=3D"font-family:&quot;Arial&quot;,san=
+s-serif;color:black;mso-fareast-language:SV"><br>
+</span><span style=3D"font-size:7.5pt;font-family:&quot;Arial&quot;,sans-se=
+rif;color:black;mso-fareast-language:SV">Stortorget 9, SE-211 22 Malm=F6, S=
+weden</span><span style=3D"mso-fareast-language:SV"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:7.5pt;font-family:&quot;Ari=
+al&quot;,sans-serif;color:black;mso-fareast-language:SV">=D6stra Hamngatan =
+16, SE-411 09&nbsp; G=F6teborg, Sweden</span><span style=3D"mso-fareast-lan=
+guage:SV"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:7.5pt;font-family:&quot;Ari=
+al&quot;,sans-serif;color:black;mso-fareast-language:SV">Klarabergsgatan 60=
+, Box 3383, SE-103 68&nbsp; Stockholm</span><span style=3D"mso-fareast-lang=
+uage:SV"><o:p></o:p></span></p>
+<p class=3D"MsoNormal"><span style=3D"font-size:7.5pt;font-family:&quot;Ari=
+al&quot;,sans-serif;color:black;mso-fareast-language:SV">&#43;46725193030&n=
+bsp; |&nbsp; &#43;4687006600</span><span style=3D"font-family:&quot;Arial&q=
+uot;,sans-serif;color:black;mso-fareast-language:SV"><br>
+</span><span style=3D"mso-fareast-language:SV"><a href=3D"http://www.knowit=
+.se"><span style=3D"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-seri=
+f;color:#0563C1">knowit.se</span></a></span><span style=3D"font-size:8.0pt;=
+font-family:&quot;Arial&quot;,sans-serif;color:black;mso-fareast-language:S=
+V">
+ | </span><span style=3D"mso-fareast-language:SV"><a href=3D"http://www.kno=
+wit.se/facebook"><span style=3D"font-size:8.0pt;font-family:&quot;Arial&quo=
+t;,sans-serif;color:blue">knowit.se/facebook</span></a></span><span style=
+=3D"font-size:8.0pt;font-family:&quot;Arial&quot;,sans-serif;color:black;ms=
+o-fareast-language:SV">
+ | </span><span style=3D"mso-fareast-language:SV"><a href=3D"http://www.kno=
+wit.se/linkedin"><span style=3D"font-size:8.0pt;font-family:&quot;Arial&quo=
+t;,sans-serif;color:blue">knowit.se/linkedin</span></a><o:p></o:p></span></=
+p>
+<p class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_HE1PR0602MB332379C80EFE3D038D8C54B683330HE1PR0602MB3323_--

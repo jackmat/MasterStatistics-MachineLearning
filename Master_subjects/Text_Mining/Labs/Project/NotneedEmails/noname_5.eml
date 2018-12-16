@@ -1,0 +1,1236 @@
+Received: from VI1PR06MB3214.eurprd06.prod.outlook.com (10.170.230.149) by
+ VI1PR06MB3215.eurprd06.prod.outlook.com (10.170.230.150) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id
+ 15.20.260.4 via Mailbox Transport; Wed, 29 Nov 2017 16:01:21 +0000
+Received: from VI1PR0602CA0023.eurprd06.prod.outlook.com
+ (2603:10a6:800:bc::33) by VI1PR06MB3214.eurprd06.prod.outlook.com
+ (2603:10a6:802:d::21) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P256) id 15.20.260.4; Wed, 29
+ Nov 2017 16:01:21 +0000
+Received: from VE1EUR03FT006.eop-EUR03.prod.protection.outlook.com
+ (2a01:111:f400:7e09::202) by VI1PR0602CA0023.outlook.office365.com
+ (2603:10a6:800:bc::33) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.260.4 via Frontend
+ Transport; Wed, 29 Nov 2017 16:01:21 +0000
+Received: from halon5.space2u.com (193.45.5.199) by
+ VE1EUR03FT006.mail.protection.outlook.com (10.152.18.116) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.20.239.4 via Frontend Transport; Wed, 29 Nov 2017 16:01:20 +0000
+Received: from mail4.space2u.com (unknown [62.20.1.217])
+	by halon5.space2u.com (Halon) with ESMTP
+	id 886e6c95-d51e-11e7-ab10-005056992d6d;
+	Wed, 29 Nov 2017 17:01:17 +0100 (CET)
+Received: from www4.space2u.com (www4.space2u.com [62.20.1.216])
+	(authenticated bits=0)
+	by mail4.space2u.com (8.14.5/8.14.4) with ESMTP id vATG1GVb020348
+	(version=TLSv1/SSLv3 cipher=AES128-SHA bits=128 verify=NOT)
+	for <urban.jonsson@knowit.se>; Wed, 29 Nov 2017 17:01:16 +0100
+From: "info@datakonsulter.info" <info@datakonsulter.info>
+To: Urban Jonsson <urban.jonsson@knowit.se>
+Subject: Jobb som matchar din kompetens
+Thread-Topic: Jobb som matchar din kompetens
+Thread-Index: AQHTaStMQi6jo60peUa+JjYmwx/6Kw==
+Date: Wed, 29 Nov 2017 16:01:15 +0000
+Message-ID: <31221795.6111511971275014.JavaMail.d15124@www4.space2u.com>
+Content-Language: en-GB
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: VE1EUR03FT006.eop-EUR03.prod.protection.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id: bcf791ab-64fe-4348-1c37-08d537426eed
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+received-spf: None (protection.outlook.com: datakonsulter.info does not
+ designate permitted sender hosts)
+authentication-results: spf=none (sender IP is 193.45.5.199)
+ smtp.mailfrom=datakonsulter.info; knowit.se; dkim=none (message not signed)
+ header.d=none;knowit.se; dmarc=none action=none
+ header.from=datakonsulter.info;
+x-forefront-antispam-report: CIP:193.45.5.199;IPV:NLI;CTRY:SE;EFV:NLI;SFV:SFE;SFS:;DIR:INB;SFP:;SCL:-1;SRVR:VI1PR06MB3214;H:halon5.space2u.com;FPR:;SPF:None;LANG:sv;
+x-ms-exchange-organization-originalclientipaddress: 193.45.5.199
+x-ms-exchange-organization-originalserveripaddress: 25.152.18.116
+x-ms-publictraffictype: Email
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:V7ZEMhPj8pSZZ2hHhO02XH+ABX8orICSu5yrhFy78pC49Ac69Jzj9akOpvHcxEgkowwOm980MuM7cj/xEwAuAKZYWPRTaGHQOdujtEKma34elL9A/WWhZR69/x53drWi
+Content-Type: multipart/alternative;
+	boundary="_000_312217956111511971275014JavaMaild15124www4space2ucom_"
+MIME-Version: 1.0
+
+--_000_312217956111511971275014JavaMaild15124www4space2ucom_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:V7ZEMhPj8pSZZ2hHhO02XH+ABX8orICSu5yrhFy78pC49Ac69Jzj9akOpvHcxEgkowwOm980MuM7cj/xEwAuAKZYWPRTaGHQOdujtEKma34elL9A/WWhZR69/x53drWi
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Uppdrag som matchar din kompetens och dina urvalskriterier
+________________________________
+
+Uppdrag 1
+Namn: Software architect I&T<https://datakonsulter.info/WiseDki/StartContro=
+ller?assignmentIdRemote=3D12983>
+Beskrivning: You are a driving and engaging person who have a great interes=
+t and the ability to work through your team members. You take initiative, s=
+ee possibilities and are patient in reaching your own and your teams goals.=
+ You have the ability to plan, organize and prioritize. =B7 Experience of w=
+orking in an Agile/Scrum environment. =B7 Strong, creative problem solving =
+and analytical in nature. =B7 Self-motivated and working well under pressur=
+e. =B7 Excellent written communication and documentation skills wi...
+Uppdragsid: 12983
+Publiceringsdatum: 2017-11-29 09:04:54
+Startdatum: 2018-02-01
+Slutdatum: tills vidare
+Sista ans=F6kningsdag: 2018-01-19
+Roll: Architect
+Bransch: Data/IT
+Arbetsort: Stockholm
+________________________________
+
+Uppdrag 2
+Namn: Sys admin, Linux<https://datakonsulter.info/WiseDki/StartController?a=
+ssignmentIdRemote=3D12984>
+Beskrivning: Vi s=F6ker en erfaren person inom f=F6ljande kompetensomr=E5de=
+n - Linux / Unix troubleshooting ( High level) - CAS, VAS, AFS (om m=F6jlig=
+t) - Scriptning Krav: (High class. Example: Pearl) - Puppet eller annan ork=
+estrering Uppdragsstart: 2018-01-01 Uppdragsl=E4ngd: 1 =E5r med m=F6jlighet=
+ till f=F6rl=E4ngning
+Uppdragsid: 12984
+Publiceringsdatum: 2017-11-29 09:10:27
+Startdatum: 2018-01-01
+Slutdatum: tills vidare
+Sista ans=F6kningsdag: 2017-12-31
+Roll: Systemadministrat=F6r
+Bransch: Data/IT
+Arbetsort: Stockholm
+________________________________
+
+Uppdrag 3
+Namn: Processingenj=F6r<https://datakonsulter.info/WiseDki/StartController?=
+assignmentIdRemote=3D12986>
+Beskrivning: Vi s=F6ker flera konsulter till rollen som processingenj=F6r. =
+Arbetet =E4r varierande, ut=E5triktat och bedrivs i n=E4ra samarbete med an=
+dra funktioner inom f=F6retaget. Som processingenj=F6r kommer du att arbeta=
+ tv=E4rfunktionellt och hantera olika processtekniska fr=E5gest=E4llningar.=
+ Du kommer att supporta tillverkningen och vara processteknisk expert f=F6r=
+ ett flertal processer. Personen vi s=F6ker ska vara drivande och engagerad=
+ samt brinna f=F6r att arbeta med processtekniska fr=E5gor och f=F6rb=E4ttr=
+ingsarbete. Konsultu...
+Uppdragsid: 12986
+Publiceringsdatum: 2017-11-29 09:24:55
+Startdatum: 2018-01-01
+Slutdatum: tills vidare
+Sista ans=F6kningsdag: 2017-12-31
+Roll: Processingenj=F6r
+Bransch: Medicinindustri
+Arbetsort: S=F6dert=E4lje
+________________________________
+
+Uppdrag 4
+Namn: Webbutvecklare<https://datakonsulter.info/WiseDki/StartController?ass=
+ignmentIdRemote=3D12987>
+Beskrivning: Till snabbv=E4xande Techbolag i city s=F6ker vi erfarna webbut=
+vecklare. Vi s=F6ker dig som brinner f=F6r nya teknologier och modern javas=
+cript. Krav: - Javascript - TypeScript - Elm - Ruby (Man h=E5ller p=E5 att =
+flytta fr=E5n Ruby men har fortfarande kod d=E4r) Ramverk samt libraries; R=
+eact, Redux, MobX, RxJS, Express, Koa and ReactNative. Som person =E4r du v=
+=E4ldigt driven, sj=E4lvg=E5ende och en teamplayer Start: Omg=E5ende L=E4ng=
+d: Minst 6 m=E5n
+Uppdragsid: 12987
+Publiceringsdatum: 2017-11-29 09:29:49
+Startdatum: omedelbart
+Slutdatum: tills vidare
+Sista ans=F6kningsdag: 2017-12-31
+Roll: Systemutvecklare
+Bransch: Web
+Arbetsort: Stockholm
+________________________________
+
+Uppdrag 5
+Namn: Javautvecklare<https://datakonsulter.info/WiseDki/StartController?ass=
+ignmentIdRemote=3D12988>
+Beskrivning: Vi s=F6ker efter en rad olika utvecklare Till ett sp=E4nnande =
+och snabbv=E4xande techbolag s=F6ker vi nu 3 st seniora java backendutveckl=
+are Kunden tror p=E5 att anv=E4nda de b=E4sta verktygen f=F6r uppgiften. De=
+ granskar kontinuerligt sina verktyg, arkitektur och arbetss=E4tt. Teamen b=
+est=E4mmer sj=E4lva f=F6r vilken teknik som ska anv=E4ndas, s=E5 du m=E5ste=
+ vara =F6ppen f=F6r nya verktyg och ramar. Vi s=F6ker dig som har erfarenhe=
+t utav snabbr=F6rliga organisationer. Krav: Java 8 DropWizard Wildfly Docke=
+r Ansible Cassandra Post...
+Uppdragsid: 12988
+Publiceringsdatum: 2017-11-29 09:38:51
+Startdatum: omedelbart
+Slutdatum: tills vidare
+Sista ans=F6kningsdag: 2017-12-31
+Roll: Javautvecklare
+Bransch: Data/IT
+Arbetsort: Stockholm
+________________________________
+
+Uppdrag 6
+Namn: .Net Software Designer<https://datakonsulter.info/WiseDki/StartContro=
+ller?assignmentIdRemote=3D12899>
+Beskrivning: Uppdraget inneb=E4r att f=F6rst=E4rka ett utvecklingsteam best=
+=E5ende av 10 utvecklare och arkitekter. Teamet ansvarar f=F6r utveckling a=
+v ett internt utvecklat system f=F6r order- och leveranshantering. Arbetar =
+sker i en Microsoft .NET milj=F6 d=E4r systemet huvudsakligen utvecklas med=
+ C#, MVC och SQL (SQL Server). Utvecklingsmilj=F6n =E4r uppbyggd kring Visu=
+al Studio, GIT och Team City. Arbetet sker i SCRUM team. H=E4r beh=F6vs erf=
+arenhet och f=F6rst=E5else av T-SQL och Stored Procedure. Arbetet inneb=E4r=
+ =E4...
+Uppdragsid: 12899
+Publiceringsdatum: 2017-11-29 09:55:01
+Startdatum: 2018-01-08
+Slutdatum:
+Sista ans=F6kningsdag: 2017-12-31
+Roll: Systemutvecklare
+Bransch: Data/IT
+Arbetsort: Stockholm
+________________________________
+
+Uppdrag 7
+Namn: .Net Developer<https://datakonsulter.info/WiseDki/StartController?ass=
+ignmentIdRemote=3D12907>
+Beskrivning: At Communications & Press IT we maintain and develop solutions=
+ for internal and external communication. This includes the intranet, the n=
+ew, internal mobile web app for all employees globally, the external web si=
+tes for the group plus career and press sites for both the company and our =
+other brands as well as some other IT systems that are owned by Communicati=
+ons & Press. One of these systems, that we currently are looking for a .NET=
+ developer for, is called Pressroom Application. This system h...
+Uppdragsid: 12907
+Publiceringsdatum: 2017-11-29 09:57:38
+Startdatum: 2017-12-18
+Slutdatum: 2018-12-31
+Sista ans=F6kningsdag: 2017-12-15
+Roll: Systemutvecklare
+Bransch: Retail
+Arbetsort: Stockholm
+________________________________
+
+Uppdrag 8
+Namn: Javautvecklare<https://datakonsulter.info/WiseDki/StartController?ass=
+ignmentIdRemote=3D12991>
+Beskrivning: Till en myndighet i centrala Stockholm s=F6ker vi en erfaren j=
+avautvecklare som ska ing=E5 i ett team som utvecklar e-tj=E4nster. Uppdrag=
+et =E4r i huvudsak att utveckla nya eller vidareutveckla befintliga tj=E4ns=
+ter. SKALLKRAV (m=E5ste uppfyllas) - ha god f=F6rm=E5ga att kommunicera och=
+ dokumentera p=E5 svenska - ha god erfarenhet av utveckling i Liferay Porta=
+l - ha god erfarenhet av Java och webbutveckling med grundl=E4ggande kunska=
+per om samtliga tekniker inom Java SE och EE samt erfarenhet av n=E5gon IDE=
+, ex...
+Uppdragsid: 12991
+Publiceringsdatum: 2017-11-29 10:44:18
+Startdatum: omedelbart
+Slutdatum: tills vidare
+Sista ans=F6kningsdag: 2017-12-31
+Roll: Javautvecklare
+Bransch: Myndighet
+Arbetsort: Stockholm
+________________________________
+
+Uppdrag 9
+Namn: IOS, Android utvecklare<https://datakonsulter.info/WiseDki/StartContr=
+oller?assignmentIdRemote=3D12993>
+Beskrivning: Vi s=F6ker en duktig utvecklare p=E5 b=E5de iOS OCH Android (e=
+nbart ena =E4r ej ok). Ska =E4ven kunna device video, videostandarder, etc.=
+ Start i januari. 3-6 m=E5nader. Uppdraget genomf=F6rs i Stockholm eller Li=
+nk=F6ping. Kunden finns i Oslo. N=E5gon resa kan vara aktuell till Oslo.
+Uppdragsid: 12993
+Publiceringsdatum: 2017-11-29 11:39:08
+Startdatum: 2018-01-01
+Slutdatum: tills vidare
+Sista ans=F6kningsdag: 2017-12-31
+Roll: App developer
+Bransch: Appar
+Arbetsort: Stockholm
+________________________________
+
+Uppdrag 10
+Namn: Service Now utvecklare<https://datakonsulter.info/WiseDki/StartContro=
+ller?assignmentIdRemote=3D12996>
+Beskrivning: Vi har behov av flera utvecklare p=E5 2 kunder f=F6r Service N=
+ow-plattformen. Det =E4r inte fr=E5ga om att s=E4tt upp systemet, d=E4r red=
+an i drift. Behovet =E4r utvecklare som skall utveckla ny funktionalitet. S=
+tart av uppdraget =E4r snarast, eller s=E5 fort som m=F6jligt, t.ex. vid =
+=E5rsskiftet. Ena kunden kr=E4ver svensk-talande konsulter. Den andra kunde=
+n kan acceptera engelsk-talande konsulter.
+Uppdragsid: 12996
+Publiceringsdatum: 2017-11-29 12:32:08
+Startdatum: omedelbart
+Slutdatum: tills vidare
+Sista ans=F6kningsdag: 2017-12-31
+Roll: Systemutvecklare
+Bransch: Data/IT
+Arbetsort: Stockholm
+________________________________
+
+Uppdrag 11
+Namn: ETL-utvecklare Open Source<https://datakonsulter.info/WiseDki/StartCo=
+ntroller?assignmentIdRemote=3D12995>
+Beskrivning: Behovet =E4r 2 st. ETL-utvecklare Open Source =D6nskem=E5l p=
+=E5 kompetens: - PostgreSQL 9.5 - Pentaho Data Integration 6 eller 7 - Data=
+ Vault Meriterande men inget krav =E4r =E4ven - Linux - Apache Maven - JUni=
+t - Git - Jira och Confluence - Agila metoder t.e.x Scrum
+Uppdragsid: 12995
+Publiceringsdatum: 2017-11-29 12:37:31
+Startdatum: 2018-01-02
+Slutdatum: 2018-12-28
+Sista ans=F6kningsdag: 2017-12-31
+Roll: ETL Developer
+Bransch: Data/IT
+Arbetsort: Stockholm
+________________________________
+
+Uppdrag 12
+Namn: Java-utvecklare<https://datakonsulter.info/WiseDki/StartController?as=
+signmentIdRemote=3D12992>
+Beskrivning: Vi har behov av Java-utvecklare f=F6r uppdrag hos flera kunder=
+. Det =E4r flera olika branscher, b=E5de bank, f=F6rs=E4kring och telekom. =
+Vi tar emot profiler f=F6r att p=E5 s=E5 s=E4tt matcha profiler mot olika k=
+unders behov. Starttidpunkt =E4r helst nu i b=F6rjan p=E5 december, men kan=
+ =E4ven vara start efter =E5rsskiftet.
+Uppdragsid: 12992
+Publiceringsdatum: 2017-11-29 12:39:02
+Startdatum: 2017-12-04
+Slutdatum: tills vidare
+Sista ans=F6kningsdag: 2017-12-31
+Roll: Javautvecklare
+Bransch: Data/IT
+Arbetsort: Stockholm
+________________________________
+
+Uppdrag 13
+Namn: Projektledare finans Visma<https://datakonsulter.info/WiseDki/StartCo=
+ntroller?assignmentIdRemote=3D12998>
+Beskrivning: Vi s=F6ker en projektledare som kan ta =F6ver och driva ett up=
+pgraderingsprojekt f=F6r ekonomisystem, Visma XOR Efterfr=E5gad konsult beh=
+=F6ver ha erfarenhet av uppdrag eller att ha arbetat inom/med ekonomifunkti=
+oner och ekonomisystem, d=E5 det kr=E4vs god f=F6rst=E5else f=F6r ekonomisk=
+a processer och termer, framf=F6rallt inom redovisningssidan. Arbetet inneb=
+=E4r f=F6rutom traditionell projektledning, =E4ven viss kravspecificering o=
+ch testledning tillsammans med Redovisningsavdelning samt att dokumentera o=
+lika kravst=E4lln...
+Uppdragsid: 12998
+Publiceringsdatum: 2017-11-29 15:35:09
+Startdatum: 2018-01-01
+Slutdatum: tills vidare
+Sista ans=F6kningsdag: 2017-12-31
+Roll: Projektledare
+Bransch: Aff=E4rssystem
+Arbetsort: S=F6dert=E4lje
+________________________________
+
+Uppdrag 14
+Namn: Ink=F6pare<https://datakonsulter.info/WiseDki/StartController?assignm=
+entIdRemote=3D13002>
+Beskrivning: Kund har behov av en konsultf=F6rst=E4rkning. Den aktuella avd=
+elningen =E4r ansvarig f=F6r ink=F6p. En av medarbetarna i teamet har g=E5t=
+t vidare och kunden beh=F6ver en tillf=E4llig ers=E4ttare under rekrytering=
+sprocessen. Kunden beh=F6ver en senior ink=F6pare med erfarenhet fr=E5n for=
+donsindustrin, f=F6rhandling och kravst=E4llande. Du beskrivs ofta som soci=
+al, trygg och med bra kommersiell syn. Du har sannolikt minst 5 =E5rs erfar=
+enhet av ink=F6p och =E4r van att arbeta tv=E4rfunktionellt med f=F6rm=E5ga=
+ att bygga n=E4tverk s=E5v=E4l...
+Uppdragsid: 13002
+Publiceringsdatum: 2017-11-29 16:00:14
+Startdatum: omedelbart
+Slutdatum: tills vidare
+Sista ans=F6kningsdag: 2017-12-31
+Roll: Ink=F6pare
+Bransch: Fordon
+Arbetsort: S=F6dert=E4lje
+________________________________
+
+Uppdrag 15
+Namn: Systemingenj=F6r Model Based Development<https://datakonsulter.info/W=
+iseDki/StartController?assignmentIdRemote=3D13003>
+Beskrivning: Vi s=F6ker f=F6r kunds r=E4kning en kandidat f=F6r Modellering=
+, Refaktorering, Autokodning, Dokumentation av EMS kod. Underh=E5ll och vid=
+areutveckling av MBD process och verktyg Required competence M Sc eller lik=
+v=E4rdig utbildning Simulink och C-programmeringserfarenhet fr=E5n utveckli=
+ng av inbyggda system =E4r ett krav tillsammans med erfarenhet av uppr=E4tt=
+ande av funktionsspecar och utvecklingstester. Drift-, underh=E5lls- och su=
+pporterfarenhet av Matlab verktyg f=F6r Modelbaserad utveckling inkl au...
+Uppdragsid: 13003
+Publiceringsdatum: 2017-11-29 16:06:08
+Startdatum: 2018-01-15
+Slutdatum: 2018-12-31
+Sista ans=F6kningsdag: 2018-01-05
+Roll: Systemingenj=F6r
+Bransch: Industri
+Arbetsort: S=F6dert=E4lje
+Jag vill inte l=E4ngre prenumerera p=E5 uppdrag<https://datakonsulter.info/=
+WiseDki/SubscriptionController?subscriptionRemove=3Don&remoteUser=3D428>
+
+--_000_312217956111511971275014JavaMaild15124www4space2ucom_
+X-Microsoft-Exchange-Diagnostics: 1;VI1PR06MB3215;27:V7ZEMhPj8pSZZ2hHhO02XH+ABX8orICSu5yrhFy78pC49Ac69Jzj9akOpvHcxEgkowwOm980MuM7cj/xEwAuAKZYWPRTaGHQOdujtEKma34elL9A/WWhZR69/x53drWi
+Content-Type: text/html; charset="iso-8859-1"
+Content-ID: <CFA927317408D742B21794C1F1B3D72D@eurprd06.prod.outlook.com>
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1">
+<style> .overAll{background-color:#D3D3D3;} .mailRubrik {font-family:Verdan=
+a; font-size:12px;}.mailNormal {font-family:Verdana; font-size:10px;}</styl=
+e>
+</head>
+<body style=3D"background-color:#D3D3D3;">
+<table>
+<tbody>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:12px;font-weight:bold">Up=
+pdrag som matchar din kompetens och dina urvalskriterier</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 1</span></=
+td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D12983">Nam=
+n: Software architect I&amp;T</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: You a=
+re a driving and engaging person who have a great interest and the ability =
+to work through your team members. You take initiative, see possibilities a=
+nd are patient in reaching your own
+ and your teams goals. You have the ability to plan, organize and prioritiz=
+e. =B7 Experience of working in an Agile/Scrum environment. =B7 Strong, cre=
+ative problem solving and analytical in nature. =B7 Self-motivated and work=
+ing well under pressure. =B7 Excellent written
+ communication and documentation skills wi...</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 12983<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-29 09:04:54</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: 2018-0=
+2-01</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: tills v=
+idare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2018-01-19</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: Architect</s=
+pan></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Data/IT</=
+span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: Stockho=
+lm</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 2</span></=
+td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D12984">Nam=
+n: Sys admin, Linux</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: Vi s=
+=F6ker en erfaren person inom f=F6ljande kompetensomr=E5den - Linux / Unix =
+troubleshooting ( High level) - CAS, VAS, AFS (om m=F6jligt) - Scriptning K=
+rav: (High class. Example: Pearl) - Puppet
+ eller annan orkestrering Uppdragsstart: 2018-01-01 Uppdragsl=E4ngd: 1 =E5r=
+ med m=F6jlighet till f=F6rl=E4ngning
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 12984<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-29 09:10:27</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: 2018-0=
+1-01</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: tills v=
+idare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2017-12-31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: Systemadmini=
+strat=F6r</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Data/IT</=
+span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: Stockho=
+lm</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 3</span></=
+td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D12986">Nam=
+n: Processingenj=F6r</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: Vi s=
+=F6ker flera konsulter till rollen som processingenj=F6r. Arbetet =E4r vari=
+erande, ut=E5triktat och bedrivs i n=E4ra samarbete med andra funktioner in=
+om f=F6retaget. Som processingenj=F6r kommer du att
+ arbeta tv=E4rfunktionellt och hantera olika processtekniska fr=E5gest=E4ll=
+ningar. Du kommer att supporta tillverkningen och vara processteknisk exper=
+t f=F6r ett flertal processer. Personen vi s=F6ker ska vara drivande och en=
+gagerad samt brinna f=F6r att arbeta med processtekniska
+ fr=E5gor och f=F6rb=E4ttringsarbete. Konsultu...</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 12986<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-29 09:24:55</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: 2018-0=
+1-01</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: tills v=
+idare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2017-12-31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: Processingen=
+j=F6r</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Medicinin=
+dustri</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: S=F6der=
+t=E4lje</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 4</span></=
+td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D12987">Nam=
+n: Webbutvecklare</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: Till =
+snabbv=E4xande Techbolag i city s=F6ker vi erfarna webbutvecklare. Vi s=F6k=
+er dig som brinner f=F6r nya teknologier och modern javascript. Krav: - Jav=
+ascript - TypeScript - Elm - Ruby (Man h=E5ller
+ p=E5 att flytta fr=E5n Ruby men har fortfarande kod d=E4r) Ramverk samt li=
+braries; React, Redux, MobX, RxJS, Express, Koa and ReactNative. Som person=
+ =E4r du v=E4ldigt driven, sj=E4lvg=E5ende och en teamplayer Start: Omg=E5e=
+nde L=E4ngd: Minst 6 m=E5n
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 12987<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-29 09:29:49</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: omedel=
+bart</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: tills v=
+idare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2017-12-31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: Systemutveck=
+lare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Web</span=
+></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: Stockho=
+lm</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 5</span></=
+td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D12988">Nam=
+n: Javautvecklare</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: Vi s=
+=F6ker efter en rad olika utvecklare Till ett sp=E4nnande och snabbv=E4xand=
+e techbolag s=F6ker vi nu 3 st seniora java backendutvecklare Kunden tror p=
+=E5 att anv=E4nda de b=E4sta verktygen f=F6r uppgiften.
+ De granskar kontinuerligt sina verktyg, arkitektur och arbetss=E4tt. Teame=
+n best=E4mmer sj=E4lva f=F6r vilken teknik som ska anv=E4ndas, s=E5 du m=E5=
+ste vara =F6ppen f=F6r nya verktyg och ramar. Vi s=F6ker dig som har erfare=
+nhet utav snabbr=F6rliga organisationer. Krav: Java 8
+ DropWizard Wildfly Docker Ansible Cassandra Post...</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 12988<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-29 09:38:51</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: omedel=
+bart</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: tills v=
+idare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2017-12-31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: Javautveckla=
+re</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Data/IT</=
+span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: Stockho=
+lm</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 6</span></=
+td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D12899">Nam=
+n: .Net Software Designer</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: Uppdr=
+aget inneb=E4r att f=F6rst=E4rka ett utvecklingsteam best=E5ende av 10 utve=
+cklare och arkitekter. Teamet ansvarar f=F6r utveckling av ett internt utve=
+cklat system f=F6r order- och leveranshantering.
+ Arbetar sker i en Microsoft .NET milj=F6 d=E4r systemet huvudsakligen utve=
+cklas med C#, MVC och SQL (SQL Server). Utvecklingsmilj=F6n =E4r uppbyggd k=
+ring Visual Studio, GIT och Team City. Arbetet sker i SCRUM team. H=E4r beh=
+=F6vs erfarenhet och f=F6rst=E5else av T-SQL och
+ Stored Procedure. Arbetet inneb=E4r =E4...</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 12899<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-29 09:55:01</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: 2018-0=
+1-08</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: </span>=
+</td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2017-12-31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: Systemutveck=
+lare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Data/IT</=
+span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: Stockho=
+lm</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 7</span></=
+td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D12907">Nam=
+n: .Net Developer</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: At Co=
+mmunications &amp; Press IT we maintain and develop solutions for internal =
+and external communication. This includes the intranet, the new, internal m=
+obile web app for all employees globally,
+ the external web sites for the group plus career and press sites for both =
+the company and our other brands as well as some other IT systems that are =
+owned by Communications &amp; Press. One of these systems, that we currentl=
+y are looking for a .NET developer for,
+ is called Pressroom Application. This system h...</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 12907<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-29 09:57:38</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: 2017-1=
+2-18</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: 2018-12=
+-31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2017-12-15</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: Systemutveck=
+lare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Retail</s=
+pan></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: Stockho=
+lm</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 8</span></=
+td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D12991">Nam=
+n: Javautvecklare</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: Till =
+en myndighet i centrala Stockholm s=F6ker vi en erfaren javautvecklare som =
+ska ing=E5 i ett team som utvecklar e-tj=E4nster. Uppdraget =E4r i huvudsak=
+ att utveckla nya eller vidareutveckla befintliga
+ tj=E4nster. SKALLKRAV (m=E5ste uppfyllas) - ha god f=F6rm=E5ga att kommuni=
+cera och dokumentera p=E5 svenska - ha god erfarenhet av utveckling i Lifer=
+ay Portal - ha god erfarenhet av Java och webbutveckling med grundl=E4ggand=
+e kunskaper om samtliga tekniker inom Java SE
+ och EE samt erfarenhet av n=E5gon IDE, ex...</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 12991<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-29 10:44:18</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: omedel=
+bart</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: tills v=
+idare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2017-12-31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: Javautveckla=
+re</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Myndighet=
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: Stockho=
+lm</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 9</span></=
+td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D12993">Nam=
+n: IOS, Android utvecklare</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: Vi s=
+=F6ker en duktig utvecklare p=E5 b=E5de iOS OCH Android (enbart ena =E4r ej=
+ ok). Ska =E4ven kunna device video, videostandarder, etc. Start i januari.=
+ 3-6 m=E5nader. Uppdraget genomf=F6rs i Stockholm
+ eller Link=F6ping. Kunden finns i Oslo. N=E5gon resa kan vara aktuell till=
+ Oslo. </span>
+</td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 12993<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-29 11:39:08</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: 2018-0=
+1-01</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: tills v=
+idare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2017-12-31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: App develope=
+r</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Appar</sp=
+an></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: Stockho=
+lm</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 10</span><=
+/td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D12996">Nam=
+n: Service Now utvecklare</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: Vi ha=
+r behov av flera utvecklare p=E5 2 kunder f=F6r Service Now-plattformen. De=
+t =E4r inte fr=E5ga om att s=E4tt upp systemet, d=E4r redan i drift. Behove=
+t =E4r utvecklare som skall utveckla ny funktionalitet.
+ Start av uppdraget =E4r snarast, eller s=E5 fort som m=F6jligt, t.ex. vid =
+=E5rsskiftet. Ena kunden kr=E4ver svensk-talande konsulter. Den andra kunde=
+n kan acceptera engelsk-talande konsulter.</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 12996<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-29 12:32:08</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: omedel=
+bart</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: tills v=
+idare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2017-12-31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: Systemutveck=
+lare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Data/IT</=
+span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: Stockho=
+lm</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 11</span><=
+/td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D12995">Nam=
+n: ETL-utvecklare Open Source</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: Behov=
+et =E4r 2 st. ETL-utvecklare Open Source =D6nskem=E5l p=E5 kompetens: - Pos=
+tgreSQL 9.5 - Pentaho Data Integration 6 eller 7 - Data Vault Meriterande m=
+en inget krav =E4r =E4ven - Linux - Apache Maven
+ - JUnit - Git - Jira och Confluence - Agila metoder t.e.x Scrum</span></td=
+>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 12995<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-29 12:37:31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: 2018-0=
+1-02</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: 2018-12=
+-28</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2017-12-31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: ETL Develope=
+r</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Data/IT</=
+span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: Stockho=
+lm</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 12</span><=
+/td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D12992">Nam=
+n: Java-utvecklare</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: Vi ha=
+r behov av Java-utvecklare f=F6r uppdrag hos flera kunder. Det =E4r flera o=
+lika branscher, b=E5de bank, f=F6rs=E4kring och telekom. Vi tar emot profil=
+er f=F6r att p=E5 s=E5 s=E4tt matcha profiler mot olika
+ kunders behov. Starttidpunkt =E4r helst nu i b=F6rjan p=E5 december, men k=
+an =E4ven vara start efter =E5rsskiftet.</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 12992<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-29 12:39:02</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: 2017-1=
+2-04</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: tills v=
+idare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2017-12-31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: Javautveckla=
+re</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Data/IT</=
+span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: Stockho=
+lm</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 13</span><=
+/td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D12998">Nam=
+n: Projektledare finans Visma</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: Vi s=
+=F6ker en projektledare som kan ta =F6ver och driva ett uppgraderingsprojek=
+t f=F6r ekonomisystem, Visma XOR Efterfr=E5gad konsult beh=F6ver ha erfaren=
+het av uppdrag eller att ha arbetat inom/med
+ ekonomifunktioner och ekonomisystem, d=E5 det kr=E4vs god f=F6rst=E5else f=
+=F6r ekonomiska processer och termer, framf=F6rallt inom redovisningssidan.=
+ Arbetet inneb=E4r f=F6rutom traditionell projektledning, =E4ven viss kravs=
+pecificering och testledning tillsammans med Redovisningsavdelning
+ samt att dokumentera olika kravst=E4lln...</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 12998<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-29 15:35:09</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: 2018-0=
+1-01</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: tills v=
+idare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2017-12-31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: Projektledar=
+e</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Aff=E4rss=
+ystem</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: S=F6der=
+t=E4lje</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 14</span><=
+/td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D13002">Nam=
+n: Ink=F6pare</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: Kund =
+har behov av en konsultf=F6rst=E4rkning. Den aktuella avdelningen =E4r ansv=
+arig f=F6r ink=F6p. En av medarbetarna i teamet har g=E5tt vidare och kunde=
+n beh=F6ver en tillf=E4llig ers=E4ttare under rekryteringsprocessen.
+ Kunden beh=F6ver en senior ink=F6pare med erfarenhet fr=E5n fordonsindustr=
+in, f=F6rhandling och kravst=E4llande. Du beskrivs ofta som social, trygg o=
+ch med bra kommersiell syn. Du har sannolikt minst 5 =E5rs erfarenhet av in=
+k=F6p och =E4r van att arbeta tv=E4rfunktionellt med
+ f=F6rm=E5ga att bygga n=E4tverk s=E5v=E4l...</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 13002<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-29 16:00:14</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: omedel=
+bart</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: tills v=
+idare</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2017-12-31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: Ink=F6pare</=
+span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Fordon</s=
+pan></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: S=F6der=
+t=E4lje</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">
+<hr>
+</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdrag 15</span><=
+/td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;"><a href=3D"https:/=
+/datakonsulter.info/WiseDki/StartController?assignmentIdRemote=3D13003">Nam=
+n: Systemingenj=F6r Model Based Development</a></span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Beskrivning: Vi s=
+=F6ker f=F6r kunds r=E4kning en kandidat f=F6r Modellering, Refaktorering, =
+Autokodning, Dokumentation av EMS kod. Underh=E5ll och vidareutveckling av =
+MBD process och verktyg Required competence M
+ Sc eller likv=E4rdig utbildning Simulink och C-programmeringserfarenhet fr=
+=E5n utveckling av inbyggda system =E4r ett krav tillsammans med erfarenhet=
+ av uppr=E4ttande av funktionsspecar och utvecklingstester. Drift-, underh=
+=E5lls- och supporterfarenhet av Matlab verktyg
+ f=F6r Modelbaserad utveckling inkl au...</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Uppdragsid: 13003<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Publiceringsdatum:=
+ 2017-11-29 16:06:08</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Startdatum: 2018-0=
+1-15</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Slutdatum: 2018-12=
+-31</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Sista ans=F6knings=
+dag: 2018-01-05</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Roll: Systemingenj=
+=F6r</span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Bransch: Industri<=
+/span></td>
+</tr>
+<tr>
+<td><span style=3D"font-family:Verdana; font-size:11px;">Arbetsort: S=F6der=
+t=E4lje</span></td>
+</tr>
+<tr style=3D"font-family:Verdana; font-size:10px;">
+<td><a href=3D"https://datakonsulter.info/WiseDki/SubscriptionController?su=
+bscriptionRemove=3Don&amp;remoteUser=3D428">Jag vill inte l=E4ngre prenumer=
+era p=E5 uppdrag</a></td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>
+
+--_000_312217956111511971275014JavaMaild15124www4space2ucom_--

@@ -2,14 +2,13 @@
 #a
 ##Seting working directory for the documents
 
-setwd("C:/Users/M/Desktop/Statistics and Data Mining Master/Semester 1/Second part of the semester/intro to machine learning/lab_1")
-
+setwd("C:/Users/Carles/Desktop/MasterStatistics-MachineLearning/Master_subjects/Intro_To_Machine_Learning/Datasets")
 
 library(readxl)
-
+#install.packages("readxl")
 ##Reading table
 
-data<- read_excel("C:/Users/M/Desktop/Statistics and Data Mining Master/Semester 1/Second part of the semester/intro to machine learning/lab_1/spambase.xlsx")
+data<- read_excel("spambase.xlsx")
 n=dim(data)[1]
 set.seed(12345)
 id=sample(1:n, floor(n*0.5))
@@ -139,7 +138,7 @@ knearest( data= train, K =1, newdata= train, prob = 0.5)
 # For k = 1, the number of missclassifications increases from 40.1% when K = 3 to 42.9%. 
 
 ###5
-
+#install.packages("kknn")
 library(kknn)
 
 mykknn_fittedValues <- kknn(Spam~., train =train_complete, test = test_complete, k = 5)$fitted.values
@@ -213,7 +212,7 @@ mykknfunction(mykknn_fittedValues, 0.5)
 
 mypi<- seq(0.05,0.95, 0.05)
 #Storing the values to plot
-
+?mykknfunction
 Myknn_sensitivity<-mykknfunction(mykknn_fittedValues, prob =mypi)$sensitivity
 Myknn_specificity<-mykknfunction(mykknn_fittedValues, prob =mypi)$specificity
 Myknn_FPR<-mykknfunction(mykknn_fittedValues, prob =mypi)$FPR
